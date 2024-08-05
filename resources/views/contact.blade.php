@@ -68,7 +68,10 @@
                         <div class="col-md-12">
                             <div class="content-box small left no-margin-lg">
                                 <div class="icon-shape-disable">
-                                    <i class="fa fa-building-o" aria-hidden="true" style="margin-left: 16px;"></i>
+                                    {{-- <i class="fa fa-envelope" style="font-size:24px"></i> --}}
+
+
+                                    <i class="fa fa-envelope" aria-hidden="true" style="margin-left: 16px; font-size:24px"></i>
                                 </div>
                                 <h5 class="text-color address16">Email</h5>
                                 <p class="address14">
@@ -78,7 +81,7 @@
                             <hr class="separator">
                             <div class="content-box small left no-margin-lg">
                                 <div class="icon-shape-disable">
-                                    <i class="fa fa-building-o" aria-hidden="true" style="margin-left: 16px;"></i>
+                                    <i class="fa fa-phone" aria-hidden="true" style="margin-left: 16px;"></i>
                                 </div>
                                 <h5 class="text-color address16">Phone</h5>
                                 <p class="address14">
@@ -88,7 +91,7 @@
                             <hr class="separator">
                             <div class="content-box small left no-margin-lg">
                                 <div class="icon-shape-disable">
-                                    <i class="fa fa-building-o" aria-hidden="true" style="margin-left: 16px;"></i>
+                                    <i class="fa fa-map-marker" aria-hidden="true" style="margin-left: 16px;"></i>
                                 </div>
                                 <h5 class="text-color address16">Address Office</h5>
                                 <p class="address14">

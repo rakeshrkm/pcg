@@ -53,13 +53,13 @@
                     <a href="#" target="_blank">110020 </a>
                     <ul class="header-social social-icon" style="margin-top:-25px;">
                         <li>
-                            <a class="facebook-color" aria-label="facebook" rel="noopener" target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a class="facebook-color" aria-label="facebook" rel="noopener" target="_blank" href="https://www.facebook.com/prakharconsultinggroup"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a class="linkedin-color" aria-label="linkedin" rel="noopener" target="_blank" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a class="linkedin-color" aria-label="linkedin" rel="noopener" target="_blank" href="https://www.linkedin.com/company/prakhar-consulting-group"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a class="twitter-color" aria-label="Twitter" rel="noopener" target="_blank" href="#">
+                            <a class="twitter-color" aria-label="Twitter" rel="noopener" target="_blank" href="https://x.com/prakharconsult">
                                 <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0,0,256,256">
                                     <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
                                         <g transform="scale(8.53333,8.53333)">
@@ -70,7 +70,7 @@
                             </a>
                         </li>
                         <li>
-                            <a class="instagram-color" aria-label="instagram" rel="noopener" target="_blank" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a class="instagram-color" aria-label="instagram" rel="noopener" target="_blank" href="https://www.instagram.com/prakharconsultinggroup_hr/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                     </ul>
                 </p>

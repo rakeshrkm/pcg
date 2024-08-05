@@ -415,7 +415,7 @@
     }
 }
 /* [mobile landscape] */
-@media only screen and (min-width: 380px) and (max-width: 500px) {
+@media only screen and (min-width: 375px) and (max-width: 500px) {
 	 
    .bannerservice-content {
        /* padding: 130px 0; */
@@ -425,7 +425,10 @@
        margin: 0px;
        height: 100px !important;
 }
-}@media only screen and (min-width: 500px) and (max-width: 790px) {
+
+}
+
+@media only screen and (min-width: 500px) and (max-width: 790px) {
 	 .bannerslide-container {
                  min-height: 400px;
     background: url(../img/corporate-training.webp) center left no-repeat no-repeat;
@@ -470,6 +473,7 @@
     font-weight: 500;
 }
 .bannertextbold {
+    margin-top:-203px;
     font-size: 17px;
     font-weight: 500;
     font-style: normal;
@@ -695,6 +699,8 @@
     .pricing-content.pricing-icon li:last-child {
         border-bottom: none !important;
     }
+
+
 }
 /* iPhone 5 Portrait */
 @media only screen and (min-width: 0px) and (max-width: 320px) {
@@ -728,5 +734,11 @@
     .cta-bottom-container h2 {
         margin-bottom: 15px;
         margin-top: 0;
+    }
+    .cta2{
+        padding-top: 0px;
+        /* padding-left: 100px; */
+        /* padding-right: 100px; */
+        font-family: 'Lato', sans-serif;
     }
 }

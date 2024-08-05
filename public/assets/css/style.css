@@ -13086,10 +13086,13 @@ svg.radial-progress text {
 }
 .cta1{padding-top: 0px;
     padding-left: 100px;
-    padding-right: 100px;font-family: 'Lato', sans-serif;}
-	.cta2{padding-top: 0px;
+    padding-right: 100px;font-family: 'Lato', sans-serif;
+}
+	
+    .cta2{padding-top: 0px;
     padding-left: 100px;
-    padding-right: 100px;font-family: 'Lato', sans-serif;}
+    padding-right: 100px;
+    font-family: 'Lato', sans-serif;}
 .ctaimg{    border-radius: 0px 10px 0px 0px;
     -moz-border-radius: 0px 10px 0px 0px;
     -webkit-border-radius: 0px 10px 0px 0px;}
@@ -16901,6 +16904,27 @@ svg.radial-progress text {
     color: var(--color-four);
     margin: 17px 0 38px;
 }
+
+	
+
+
+@media screen and (max-width:300px) and (max-width:425px) {
+            
+    .cta1{
+        padding-top: 0px;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+        font-family: 'Lato', sans-serif;
+    }
+    .cta2{
+        padding-top: 0px;
+        /* padding-left: 100px;
+        padding-right: 100px; */
+        font-family: 'Lato', sans-serif;
+    }
+    }
+
+
 
 @media screen and (max-width:1200px) {
     .wptb-404 .wptb-error-inner .wptb-error-title {

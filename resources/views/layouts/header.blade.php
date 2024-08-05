@@ -14,13 +14,13 @@
                     <div class="pull-right">
                         <ul class="header-social social-icon">
                             <li>
-                                <a class="facebook-color" target="_blank" href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                <a class="facebook-color" target="_blank" href="https://www.facebook.com/prakharconsultinggroup"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a class="linkedin-color" target="_blank" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a class="linkedin-color" target="_blank" href="https://www.linkedin.com/company/prakhar-consulting-group"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a class="twitter-color" target="_blank" href="#">
+                                <a class="twitter-color" target="_blank" href="https://x.com/prakharconsult">
                                     <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="18" height="18" viewBox="0,0,256,256">
                                         <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
                                             <g transform="scale(8.53333,8.53333)">
@@ -31,7 +31,7 @@
                                 </a>
                             </li>
                             <li>
-                                <a class="instagram-color" target="_blank" href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                                <a class="instagram-color" target="_blank" href="https://www.instagram.com/prakharconsultinggroup_hr/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             </li>
                             <!--<li>
                     <a href="contact-us" class="btn btn-default" style="width: auto;
@@ -114,9 +114,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <ul class="header-info pull-left">
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a href="tel:1140104369">+91 1140104369</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a href="tel:911140104369">+91 1140104369</a></li>
                         <li>
-                            <a href="mailto:info@pcginternational.in"><i class="fa fa-envelope" aria-hidden="true"></i> info@mazenetsolution.com</a>
+                            <a href="mailto:connect@pcginternational.in"><i class="fa fa-envelope" aria-hidden="true"></i>connect@pcginternational.in</a>
                         </li>
 
                     </ul>
