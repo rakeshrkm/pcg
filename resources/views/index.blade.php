@@ -55,7 +55,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="/assets/img/permanent-staffing.png" alt="permanent staffing" title="permanent staffing">
+                <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing">
             </div>
             <div class="col-md-6">
                 <div class="heading-title text-center">
@@ -82,7 +82,7 @@
                 <p>These certifications reflect our dedication to maintaining the highest standards in service delivery and client satisfaction.</p>
             </div>
             <div class="col-md-6">
-                <img src="/assets/img/permanent-staffing.png" alt="permanent staffing" title="permanent staffing">
+                <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing">
             </div>
         </div>
     </div>
