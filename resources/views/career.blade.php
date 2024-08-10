@@ -461,7 +461,9 @@
         border-radius: 8px !important;
         padding: 10px !important;">
                                     ${job.title}
+                                     <span class="pull-right">View Jobs</span>
                                 </button>
+                               
                             </h2>
                             <div id="collapseThree${index}" class="collapse" aria-labelledby="headingThree${index}"
                                 data-parent="#collapseThree${index}">

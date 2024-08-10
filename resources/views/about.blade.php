@@ -14,9 +14,9 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 ">
-                <strong style="font-size:28px;" class="text-center">
-                    <strong class="text-color">Your Trusted Partner in IT Consulting and Recruitment</strong>
-                </strong>
+                <span style="font-size:28px;" class="text-center">
+                    <span class="text-color">Your Trusted Partner in IT Consulting and Recruitment</span>
+                </span>
                 <br /> <br />
                 <p class="gap" data-gap-bottom="30">
                     Prakhar Consulting Group (PCG) is renowned for its expertise in IT recruitment and consulting services. As a subsidiary of Prakhar Software Solutions Pvt. Ltd., a company valued at over 100 crore, we bring robust experience and proven methodologies to deliver high-quality services across various industries.
@@ -24,18 +24,18 @@
             </div>
             <span id="vision-mission" class="pt-4">&nbsp;</span>
             <div class="col-md-12 col-lg-12">
-                <h3>Certifications</h3>
+                <h3 class="whatwedotitile">Certifications</h3>
                 <div class="row">
                     <div class="col-md-12 col-lg-6">
                         <p>
                             Our commitment to quality and excellence is demonstrated through our prestigious certifications:
                         </p>
                         <ul>
-                            <li><strong>CMMI Level III</strong></li>
-                            <li><strong>ISO 9001:2015</strong></li>
-                            <li><strong>ISO 27001:2013</strong></li>
-                            <li><strong>ISO 20000-1:2011</strong></li>
-                            <li><strong>ISO 45001:2018</strong></li>
+                            <li><span class="whatwedotitile">CMMI Level III</span></li>
+                            <li><span class="whatwedotitile">ISO 9001:2015</span></li>
+                            <li><span class="whatwedotitile">ISO 27001:2013</span></li>
+                            <li><span class="whatwedotitile">ISO 20000-1:2011</span></li>
+                            <li><span class="whatwedotitile">ISO 45001:2018</span></li>
                         </ul>
                         <p>These certifications reflect our dedication to maintaining the highest standards in service delivery and client satisfaction.</p>
                     </div>
@@ -44,7 +44,7 @@
                             <div class="icon-shape-disable">
                                 <img src="{{ asset('assets/img/vision-icon.png') }}" />
                             </div>
-                            <h5 class="disableh5">Our Mission</h5>
+                            <h3 class="whatwedotitile">Our Mission</h3>
                             <p>Our mission is to empower businesses by providing cutting-edge recruitment, consulting, and training services that enhance operational efficiency and drive sustainable growth.</p>
                         </div>
                     </div>
@@ -61,7 +61,7 @@
 
             {{-- <section class="section no-padding">
                 <div class="heading-title text-center"><br /> <br /><br />
-                    <h3>Our <strong class="text-color">Core values</strong></h3>
+                    <h3>Our <span class="text-color">Core values</span></h3>
                 </div>
                 <div class="container">
                     <div class="row">
@@ -118,7 +118,7 @@
 </section>
 <section class="section pt-2" id="ourservices">
     <div class="heading-title text-center">
-        <h3>Our Team</h3>
+        <h3 class="whatwedotitile">Our Team</h3>
     </div>
     <div class="container">
         <div class="row">
@@ -170,7 +170,7 @@
     <div class="container">
         <div class="col-md-12">
             <div class="heading-title text-center">
-                <h3>What <strong class="text-darkcolor">Our Clients</strong> Say</h3>
+                <h3>What <span class="text-darkcolor">Our Clients</span> Say</h3>
             </div>
         </div>
 

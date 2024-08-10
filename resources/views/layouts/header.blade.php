@@ -4,7 +4,7 @@
     <div class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 head_details">
                     <ul class="header-info pull-left">
                         <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a href="tel:911140104369">+91 11 4010 4369</a></li>
                         <li>
@@ -54,13 +54,13 @@
     <div class="header-main">
         <div class="container">
             <div class="row">
-                <div class="col-md-12">
+                <div class="col-md-12 head_details">
                     <div class="header-logo">
                         <a href="{{route('index')}}">
                             {{-- <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" loading="lazy" width="250" height="42" /> --}}
                             <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
-                            <img class="logo-responsive" src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
-                            <img class="logo-sticky" src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
+                            <img class="logo-responsive" src="{{ asset('assets/img/pcg-logo.jpg') }}" alt="logo" loading="lazy" width="300" height="200" />
+                            <img class="logo-sticky" src="{{ asset('assets/img/pcg-logo.jpg') }}" alt="logo" loading="lazy" width="300" height="200" />
                         </a>
                     </div>
                     <nav class="menu-container">

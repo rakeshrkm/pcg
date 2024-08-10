@@ -4,7 +4,7 @@
     <div class="slideshow" data-flex-fullscreen="true">
         <ul class="slides">
             <li>
-                <img src="{{ asset('assets/img/corporate-training.webp') }}" data-position-y="top" alt="Corporate Training" title="Corporate Training" />
+                <img src="{{ asset('assets/img/cover-image.jpg') }}" data-position-y="top" alt="Corporate Training" title="Corporate Training" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -47,43 +47,58 @@
                 <div class="heading-title text-center  p-4">
                     <h2>About Prakhar Consulting Group </h2>
                 </div>
+                <div>
+                    <img src="{{ asset('assets/img/FCBO.jpg') }}" alt="permanent staffing" title="permanent staffing">
+
+                </div>
+
                 <strong style="font-size:28px;">
-                    Finding. Connecting. Building Organisation. <strong class="text-color">Welcome to Prakhar Consulting Group (PCG)</strong> </strong>
+                    {{-- <img src="{{ asset('assets/img/FCBO.jpg') }}" alt="permanent staffing" title="permanent staffing" height="150"> --}}
+
+                    {{-- Finding. Connecting. Building Organisation. <strong class="text-color">Welcome to Prakhar Consulting Group (PCG)</strong> --}}
+                
+                </strong>
                 <br /> <br />
                 <p class="gap" data-gap-bottom="30">
                     Prakhar Consulting Group, a subsidiary of Prakhar Software Solutions Pvt. Ltd., is a premier consulting firm specializing in IT recruitment, consulting, and comprehensive business solutions. With a dynamic team of over 2200 professionals and a decade of industry leadership, we are dedicated to delivering excellence and innovation to our clients across India.
                 </p>
             </div>
-            <div class="col-md-6">
-                <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing">
+            <div class="col-md-6 mb-4">
+                <img src="{{ asset('assets/img/our-presence-in-India.jpg') }}" alt="permanent staffing" title="permanent staffing" height="150">
+                {{-- <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing"> --}}
+
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 mb-4">
                 <div class="heading-title text-center">
                     <h4>Our Mission </h4>
                 </div>
                 <p>
                     Our mission is to empower businesses by providing cutting-edge recruitment, consulting, and training services that enhance operational efficiency and drive sustainable growth.
                 </p>
-            </div>
-            <div class="col-md-6">
                 <div class="heading-title text-center">
-                    <h4>Certifications </h4>
+                    <h4>Certifications</h4>
                 </div>
                 <p>
                     Our commitment to quality and excellence is demonstrated through our prestigious certifications:
                 </p>
+               
                 <ul>
-                    <li><strong>CMMI Level III</strong></li>
-                    <li><strong>ISO 9001:2015</strong></li>
-                    <li><strong>ISO 27001:2013</strong></li>
-                    <li><strong>ISO 20000-1:2011</strong></li>
-                    <li><strong>ISO 45001:2018</strong></li>
+                    <li><span class="whatwedotitile">CMMI Level III</span></li>
+                    <li><span class="whatwedotitile">ISO 9001:2015</span></li>
+                    <li><span class="whatwedotitile">ISO 27001:2013</span></li>
+                    <li><span class="whatwedotitile">ISO 20000-1:2011</span></li>
+                    <li><span class="whatwedotitile">ISO 45001:2018</span></li>
                 </ul>
                 <p>These certifications reflect our dedication to maintaining the highest standards in service delivery and client satisfaction.</p>
             </div>
-            <div class="col-md-6">
-                <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing">
+            {{-- <div class="col-md-6 mt-4">
+                
             </div>
+            <div class="col-md-6 mt-4">
+                <img src="{{ asset('assets/img/psspl-offering-to-the-world.jpg') }}" alt="permanent staffing" title="permanent staffing" height="200"> --}}
+
+                {{-- <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing"> --}}
+            {{-- </div> --}}
         </div>
     </div>
 </section>

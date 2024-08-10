@@ -28,19 +28,18 @@
                     <h2 class="text-center mt-4 p-4">Prakhar Consulting Group is committed to serving a diverse range of industries, including:</h2>
             </div>
               <div class="col-md-7">
-                 <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing">
+                 <div class="wptb-slider--img p-2">
+                    <img class="shadow p-3 mb-5 bg-body rounded" src="{{ asset('assets/img/psspl-offering-to-the-world.jpg') }}" alt="permanent staffing" title="permanent staffing" height="50">
                  </div>
               </div>
               <div class="col-md-5 order-first order-md-last">
                  <div class="wptb-video-content">
-                
                     <ul>
-                       <li><strong>Information Technology (IT) and Telecom : </strong>Our deep understanding of the IT and telecom sectors enables us to offer innovative solutions that meet the dynamic demands of these industries.</li>                             
-                       <li><strong>Media : </strong>We help media companies harness digital transformation to reach wider audiences and create compelling content.</li>                             
-                       <li><strong>Education and Edtech :</strong> Partnering with educational institutions and Edtech companies, we deliver solutions that enhance learning experiences and outcomes.</li>
-                       <li><strong>E-commerce :</strong> We support e-commerce businesses in optimizing their operations and enhancing customer engagement through targeted strategies.</li>
-                       <li><strong>Government Projects :</strong> With extensive experience in government projects, we provide solutions that drive efficiency and improve public service delivery.</li>
+                       <li><span class="whatwedotitile">Information Technology (IT) and Telecom : </span>Our deep understanding of the IT and telecom sectors enables us to offer innovative solutions that meet the dynamic demands of these industries.</li>                             
+                       <li><span class="whatwedotitile">Media : </span>We help media companies harness digital transformation to reach wider audiences and create compelling content.</li>                             
+                       <li><span class="whatwedotitile">Education and Edtech :</span> Partnering with educational institutions and Edtech companies, we deliver solutions that enhance learning experiences and outcomes.</li>
+                       <li><span class="whatwedotitile">E-commerce :</span> We support e-commerce businesses in optimizing their operations and enhancing customer engagement through targeted strategies.</li>
+                       <li><span class="whatwedotitile">Government Projects :</span> With extensive experience in government projects, we provide solutions that drive efficiency and improve public service delivery.</li>
 
                     </ul>
                     <a href="#" class="btn">Start Hiring

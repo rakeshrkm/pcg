@@ -25,7 +25,7 @@
         <div class="container">
            <div class="row align-items-center">
             <div class="col-md-12">
-                    <h2 class="text-center mt-4 p-4">Comprehensive Solutions for Business Success</h2>
+                    <h2 class="text-center mt-4 p-4 ">Comprehensive Solutions for Business Success</h2>
             </div>
               <div class="col-md-7">
                  <div class="wptb-slider--img">
@@ -36,9 +36,9 @@
                  <div class="wptb-video-content">
                     <div class="wptb-video-contenth2"><a href="#"><strong>Recruitment Services</strong></a> </div>
                     <ul>
-                       <li><strong>Permanent Staffing : </strong>Our rigorous screening process ensures that candidates not only possess the necessary skills and qualifications but also align with your company culture, enhancing long-term success.</li>                             
-                       <li><strong>Leadership Hiring : </strong>We specialize in strategic recruitment for high-level positions, sourcing visionary leaders to drive your organization's future success.</li>                             
-                       <li><strong>Access to Specialized Skill Sets :</strong> With a vast network of professionals, we provide access to specialized skill sets across diverse industries.</li>
+                       <li><span class="whatwedotitile">Permanent Staffing : </span>Our rigorous screening process ensures that candidates not only possess the necessary skills and qualifications but also align with your company culture, enhancing long-term success.</li>                             
+                       <li><span  class="whatwedotitile">Leadership Hiring : </span>We specialize in strategic recruitment for high-level positions, sourcing visionary leaders to drive your organization's future success.</li>                             
+                       <li><span class="whatwedotitile">Access to Specialized Skill Sets :</span> With a vast network of professionals, we provide access to specialized skill sets across diverse industries.</li>
 
                     </ul>
                     <a href="#" class="btn">Start Hiring
@@ -62,8 +62,8 @@
                  <div class="wptb-video-content">
                     <div class="wptb-video-contenth2"><a href="#"><strong>Training and Development</strong></a> </div>
                     <ul>
-                       <li><strong>Skill Development Programs :</strong> Our tailored training programs focus on capacity building and skill enhancement to empower your workforce with the latest knowledge and expertise.</li>
-                       <li><strong>Collaborations with Educational Institutions: </strong>Through partnerships with leading engineering, management, and ITI colleges, we deliver industry-relevant training that meets specific organizational needs.</li>                      
+                       <li><span class="whatwedotitile">Skill Development Programs :</span> Our tailored training programs focus on capacity building and skill enhancement to empower your workforce with the latest knowledge and expertise.</li>
+                       <li><span class="whatwedotitile">Collaborations with Educational Institutions: </span>Through partnerships with leading engineering, management, and ITI colleges, we deliver industry-relevant training that meets specific organizational needs.</li>                      
                     </ul>
                     <a href="#enquiry" class="btn">Start Hiring
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
@@ -98,9 +98,9 @@
                  <div class="wptb-video-content">
                     <div class="wptb-video-contenth2"><a href="#"><strong>Consulting Services</strong></a> </div>
                     <ul>
-                       <li><strong>Project Management Consultancy : </strong>We offer expert guidance in managing complex projects, ensuring timely delivery and optimal resource utilization.</li>
-                       <li><strong>IT Consulting: </strong> Our consulting services encompass both IT and non-IT domains, providing bespoke solutions that drive operational efficiency and innovation.</li>
-                       <li><strong>E-Governance Projects: </strong> With extensive experience in implementing e-governance solutions, we deliver services that enhance government operations and citizen engagement.</li>
+                       <li><span class="whatwedotitile">Project Management Consultancy : </span>We offer expert guidance in managing complex projects, ensuring timely delivery and optimal resource utilization.</li>
+                       <li><span class="whatwedotitile">IT Consulting: </span> Our consulting services encompass both IT and non-IT domains, providing bespoke solutions that drive operational efficiency and innovation.</li>
+                       <li><span class="whatwedotitile">E-Governance Projects: </span> With extensive experience in implementing e-governance solutions, we deliver services that enhance government operations and citizen engagement.</li>
                     </ul>
                     <a href="#enquiry" class="btn">Start Hiring
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
@@ -123,10 +123,10 @@
                  <div class="wptb-video-content">
                     <div class="wptb-video-contenth2"><a href="#"><strong>Other Services</strong></a> </div>
                     <ul>
-                       <li><strong>Software and Website Development : </strong>We develop custom software applications and websites that meet the unique needs of our clients, enhancing their digital presence and operational efficiency.</li>
-                       <li><strong>IT Hardware and Software Solutions :</strong>Our comprehensive solutions include the provision of IT hardware, accessories, and licensed software to support business operations.</li>
-                       <li><strong>Drone & Anti-Drone Technology Services :</strong> We offer cutting-edge drone technology services for surveillance, data collection, and analysis.</li>
-                       <li><strong>Call Center and Data Center Services :</strong>Our robust infrastructure supports efficient call center and data center operations, ensuring seamless service delivery.</li>
+                       <li><span class="whatwedotitile">Software and Website Development : </span>We develop custom software applications and websites that meet the unique needs of our clients, enhancing their digital presence and operational efficiency.</li>
+                       <li><span class="whatwedotitile">IT Hardware and Software Solutions :</span>Our comprehensive solutions include the provision of IT hardware, accessories, and licensed software to support business operations.</li>
+                       <li><span class="whatwedotitile">Drone & Anti-Drone Technology Services :</span> We offer cutting-edge drone technology services for surveillance, data collection, and analysis.</li>
+                       <li><span class="whatwedotitile">Call Center and Data Center Services :</span>Our robust infrastructure supports efficient call center and data center operations, ensuring seamless service delivery.</li>
                     </ul>
                     <a href="#enquiry" class="btn mb-5">Start Hiring
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
