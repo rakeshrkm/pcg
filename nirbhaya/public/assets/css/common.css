@@ -1,0 +1,40 @@
+
+.list-wrapper {
+	overflow: hidden;
+}
+
+.list-item p {
+	margin: 0;
+}
+
+.simple-pagination ul {
+	margin: 0 0 20px;
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.simple-pagination li {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+.simple-pagination li a,
+.simple-pagination li span {
+	color: #666;
+	padding: 5px 10px;
+	text-decoration: none;
+	border: 1px solid #EEE;
+	background-color: #FFF;
+}
+
+.simple-pagination .current {
+	color: #FFF;
+	background-color: #8bc73b;
+	border-color: #8bc73b;
+}
+
+.simple-pagination .prev.current,
+.simple-pagination .next.current {
+	background: #486a1b;
+}

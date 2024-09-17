@@ -37,10 +37,10 @@
                     <ul>
                        <li><span class="whatwedotitile">Information Technology (IT) and Telecom : </span>Our deep understanding of the IT and telecom sectors enables us to offer innovative solutions that meet the dynamic demands of these industries.</li>                             
                        <li><span class="whatwedotitile">Media : </span>We help media companies harness digital transformation to reach wider audiences and create compelling content.</li>                             
-                       <li><span class="whatwedotitile">Education and Edtech :</span> Partnering with educational institutions and Edtech companies, we deliver solutions that enhance learning experiences and outcomes.</li>
-                       <li><span class="whatwedotitile">E-commerce :</span> We support e-commerce businesses in optimizing their operations and enhancing customer engagement through targeted strategies.</li>
-                       <li><span class="whatwedotitile">Government Projects :</span> With extensive experience in government projects, we provide solutions that drive efficiency and improve public service delivery.</li>
-
+                       <li><span class="whatwedotitile">Education and Edtech : </span> Partnering with educational institutions and Edtech companies, we deliver solutions that enhance learning experiences and outcomes.</li>
+                       <li><span class="whatwedotitile">E-commerce : </span> We support e-commerce businesses in optimizing their operations and enhancing customer engagement through targeted strategies.</li>
+                       <li><span class="whatwedotitile">Government Projects : </span> With extensive experience in government projects, we provide solutions that drive efficiency and improve public service delivery.</li>
+                       <li><span class="whatwedotitile">Case Studies :</span> Share real-world examples of how your firm has successfully helped clients in these industries.</li>
                     </ul>
                     <a href="#" class="btn">Start Hiring
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>

@@ -64,7 +64,7 @@
                         </a>
                     </div>
                     <nav class="menu-container">
-                        <ul id="menu" class="sm me-menu">
+                        <ul id="menu" class="sm me-menu" >
                             <li>
                                 <a href="{{ route('index') }}">Home</a>
                             </li>
@@ -87,7 +87,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="{{ route('industriesWeServe') }}">Industries we serve  <i class="fa fa-angle-down"></i></a>
+                                <a href="{{ route('industriesWeServe') }}">Industries we serve</a>
                             </li>
                             <li>
                                 <a href="{{ route('ourApproach') }}">Our Approach</i></a>
@@ -160,10 +160,11 @@
                             <img class="logo-sticky" src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
                         </a>
                     </div>
-                    <nav class="menu-container">
+                    <nav class="menu-container" id="manuId">
                         <ul id="menu" class="sm me-menu">
                             <li>
-                                <a href="{{ route('index') }}">Home</a>
+                            
+                                <a href="{{ route('index') }}"><i class="fa fa-home"></i> Home</a>
                             </li>
                             <li>
                                 <a href="{{ route('about') }}">About Us</a>
@@ -184,7 +185,7 @@
                                 </ul>
                             </li>
                             <li>
-                                <a href="{{ route('industriesWeServe') }}">Industries we serve  <i class="fa fa-angle-down"></i></a>
+                                <a href="{{ route('industriesWeServe') }}">Industries we serve </a>
                             </li>
                           
                             <li>

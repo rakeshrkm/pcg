@@ -72,7 +72,7 @@
     }
 
     .menu-container {
-        display: none;
+        display: block;
     }
 
     .menu-container,
@@ -391,6 +391,24 @@
     .mega-menu-content p:last-child {
         margin-bottom: 0;
     }
+    
+.me-menu > li > a {
+    /* color: #ffffff; */
+    color: #525252;
+    padding: 39px 14px 39px;
+    border-bottom: 0 solid #08847A;
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.header-logo {
+    padding: 15px 0;
+    float: left;
+}
+
 }
 /* [tablet portrait] */
 @media only screen and (min-width: 768px) and (max-width: 959px) {

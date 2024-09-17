@@ -87,6 +87,7 @@
     .btn-dark {
       color: #212529 !important;
       font-weight: 300;
+      z-index: 0;
       }
     .navbar-light .main-menu li a.nav-link,
     .navbar-light .action-btns a.btn-link,
@@ -637,3 +638,255 @@
         font-size: 27px;}
     
     .text-yellow{color:#ffc107;}
+    
+    
+    
+    /*Rakesh 05-09-2024*/
+    
+    /*@media (min-width: 768px) {*/
+
+    /* show 3 items */
+    .carousel-inner .active,
+    .carousel-inner .active + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item,
+    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item  {
+        display: block;
+    }
+    
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item,
+    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
+        transition: none;
+    }
+    
+    .carousel-inner .carousel-item-next,
+    .carousel-inner .carousel-item-prev {
+      position: relative;
+      transform: translate3d(0, 0, 0);
+    }
+    
+    .carousel-inner .active.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: absolute;
+        top: 0;
+        right: -25%;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* left or forward direction */
+    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
+    .carousel-item-next.carousel-item-left + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(-100%, 0, 0);
+        visibility: visible;
+    }
+    
+    /* farthest right hidden item must be abso position for animations */
+    .carousel-inner .carousel-item-prev.carousel-item-right {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        display: block;
+        visibility: visible;
+    }
+    
+    /* right or prev direction */
+    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
+    .carousel-item-prev.carousel-item-right + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item,
+    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
+        position: relative;
+        transform: translate3d(100%, 0, 0);
+        visibility: visible;
+        display: block;
+        visibility: visible;
+    }
+
+/*}*/
+
+ /* Bootstrap Lightbox using Modal */
+
+#profile-grid { overflow: auto; white-space: normal; } 
+#profile-grid .profile { padding-bottom: 40px; }
+#profile-grid .panel { padding: 0 }
+#profile-grid .panel-body { padding: 15px }
+#profile-grid .profile-name { font-weight: bold; }
+#profile-grid .thumbnail {margin-bottom:6px;}
+#profile-grid .panel-thumbnail { overflow: hidden; }
+#profile-grid .img-rounded { border-radius: 4px 4px 0 0;}
+
+
+@media only screen and (max-width: 768px) {
+  .heading-title h2{
+      font-size: 20px;
+  }
+}
+
+/* career card 09-09-2024 */
+
+.card-container {
+  background-color: #F5F5F5;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
+  /* padding: 10px; */
+}
+
+.card-container:hover {
+  box-shadow: 0 7px 13px rgba(0, 0, 0, 0.3);
+}
+
+.img-container img {
+  width: 100%;
+  max-width: 70px;
+  height: auto;
+}
+
+.job-desc {
+  height: 40px;
+
+}
+
+.personal-info p {
+  margin: 0;
+}
+
+.personal-info span {
+  margin-right: 10px;
+}
+
+.job-desc {
+  background-image: linear-gradient(to right, rgb(9, 129, 120), rgb(31, 58, 87));
+  border-radius: 12px;
+  cursor: pointer;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+.job-desc_pera {
+  color: #fff;
+  font-family: Poppins, sans-serif !important;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 30px;
+
+}
+
+
+.personal-info {
+  display: flex;
+  align-items: center;
+
+}
+
+.share-icon_div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info {
+  align-items: center;
+  background-color: #f9f9f9;
+  border-radius: 12px;
+  color: #7f879e;
+  display: flex;
+  font-family: Poppins, sans-serif !important;
+  font-size: 12px;
+  font-weight: 500;
+  height: 28px;
+  justify-content: center;
+  min-width: 76px;
+  padding-inline: 10px;
+}
+
+.apply-now {
+  color: white;
+  width: 180px;
+  border: 1px solid rgb(9, 129, 120);
+  border-radius: 12px;
+  cursor: pointer;
+  height: 50px;
+  background-image: linear-gradient(to right, rgb(9, 129, 120), rgb(31, 58, 87));
+  outline: none;
+}
+.apply-now:hover {
+  background-image: linear-gradient(to right, rgb(9, 129, 120), rgb(31, 58, 87));
+  border: 1px solid rgb(9, 129, 120);
+}
+
+.chatRecuriter {
+  border-radius: 12px;
+  border: 1px solid;
+  height: 50px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 19px 5px 13px 0px;
+  position: relative;
+}
+
+@media (max-width: 768px) {
+  .card-container {
+      padding: 10px;
+  }
+
+  .btn-container {
+      flex-direction: row;
+
+
+  }
+
+  .btn-container button {
+      margin-bottom: 10px;
+  }
+
+  .job-desc_pera {
+      color: #fff;
+      font-family: Poppins, sans-serif !important;
+      font-size: 11px;
+      font-weight: 500;
+      font-weight: bold;
+  }
+
+
+  @media (max-width: 366px) {
+      /* .job-desc_pera {
+          color: #fff;
+          font-family: Poppins, sans-serif !important;
+          font-size: 10px;
+          font-weight: 500;
+      } */
+
+      .job-desc_pera {
+        color: #fff;
+        font-family: Poppins, sans-serif !important;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 11px;
+        /* text-align: left; */
+        margin-top: 20px;
+    }
+
+  }
+
+
+}
+
+.recruiter-btn {
+  background: linear-gradient(89.86deg, #20d812 .11%, #108d07 99.84%);
+  border: none;
+  padding: 10px;
+}
+

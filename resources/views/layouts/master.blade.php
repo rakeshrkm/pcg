@@ -1914,7 +1914,7 @@ opacity: 0.3;
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form method="post" action="https://www.mazenet.com/sendmail.php" id="form_popup" enctype="multipart/form-data">
+                    <form method="post" action="#" id="form_popup" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
@@ -1940,7 +1940,7 @@ opacity: 0.3;
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Our services <span class="required">*</span></label>
-                                    <select class="form-control" name="" required="Type of Requirement">
+                                    <select class="form-control select-services" name="" required="Type of Requirement">
                                         <option value="Corporate Training">Corporate Training</option>
                                         <option value="Train &amp; Hire">Train &amp; Hire</option>
                                         <option value="Staffing as a Service"> Staffing as a Service</option>
@@ -1961,13 +1961,12 @@ opacity: 0.3;
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <div class="g-recaptcha" data-sitekey="6LeQ9MYaAAAAAFdlplefv5LaRD8DT_f5ZHvWVLqs" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                                    <!--<input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">-->
-                                    <!--<input type="hidden" name="recaptcha_response" id="g-recaptcha-response" data-recaptcha="true"  required data-error="Please complete the Captcha" >-->
+                                   
                                 </div>
                             </div>
                             <!--  col-md-6   -->
                         </div>
-                        <div align="center"><input type="submit" name="submit" class="btn btn-default" id="form_popup_submit" value="Submit"></div>
+                        <div align="center"><input type="submit" name="submit" class="btn btn-defaul text-white" id="form_popup_submit" value="Submit"></div>
                     </form>
                 </div>
             </div>

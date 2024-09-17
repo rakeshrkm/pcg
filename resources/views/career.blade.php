@@ -364,9 +364,11 @@
                         <!--    </div>-->
                         <!--</div>-->
                         
-                        <div class="tab-pane fade" id="event" role="tabpanel" aria-labelledby="event-tab">
-                            <div class="list-wrap mt-4" id="career_id">
-                            
+                        <div class="tab-pane fade active show" id="event" role="tabpanel" aria-labelledby="event-tab">
+                            <div class="list-wrap mt-4">
+                                <div class="row" id="career_id" >
+
+                                </div>
 
 
                               
@@ -383,6 +385,12 @@
 @endsection
 @section('scripts')
 <script>
+
+$(document).ready(function(){
+
+// });
+
+
     //     var app = new Vue({
     //       el: '#app',
     //       data() {
@@ -422,7 +430,7 @@
     //       }
     //     })
 
-    $("#event-tab").click(function(){
+    // $("#event-tab").click(function(){
     $.ajax({
     type: 'GET',
     url: "https://naukriyan.com/getjobs/prakharsoftwares?sector_id=1",
@@ -451,41 +459,88 @@
             }else{
                 exp = job.main_exp +' Yr' ;
             }
-            var cardHtml =`<div class="accordion">
-                            <h2 class="accordion-header" id="headingThree${index}">
-                                <button class="collapsed" type="button" data-toggle="collapse"
-                                    data-target="#collapseThree${index}" aria-expanded="false" aria-controls="collapseThree${index}" style=" width: 100% !important;
-        text-align: left !important;
-        background: none !important;
-        font-size: 15px !important;
-        border-radius: 8px !important;
-        padding: 10px !important;">
-                                    ${job.title}
-                                     <span class="pull-right">View Jobs</span>
-                                </button>
-                               
-                            </h2>
-                            <div id="collapseThree${index}" class="collapse" aria-labelledby="headingThree${index}"
-                                data-parent="#collapseThree${index}">
-                                <div class="accordion-body">
-                                <table class="table table-bordered table-hover dt-responsive table-striped user-table">
-                                    <thead>
-                                        <tr>
-                                        <th>Location</th>
-                                        <td></td> 
-                                        <th>Experience</th>
-                                        <td>${exp}</td>
-                                        </tr>
-                                    <tr>
-                                        <th>Description</th>
-                                        <td colspan="3">${job.description}</td>
-                                    </tr>
-                                    </thead>
-                                </table>
-                                <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank" class="btn btn-block btn-primary ml-0">Apply for this job&nbsp; <i aria-hidden="true" class="fa fa-paper-plane"></i></a>
-                                </div>
+            var cardHtml =`
+                <div class="col-md-6 col-lg-6 ">
+                    <div class="card-container border h-auto  p-2 mt-4">
+                        <div class="row pt-3 job-description">
+                            <div class="col-6 img-container text-left">
+                                <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
                             </div>
-                        </div>`;
+                            <div class="col-6 text-right">
+
+                            <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
+                            <button type="button" class="btn btn-dark apply-now ">
+                               <span class="text-white">Job Description</span><i class="fa fa-arrow-circle-right " aria-hidden="true"
+                                            style="color: white;"></i>
+                            </button>
+
+                            </a>
+                            </div>
+                        
+                        </div>
+                        <div class="row mt-2">
+                            <div class="col-12 text-left mt-4 mb-4">
+                                <h5>${job.title}</h5>
+                            </div>
+                        </div>
+                        <!-- Skills -->
+                        <div class="row">
+                            <div class="col-6 col-sm-3 ">
+                                <p class="info" class="info">Infographics</p>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <p class="info">Infographics</p>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <p class="info">Infographics</p>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <p class="info">Infographics</p>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-bottom:-3px;">
+                            <div class="col-6 col-sm-3">
+                                <p class="info">Infographics</p>
+                            </div>
+                            <div class="col-6 col-sm-3">
+                                <p class="info">Infographics</p>
+                            </div>
+                        </div>
+                        <!-- Personal Information section -->
+                        <div class="row">
+                            <div class="col-12 col-sm-6 personal-info mb-2">
+                                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                <p>${job.job_exp}</p>
+                            </div>
+                            <div class="col-12  col-sm-6 personal-info  mb-2">
+                                <span><i class="fa fa-inr" aria-hidden="true"></i></span>
+                                <p>50000 /<span>Month</span></p>
+                            </div>
+                            <div class="col-12  col-sm-6 personal-info  calender">
+                                <span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span>
+                                <p>06/09/2024</p>
+                            </div>
+                            <div class="col-12  col-sm-6 personal-info  calender">
+                                <span><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+                                <p> ${job.main_exp} - ${job.max_exp} <span> Years Exp</span></p>
+                            </div>
+                        </div>
+                        <div class="row btn-container">
+                            <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
+                            <button type="button" class="btn btn-dark apply-now ">
+                                <i class="fa fa-file-text-o text-white" aria-hidden="true"
+                                    style="position: absolute; left: 22px; top: 18px;"></i> <span class="text-white">Apply Now</span>
+                            </button>
+
+                            </a>
+                            <a href="https://api.whatsapp.com/send/?phone=9953224031&text=I+am+interested+in+your+job+of+${job.title}" target="_blank"> 
+                                <button type="button" class="btn btn-success chatRecuriter recruiter-btn">
+                                        <i class="fa fa-whatsapp text-white" aria-hidden="true"></i> <span class="text-white">Chat With Recuriter</span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>`;
             html += cardHtml; 
         });
         $("#career_id").append(html);

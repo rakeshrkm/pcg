@@ -39,6 +39,8 @@
                        <li><span class="whatwedotitile">Permanent Staffing : </span>Our rigorous screening process ensures that candidates not only possess the necessary skills and qualifications but also align with your company culture, enhancing long-term success.</li>                             
                        <li><span  class="whatwedotitile">Leadership Hiring : </span>We specialize in strategic recruitment for high-level positions, sourcing visionary leaders to drive your organization's future success.</li>                             
                        <li><span class="whatwedotitile">Access to Specialized Skill Sets :</span> With a vast network of professionals, we provide access to specialized skill sets across diverse industries.</li>
+                       <li><span class="whatwedotitile">Contract Staffing : </span>Need temporary staff for a project or specific timeframe? We provide skilled professionals who fit seamlessly into your team.</li>
+                       <li><span class="whatwedotitile">Recruitment Process Outsourcing (RPO) : </span>Outsource your recruitment process to us and focus on what you do best. We manage everything from sourcing to onboarding.</li>
 
                     </ul>
                     <a href="#" class="btn">Start Hiring
@@ -99,8 +101,10 @@
                     <div class="wptb-video-contenth2"><a href="#"><strong>Consulting Services</strong></a> </div>
                     <ul>
                        <li><span class="whatwedotitile">Project Management Consultancy : </span>We offer expert guidance in managing complex projects, ensuring timely delivery and optimal resource utilization.</li>
-                       <li><span class="whatwedotitile">IT Consulting: </span> Our consulting services encompass both IT and non-IT domains, providing bespoke solutions that drive operational efficiency and innovation.</li>
-                       <li><span class="whatwedotitile">E-Governance Projects: </span> With extensive experience in implementing e-governance solutions, we deliver services that enhance government operations and citizen engagement.</li>
+                       <li><span class="whatwedotitile">IT Consulting : </span> Our consulting services encompass both IT and non-IT domains, providing bespoke solutions that drive operational efficiency and innovation.</li>
+                       <li><span class="whatwedotitile">E-Governance Projects : </span> With extensive experience in implementing e-governance solutions, we deliver services that enhance government operations and citizen engagement.</li>
+                       <li><span class="whatwedotitile">Executive Search : </span>Our executive search services are designed to identify top leaders who can drive your business forward.</li>
+                        <li><span class="whatwedotitile">Talent Consulting : </span>We offer strategic consulting services to optimize your talent acquisition processes, from employer branding to candidate experience.</li>
                     </ul>
                     <a href="#enquiry" class="btn">Start Hiring
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
@@ -123,10 +127,11 @@
                  <div class="wptb-video-content">
                     <div class="wptb-video-contenth2"><a href="#"><strong>Other Services</strong></a> </div>
                     <ul>
-                       <li><span class="whatwedotitile">Software and Website Development : </span>We develop custom software applications and websites that meet the unique needs of our clients, enhancing their digital presence and operational efficiency.</li>
-                       <li><span class="whatwedotitile">IT Hardware and Software Solutions :</span>Our comprehensive solutions include the provision of IT hardware, accessories, and licensed software to support business operations.</li>
-                       <li><span class="whatwedotitile">Drone & Anti-Drone Technology Services :</span> We offer cutting-edge drone technology services for surveillance, data collection, and analysis.</li>
-                       <li><span class="whatwedotitile">Call Center and Data Center Services :</span>Our robust infrastructure supports efficient call center and data center operations, ensuring seamless service delivery.</li>
+                        <li><span class="whatwedotitile">Software and Website Development : </span>We develop custom software applications and websites that meet the unique needs of our clients, enhancing their digital presence and operational efficiency.</li>
+                        <li><span class="whatwedotitile">IT Hardware and Software Solutions :</span>Our comprehensive solutions include the provision of IT hardware, accessories, and licensed software to support business operations.</li>
+                        <li><span class="whatwedotitile">Drone & Anti-Drone Technology Services :</span> We offer cutting-edge drone technology services for surveillance, data collection, and analysis.</li>
+                        <li><span class="whatwedotitile">Call Center and Data Center Services :</span>Our robust infrastructure supports efficient call center and data center operations, ensuring seamless service delivery.</li>
+                        <li><span class="whatwedotitile">Industry-Specific Solutions : </span>We specialize in providing recruitment services tailored to the IT, Telecom, EdTech, Media, and E-commerce industries.</li>
                     </ul>
                     <a href="#enquiry" class="btn mb-5">Start Hiring
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>

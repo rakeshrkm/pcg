@@ -1,14 +1,14 @@
 <footer id="footer">
     <div class="container">
         <div class="row">
-            <div class="col-xs-4  col-sm-4  col-md-5 col-lg-3">
+            <div class="col-md-3">
                 <div class="footer-logo">
                     <a href="#">
                         <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="Footer Logo" width="271" height="100" />
                     </a>
                 </div>
             </div>
-            <div class="col-xs-4  col-sm-4   col-md-3  col-lg-2">
+            <div class="col-md-3">
                 <h6 class="footer-title">Our Services</h6>
                 <ul class="me-list">
                     <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Recruitment Services</a></li>
@@ -23,7 +23,7 @@
                     <!--<li><a href="https://www.mazenet.com/sitemap"><i class="fa fa-angle-right"></i> Sitemap</a> </li>-->
                 </ul>
             </div>
-            <div class="col-xs-4  col-sm-4  col-md-4 col-lg-3">
+            <div class="col-md-3">
                 <h6 class="footer-title">Links</h6>
                 <ul class="me-list">
                     <li><a href="{{ route('about') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; About Us</a></li>
@@ -37,7 +37,7 @@
                     <!--li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Hire from us</a></li-->
                 </ul>
             </div>
-            <div class="col-xs-6  col-sm-6  col-md-12 col-lg-4">
+            <div class="col-md-3">
                 <h6 class="footer-title">Get In Touch</h6>
                 <p>
                     <strong><img src="{{ asset('assets/img/mail.png') }}" alt="mail id" width="40" height="40"></strong>
@@ -51,7 +51,7 @@
                     <a href="#" target="_blank"> Delhi</a> |
                     <a href="#" target="_blank"> India</a> |
                     <a href="#" target="_blank">110020 </a>
-                    <ul class="header-social social-icon" style="margin-top:-25px;">
+                    <ul class="header-social social-icon mt-2">
                         <li>
                             <a class="facebook-color" aria-label="facebook" rel="noopener" target="_blank" href="https://www.facebook.com/prakharconsultinggroup"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>

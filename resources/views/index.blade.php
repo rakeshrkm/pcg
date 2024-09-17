@@ -10,8 +10,8 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-lft">
-                                    <div class="bannertextbold" data-animate="animate__fadeInDown">Welcome to Prakhar Consulting Group (PCG)</div>
-                                    <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">Finding. Connecting. Building Organisation. <br><b>Welcome to Prakhar Consulting Group (PCG) </b></span>
+                                    <div class="bannertextbold" data-animate="animate__fadeInDown">"Empowering Your Business for Success with Strategic Recruitment Solutions "</div>
+                                    <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white"> " Transform your hiring process with our Triad Recruitment Framework - S³ "</b></span>
                                     </h1>
                                     {{-- <div class="bannertextbold" data-animate="animate__fadeInDown">to align with your business goals</div> --}}
                                 </div>
@@ -27,8 +27,8 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-right">
-                                    <div class="bannertextbold" data-animate="animate__fadeInDown">Welcome to Prakhar Consulting Group (PCG)</div>
-                                    <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">Finding. Connecting. Building Organisation. <br><b>Welcome to Prakhar Consulting Group (PCG) </b></span>
+                                    <div class="bannertextbold" data-animate="animate__fadeInDown">" Empowering Your Business for Success with Strategic Recruitment Solutions "</div>
+                                    <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">" Transform your hiring process with our Triad Recruitment Framework - S³ "</b></span>
                                     </h1>
                                     {{-- <div class="bannertextbold" data-animate="animate__fadeInDown">custom solutions for peak performance</div> --}}
                                 </div>
@@ -47,8 +47,8 @@
                 <div class="heading-title text-center  p-4">
                     <h2>About Prakhar Consulting Group </h2>
                 </div>
-                <div>
-                    <img src="{{ asset('assets/img/FCBO.jpg') }}" alt="permanent staffing" title="permanent staffing">
+                <div >
+                    <img src="{{ asset('assets/img/FCBO.JPG') }}" width="600" height="200"  alt="permanent staffing" title="permanent staffing">
 
                 </div>
 
@@ -59,9 +59,19 @@
                 
                 </strong>
                 <br /> <br />
+                
+                 <p>Welcome to Prakhar Consulting Group – Your Partner in Transforming Talent Acquisition. 
+                 </p>
+                 
+                 <p>Whether you're seeking top-tier talent or a fulfilling career opportunity, we bridge the gap with our industry-leading recruitment solutions.</p>
+                 
                 <p class="gap" data-gap-bottom="30">
                     Prakhar Consulting Group, a subsidiary of Prakhar Software Solutions Pvt. Ltd., is a premier consulting firm specializing in IT recruitment, consulting, and comprehensive business solutions. With a dynamic team of over 2200 professionals and a decade of industry leadership, we are dedicated to delivering excellence and innovation to our clients across India.
                 </p>
+            </div>
+            <div class="col-md-12 text-center">
+                
+                <div class="cta2 mb-5"><a href="#enquiry" class="btn text-white">Start Your Journey with Us Today. <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a></div>
             </div>
             <div class="col-md-6 mb-4">
                 <img src="{{ asset('assets/img/our-presence-in-India.jpg') }}" alt="permanent staffing" title="permanent staffing" height="150">
@@ -70,13 +80,7 @@
             </div>
             <div class="col-md-6 mb-4">
                 <div class="heading-title text-center">
-                    <h4>Our Mission </h4>
-                </div>
-                <p>
-                    Our mission is to empower businesses by providing cutting-edge recruitment, consulting, and training services that enhance operational efficiency and drive sustainable growth.
-                </p>
-                <div class="heading-title text-center">
-                    <h4>Certifications</h4>
+                    <h4>Certifications and Achievements</h4>
                 </div>
                 <p>
                     Our commitment to quality and excellence is demonstrated through our prestigious certifications:
@@ -84,10 +88,11 @@
                
                 <ul>
                     <li><span class="whatwedotitile">CMMI Level III</span></li>
-                    <li><span class="whatwedotitile">ISO 9001:2015</span></li>
-                    <li><span class="whatwedotitile">ISO 27001:2013</span></li>
+                    <li><span class="whatwedotitile">ISO 9001:2015 Certified</span></li>
+                    <li><span class="whatwedotitile">ISO 27001:2013 Certified</span></li>
                     <li><span class="whatwedotitile">ISO 20000-1:2011</span></li>
                     <li><span class="whatwedotitile">ISO 45001:2018</span></li>
+                    <li><span class="whatwedotitile">Awarded Best E-Governance Job Portal in 2021</span></li>
                 </ul>
                 <p>These certifications reflect our dedication to maintaining the highest standards in service delivery and client satisfaction.</p>
             </div>
@@ -103,10 +108,13 @@
     </div>
 </section>
 
-<section class="section pt-5" id="ourservices">
+<section class="section pt-5 container" id="ourservices">
     <div class="heading-title text-center">
-        <h3>Services</h3>
+        <h2>Key Services Overview</h2>
     </div>
+                
+    <p>At Prakhar Consulting Group, we offer a comprehensive suite of recruitment services tailored to meet your unique needs. From permanent staffing to executive search, we ensure you get the best talent for your business.
+            </p>
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
@@ -114,7 +122,7 @@
                     <img src="{{ asset('assets/img/talent-solutions.webp') }}" alt="Recruitment Services" title="Recruitment Services" />
                     <h5 class="whatwedotitile">Recruitment Services </h5>
                 </a>
-                <p class="whatwedodecs">Facilitate recruitment with our Human Capital Solutions and focus on your core business priorities.</p>
+                <p class="whatwedodecs">We specialize in strategic recruitment for high-level positions, sourcing visionary leaders to drive your organization's future success</p>
 
                 <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center"><span class="text-white">View More</span></a>
             </div>
@@ -123,7 +131,7 @@
                     <img src="{{ asset('assets/img/corporate-training-service.webp') }}" alt="Training and Development" title="Training and Development" />
                     <h5 class="whatwedotitile">Training and Development </h5>
                 </a>
-                <p class="whatwedodecs">Empower your team to overcome challenges and stay ahead with our smart training programs</p>
+                <p class="whatwedodecs">Our tailored training programs focus on capacity building and skill enhancement to empower your workforce with the latest knowledge and expertise.</p>
                 <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center"><span class="text-white">View More</span></a>
             </div>
             <div class="col-md-12 col-lg-3 pt-3 pt-3 text-center">
@@ -131,27 +139,68 @@
                     <img src="{{ asset('assets/img/mangeitservices.webp') }}" alt="Consulting Services" title="Consulting Services" />
                     <h5 class="whatwedotitile">Consulting Services </h5>
                 </a>
-                <p class="whatwedodecs">Ensure smooth operations with our comprehensive IT services, covering infrastructure & cybersecurity solutions.</p>
+                <p class="whatwedodecs">Our consulting services encompass both IT and non-IT domains, providing bespoke solutions.</p>
                 <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center"> <span class="text-white">View More</span></a>
 
             </div>
-            <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+            {{-- <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
                     <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
                     <h5 class="whatwedotitile">Other Services </h5>
                 </a>
-                <p class="whatwedodecs">Transform learning with immersive online programs, empowering organizations to deliver cutting-edge training experiences.</p>
+                <p class="whatwedodecs">We offer cutting-edge drone technology services for surveillance, data collection, and analysis.</p>
                 <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
 
+            </div> --}}
+            
+            <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                    <h5 class="whatwedotitile">Leadership Hiring</h5>
+                </a>
+                <p class="whatwedodecs">Secure visionary leaders to guide your organization toward future success.</p>
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
             </div>
-            <!-- <div class="col-md-12 col-lg-2  pt-3 pt-3">
-              &nbsp;
-              </div>
-              
-              <div class="col-md-12 col-lg-4  pt-3 pt-3">
-              <a href="#"> <img src="img/assessment-as-service.webp" alt="Assessment as Service" title="Assessment as Service" />
-                  <h5 class="whatwedotitile">Assessment as Service</h5></a>
-              </div>-->
+            
+             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                    <h5 class="whatwedotitile">IT/Non-IT Hiring</h5>
+                </a>
+                <p class="whatwedodecs">Tailored recruitment solutions for both technical and non-technical domains.</p>
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+            </div>
+            
+            <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                    <h5 class="whatwedotitile">Campus Recruitment</h5>
+                </a>
+                <p class="whatwedodecs">Connect with the brightest new talents through our comprehensive campus hiring solutions.</p>
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+            </div>
+            
+             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                    <h5 class="whatwedotitile">Training & Development</h5>
+                </a>
+                <p class="whatwedodecs">Enhance your team's skills with customized training programs.</p>
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+            </div>
+            
+             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                    <h5 class="whatwedotitile">Consulting Services</h5>
+                </a>
+                <p class="whatwedodecs">Receive expert advice to optimize operational efficiency and business performance.</p>
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+            </div>
+            
+            
+            
+            
         </div>
     </div>
 </section>
@@ -227,60 +276,147 @@
     <div class="container">
         <div class="col-md-12">
             <div class="heading-title text-center">
-                <h3><strong class="text-color">300+ Corporate Clientele</strong></h3>
+                <h2><strong class="text-color">Featured Clients</strong></h2>
                 <p>Some of the brands we work with</p>
             </div>
         </div>
-
-
-        <div class="row pt-3">
-            <div class="col-md-12">
-                <div class="row align-items-center" align="center">
-                    <div class="col-12 clientlist2">
-                        <ul class="grid-md-6 grid-sm-2 no-wrap text-center">
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/2.png') }}" width="80" alt="" /></span></li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" width="150" alt="" /></span> </li>
-
-                            <li> <span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" width="80" alt="" /></span> </li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/8.png') }}" width="140" alt="" /></span></li>
-                            <li> <span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" width="150" alt="" /></span> </li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" width="45" alt="" /></span> </li>
-                        </ul>
-
-
-                        <ul class="grid-md-6 grid-sm-2 no-wrap text-center">
-
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/15.png') }}" width="100" alt="" /></span> </li>
-
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" width="90" alt="" /></span> </li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" width="100" alt="" /></span></li>
-
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" width="150" alt="" /></span> </li>
-
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/24.png') }}" width="130" alt="" /></span> </li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/23.png') }}" width="80" alt="" /></span></li>
-                        </ul>
-
-                        <ul class="grid-md-6 grid-sm-2 no-wrap text-center">
-
-
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" width="80" alt="" /></span></li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/22.png') }}" width="90" alt="" /></span> </li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" width="160" alt="" /></span> </li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" width="110" alt="" /></span> </li>
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/21.png') }}" width="80" alt="" /></span> </li>
-
-                            <li><span class="imgorg imgred"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" width="120" alt="" /></span> </li>
-
-                        </ul>
-
-
-
-                        <!-- Clients list -->
-
-
+        
+        <div class="container-fluid">
+            <div id="carouselExample" class="carousel slide clientlist2" data-ride="carousel" data-interval="2000">
+                <div class="carousel-inner row w-100 mx-auto" role="listbox">
+                    <div class="carousel-item col-md-3  active">
+                       <div class="panel panel-default ">
+                          <div class="panel-thumbnail">
+                            <a href="#" title="image 1" class="thumb">
+                              <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/2.png') }}" alt="slide 1">
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-3 ">
+                       <div class="panel panel-default">
+                          <div class="panel-thumbnail">
+                            <a href="#" title="image 3" class="thumb">
+                             <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="slide 2">
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-3 ">
+                       <div class="panel panel-default">
+                          <div class="panel-thumbnail">
+                            <a href="#" title="image 4" class="thumb">
+                             <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="slide 3">
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-3 ">
+                        <div class="panel panel-default">
+                          <div class="panel-thumbnail">
+                            <a href="#" title="image 5" class="thumb">
+                             <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/8.png') }}" alt="slide 4">
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-3 ">
+                      <div class="panel panel-default">
+                          <div class="panel-thumbnail">
+                            <a href="#" title="image 6" class="thumb">
+                              <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="slide 5">
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-3 ">
+                       <div class="panel panel-default">
+                          <div class="panel-thumbnail">
+                            <a href="#" title="image 7" class="thumb">
+                              <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="slide 6">
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item col-md-3 ">
+                       <div class="panel panel-default">
+                          <div class="panel-thumbnail">
+                            <a href="#" title="image 8" class="thumb">
+                              <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/15.png') }}" alt="slide 7">
+                            </a>
+                          </div>
+                        </div>
+                    </div>
+                     <div class="carousel-item col-md-3  ">
+                        <div class="panel panel-default">
+                          <div class="panel-thumbnail">
+                            <a href="#" title="image 2" class="thumb">
+                             <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="slide 8">
+                            </a>
+                          </div>
+                          
+                        </div>
                     </div>
                 </div>
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next text-faded" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section pt-5 container" id="ourservices">
+    <div class="heading-title text-center">
+        <h2>Latest Blog/News</h2>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            {{-- <p>At Prakhar Consulting Group, we offer a comprehensive suite of recruitment services tailored to meet your unique needs. From permanent staffing to executive search, we ensure you get the best talent for your business.</p> --}}
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/talent-solutions.webp') }}" alt="Recruitment Services" title="Recruitment Services" />
+                    <h5 class="whatwedotitile">Leadership Hiring</h5>
+                </a>
+                <p class="whatwedodecs">Secure visionary leaders to guide your organization toward future success.</p>
+
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center"><span class="text-white">View More</span></a>
+            </div>
+            <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/corporate-training-service.webp') }}" alt="Training and Development" title="Training and Development" />
+                    <h5 class="whatwedotitile">IT/Non-IT Hiring</h5>
+                </a>
+                <p class="whatwedodecs">Tailored recruitment solutions for both technical and non-technical domains.</p>
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center"><span class="text-white">View More</span></a>
+            </div>
+            <div class="col-md-12 col-lg-3 pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/mangeitservices.webp') }}" alt="Consulting Services" title="Consulting Services" />
+                    <h5 class="whatwedotitile">Campus Recruitment</h5>
+                </a>
+                <p class="whatwedodecs">Connect with the brightest new talents through our comprehensive campus hiring solutions.</p>
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center"> <span class="text-white">View More</span></a>
+
+            </div>
+            <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                <a href="{{ route('services') }}">
+                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                    <h5 class="whatwedotitile">Training & Development </h5>
+                </a>
+                <p class="whatwedodecs">Enhance your team's skills with customized training programs.</p>
+                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+
             </div>
         </div>
     </div>
@@ -379,22 +515,25 @@
     <div class="container">
         <div class="col-md-12">
             <div class="heading-title text-center">
-                <h3>What <strong class="text-darkcolor">Our Clients</strong> Say</h3>
+                <h2>What <strong class="text-darkcolor">Our Clients</strong> Say</h2>
             </div>
         </div>
+        
+        <div class="col-md-12">
+            <p>Prakhar Consulting Group has been a game-changer for our recruitment process. Their team’s dedication and expertise helped us find the perfect candidates in no time. – Client A</p>
+        </div>
+        
 
         <div class="testimonial-content owl-carousel">
             <!-- Single Testimonial -->
-            <div class="single-testimonial">
+             <div class="single-testimonial">
                 <div class="round-1 round"></div>
                 <div class="round-2 round"></div>
-                <p>All our upskilling requirements including extra additions to curriculum were smoothly arranged. This included use-cases of Terraform with AWS and Azure. The trainer was able to help our employees navigate across each practice troubleshooting exercise. Credits to Mazenet team for completing Terraform upskilling session with ease! I would definitely recommend Mazenet to anyone looking for a great upskilling experience.
-
-                </p>
+                <p>"Working with Prakhar Consulting Group (PCG) has been an exceptional experience. Their tailored approach ensured that we found the perfect blend of skills and experience needed to drive our business forward." </p>
                 <div class="client-info">
 
                     <div class="client-details">
-                        <h6>-LEADING FORTUNE 500 MNC</h6>
+                        <h6>– Mr. Ravi Shrivastava, General Manager, Printmark</h6>
                         <span>
                             <div class="bh-stars" data-bh-rating="4">
                                 <svg version="1.1" class="bh-star bh-star--1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" xml:space="preserve">
@@ -935,7 +1074,7 @@
     </div>
 </section>
 
-<div class="">
+<div class="mt-5">
     <div class="container wptb-newsletter">
        <div class="cta">
           <div class="row align-items-center">
@@ -953,84 +1092,5 @@
  </div>
 <!-- partial -->
 
-<section class="pt-5" id="casestudy">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="heading-title text-center">
-                    <h3><strong class="text-color">Why Choose Prakhar Consulting Group?</strong></h3>
-                    
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="feature icon-right">
-                    <img src="{{ asset('assets/img/cs1.png') }}" alt="Successful Alicloud Training with Lab
-                    Despite Alicloud Policy Change" title="Successful Alicloud Training with Lab
-                    Despite Alicloud Policy Change" />
-                    <div class="feature-content">
-                        <h5><a href="#">Decade of Excellence</a>
-                        </h5>
-                        <p>With over ten years in the industry, PCG has established itself as a leader in IT consulting and recruitment services.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="feature icon-right">
-                    <img src="{{ asset('assets/img/cs2.png') }}" alt="Mazenet Successfully Delivered AWS IAM Corporate Training
-                    With Lab Facilities For A Leading Japanese Client" title="Mazenet Successfully Delivered AWS IAM Corporate Training
-                    With Lab Facilities For A Leading Japanese Client" />
-                    <div class="feature-content">
-                        <h5><a href="#">Award-Winning Solutions</a></h5>
-                        <p>Recognized for our outstanding e-governance job portal, awarded Best E-Governance Portal in 2021.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="feature icon-right">
-                    <img src="{{ asset('assets/img/cs3.png') }}" alt="Condensed 12-hour DataStage
-                    Training With Labs Service" title="Condensed 12-hour DataStage
-                    Training With Labs Service" />
-                    <div class="feature-content">
-                        <h5><a href="#">Extensive Professional Network</a>
-                        </h5>
-                        <p>Access to a database of over 300,000 resumes and a LinkedIn network exceeding 100,000 professionals.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="feature icon-right">
-                    <img src="{{ asset('assets/img/cs4.png') }}" alt="An MNC client hired 7 SAP Logistics & SAP Ariba
-                    Spend Analysis consultants in just 6 days with Mazenet" title="An MNC client hired 7 SAP Logistics & SAP Ariba
-                    Spend Analysis consultants in just 6 days with Mazenet" />
-                    <div class="feature-content">
-                        <h5><a href="#">Expert Workforce</a>
-                        </h5>
-                        <p>Our team of 2200+ skilled professionals ensures the delivery of high-impact projects nationwide.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="feature icon-right">
-                    <img src="{{ asset('assets/img/cs5.png') }}" alt="25 Google Ads Executives in 7 Days" title="25 Google Ads Executives in 7 Days" />
-                    <div class="feature-content">
-                        <h5><a href="#">Train and Hire : 25 Google Ads Executives in 7 Days</a></h5>
-                        <p>A leading Fortune 500 IT multinational corporation entrusted us with a formidable task: recruiting 25 Google Ads Process Executives with impeccable...</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-12 col-lg-6">
-                <div class="feature icon-right">
-                    <img src="{{ asset('assets/img/cs6.png') }}" alt="Mazenet's Recruitment Feat: Teaming Up with
-                    Fortune 500 IT Firm to Fill 12 Critical IT Roles in 2 weeks" title="Mazenet's Recruitment Feat: Teaming Up with
-                    Fortune 500 IT Firm to Fill 12 Critical IT Roles in 2 weeks" />
-                    <div class="feature-content">
-                        <h5><a href="#">Rapid and Reliable Results</a>
-                        </h5>
-                        <p>We guarantee reduced attrition and swift turnaround times, ensuring success for our clients.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+
 @endsection
