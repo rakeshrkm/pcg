@@ -803,10 +803,10 @@
   font-family: Poppins, sans-serif !important;
   font-size: 12px;
   font-weight: 500;
-  height: 28px;
+  height: auto;
   justify-content: center;
   min-width: 76px;
-  padding-inline: 10px;
+  /* padding-inline: 10px; */
 }
 
 .apply-now {

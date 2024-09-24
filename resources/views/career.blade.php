@@ -431,52 +431,56 @@ $(document).ready(function(){
     //     })
 
     // $("#event-tab").click(function(){
-    $.ajax({
+        $.ajax({
     type: 'GET',
     url: "https://naukriyan.com/getjobs/prakharsoftwares?sector_id=1",
     success: function(response) {
         console.log(response);
 
-        var html = ``;
+        var html = '';
         $.each(response, function(index, job) {
-            var exp = '';
-            if(job.job_sector_id !== 3){
-                var exp = job.job_exp;
-            }
-            if(job.job_sector_id === 3){
-                var date = 'Last Apply date';
-            }
-            else{
-                exp = 'Experience';
-            }
+            if(job.job_skills){
 
-            if(job.main_exp==='0' && job.max_exp==='0'){
-                exp = 'Fresher';
-            }
-
-            if(job.job_sector_id === 3){
-                exp = job.last_apply_date;
+                var skillsArray = job.job_skills.split(',');
             }else{
-                exp = job.main_exp +' Yr' ;
+                var skillsArray = [];
             }
-            var cardHtml =`
-                <div class="col-md-6 col-lg-6 ">
-                    <div class="card-container border h-auto  p-2 mt-4">
+
+            var exp = '';
+            if (job.job_sector_id === 3) {
+                exp = job.last_apply_date;
+            } else {
+                if (job.main_exp === '0' && job.max_exp === '0') {
+                    exp = 'Fresher';
+                } else {
+                    exp = job.main_exp + ' Yr';
+                }
+            }
+            
+            var skillsHtml = '';
+            $.each(skillsArray, function(index, skill) {
+                skillsHtml += `
+                    <div class="col-6 col-sm-4">
+                        <p class="info">${skill}</p>
+                    </div>
+                `;
+            });
+
+            var cardHtml = `
+                <div class="col-md-6 col-lg-6">
+                    <div class="card-container border h-auto p-2 mt-4">
                         <div class="row pt-3 job-description">
                             <div class="col-6 img-container text-left">
                                 <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
                             </div>
                             <div class="col-6 text-right">
-
-                            <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
-                            <button type="button" class="btn btn-dark apply-now ">
-                               <span class="text-white">Job Description</span><i class="fa fa-arrow-circle-right " aria-hidden="true"
-                                            style="color: white;"></i>
-                            </button>
-
-                            </a>
+                                <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
+                                    <button type="button" class="btn btn-dark apply-now">
+                                        <span class="text-white">Job Description</span>
+                                        <i class="fa fa-arrow-circle-right" aria-hidden="true" style="color: white;"></i>
+                                    </button>
+                                </a>
                             </div>
-                        
                         </div>
                         <div class="row mt-2">
                             <div class="col-12 text-left mt-4 mb-4">
@@ -485,69 +489,51 @@ $(document).ready(function(){
                         </div>
                         <!-- Skills -->
                         <div class="row">
-                            <div class="col-6 col-sm-3 ">
-                                <p class="info" class="info">Infographics</p>
-                            </div>
-                            <div class="col-6 col-sm-3">
-                                <p class="info">Infographics</p>
-                            </div>
-                            <div class="col-6 col-sm-3">
-                                <p class="info">Infographics</p>
-                            </div>
-                            <div class="col-6 col-sm-3">
-                                <p class="info">Infographics</p>
-                            </div>
-                        </div>
-                        <div class="row" style="margin-bottom:-3px;">
-                            <div class="col-6 col-sm-3">
-                                <p class="info">Infographics</p>
-                            </div>
-                            <div class="col-6 col-sm-3">
-                                <p class="info">Infographics</p>
-                            </div>
+                            ${skillsHtml}
                         </div>
                         <!-- Personal Information section -->
                         <div class="row">
                             <div class="col-12 col-sm-6 personal-info mb-2">
                                 <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                <p>${job.job_exp}</p>
+                                <p>${exp}</p>
                             </div>
-                            <div class="col-12  col-sm-6 personal-info  mb-2">
+                            <div class="col-12 col-sm-6 personal-info mb-2">
                                 <span><i class="fa fa-inr" aria-hidden="true"></i></span>
-                                <p>50000 /<span>Month</span></p>
+                                <p>Not Disclosed</p>
                             </div>
-                            <div class="col-12  col-sm-6 personal-info  calender">
+                            <div class="col-12 col-sm-6 personal-info calender">
                                 <span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span>
-                                <p>06/09/2024</p>
+                                <p>${job.created_at}</p>
                             </div>
-                            <div class="col-12  col-sm-6 personal-info  calender">
+                            <div class="col-12 col-sm-6 personal-info calender">
                                 <span><i class="fa fa-briefcase" aria-hidden="true"></i></span>
-                                <p> ${job.main_exp} - ${job.max_exp} <span> Years Exp</span></p>
+                                <p>${job.main_exp} - ${job.max_exp} <span> Years Exp</span></p>
                             </div>
                         </div>
                         <div class="row btn-container">
                             <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
-                            <button type="button" class="btn btn-dark apply-now ">
-                                <i class="fa fa-file-text-o text-white" aria-hidden="true"
-                                    style="position: absolute; left: 22px; top: 18px;"></i> <span class="text-white">Apply Now</span>
-                            </button>
-
+                                <button type="button" class="btn btn-dark apply-now">
+                                    <i class="fa fa-file-text-o text-white" aria-hidden="true" style="position: absolute; left: 22px; top: 18px;"></i>
+                                    <span class="text-white">Apply Now</span>
+                                </button>
                             </a>
-                            <a href="https://api.whatsapp.com/send/?phone=9953224031&text=I+am+interested+in+your+job+of+${job.title}" target="_blank"> 
+                            <a href="https://api.whatsapp.com/send/?phone=${job.com_contact}&text=I+am+interested+in+your+job+of+${job.title}" target="_blank">
                                 <button type="button" class="btn btn-success chatRecuriter recruiter-btn">
-                                        <i class="fa fa-whatsapp text-white" aria-hidden="true"></i> <span class="text-white">Chat With Recuriter</span>
+                                    <i class="fa fa-whatsapp text-white" aria-hidden="true"></i>
+                                    <span class="text-white">Chat With Recruiter</span>
                                 </button>
                             </a>
                         </div>
                     </div>
                 </div>`;
-            html += cardHtml; 
+            html += cardHtml;
         });
         $("#career_id").append(html);
     }
-});
 
     });
+
+});
 
     $("button").click(function(){
         $("p").toggle();
