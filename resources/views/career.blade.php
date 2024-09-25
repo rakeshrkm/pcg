@@ -26,7 +26,8 @@
                         <!--    <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile"-->
                         <!--        type="button" role="tab" aria-controls="profile" aria-selected="false">Achievement</button>-->
                         <!--</li>-->
-                    </ul>
+                    </ul> 
+                    
                     <div class="tab-content" id="myTabContent">
                         <!--<div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">-->
                         <!--    <p class="content mt-4"></p>-->
