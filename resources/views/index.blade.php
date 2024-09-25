@@ -48,7 +48,7 @@
                     <h2>About Prakhar Consulting Group </h2>
                 </div>
                 <div >
-                    <img src="{{ asset('assets/img/FCBO.JPG') }}" width="600" height="200"  alt="permanent staffing" title="permanent staffing">
+                    <img src="{{ asset('assets/img/FCBO.jfif') }}" width="600" height="200"  alt="permanent staffing" title="permanent staffing">
 
                 </div>
 
@@ -60,13 +60,11 @@
                 </strong>
                 <br /> <br />
                 
-                 <p>Welcome to Prakhar Consulting Group – Your Partner in Transforming Talent Acquisition. 
-                 </p>
-                 
-                 <p>Whether you're seeking top-tier talent or a fulfilling career opportunity, we bridge the gap with our industry-leading recruitment solutions.</p>
-                 
+                 <p class="font-weight-bold text-center text-xl">Welcome to Prakhar Consulting Group – Your Partner in Transforming Talent Acquisition. 
+                    <br><span>Whether you're seeking top-tier talent or a fulfilling career opportunity, we bridge the gap with our industry-leading recruitment solutions.</span>
+                 </p>                 
                 <p class="gap" data-gap-bottom="30">
-                    Prakhar Consulting Group, a subsidiary of Prakhar Software Solutions Pvt. Ltd., is a premier consulting firm specializing in IT recruitment, consulting, and comprehensive business solutions. With a dynamic team of over 2200 professionals and a decade of industry leadership, we are dedicated to delivering excellence and innovation to our clients across India.
+                    Prakhar Consulting Group, a subsidiary of Prakhar Software Solutions Pvt.Ltd, is a premier consulting firm specializing in IT recruitment, consulting, and comprehensive business solutions , with a dynamic team of over 2200 professionals and a decade of industry leadership, we are dedicated to delivering excellence and innovation to our clients across India.
                 </p>
             </div>
             <div class="col-md-12 text-center">
@@ -108,7 +106,7 @@
     </div>
 </section>
 
-<section class="section pt-5 container" id="ourservices">
+<section class="section pt-3 container" id="ourservices">
     <div class="heading-title text-center">
         <h2>Key Services Overview</h2>
     </div>
@@ -272,8 +270,9 @@
 
 
 
-<section class="section padtopzero clientsbackground d-none d-lg-block">
-    <div class="container">
+
+
+    {{-- <div class="container">
         <div class="col-md-12">
             <div class="heading-title text-center">
                 <h2><strong class="text-color">Featured Clients</strong></h2>
@@ -368,13 +367,83 @@
                 </a>
             </div>
         </div>
+    </div> --}}
+ <div class="container">
+        <div class="col-md-12">
+            <div class="heading-title text-center">
+                <h2><strong class="text-color">Featured Clients</strong></h2>
+                <p>Some of the brands we work with</p>
+            </div>
+        </div>
+ </div>
+
+    <div class="body">
+        <div class="slider">
+            <div class="slide-track">
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/1Point1-Logo.png') }}" alt="slide 1">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/Boond-Logo.png') }}" alt="slide 2">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/siyaram logo.png') }}" alt="slide 3">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/Shaadi.jpg') }}" alt="slide 4">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/Element.jpg') }}" alt="slide 5">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/planet electric.png') }}" alt="slide 6">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/uttam toyota.png') }}" alt="slide 7">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/habitat design.png') }}" alt="slide 8">
+                </div> 
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/ishan-logo.png') }}" alt="slide 9">
+                </div> 
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/logo.png') }}" alt="slide 10">
+                </div> 
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/moglix-logo.png') }}" alt="slide 12">
+                </div> 
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/netsys.jpeg') }}" alt="slide 13">
+                </div> 
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/vishal builders.png') }}" alt="slide 14">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/swarovski.jpg') }}" alt="slide 14">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/sncone.jpg') }}" alt="slide 14">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/thrive co.png') }}" alt="slide 14">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/trending runks.png') }}" alt="slide 14">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/vencore global.png') }}" alt="slide 14">
+                </div>
+                <div class="slide">
+                    <img class="img-fluid mx-auto d-block" src="{{ asset('assets/img/lmsclients/ymy infratech.png') }}" alt="slide 14">
+                </div> 
+            </div>
+        </div>
     </div>
-</section>
-
-
+    
 <section class="section pt-5 container" id="ourservices">
     <div class="heading-title text-center">
-        <h2>Latest Blog/News</h2>
+        <h2>Latest Blog / News</h2>
     </div>
     <div class="row">
         <div class="col-md-12">
@@ -423,7 +492,7 @@
 </section>
 
 
-<section class="section padtopzero clientsbackground d-sm-none">
+{{-- <section class="section padtopzero clientsbackground d-sm-none">
     <div class="container">
         <div class="wptb-heading--subtitle two wow fadeInUp text-center" style="visibility: visible; animation-name: fadeInUp;">Some of the brands we work with</div>
         <div class="wptb-heading--title bluecolor clientshea wow fadeInUp text-center" style="visibility: visible; animation-name: fadeInUp;">100+ Corporate Clientele</div>
@@ -508,7 +577,7 @@
         </div>
 
     </div>
-</section>
+</section> --}}
 
 <!-- partial:index.partial.html -->
 <section class="testimonial-area">
@@ -526,7 +595,7 @@
 
         <div class="testimonial-content owl-carousel">
             <!-- Single Testimonial -->
-             <div class="single-testimonial">
+             {{-- <div class="single-testimonial">
                 <div class="round-1 round"></div>
                 <div class="round-2 round"></div>
                 <p>"Working with Prakhar Consulting Group (PCG) has been an exceptional experience. Their tailored approach ensured that we found the perfect blend of skills and experience needed to drive our business forward." </p>
@@ -566,7 +635,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div> --}}
             <!-- Single Testimonial -->
             <div class="single-testimonial">
                 <div class="round-1 round"></div>
@@ -1079,7 +1148,7 @@
        <div class="cta">
           <div class="row align-items-center">
              <div class="col-lg-7">
-                <h4 class="newstitle cta1 mt-5" style="visibility: visible; animation-name: fadeInLeft;">We're not just hiring <br> We're solving!</h4>
+                <h4 class="newstitle  mt-5">We're not just hiring <br> We're solving!</h4>
                 <p class="color--white cta2">Overcome all the challenges in the staffing processes with our world-class staffing solutions that help you discover top global talent, train them for your requirements, and get  onboarded in less than a week!</p>
                 <div class="cta2 mb-5"><a href="#enquiry" class="btn">Get Started Now <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a></div>
              </div>

@@ -58,9 +58,9 @@
                     <div class="header-logo">
                         <a href="{{route('index')}}">
                             {{-- <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" loading="lazy" width="250" height="42" /> --}}
-                            <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
-                            <img class="logo-responsive" src="{{ asset('assets/img/pcg-logo.jpg') }}" alt="logo" loading="lazy" width="300" height="200" />
-                            <img class="logo-sticky" src="{{ asset('assets/img/pcg-logo.jpg') }}" alt="logo" loading="lazy" width="300" height="200" />
+                            <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
+                            <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
+                            <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
                         </a>
                     </div>
                     <nav class="menu-container">

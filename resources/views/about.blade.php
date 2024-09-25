@@ -43,15 +43,11 @@
     </div>
 </section>
 
-<section class="section pt-2 container" id="ourservices">
+{{-- <section class="section pt-2 container" id="ourservices">
     <div class="heading-title text-center">
         <h2>Our Mission & Vision</h2>
     </div>
-
     <p>At Prakhar Consulting Group, our mission is to empower businesses with exceptional talent while helping individuals find their ideal career paths. We envision a future where recruitment is not just about filling positions but fostering lasting relationships.</p>
-
-
-
     <div class="col-md-12 col-lg-12">
         <h3>Our Values</h3>                       
         <div class="row">
@@ -82,10 +78,48 @@
             </div>
         </div>
     </div>
+</section> --}}
+
+<section class="section pt-2 container" id="ourservices">
+    <div class="heading-title text-center">
+        <h2>Our Mission & Vision</h2>
+        <p>At Prakhar Consulting Group, our mission is to empower businesses with exceptional talent while helping individuals find their ideal career paths. We envision a future where recruitment is not just about filling positions but fostering lasting relationships.</p>
+    </div>
+    <div class="row">
+        <div class="col-md-6 col-lg-5 border shadow p-3 mb-5 bg-white rounded">
+            <div class="content-box left small">
+                <div class="icon-shape-disable">
+                    <img src="{{ asset('assets/img/vision-icon.png') }}">
+                </div>
+                <h5 class="disableh5">Our Vision</h5>
+                <p class="mt-2">"To be the leading recruitment and consulting firm known for excellence, innovation, and integrity."</p>
+            </div>
+        </div>
+        <div class="col-md-6 col-lg-5  hover:border shadow p-3 mb-5 bg-white rounded ml-5">
+            <div class="content-box left small no-margin">
+                <div class="icon-shape-disable">
+                    <img src="{{ asset('assets/img/mission-icon.png') }}">
+                </div>
+                    <h5 class="disableh5">Our Mission</h5>
+                <p class="mt-2">"To empower businesses with strategic recruitment solutions that drive success and foster long-term growth."</p>
+            </div>
+        </div>
+    </div>
+    <div class="row mt-5">
+        <div class="col-md-12 col-lg-6">   
+            <ul>
+                <li><span class="whatwedotitile">Excellence : </span>We strive for the highest standards in everything we do.</li>
+                <li><span class="whatwedotitile">Integrity : </span>We uphold transparency and honesty in all our dealings.</li>
+                <li><span class="whatwedotitile">Innovation : </span>We constantly seek new ways to solve challenges and create value.</li>
+                <li><span class="whatwedotitile">Collaboration : </span>We believe in building strong, lasting partnerships with our clients.</li>
+            </ul>
+        </div>
+    </div>
 </section>
 
 
-<section class="section pt-2 container" id="ourservices">
+
+<section class="section pt-2 container" id="ourservices" >
     <div class="heading-title text-center">
         <h2>The Prakhar Consulting Group Story</h2>
     </div>
@@ -97,10 +131,10 @@
 </section>
 
 
-<section class="pt-5" id="casestudy">
+{{-- <section class="pt-5" id="casestudy">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row border bg-dark">
+            <div class="col-md-12 border bg-success">
                 <div class="heading-title text-center">
                     <h2><strong class="text-color">Why Choose Prakhar Consulting Group?</strong></h2>
                     
@@ -171,6 +205,90 @@
                         <h5><a href="#">Rapid and Reliable Results</a>
                         </h5>
                         <p>We guarantee reduced attrition and swift turnaround times, ensuring success for our clients.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> --}}
+
+<section class="pt-5" id="casestudy">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="heading-title text-center">
+                    <h2><strong class="text-color">Why Choose Prakhar Consulting Group?</strong></h2>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-12 col-lg-6">
+                <div class="feature icon-right">
+                    <img src="{{ asset('assets/img/cs1.png') }}" alt="Successful Alicloud Training with Lab
+                    Despite Alicloud Policy Change" title="Successful Alicloud Training with Lab
+                    Despite Alicloud Policy Change" />
+                    <div class="feature-content">
+                        <span><a href="#" class="font-weight-bold">Decade of Excellence</a></span>
+                        <p>With over ten years in the industry, PCG has established itself as a leader in IT consulting and recruitment services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="feature icon-right">
+                    <img src="{{ asset('assets/img/cs3.png') }}" alt="Condensed 12-hour DataStage
+                    Training With Labs Service" title="Condensed 12-hour DataStage
+                    Training With Labs Service" />
+                    <div class="feature-content">
+                        <span><a href="#" class="font-weight-bold">Extensive Professional Network</a></span>
+                        <p>Access to a database of over 300,000 resumes and a LinkedIn network exceeding 100,000 professionals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <div class="feature icon-right">
+                    <img src="{{ asset('assets/img/cs1.png') }}" alt="Successful Alicloud Training with Lab
+                    Despite Alicloud Policy Change" title="Successful Alicloud Training with Lab
+                    Despite Alicloud Policy Change" />
+                    <div class="feature-content">
+                        <span><a href="#" class="font-weight-bold">Decade of Excellence</a></span>
+                        <p>With over ten years in the industry, PCG has established itself as a leader in IT consulting and recruitment services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="feature icon-right">
+                    <img src="{{ asset('assets/img/cs3.png') }}" alt="Condensed 12-hour DataStage
+                    Training With Labs Service" title="Condensed 12-hour DataStage
+                    Training With Labs Service" />
+                    <div class="feature-content">
+                        <span><a href="#" class="font-weight-bold">Extensive Professional Network</a></span>
+                        <p>Access to a database of over 300,000 resumes and a LinkedIn network exceeding 100,000 professionals.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 col-lg-6">
+                <div class="feature icon-right">
+                    <img src="{{ asset('assets/img/cs1.png') }}" alt="Successful Alicloud Training with Lab
+                    Despite Alicloud Policy Change" title="Successful Alicloud Training with Lab
+                    Despite Alicloud Policy Change" />
+                    <div class="feature-content">
+                        <span><a href="#" class="font-weight-bold">Decade of Excellence</a></span>
+                        <p>With over ten years in the industry, PCG has established itself as a leader in IT consulting and recruitment services.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <div class="feature icon-right">
+                    <img src="{{ asset('assets/img/cs3.png') }}" alt="Condensed 12-hour DataStage
+                    Training With Labs Service" title="Condensed 12-hour DataStage
+                    Training With Labs Service" />
+                    <div class="feature-content">
+                        <span><a href="#" class="font-weight-bold">Extensive Professional Network</a></span>
+                        <p>Access to a database of over 300,000 resumes and a LinkedIn network exceeding 100,000 professionals.</p>
                     </div>
                 </div>
             </div>

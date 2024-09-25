@@ -4,7 +4,7 @@
             <div class="col-md-3">
                 <div class="footer-logo">
                     <a href="#">
-                        <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="Footer Logo" width="271" height="100" />
+                        <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="Footer Logo" width="271" height="100" />
                     </a>
                 </div>
             </div>
