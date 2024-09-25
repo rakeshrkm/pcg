@@ -11,7 +11,7 @@
     </div>
 </div>
 <section class="section">
-    <div class="container">
+    <div class="container"> 
         <div class="row">
             <div class="col-md-12 text-center">
                 <span style="font-size:28px;" class="text-center">
