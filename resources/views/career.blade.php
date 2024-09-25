@@ -17,7 +17,7 @@
                         <!--    <button class="nav-link active" id="home-tab" data-toggle="tab"-->
                         <!--        data-target="#home" type="button" role="tab" aria-controls="home"-->
                         <!--        aria-selected="true">Products</button>-->
-                    <!--</li>-->
+                       <!--</li>-->
                          <li class="nav-item" role="presentation">
                             <button class="nav-link w-100" id="event-tab" data-toggle="tab" data-target="#event"
                                 type="button" role="tab" aria-controls="profile" aria-selected="false">Job Opening</button>
