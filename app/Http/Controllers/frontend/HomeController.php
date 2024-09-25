@@ -34,4 +34,19 @@ class HomeController extends Controller
     public function career(){
         return view('career');
     }
+
+    public function recruitmentServices(){
+        return view('recruitment_services');
+    }
+
+    public function trainingAndDevelopment(){
+        return view('training_development');
+    }
+
+    public function consultingServices(){
+        return view('consulting_services');
+    }
+    public function otherServices(){
+        return view('other_services');
+    }
 }

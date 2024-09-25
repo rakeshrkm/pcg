@@ -74,15 +74,15 @@
                             <li>
                                 <a href="{{route('services')}}">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul>
-                                    <li><a href="#recruitment-Services">Recruitment Services</a></li>
+                                    <li><a href="{{route('recruitmentServices')}}">Recruitment Services</a></li>
                                     <li>
-                                        <a href="#training-and-Development">Training and Development</a>
+                                        <a href="{{route('trainingAndDevelopment')}}">Training and Development</a>
                                     </li>
                                     <li>
-                                        <a href="#consulting-services"> Consulting Services</a>
+                                        <a href="{{route('consultingServices')}}"> Consulting Services</a>
                                     </li>
                                     <li>
-                                        <a href="#other-services"> Other Services</a>
+                                        <a href="{{route('otherServices')}}"> Other Services</a>
                                     </li>
                                 </ul>
                             </li>
@@ -172,15 +172,15 @@
                             <li>
                                 <a href="{{route('services')}}">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul>
-                                    <li><a href="#recruitment-Services">Recruitment Services</a></li>
+                                    <li><a href="{{route('recruitmentServices')}}">Recruitment Services</a></li>
                                     <li>
-                                        <a href="#training-and-Development">Training and Development</a>
+                                        <a href="{{route('trainingAndDevelopment')}}">Training and Development</a>
                                     </li>
                                     <li>
-                                        <a href="#consulting-services"> Consulting Services</a>
+                                        <a href="{{route('consultingServices')}}"> Consulting Services</a>
                                     </li>
                                     <li>
-                                        <a href="#other-services"> Other Services</a>
+                                        <a href="{{route('otherServices')}}"> Other Services</a>
                                     </li>
                                 </ul>
                             </li>

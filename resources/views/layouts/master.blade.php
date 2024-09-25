@@ -1904,7 +1904,7 @@ opacity: 0.3;
 
     </script>
     <!--bottom popup-->
-    <div class="modal fade cookie-box" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <!-- <div class="modal fade cookie-box" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
                 <div class="modal-header">
@@ -1922,21 +1922,21 @@ opacity: 0.3;
                                     <input type="text" placeholder="Your Name*" name="name" required="" class="form-control">
                                 </div>
                             </div>
-                            <!--  col-md-6   -->
+                           
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Phone Number<span class="required">*</span></label>
                                     <input type="text" minlength="10" maxlength="10" onkeypress="return isNumberKey(event)" name="phone_no" id="phone_no" pattern=".{10,10}" placeholder="Your Number*" class="form-control" required="">
                                 </div>
                             </div>
-                            <!--  col-md-6   -->
+                           
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Email address<span class="required">*</span></label>
                                     <input type="email" placeholder="Your Mail*" name="mail" required="" class="form-control">
                                 </div>
                             </div>
-                            <!--  col-md-6   -->
+                           
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <label>Our services <span class="required">*</span></label>
@@ -1950,28 +1950,28 @@ opacity: 0.3;
                                     </select>
                                 </div>
                             </div>
-                            <!--  col-md-6   -->
+                           
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <label>Message<span class="required">*</span></label><br>
                                     <textarea style="height:45px;" class="form-control" placeholder="Comments" name="comment" rows="2" required="" onpaste="return false;" maxlength="300"></textarea>
                                 </div>
                             </div>
-                            <!--  col-md-6   -->
+                           
                             <div class="col-md-12">
                                 <div class="form-group">
                                     <div class="g-recaptcha" data-sitekey="6LeQ9MYaAAAAAFdlplefv5LaRD8DT_f5ZHvWVLqs" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
                                    
                                 </div>
                             </div>
-                            <!--  col-md-6   -->
+                           
                         </div>
                         <div align="center"><input type="submit" name="submit" class="btn btn-defaul text-white" id="form_popup_submit" value="Submit"></div>
                     </form>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!--bottom popup-->
 </body>
 </html>
