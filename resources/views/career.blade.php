@@ -18,10 +18,7 @@
                         <!--        data-target="#home" type="button" role="tab" aria-controls="home"-->
                         <!--        aria-selected="true">Products</button>-->
                        <!--</li>-->    
-                         <li class="nav-item" role="presentation">
-                            <button class="nav-link w-100" id="event-tab" data-toggle="tab" data-target="#event"
-                                type="button" role="tab" aria-controls="profile" aria-selected="false">Job Opening</button>
-                        </li>
+                         <h4 class="font-weight-bold">Job Openings</h4>
                         <!--<li class="nav-item" role="presentation">-->
                         <!--    <button class="nav-link" id="profile-tab" data-toggle="tab" data-target="#profile"-->
                         <!--        type="button" role="tab" aria-controls="profile" aria-selected="false">Achievement</button>-->
@@ -374,6 +371,16 @@
 
                               
                             </div>
+                            <div id="loader" style="display: none;">
+                                <section class="dots-container">
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                    <div class="dot"></div>
+                                </section>
+                            </div>
+                            
                         </div>
                         </div>
                     </div> 
@@ -432,112 +439,116 @@ $(document).ready(function(){
     //     })
 
     // $("#event-tab").click(function(){
-        $.ajax({
-    type: 'GET',
-    url: "https://naukriyan.com/getjobs/prakharsoftwares?sector_id=1",
-    success: function(response) {
-        console.log(response);
 
-        var html = '';
-        $.each(response, function(index, job) {
-            if(job.job_skills){
+    $(document).ready(function() {
+    // Show loader
+    $("#loader").show();
 
-                var skillsArray = job.job_skills.split(',');
-            }else{
-                var skillsArray = [];
-            }
+    $.ajax({
+        type: 'GET',
+        url: "https://naukriyan.com/getjobs/prakharsoftwares?sector_id=1",
+        success: function(response) {
+            console.log(response);
+            var html = '';
 
-            var exp = '';
-            if (job.job_sector_id === 3) {
-                exp = job.last_apply_date;
+            if (response) {
+                $.each(response, function(index, job) {
+                    var skillsArray = job.job_skills ? job.job_skills.split(',') : [];
+
+                    var exp = '';
+                    if (job.job_sector_id === 3) {
+                        exp = job.last_apply_date;
+                    } else {
+                        exp = (job.main_exp === '0' && job.max_exp === '0') ? 'Fresher' : job.main_exp + ' Yr';
+                    }
+
+                    var skillsHtml = '';
+                    $.each(skillsArray, function(index, skill) {
+                        skillsHtml += `
+                            <div class="col-6 col-sm-4">
+                                <p class="info">${skill}</p>
+                            </div>
+                        `;
+                    });
+
+                    var cardHtml = `
+                        <div class="col-md-6 col-lg-6">
+                            <div class="card-container border h-auto p-2 mt-4">
+                                <div class="row pt-3 job-description">
+                                    <div class="col-6 img-container text-left">
+                                        <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
+                                    </div>
+                                    <div class="col-6 text-right">
+                                        <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
+                                            <button type="button" class="btn btn-dark apply-now">
+                                                <span class="text-white">Job Description</span>
+                                                <i class="fa fa-arrow-circle-right" aria-hidden="true" style="color: white;"></i>
+                                            </button>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="row mt-2">
+                                    <div class="col-12 text-left mt-4 mb-4">
+                                        <h5>${job.title}</h5>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    ${skillsHtml}
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-sm-6 personal-info mb-2">
+                                        <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                        <p>${exp}</p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 personal-info mb-2">
+                                        <span><i class="fa fa-inr" aria-hidden="true"></i></span>
+                                        <p>Not Disclosed</p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 personal-info calender">
+                                        <span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span>
+                                        <p>${job.created_at}</p>
+                                    </div>
+                                    <div class="col-12 col-sm-6 personal-info calender">
+                                        <span><i class="fa fa-briefcase" aria-hidden="true"></i></span>
+                                        <p>${job.main_exp} - ${job.max_exp} <span> Years Exp</span></p>
+                                    </div>
+                                </div>
+                                <div class="row btn-container">
+                                    <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
+                                        <button type="button" class="btn btn-dark apply-now">
+                                            <i class="fa fa-file-text-o text-white" aria-hidden="true" style="position: absolute; left: 22px; top: 18px;"></i>
+                                            <span class="text-white">Apply Now</span>
+                                        </button>
+                                    </a>
+                                    <a href="https://api.whatsapp.com/send/?phone=${job.com_contact}&text=I+am+interested+in+your+job+of+${job.title}" target="_blank">
+                                        <button type="button" class="btn btn-success chatRecuriter recruiter-btn">
+                                            <i class="fa fa-whatsapp text-white" aria-hidden="true"></i>
+                                            <span class="text-white">Chat With Recruiter</span>
+                                        </button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>`;
+                    html += cardHtml;
+                });
+                $("#career_id").append(html);
             } else {
-                if (job.main_exp === '0' && job.max_exp === '0') {
-                    exp = 'Fresher';
-                } else {
-                    exp = job.main_exp + ' Yr';
-                }
+                $("#career_id").append("<h1>No jobs found</h1>");
             }
+        },
+        error: function() {
+            $("#career_id").append("<h1>Error fetching data</h1>");
+        },
+        complete: function() {
             
-            var skillsHtml = '';
-            $.each(skillsArray, function(index, skill) {
-                skillsHtml += `
-                    <div class="col-6 col-sm-4">
-                        <p class="info">${skill}</p>
-                    </div>
-                `;
-            });
-
-            var cardHtml = `
-                <div class="col-md-6 col-lg-6">
-                    <div class="card-container border h-auto p-2 mt-4">
-                        <div class="row pt-3 job-description">
-                            <div class="col-6 img-container text-left">
-                                <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
-                            </div>
-                            <div class="col-6 text-right">
-                                <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
-                                    <button type="button" class="btn btn-dark apply-now">
-                                        <span class="text-white">Job Description</span>
-                                        <i class="fa fa-arrow-circle-right" aria-hidden="true" style="color: white;"></i>
-                                    </button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="row mt-2">
-                            <div class="col-12 text-left mt-4 mb-4">
-                                <h5>${job.title}</h5>
-                            </div>
-                        </div>
-                        <!-- Skills -->
-                        <div class="row">
-                            ${skillsHtml}
-                        </div>
-                        <!-- Personal Information section -->
-                        <div class="row">
-                            <div class="col-12 col-sm-6 personal-info mb-2">
-                                <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                <p>${exp}</p>
-                            </div>
-                            <div class="col-12 col-sm-6 personal-info mb-2">
-                                <span><i class="fa fa-inr" aria-hidden="true"></i></span>
-                                <p>Not Disclosed</p>
-                            </div>
-                            <div class="col-12 col-sm-6 personal-info calender">
-                                <span><i class="fa fa-calendar-check-o" aria-hidden="true"></i></span>
-                                <p>${job.created_at}</p>
-                            </div>
-                            <div class="col-12 col-sm-6 personal-info calender">
-                                <span><i class="fa fa-briefcase" aria-hidden="true"></i></span>
-                                <p>${job.main_exp} - ${job.max_exp} <span> Years Exp</span></p>
-                            </div>
-                        </div>
-                        <div class="row btn-container">
-                            <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
-                                <button type="button" class="btn btn-dark apply-now">
-                                    <i class="fa fa-file-text-o text-white" aria-hidden="true" style="position: absolute; left: 22px; top: 18px;"></i>
-                                    <span class="text-white">Apply Now</span>
-                                </button>
-                            </a>
-                            <a href="https://api.whatsapp.com/send/?phone=${job.com_contact}&text=I+am+interested+in+your+job+of+${job.title}" target="_blank">
-                                <button type="button" class="btn btn-success chatRecuriter recruiter-btn">
-                                    <i class="fa fa-whatsapp text-white" aria-hidden="true"></i>
-                                    <span class="text-white">Chat With Recruiter</span>
-                                </button>
-                            </a>
-                        </div>
-                    </div>
-                </div>`;
-            html += cardHtml;
-        });
-        $("#career_id").append(html);
-    }
-
+            $("#loader").hide();
+        }
     });
+});
+
 
 });
 
-    $("button").click(function(){
-        $("p").toggle();
-    });
+    
     </script>
 @endsection

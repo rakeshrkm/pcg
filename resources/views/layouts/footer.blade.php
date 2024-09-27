@@ -1,11 +1,21 @@
-<footer id="footer" style="background-color: linear-gradient(to right, rgb(255, 228, 230), rgb(204, 251, 241))">
+<footer id="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <div class="footer-logo">
-                    <a href="#">
-                        <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="Footer Logo" width="271" height="100" />
-                    </a>
+                    <h6 class="footer-title">Quick Links</h6>
+                    <ul class="me-list">
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Privacy Policy</a></li>
+                        <!--li><a href="https://www.mazenet.com/accreditation.php"><i class="fa fa-angle-right"></i> Accreditations</a></li-->
+                        <li><a href="#"><i class="fa fa-angle-right"></i> Terms & Condition</a></li>
+                        <!--<li><a href="https://www.mazenet.com/sitemap"><i class="fa fa-angle-right"></i> Sitemap</a> </li>-->
+                    </ul>
+                    <h6 class="footer-title">Engage with us</h6>
+                <ul class="me-list">
+                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i> &nbsp;Career</a></li>
+                    {{-- <li><a href="#"><i class="fa fa-angle-right"></i> Careers <span class="badge bg-success ms-2">We're hiring</span></a> </li> --}}
+                    <!--li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Hire from us</a></li-->
+                </ul>
                 </div>
             </div>
             <div class="col-md-3">
@@ -15,29 +25,18 @@
                     <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i> &nbsp;Training & Development</a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Consulting Services</a></li>
                 </ul>
-                <h6 class="footer-title">Quick Links</h6>
-                <ul class="me-list">
-                    <li><a href="#"><i class="fa fa-angle-right"></i> Privacy Policy</a></li>
-                    <!--li><a href="https://www.mazenet.com/accreditation.php"><i class="fa fa-angle-right"></i> Accreditations</a></li-->
-                    <li><a href="#"><i class="fa fa-angle-right"></i> Terms & Condition</a></li>
-                    <!--<li><a href="https://www.mazenet.com/sitemap"><i class="fa fa-angle-right"></i> Sitemap</a> </li>-->
-                </ul>
+                
             </div>
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <h6 class="footer-title">Links</h6>
                 <ul class="me-list">
                     <li><a href="{{ route('about') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; About Us</a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contact Us</a></li>
                     <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Our Approach</a></li>
                 </ul>
-                <h6 class="footer-title">Engage with us</h6>
-                <ul class="me-list">
-                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i> &nbsp;Career</a></li>
-                    {{-- <li><a href="#"><i class="fa fa-angle-right"></i> Careers <span class="badge bg-success ms-2">We're hiring</span></a> </li> --}}
-                    <!--li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Hire from us</a></li-->
-                </ul>
+                
             </div>
-            <div class="col-md-3">
+            <div class="col-md-4">
                 <h6 class="footer-title">Get In Touch</h6>
                 <p>
                     <strong><img src="{{ asset('assets/img/mail.png') }}" alt="mail id" width="40" height="40"></strong>
@@ -45,13 +44,13 @@
                     <strong><img src="{{ asset('assets/img/phone.png') }}" alt="phone" width="40" height="40"></strong>
                     <a href="tel:8826665843">+91 88266 65843</a> |
                     <a href="tel:8826665843">
-                        &nbsp;&nbsp;+91 8826665843</a> <br />
+                    +91 8826665843</a> <br />
                     <strong><img src="{{ asset('assets/img/location.png') }}" alt="address" width="40" height="40"></strong>
 
                     <a href="#" target="_blank"> Delhi</a> |
                     <a href="#" target="_blank"> India</a> |
                     <a href="#" target="_blank">110020 </a>
-                    <ul class="header-social social-icon mt-2">
+                    <ul class="header-social social-icon   ml-5 mb-5">
                         <li>
                             <a class="facebook-color" aria-label="facebook" rel="noopener" target="_blank" href="https://www.facebook.com/prakharconsultinggroup"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>

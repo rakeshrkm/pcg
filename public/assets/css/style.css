@@ -3841,11 +3841,9 @@ border-radius: 50px;
 
 .footer-logo {
     margin-bottom: 20px;
-    text-align:center;
+   
 }
-.footer-logo img {
-     width: 216px;
-}
+
 
 .footer-bottom {
     background-color: #1a191e;
