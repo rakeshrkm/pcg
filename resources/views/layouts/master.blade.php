@@ -1901,7 +1901,12 @@ opacity: 0.3;
                 }
             , }
         , });
+        
+        $(".menu-trigger").click(){
+           alert("hello world");
+        }
 
+ 
     </script>
     <!--bottom popup-->
     <!-- <div class="modal fade cookie-box" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

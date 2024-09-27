@@ -85,7 +85,7 @@
         <h2>Our Mission & Vision</h2>
         <p>At Prakhar Consulting Group, our mission is to empower businesses with exceptional talent while helping individuals find their ideal career paths. We envision a future where recruitment is not just about filling positions but fostering lasting relationships.</p>
     </div>
-    <div class="row">
+    <div class="row px-5">
         <div class="col-md-6 col-lg-5 border shadow p-3 mb-5 bg-white rounded">
             <div class="content-box left small">
                 <div class="icon-shape-disable">
@@ -95,7 +95,7 @@
                 <p class="mt-2">"To be the leading recruitment and consulting firm known for excellence, innovation, and integrity."</p>
             </div>
         </div>
-        <div class="col-md-6 col-lg-5  hover:border shadow p-3 mb-5 bg-white rounded ml-5">
+        <div class="col-md-6 col-lg-5 border shadow p-3 mb-5 bg-white rounded ml-5">
             <div class="content-box left small no-margin">
                 <div class="icon-shape-disable">
                     <img src="{{ asset('assets/img/mission-icon.png') }}">

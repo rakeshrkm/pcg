@@ -107,11 +107,14 @@
 </section>
 
 <section class="section pt-3 container" id="ourservices">
-    <div class="heading-title text-center">
-        <h2>Key Services Overview</h2>
+    <div>
+        <h2 class="text-center">Key Services Overview</h2>
     </div>
                 
-    <p>At Prakhar Consulting Group, we offer a comprehensive suite of recruitment services tailored to meet your unique needs. From permanent staffing to executive search, we ensure you get the best talent for your business.
+    <p class="key-services">At Prakhar Consulting Group, we offer a comprehensive suite of recruitment services tailored to
+         meet your unique needs. From permanent staffing to 
+         executive search, we ensure you get the best talent for 
+         your business.
             </p>
     <div class="container">
         <div class="row">

@@ -301,28 +301,7 @@
                                     return String(num).padStart(totalLength, '0');
                                 }
 
-
-
-//                                 <!-- $(document).ready(function() { -->
-//   <!-- // Add click event to elements with class 'col' -->
-//   <!-- $('div .col').on('click', function() { -->
-//       <!-- alert(); -->
-//       <!-- $(".timeslot").remove(); -->
-//     <!-- // Create a new div with class 'row' and add it after the parent row -->
-//     <!-- var newRow = $('<div class="row timeslot"><div >New Div</div></div>
-//                                 '); --> <
-//                                 !--$(this).closest('.row').after(newRow);
-//                                 -- >
-//                                 <
-//                                 !--
-//                                 });
-//                                 -- >
-//                                 <
-//                                 !--
-//                                 });
-//                                 -- >
+                                
 
 
 
-
-// Rakesh slider css 30-08-2024

@@ -992,3 +992,15 @@
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out !important;
     
 }
+
+@media (max-width: 768px){
+  .key-services{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+
+  }
+
+}
+

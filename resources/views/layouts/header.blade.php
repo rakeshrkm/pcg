@@ -1,4 +1,5 @@
 @if(\Request::route()->getName() == 'index')
+
 <header id="header">
     <!-- header-top -->
     <div class="header-top">
@@ -63,7 +64,7 @@
                             <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
                         </a>
                     </div>
-                    <nav class="menu-container">
+                    <nav class="menu-container d-flex">
                         <ul id="menu" class="sm me-menu" >
                             <li>
                                 <a href="{{ route('index') }}">Home</a>
@@ -100,7 +101,7 @@
                             </li>
                             <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
                         </ul>
-                    </nav>
+                        </nav>
                 </div>
             </div>
         </div>
@@ -155,9 +156,9 @@
                 <div class="col-md-12">
                     <div class="header-logo">
                         <a href="index.html">
-                            <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
-                            <img class="logo-responsive" src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
-                            <img class="logo-sticky" src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
+                            <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" />
+                            <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" />
+                            <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" />
                         </a>
                     </div>
                     <nav class="menu-container" id="manuId">
@@ -219,4 +220,6 @@
         </div>
     </div>
 </header>
+
 @endif
+

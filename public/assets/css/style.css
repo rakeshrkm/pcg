@@ -1049,7 +1049,6 @@ border-radius: 50px;
         font-size: 13px;
     width: 28px;
     height: 28px;
-    line-height: 28px;
     margin-right: 0;
     color: #ffffff;
     background: #08847A;
@@ -1154,10 +1153,12 @@ border-radius: 50px;
     float: right;
     margin-right: 12px;
     padding: 34px 0 35px;
+ 
 }
 .menu-trigger span {
     position: relative;
     display: block;
+    
 }
 .menu-trigger span:before,
 .menu-trigger span:after {
