@@ -4,7 +4,7 @@
     <div class="slideshow" data-flex-fullscreen="true">
         <ul class="slides">
             <li>
-                <img src="{{ asset('assets/img/cover-image.jpg') }}" data-position-y="top" alt="Corporate Training" title="Corporate Training" />
+                <img src="{{ asset('assets/img/PCG Images/newBanner1.jpg') }}" data-position-y="top" alt="Corporate Training" title="Corporate Training" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -13,7 +13,7 @@
                                     <div class="bannertextbold" data-animate="animate__fadeInDown">"Empowering Your Business for Success with Strategic Recruitment Solutions "</div>
                                     <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white"> " Transform your hiring process with our Triad Recruitment Framework - S³ "</b></span>
                                     </h1>
-                                    {{-- <div class="bannertextbold" data-animate="animate__fadeInDown">to align with your business goals</div> --}}
+                                  
                                 </div>
                             </div>
                         </div>
@@ -21,7 +21,7 @@
                 </div>
             </li>
             <li>
-                <img src="{{ asset('assets/img/mazenet-lms-banner.webp') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
+                <img src="{{ asset('assets/img/PCG Images/newbanner_3.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -30,7 +30,24 @@
                                     <div class="bannertextbold" data-animate="animate__fadeInDown">" Empowering Your Business for Success with Strategic Recruitment Solutions "</div>
                                     <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">" Transform your hiring process with our Triad Recruitment Framework - S³ "</b></span>
                                     </h1>
-                                    {{-- <div class="bannertextbold" data-animate="animate__fadeInDown">custom solutions for peak performance</div> --}}
+                     
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <img src="{{ asset('assets/img/PCG Images/newBanner3.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
+                <div class="flex-content-wrapper1 flexttect">
+                    <div class="">
+                        <div class="container">
+                            <div class="row align-items-center">
+                                <div class="col-md-12 text-right">
+                                    <div class="bannertextbold" data-animate="animate__fadeInDown">" Empowering Your Business for Success with Strategic Recruitment Solutions "</div>
+                                    <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">" Transform your hiring process with our Triad Recruitment Framework - S³ "</b></span>
+                                    </h1>
+                                  
                                 </div>
                             </div>
                         </div>
@@ -40,6 +57,9 @@
         </ul>
     </div>
 </div>
+
+
+
 <section class="pt-2 pb-0">
     <div class="container">
         <div class="row">
@@ -120,7 +140,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/talent-solutions.webp') }}" alt="Recruitment Services" title="Recruitment Services" />
+                    <img src="{{ asset('assets/img/PCG Images/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
                     <h5 class="whatwedotitile">Recruitment Services </h5>
                 </a>
                 <p class="whatwedodecs">We specialize in strategic recruitment for high-level positions, sourcing visionary leaders to drive your organization's future success</p>
@@ -129,7 +149,7 @@
             </div>
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/corporate-training-service.webp') }}" alt="Training and Development" title="Training and Development" />
+                    <img src="{{ asset('assets/img/PCG Images/Training_development.jpg') }}" alt="Training and Development" title="Training and Development" />
                     <h5 class="whatwedotitile">Training and Development </h5>
                 </a>
                 <p class="whatwedodecs">Our tailored training programs focus on capacity building and skill enhancement to empower your workforce with the latest knowledge and expertise.</p>
@@ -137,72 +157,79 @@
             </div>
             <div class="col-md-12 col-lg-3 pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/mangeitservices.webp') }}" alt="Consulting Services" title="Consulting Services" />
+                    <img src="{{ asset('assets/img/PCG Images/consulting_services.jpg') }}" alt="Consulting Services" title="Consulting Services" />
                     <h5 class="whatwedotitile">Consulting Services </h5>
                 </a>
                 <p class="whatwedodecs">Our consulting services encompass both IT and non-IT domains, providing bespoke solutions.</p>
                 <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center"> <span class="text-white">View More</span></a>
 
             </div>
-            {{-- <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
-                <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
-                    <h5 class="whatwedotitile">Other Services </h5>
-                </a>
-                <p class="whatwedodecs">We offer cutting-edge drone technology services for surveillance, data collection, and analysis.</p>
-                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
-
-            </div> --}}
+        
+          
             
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                    <img src="{{ asset('assets/img/PCG Images/leadership_hiring.jpg') }}" alt="Other Services" title="Other Services" />
                     <h5 class="whatwedotitile">Leadership Hiring</h5>
                 </a>
                 <p class="whatwedodecs">Secure visionary leaders to guide your organization toward future success.</p>
                 <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
             </div>
-            
-             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
-                <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
-                    <h5 class="whatwedotitile">IT/Non-IT Hiring</h5>
-                </a>
-                <p class="whatwedodecs">Tailored recruitment solutions for both technical and non-technical domains.</p>
-                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+
+            <div class="row mt-5">
+                <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                    <a href="{{ route('services') }}">
+                        <img src="{{ asset('assets/img/PCG Images/it_nonit.jpg') }}" alt="Other Services" title="Other Services" />
+                        <h5 class="whatwedotitile">IT/Non-IT Hiring</h5>
+                    </a>
+                    <p class="whatwedodecs">Tailored recruitment solutions for both technical and non-technical domains.</p>
+                    <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+                </div>
+                
+                <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                    <a href="{{ route('services') }}">
+                        <img src="{{ asset('assets/img/PCG Images/campus recruitment.jpg') }}" alt="Other Services" title="Other Services" />
+                        <h5 class="whatwedotitile">Campus Recruitment</h5>
+                    </a>
+                    <p class="whatwedodecs">Connect with the brightest new talents through our comprehensive campus hiring solutions.</p>
+                    <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+                </div>
+                
+                 {{-- <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                    <a href="{{ route('services') }}">
+                        <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                        <h5 class="whatwedotitile">Training & Development</h5>
+                    </a>
+                    <p class="whatwedodecs">Enhance your team's skills with customized training programs.</p>
+                    <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+                </div> --}}
+                
+                 {{-- <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                    <a href="{{ route('services') }}">
+                        <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                        <h5 class="whatwedotitile">Consulting Services</h5>
+                    </a>
+                    <p class="whatwedodecs">Receive expert advice to optimize operational efficiency and business performance.</p>
+                    <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+                </div> --}}
+                
+                 <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
+                    <a href="{{ route('services') }}">
+                        <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
+                        <h5 class="whatwedotitile">Other Services </h5>
+                    </a>
+                    <p class="whatwedodecs">We offer cutting-edge drone technology services for surveillance, data collection, and analysis.</p>
+                    <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
+    
+                </div>
+                
+                
+                
+                
+            </div>
             </div>
             
-            <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
-                <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
-                    <h5 class="whatwedotitile">Campus Recruitment</h5>
-                </a>
-                <p class="whatwedodecs">Connect with the brightest new talents through our comprehensive campus hiring solutions.</p>
-                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
-            </div>
-            
-             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
-                <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
-                    <h5 class="whatwedotitile">Training & Development</h5>
-                </a>
-                <p class="whatwedodecs">Enhance your team's skills with customized training programs.</p>
-                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
-            </div>
-            
-             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
-                <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Other Services" title="Other Services" />
-                    <h5 class="whatwedotitile">Consulting Services</h5>
-                </a>
-                <p class="whatwedodecs">Receive expert advice to optimize operational efficiency and business performance.</p>
-                <a href="{{ route('services') }}" class="btn btn-success mt-2 text-center" > <span class="text-white">View More</span></a>
-            </div>
-            
-            
-            
-            
-        </div>
+             
     </div>
 </section>
 <div class="section testimonial-container pt-5">

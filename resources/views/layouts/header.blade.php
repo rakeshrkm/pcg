@@ -64,7 +64,7 @@
                             <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
                         </a>
                     </div>
-                    <nav class="menu-container d-flex">
+                    <nav class="menu-container">
                         <ul id="menu" class="sm me-menu" >
                             <li>
                                 <a href="{{ route('index') }}">Home</a>

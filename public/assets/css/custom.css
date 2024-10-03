@@ -1027,15 +1027,15 @@
 }
 
 .dot:nth-child(1) {
-  animation-delay: -0.3s;
+  animation-delay: -0.6s;
 }
 
 .dot:nth-child(2) {
-  animation-delay: -0.1s;
+  animation-delay: -0.1 s;
 }
 
 .dot:nth-child(3) {
-  animation-delay: 0.1s;
+  animation-delay: 0.3s;
 }
 
 @keyframes pulse {
@@ -1057,4 +1057,7 @@
     box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);
   }
 }
+
+
+
 
