@@ -4,7 +4,7 @@
     <div class="slideshow" data-flex-fullscreen="true">
         <ul class="slides">
             <li>
-                <img src="{{ asset('assets/img/PCG Images/newBanner1.jpg') }}" data-position-y="top" alt="Corporate Training" title="Corporate Training" />
+                <img src="{{ asset('assets/img/PCGImages/newBanner1.jpg') }}" data-position-y="top" alt="Corporate Training" title="Corporate Training" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -21,7 +21,7 @@
                 </div>
             </li>
             <li>
-                <img src="{{ asset('assets/img/PCG Images/newbanner_3.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
+                <img src="{{ asset('assets/img/PCGImages/newBanner_2.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -38,7 +38,7 @@
                 </div>
             </li>
             <li>
-                <img src="{{ asset('assets/img/PCG Images/newBanner3.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
+                <img src="{{ asset('assets/img/PCGImages/newBanner3.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -140,7 +140,7 @@
         <div class="row">
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/PCG Images/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
+                    <img src="{{ asset('assets/img/PCGImages/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
                     <h5 class="whatwedotitile">Recruitment Services </h5>
                 </a>
                 <p class="whatwedodecs">We specialize in strategic recruitment for high-level positions, sourcing visionary leaders to drive your organization's future success</p>
@@ -149,7 +149,7 @@
             </div>
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/PCG Images/Training_development.jpg') }}" alt="Training and Development" title="Training and Development" />
+                    <img src="{{ asset('assets/img/PCGImages/Training_development.jpg') }}" alt="Training and Development" title="Training and Development" />
                     <h5 class="whatwedotitile">Training and Development </h5>
                 </a>
                 <p class="whatwedodecs">Our tailored training programs focus on capacity building and skill enhancement to empower your workforce with the latest knowledge and expertise.</p>
@@ -157,7 +157,7 @@
             </div>
             <div class="col-md-12 col-lg-3 pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/PCG Images/consulting_services.jpg') }}" alt="Consulting Services" title="Consulting Services" />
+                    <img src="{{ asset('assets/img/PCGImages/consulting_services.jpg') }}" alt="Consulting Services" title="Consulting Services" />
                     <h5 class="whatwedotitile">Consulting Services </h5>
                 </a>
                 <p class="whatwedodecs">Our consulting services encompass both IT and non-IT domains, providing bespoke solutions.</p>
@@ -169,7 +169,7 @@
             
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                 <a href="{{ route('services') }}">
-                    <img src="{{ asset('assets/img/PCG Images/leadership_hiring.jpg') }}" alt="Other Services" title="Other Services" />
+                    <img src="{{ asset('assets/img/PCGImages/leadership_hiring.jpg') }}" alt="Other Services" title="Other Services" />
                     <h5 class="whatwedotitile">Leadership Hiring</h5>
                 </a>
                 <p class="whatwedodecs">Secure visionary leaders to guide your organization toward future success.</p>
@@ -179,7 +179,7 @@
             <div class="row mt-5">
                 <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                     <a href="{{ route('services') }}">
-                        <img src="{{ asset('assets/img/PCG Images/it_nonit.jpg') }}" alt="Other Services" title="Other Services" />
+                        <img src="{{ asset('assets/img/PCGImages/it_nonit.jpg') }}" alt="Other Services" title="Other Services" />
                         <h5 class="whatwedotitile">IT/Non-IT Hiring</h5>
                     </a>
                     <p class="whatwedodecs">Tailored recruitment solutions for both technical and non-technical domains.</p>
@@ -188,7 +188,7 @@
                 
                 <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
                     <a href="{{ route('services') }}">
-                        <img src="{{ asset('assets/img/PCG Images/campus recruitment.jpg') }}" alt="Other Services" title="Other Services" />
+                        <img src="{{ asset('assets/img/PCGImages/campus_recruitment.jpg') }}" alt="Other Services" title="Other Services" />
                         <h5 class="whatwedotitile">Campus Recruitment</h5>
                     </a>
                     <p class="whatwedodecs">Connect with the brightest new talents through our comprehensive campus hiring solutions.</p>
@@ -1183,7 +1183,7 @@
                 <div class="cta2 mb-5"><a href="#enquiry" class="btn">Get Started Now <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a></div>
              </div>
              <div class="col-lg-5 p-0">
-                <img src="{{ asset('assets/img/talent-solutions.png') }}" class="ctaimg" alt="talent solution" title="talent solution">
+                <img src="{{ asset('assets/img/PCGImages/We are not just hiring.jpg') }}" class="ctaimg" alt="talent solution" title="talent solution">
              </div>
           </div>
        </div>
