@@ -1183,7 +1183,7 @@
                 <div class="cta2 mb-5"><a href="#enquiry" class="btn">Get Started Now <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a></div>
              </div>
              <div class="col-lg-5 p-0">
-                <img src="{{ asset('assets/img/PCGImages/We are not just hiring.jpg') }}" class="ctaimg" alt="talent solution" title="talent solution">
+                <img src="{{ asset('assets/img/PCGImages/talent-solutions.png') }}" class="ctaimg" alt="talent solution" title="talent solution">
              </div>
           </div>
        </div>

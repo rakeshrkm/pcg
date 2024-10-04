@@ -374,7 +374,7 @@
 /* [tablet landscape] */
 @media only screen and (max-width: 1024px) {
     .slideshow {
-        height: 700px !important;
+        height: 500px !important;
     }
 
     .what-we-do-container:before {
@@ -411,7 +411,7 @@
 
 }
 /* [tablet portrait] */
-@media only screen and (min-width: 768px) and (max-width: 959px) {
+@media only screen and (min-width: 500px) and (max-width: 500px) {
     .no-margin-mdp {
         margin: 0 !important;
     }
@@ -432,6 +432,30 @@
         bottom: 80px;
     }
 }
+
+@media only screen and (max-width:1012px) {
+    .bannertextbold{
+        margin-top: -167px;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    color: #fff;
+    line-height: normal;
+    }
+
+    .header-social a {
+        font-size: 13px;
+    width: 28px;
+    height: 28px;
+    margin-right: 0;
+    color: #ffffff;
+    background: #08847A;
+    border-radius: 50px;
+    margin: 6px 8px 3px 5px;
+}
+
+    
+}
 /* [mobile landscape] */
 @media only screen and (min-width: 375px) and (max-width: 500px) {
 	 
@@ -449,7 +473,7 @@
 @media only screen and (min-width: 500px) and (max-width: 790px) {
 	 .bannerslide-container {
                  min-height: 400px;
-    background: url(../img/corporate-training.webp) center left no-repeat no-repeat;
+    background: url() center left no-repeat no-repeat;
     position: relative;
     margin-bottom: 50px;
     background-size: cover;
@@ -483,7 +507,7 @@
     height: 77vh;
 }
 .bannertext {
-    font-size: 22px !important;
+    font-size: 20px !important;
     color: #fff;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -491,15 +515,15 @@
     font-weight: 500;
 }
 .bannertextbold {
-    margin-top:-100px;
+    margin-top:-270px;
     font-size: 17px;
     font-weight: 500;
     font-style: normal;
     color: #fff;
-    line-height: normal;
+    line-height: 20px;
 }
     .slideshow {
-        height: 480px !important;
+        height: 250px !important;
     }
     .slideshow .btn {
         margin-bottom: 15px;
@@ -509,7 +533,7 @@
         background-size: cover;
     }
 	 .slideshow {
-        height: 380px !important;
+        height: 250px !important;
     }
 	.bannerservice-item {
     position: relative;

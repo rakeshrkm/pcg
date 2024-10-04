@@ -3050,7 +3050,7 @@ border-radius: 50px;
     position: relative;
 }
 #testibanner-header .page-title-container {
-    background: url(../img/Website-testi.jpg) no-repeat no-repeat center center;
+    background: url(../img/PCGImages/aboutus1new.png) no-repeat no-repeat center center;
     background-size: cover;
 }
 #testibanner-header .page-title {
@@ -3100,23 +3100,28 @@ border-radius: 50px;
 	   
 #page-header {
     position: relative;
+    
+    
 }
 #page-header .page-title-container {
-    background: url(../img/page-header-bg.jpg) no-repeat no-repeat center center;
-    background-size: cover;
+    background: url(../img/PCGImages/aboutussecondnew.png) no-repeat no-repeat center center;
+    
+    background-size:cover;
+   
+    
 }
 #page-header .page-title {
     margin: 0 auto;
 }
 #page-header .background-overlay {
-    width: 100%;
+    /* width: 100%;
     height: 100%;
     top: 0;
     left: 0;
     position: absolute;
     background: #000;
     opacity: 0.65;
-    z-index: 1;
+    z-index: 1; */
 }
 #page-header .post-meta,
 #page-header .heading-caption {
@@ -4588,7 +4593,9 @@ border-bottom-left-radius: 50px;
     font-style: normal;
     color: #fff;
     line-height: normal;
-}.bannertextbold1{        border-radius: 30px;    font-size: 24px;
+    
+}
+.bannertextbold1{        border-radius: 30px;    font-size: 24px;
     font-weight: 500;
     font-style: normal;
     color: #08847A;
@@ -4794,11 +4801,13 @@ border-bottom-left-radius: 50px;
     -webkit-border-radius: 0.25rem;
     border-radius: 0.25rem;
 }
-.whatwedotitile{ color: #000;
+.whatwedotitile{ 
+    color: #000;
     font-size: 17px;
-    margin-top: 5px;
-    font-weight: 600;     
-	margin-bottom: 0px;}
+    margin-top: 14px;
+    font-weight: 600;
+    margin-bottom: 9px;
+}
 .whatwedodecs{
     font-size: 13px; 
     line-height: 21px;
