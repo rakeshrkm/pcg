@@ -21,7 +21,7 @@
 </div> --}}
 <!-- Main Wrapper-->
 <main class="wrapper">
-    <section style="background: url(../404.html), #f4f8fb; background-position: right; background-repeat: no-repeat;" id="recruitment-Services">
+    <section style="background: url(../404.html), ; background-position: right; background-repeat: no-repeat;" id="recruitment-Services">
         <div class="container">
            <div class="row align-items-center">
             <div class="col-md-12">
@@ -29,7 +29,7 @@
             </div>
               <div class="col-md-7">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing">
+                    <img src="{{ asset('assets/img/ServicesImages/Recruitment-services.png') }}" alt="Recruitment-services" title="Recruitment-services">
                  </div>
               </div>
               <div class="col-md-5 order-first order-md-last">
@@ -58,11 +58,11 @@
         <div class="wptb-particle--two">
            <img src="../404.html" alt="">
         </div>
-        <div class="container">
+        <div class="container p-5">
            <div class="row align-items-center">
-              <div class="col-md-5">
+              <div class="col-md-6">
                  <div class="wptb-video-content">
-                    <div class="wptb-video-contenth2"><a href="#"><strong>Training and Development</strong></a> </div>
+                    <div class="wptb-video-contenth2"><a href="#"><strong class="lh-sm">Training and Development</strong></a> </div>
                     <ul>
                        <li><span class="whatwedotitile">Skill Development Programs :</span> Our tailored training programs focus on capacity building and skill enhancement to empower your workforce with the latest knowledge and expertise.</li>
                        <li><span class="whatwedotitile">Collaborations with Educational Institutions: </span>Through partnerships with leading engineering, management, and ITI colleges, we deliver industry-relevant training that meets specific organizational needs.</li>                      
@@ -71,9 +71,9 @@
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
                  </div>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-6">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/contract-staffing.png') }}" alt="contract staffing" title="contract staffing" style="border-radius:20px;">
+                    <img src="{{ asset('assets/img/ServicesImages/Training-and-Development.png') }}" alt="contract staffing" title="contract staffing" style="border-radius:20px;">
                  </div>
               </div>
            </div>
@@ -93,7 +93,7 @@
            <div class="row align-items-center justify-content-between">
               <div class="col-md-6">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/source-hire-train-and-deploy.png') }}" alt="source hire train and deploy" title="source hire train and deploy">
+                    <img src="{{ asset('assets/img/ServicesImages/consulting-servicesnew.png') }}" alt="source hire train and deploy" title="source hire train and deploy">
                  </div>
               </div>
               <div class="col-md-6 order-first order-md-last">
@@ -123,7 +123,7 @@
         </div>
         <div class="container">
            <div class="row align-items-center">
-              <div class="col-md-5">
+              <div class="col-md-6">
                  <div class="wptb-video-content">
                     <div class="wptb-video-contenth2"><a href="#"><strong>Other Services</strong></a> </div>
                     <ul>
@@ -137,9 +137,9 @@
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
                  </div>
               </div>
-              <div class="col-md-7">
+              <div class="col-md-6">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/train-and-hire.png') }}" alt="train and hire" title="train and hire" style="border-radius:20px;">
+                    <img src="{{ asset('assets/img/ServicesImages/other-servicesnew.png') }}" alt="train and hire" title="train and hire" style="border-radius:20px; width:75%;margin-left:60px">
                  </div>
               </div>
            </div>

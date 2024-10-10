@@ -736,6 +736,8 @@
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
   transition: box-shadow 0.3s ease;
   /* padding: 10px; */
+  height: auto;
+  border: 1px solid red;
 }
 
 .card-container:hover {
@@ -746,12 +748,71 @@
   width: 100%;
   max-width: 70px;
   height: auto;
+  align-items: center;
+  margin-left: -35px;
 }
 
+@media(max-width:321px){
+  .img-container img  {
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+    margin-left: 23px;
+    margin-top: 12px;
+    
+  }
+  .job_id{
+    padding-right: 60px;
+  }
+
+}
+
+@media(max-width:376px){
+  .img-container img  {
+    width: 100%;
+    max-width: 70px;
+    height: auto;
+    margin-left: 23px;
+    margin-top: 12px;
+    
+  }
+  .job_id{
+    padding-right: 60px;
+  }
+  .text-right{
+    margin-left: 5px;
+  }
+ 
+}
+@media(max-width:378px){
+  .text-right{
+    margin-left: -11px;
+  }
+
+
+}
+@media(max-width:426px){
+  .job_id{
+  padding-right: 60px;
+  }
+}
+@media(max-width:769px){
+  .text-right a{
+    margin-left: -10px;
+  }
+  .text-right a button{
+    width: 180px;
+    margin-left: -30px;
+    margin-top: 10px;
+  }
+}
 .job-desc {
   height: 40px;
 
 }
+.job_id{
+  padding-right: 60px;
+  }
 
 .personal-info p {
   margin: 0;
@@ -811,11 +872,11 @@
 
 .apply-now {
   color: white;
-  width: 180px;
-  border: 1px solid rgb(9, 129, 120);
+  /* width: 180px; */
+  /* border: 1px solid rgb(9, 129, 120); */
   border-radius: 12px;
   cursor: pointer;
-  height: 50px;
+  /* height: 50px; */
   background-image: linear-gradient(to right, rgb(9, 129, 120), rgb(31, 58, 87));
   outline: none;
 }
@@ -1057,6 +1118,59 @@
     box-shadow: 0 0 0 0 rgba(178, 212, 252, 0.7);
   }
 }
+
+
+
+/* new skills css */
+
+
+.recommendation-designer {
+        
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+ 
+}
+
+.recommendation-designer .designer {
+  background-color: #f9f9f9; 
+  border-radius: 10px; 
+  color: #7f879e; 
+  padding: 2px 2px; 
+  font-family: Poppins, sans-serif !important;
+  font-size: 12px;
+  font-weight: 500;
+  margin: 6px;
+}
+
+@media(max-width:426px){
+  .recommendation-designer .designer {
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    color: #7f879e; 
+    padding: 2px 2px; 
+    font-family: Poppins, sans-serif !important;
+    font-size: 12px;
+    font-weight: 500;
+    margin: 4px;
+  }
+
+}
+
+@media (max-width:445px) {
+  .job-description{
+    display: flex;
+  }
+  .text-right{
+   
+    margin-top: 5px;
+  
+  }
+  
+
+  
+}
+
 
 
 

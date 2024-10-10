@@ -6260,6 +6260,7 @@ Write down your custom code here
 }
 .wptb-video-contenth2 a {
     color: var(--link-color-hover);
+    text-align: center;
 }
 .wptb-video-content p {
     font-size: var(--fs-20);

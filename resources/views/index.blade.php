@@ -522,92 +522,92 @@
 </section>
 
 
-{{-- <section class="section padtopzero clientsbackground d-sm-none">
-    <div class="container">
-        <div class="wptb-heading--subtitle two wow fadeInUp text-center" style="visibility: visible; animation-name: fadeInUp;">Some of the brands we work with</div>
-        <div class="wptb-heading--title bluecolor clientshea wow fadeInUp text-center" style="visibility: visible; animation-name: fadeInUp;">100+ Corporate Clientele</div>
-        <div class="row">
-            <div class="clislider">
-                <div class="clislide-track">
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/2.png') }}" alt="" /> </div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/8.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/15.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/8.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/15.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/21.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/22.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/23.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/24.png') }}" alt="" /></div>
-                    <!-- same 9 clislides doubled (duplicate) -->
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/2.png') }}" alt="" /> </div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/8.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/15.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/21.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/22.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/23.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/24.png') }}" alt="" /></div>
+    {{-- <section class="section padtopzero clientsbackground d-sm-none">
+        <div class="container">
+            <div class="wptb-heading--subtitle two wow fadeInUp text-center" style="visibility: visible; animation-name: fadeInUp;">Some of the brands we work with</div>
+            <div class="wptb-heading--title bluecolor clientshea wow fadeInUp text-center" style="visibility: visible; animation-name: fadeInUp;">100+ Corporate Clientele</div>
+            <div class="row">
+                <div class="clislider">
+                    <div class="clislide-track">
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/2.png') }}" alt="" /> </div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/8.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/15.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/8.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/15.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/21.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/22.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/23.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/24.png') }}" alt="" /></div>
+                        <!-- same 9 clislides doubled (duplicate) -->
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/2.png') }}" alt="" /> </div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/8.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/15.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/3.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/5.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/7.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/21.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/22.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/23.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/24.png') }}" alt="" /></div>
+                    </div>
                 </div>
+
+            </div>
+
+            <div class="row">
+                <div class="clislider">
+                    <div class="clislide-track">
+
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="" style="width: 42px;" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" alt="" /> </div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="" style="width: 42px;" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" alt="" /> </div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" alt="" /></div>
+
+                        <!-- same 9 clislides doubled (duplicate) -->
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="" style="width: 42px;" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" alt="" /> </div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="" style="width: 42px;" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" alt="" /> </div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" alt="" /></div>
+                        <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" alt="" /></div>
+                    </div>
+                </div>
+
             </div>
 
         </div>
-
-        <div class="row">
-            <div class="clislider">
-                <div class="clislide-track">
-
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="" style="width: 42px;" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" alt="" /> </div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="" style="width: 42px;" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" alt="" /> </div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" alt="" /></div>
-
-                    <!-- same 9 clislides doubled (duplicate) -->
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="" style="width: 42px;" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" alt="" /> </div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/12.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/13.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/14.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/9.png') }}" alt="" style="width: 42px;" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/16.png') }}" alt="" /> </div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/17.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/18.png') }}" alt="" /></div>
-                    <div class="clislide"><img loading="lazy" src="{{ asset('assets/img/lmsclients/20.png') }}" alt="" /></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</section> --}}
+    </section> --}}
 
 <!-- partial:index.partial.html -->
 <section class="testimonial-area">
@@ -624,7 +624,7 @@
         
 
         <div class="testimonial-content owl-carousel">
-            <!-- Single Testimonial -->
+            {{-- <!-- Single Testimonial -->
              {{-- <div class="single-testimonial">
                 <div class="round-1 round"></div>
                 <div class="round-2 round"></div>
@@ -666,7 +666,7 @@
                 </div>
 
             </div> --}}
-            <!-- Single Testimonial -->
+            
             <div class="single-testimonial">
                 <div class="round-1 round"></div>
                 <div class="round-2 round"></div>
@@ -708,7 +708,7 @@
                 </div>
 
             </div>
-            <!-- Single Testimonial -->
+            
             <div class="single-testimonial">
                 <div class="round-1 round"></div>
                 <div class="round-2 round"></div>

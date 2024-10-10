@@ -448,12 +448,14 @@ $(document).ready(function(){
         type: 'GET',
         url: "https://naukriyan.com/getjobs/prakharsoftwares?sector_id=1",
         success: function(response) {
-            console.log(response);
+           
             var html = '';
 
             if (response) {
                 $.each(response, function(index, job) {
                     var skillsArray = job.job_skills ? job.job_skills.split(',') : [];
+                    let newSkillarry=skillsArray.slice(0,6);
+                    
 
                     var exp = '';
                     if (job.job_sector_id === 3) {
@@ -463,22 +465,24 @@ $(document).ready(function(){
                     }
 
                     var skillsHtml = '';
-                    $.each(skillsArray, function(index, skill) {
+                    $.each(newSkillarry, function(index, skill) {
                         skillsHtml += `
-                            <div class="col-6 col-sm-4">
-                                <p class="info">${skill}</p>
+                         <div class="recommendation-filed">
+                            <div class="recommendation-designer">
+                               <div class="designer">${skill}</div> 
+                         </div>
                             </div>
                         `;
                     });
 
                     var cardHtml = `
-                        <div class="col-md-6 col-lg-6">
-                            <div class="card-container border h-auto p-2 mt-4">
+                        <div class="col-md-6 col-lg-6 h-10">
+                            <div class="card-container border p-2 mt-4">
                                 <div class="row pt-3 job-description">
-                                    <div class="col-6 img-container text-left">
+                                    <div class="col-md-6 text  col-sm-5 img-container ">
                                         <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
                                     </div>
-                                    <div class="col-6 text-right">
+                                    <div class="col-md-6 col-m-3 mt-2">
                                         <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
                                             <button type="button" class="btn btn-dark apply-now">
                                                 <span class="text-white">Job Description</span>
@@ -513,19 +517,31 @@ $(document).ready(function(){
                                         <p>${job.main_exp} - ${job.max_exp} <span> Years Exp</span></p>
                                     </div>
                                 </div>
+                                
+                                
+      
+
                                 <div class="row btn-container">
-                                    <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
-                                        <button type="button" class="btn btn-dark apply-now">
-                                            <i class="fa fa-file-text-o text-white" aria-hidden="true" style="position: absolute; left: 22px; top: 18px;"></i>
+                                    <div>
+                                         <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
+                                        <button type="button" class="btn btn-dark job_id">
+                                            <i class="fa fa-file-text-o text-white" aria-hidden="true"></i>
                                             <span class="text-white">Apply Now</span>
                                         </button>
                                     </a>
-                                    <a href="https://api.whatsapp.com/send/?phone=${job.com_contact}&text=I+am+interested+in+your+job+of+${job.title}" target="_blank">
+                                        
+                                    </div>
+                                    <div>
+                                        <a href="https://api.whatsapp.com/send/?phone=${job.com_contact}&text=I+am+interested+in+your+job+of+${job.title}" target="_blank">
                                         <button type="button" class="btn btn-success chatRecuriter recruiter-btn">
                                             <i class="fa fa-whatsapp text-white" aria-hidden="true"></i>
                                             <span class="text-white">Chat With Recruiter</span>
                                         </button>
                                     </a>
+                                        
+                                     </div>
+                                   
+                                    
                                 </div>
                             </div>
                         </div>`;

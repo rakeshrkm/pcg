@@ -36,7 +36,7 @@
            <div class="row align-items-center justify-content-between">
               <div class="col-md-6">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/source-hire-train-and-deploy.png') }}" alt="source hire train and deploy" title="source hire train and deploy">
+                    <img src="{{ asset('assets/img/ServicesImages/consulting-servicesnew.png') }}" alt="source hire train and deploy" title="source hire train and deploy">
                  </div>
               </div>
               <div class="col-md-6 order-first order-md-last">

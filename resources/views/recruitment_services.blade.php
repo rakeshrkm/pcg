@@ -29,7 +29,7 @@
             </div> -->
               <div class="col-md-7">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing">
+                    <img src="{{ asset('assets/img/ServicesImages/Recruitment-services.png') }}" alt="permanent staffing" title="permanent staffing">
                  </div>
               </div>
               <div class="col-md-5 order-first order-md-last">

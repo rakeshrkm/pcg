@@ -44,7 +44,7 @@
               </div>
               <div class="col-md-7">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/contract-staffing.png') }}" alt="contract staffing" title="contract staffing" style="border-radius:20px;">
+                    <img src="{{ asset('assets/img/ServicesImages/Training-and-Development.png') }}" alt="contract staffing" title="contract staffing" style="border-radius:20px;">
                  </div>
               </div>
            </div>

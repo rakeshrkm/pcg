@@ -96,7 +96,7 @@
                                 </div>
                                 <p class="mt-5 fw-bold">Stay connected with us on Social Media Links for the latest insights and updates from Prakhar Consulting Group.</p>
                     </div>  
-                    <div class="col-lg-6 col-md-12">
+                    <div class="col-lg-6 col-md-12 mt-3">
                         <div class="row">
                             <div class="container">
                                 <form class="lms-form border">
