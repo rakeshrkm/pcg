@@ -21,7 +21,7 @@
                 </div>
             </li>
             <li>
-                <img src="{{ asset('assets/img/PCGImages/newBanner_2.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
+                <img src="{{ asset('assets/img/PCGImages/newBanner2.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">

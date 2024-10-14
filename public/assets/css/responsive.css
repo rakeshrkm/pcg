@@ -493,7 +493,7 @@
 }
 }
 /* [mobile portrait] */
-@media only screen and (min-width: 0px) and (max-width: 479px) {
+@media (max-width: 479px) {
 	.bannerslide-container {
           min-height: auto;
     background: url(../img/corporate-training.webp) center left no-repeat no-repeat;
@@ -515,7 +515,7 @@
     font-weight: 500;
 }
 .bannertextbold {
-    margin-top:-270px;
+    margin-top:-330px;
     font-size: 17px;
     font-weight: 500;
     font-style: normal;
