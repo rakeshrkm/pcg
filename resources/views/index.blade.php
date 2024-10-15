@@ -21,7 +21,7 @@
                 </div>
             </li>
             <li>
-                <img src="{{ asset('assets/img/PCGImages/newBanner2.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
+                <img src="{{ asset('assets/img/PCGImages/banner2.jpg') }}" data-position-y="top" alt="Mazenet Lms" title="Mazenet Lms" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -47,7 +47,6 @@
                                     <div class="bannertextbold" data-animate="animate__fadeInDown">" Empowering Your Business for Success with Strategic Recruitment Solutions "</div>
                                     <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">" Transform your hiring process with our Triad Recruitment Framework - S³ "</b></span>
                                     </h1>
-                                  
                                 </div>
                             </div>
                         </div>
