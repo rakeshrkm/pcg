@@ -25,14 +25,14 @@
         <div class="container">
            <div class="row align-items-center">
             <div class="col-md-12">
-                <div class="wptb-video-contenth2 p-4">
+                <div class="wptb-video-contenth2 mt-4">
                     <h2 class="text-center"><strong>Strategy & Planning</strong></h2>
                 </div>
                 <p>At Prakhar Consulting Group, we believe that a successful recruitment process begins with a robust strategy and meticulous planning. We collaborate with our clients to understand their organizational objectives, culture, and unique requirements. Our strategic planning process includes:</p>
             </div>
               <div class="col-md-7">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/permanent-staffing.png') }}" alt="permanent staffing" title="permanent staffing">
+                    <img src="{{ asset('assets/img/PCGImages/StrategyPlanning.png') }}" alt="permanent staffing" title="permanent staffing">
                  </div>
               </div>
               <div class="col-md-5 order-first order-md-last">
@@ -62,7 +62,7 @@
         <div class="container">
            <div class="row align-items-center">
             <div class="col-md-12">
-                <div class="wptb-video-contenth2 p-4">
+                <div class="wptb-video-contenth2">
                     <h2 class="text-center"><strong>Sourcing & Screening</strong></h2>
                 </div>
                 <p>Our sourcing and screening process is designed to efficiently identify and engage the best candidates for your organization. We leverage a variety of channels and techniques to ensure a comprehensive search:</p>
@@ -84,7 +84,7 @@
               </div>
               <div class="col-md-7">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/contract-staffing.png') }}" alt="contract staffing" title="contract staffing" style="border-radius:20px;">
+                    <img src="{{ asset('assets/img/PCGImages/SourcingScreening.png') }}" alt="contract staffing" title="contract staffing" style="border-radius:20px;">
                  </div>
               </div>
            </div>
@@ -103,7 +103,7 @@
         <div class="container">
            <div class="row align-items-center justify-content-between">
             <div class="col-md-12">
-                <div class="wptb-video-contenth2 p-4">
+                <div class="wptb-video-contenth2">
                     <h2 class="text-center"><strong>Selection & Onboarding</strong></h2>
                 </div>
                 <p>Selecting the right candidate is a critical step, but successful integration into your organization is equally important. Our selection and onboarding services are designed to ensure a smooth transition for new hires:</p>
@@ -111,7 +111,7 @@
 
               <div class="col-md-6">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/source-hire-train-and-deploy.png') }}" alt="source hire train and deploy" title="source hire train and deploy">
+                    <img src="{{ asset('assets/img/PCGImages/SelectionOnboarding.jpg') }}" alt="source hire train and deploy" title="source hire train and deploy">
                  </div>
               </div>
               <div class="col-md-6 order-first order-md-last">
@@ -143,7 +143,7 @@
       <div class="container">
          <div class="row align-items-center justify-content-between">
           <div class="col-md-12">
-              <div class="wptb-video-contenth2 p-4">
+              <div class="wptb-video-contenth2">
                   <h2 class="text-center"><strong>TRAID Framework</strong></h2>
                   <h6 class="text-center">Enhancing Recruitment with our Strategic Approach</h6>
               </div>
@@ -192,7 +192,7 @@
 
               <div class="col-md-6">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/source-hire-train-and-deploy.png') }}" alt="source hire train and deploy" title="source hire train and deploy">
+                    <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" alt="source hire train and deploy" title="source hire train and deploy">
                  </div>
               </div>
               <div class="col-md-6 order-first order-md-last">
@@ -210,7 +210,7 @@
               </div>
               <div class="col-md-12 order-first order-md-last">
                   <div class="wptb-video-content">
-                     <p>At Prakhar Consulting Group, the TRIAD Framework is our commitment to delivering superior recruitment solutions that empower businesses to thrive in a competitive landscape.
+                     <p style="margin-top: 20px;margin-bottom:20px">At Prakhar Consulting Group, the TRIAD Framework is our commitment to delivering superior recruitment solutions that empower businesses to thrive in a competitive landscape.
 
                         Here's a more detailed version of the "Strategy & Planning," "Sourcing & Screening," and "Selection & Onboarding" sections, with additional pointers for clarity and depth:
                      </p>
@@ -244,13 +244,13 @@
                        <li><span class="whatwedotitile">Call Center and Data Center Services :</span>Our robust infrastructure supports efficient call center and data center operations, ensuring seamless service delivery.</li>
                     </ul>
                     <p>By partnering with Prakhar Consulting Group, you gain access to a comprehensive recruitment solution that not only meets your immediate needs but also supports your long-term growth and success.</p>
-                    <a href="#enquiry" class="btn mb-5">Start Hiring
+                    <a href="#enquiry" class="btn mt-3 mb-4" id="start-hiring-our-approach">Start Hiring
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
                  </div>
               </div>
               <div class="col-md-7">
                  <div class="wptb-slider--img">
-                    <img src="{{ asset('assets/img/train-and-hire.png') }}" alt="train and hire" title="train and hire" style="border-radius:20px;">
+                    <img src="{{ asset('assets/img/PCGImages/ThePCGAdvantage.png') }}" alt="train and hire" title="train and hire" id="pcgadvantages">
                  </div>
               </div>
            </div>

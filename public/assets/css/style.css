@@ -6255,7 +6255,7 @@ Write down your custom code here
 
 .wptb-video-contenth2 {
     font-weight: var(--fw-medium);
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
 	    font-size: 2.25rem;
 }
 .wptb-video-contenth2 a {

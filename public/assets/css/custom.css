@@ -1166,10 +1166,18 @@
     margin-top: 5px;
   
   }
-  
+}
 
+/* Our Approaches */
+@media(min-width:426px){
+  #pcgadvantages{
+    width:70%;
+    margin-left:25%
+
+  }
   
 }
+
 
 
 
