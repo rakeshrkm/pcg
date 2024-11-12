@@ -35,8 +35,44 @@ class HomeController extends Controller
         return view('career');
     }
 
-    public function recruitmentServices(){
-        return view('recruitment_services');
+    public function permanentStaffing(){
+        return view('services.permanent_staffing');
+    }
+
+    public function executiveSearch(){
+        return view('services.executive_search');
+    }
+
+    public function leadershipHiring(){
+        return view('services.leadership_hiring');
+    }
+
+    public function headHunting(){
+        return view('services.head_hunting');
+    }
+
+    public function ItNonIthiring(){
+        return view('services.it_non_it');
+    }
+
+    public function temporaryStaffing(){
+        return view('services.temporary_staffing');
+    }
+    public function contractStaffing(){
+        return view('services.contract_staffing');
+    }
+
+    public function contractToHire(){
+        return view('services.contract_to_hire');
+    }
+
+
+    public function payrollProcessing(){
+        return view('services.payroll_processing');
+    }
+
+    public function universities(){
+        return view('services.universities');
     }
 
     public function trainingAndDevelopment(){

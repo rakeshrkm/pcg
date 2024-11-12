@@ -136,7 +136,7 @@ h6,
 
 p,
 hr {
-    margin-bottom: 1.875em;
+    /* margin-bottom: 1.875em; */
 }
 
 p.lead {

@@ -1,32 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="chontent-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="UTF-8" />
     <title>{{ isset($title) ? $title : 'Prakhar software consulting group'}}</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta http-equiv="Content-Type" con tent="text/html; charset=UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="{{ isset($description) ? $description : 'Prakhar software consulting group'}}" />
+    <meta name="keywords" content="{{ isset($keyword) ? $keyword : 'Prakhar software consulting group'}}"" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="canonical" href="" />
-    <meta name=”robots” content=”index, follow”>
-    <meta name="googlebot" content=”index, follow”>
-    <meta name="language" content="english" />
-    <meta name="Expires" content="never" />
-    <meta name="revisit-after" content="Daily" />
-    <meta name="Author" content="Mazenet Solution Pvt Limited" />
-    <meta name="Distribution" content="Global" />
-    <meta name="Rating" content="general" />
-    <meta name="search engines" content="ALL" />
-    <meta property="og:site_name" content="Mazenet" />
-    <meta property="og:type" content="website" />
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Workforce Development Company">
-    <meta property="og:image" content="meta-banner/corporate-training.jpg">
-    <meta property="og:description" content="">
-    <meta name="google-site-verification" content="" />
-
+    <link rel="canonical" href="{{Request::url()}}" />
+   
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ asset('assets/css/foundstrap.css') }}" />

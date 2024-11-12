@@ -34,17 +34,6 @@
                             <li>
                                 <a class="instagram-color" target="_blank" href="https://www.instagram.com/prakharconsultinggroup_hr/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                             </li>
-                            <!--<li>
-                    <a href="contact-us" class="btn btn-default" style="width: auto;
-                    height: auto;
-                    padding-top: 0;
-                    padding-bottom: 0;
-                    padding-left: 15px;
-                    padding-right: 15px;
-                    margin-top: 0;
-                    ">Enquire Now</a>
-                    
-                    </li>-->
                         </ul>
                     </div>
                 </div>
@@ -58,14 +47,13 @@
                 <div class="col-md-12 head_details">
                     <div class="header-logo">
                         <a href="{{route('index')}}">
-                        
                             <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
                             <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
                             <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
                         </a>
                     </div>
                     <nav class="menu-container">
-                        <ul id="menu" class="sm me-menu" >
+                        <ul id="menu" class="sm me-menu">
                             <li>
                                 <a href="{{ route('index') }}">Home</a>
                             </li>
@@ -75,23 +63,57 @@
                             <li>
                                 <a href="{{route('services')}}">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul>
-                                    <li><a href="{{route('recruitmentServices')}}">Recruitment Services</a></li>
                                     <li>
-                                        <a href="{{route('trainingAndDevelopment')}}">Training and Development</a>
+                                        <a href="#">Organisation</a>
+                                        <ul>
+                                            <li>
+                                                <a href="{{ route('permanentStaffing') }}">Permanent-Staffing</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="{{route('executiveSearch')}}">Executive Search</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('leadershipHiring') }}">Leadership Hiring</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('headHunting') }}">Head Hunting</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('ItNonIthiring') }}">IT/NON-IT Hiring</a>
+                                                    </li>
+
+                                                </ul>
+
+                                            <li>
+                                                <a href="{{ route('temporaryStaffing') }}">Temperory Staffing</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="{{ route('contractStaffing') }}">Contract Staffing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('contractToHire') }}">Contract-to-Hire (C2H) Hiring</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('contractToHire') }}">Payroll Processing</a>
+                                                    </li>
+                                                </ul>
+
+                                            </li>
+
+                                        </ul>
                                     </li>
+
                                     <li>
-                                        <a href="{{route('consultingServices')}}"> Consulting Services</a>
+                                        <a href="{{route('universities')}}">Universities</a>
                                     </li>
-                                    <li>
-                                        <a href="{{route('otherServices')}}"> Other Services</a>
-                                    </li>
+
                                 </ul>
                             </li>
                             <li>
                                 <a href="{{ route('industriesWeServe') }}">Industries we serve</a>
                             </li>
                             <li>
-                                <a href="{{ route('ourApproach') }}">Our Approach</i></a>
+                                <a href="{{ route('ourApproach') }}">Recruitment Approach</i></a>
                             </li>
                             <li>
                                 <a href="#ourservices">Blog</a>
@@ -101,7 +123,7 @@
                             </li>
                             <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
                         </ul>
-                        </nav>
+                    </nav>
                 </div>
             </div>
         </div>
@@ -119,7 +141,6 @@
                         <li>
                             <a href="mailto:connect@pcginternational.in"><i class="fa fa-envelope" aria-hidden="true"></i>connect@pcginternational.in</a>
                         </li>
-
                     </ul>
                     <div class="pull-right">
                         <ul class="header-social social-icon">
@@ -164,7 +185,7 @@
                     <nav class="menu-container" id="manuId">
                         <ul id="menu" class="sm me-menu">
                             <li>
-                            
+
                                 <a href="{{ route('index') }}"><i class="fa fa-home"></i> Home</a>
                             </li>
                             <li>
@@ -173,25 +194,57 @@
                             <li>
                                 <a href="{{route('services')}}">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul>
-                                    <li><a href="{{route('recruitmentServices')}}">Recruitment Services</a></li>
                                     <li>
-                                        <a href="{{route('trainingAndDevelopment')}}">Training and Development</a>
+                                        <a href="#">Organisation</a>
+                                        <ul>
+                                            <li>
+                                                <a href="{{ route('permanentStaffing') }}">Permanent-Staffing</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="{{route('executiveSearch')}}">Executive Search</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('leadershipHiring') }}">Leadership Hiring</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('headHunting') }}">Head Hunting</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('ItNonIthiring') }}">IT/NON-IT Hiring</a>
+                                                    </li>
+
+                                                </ul>
+
+                                            <li>
+                                                <a href="{{ route('temporaryStaffing') }}">Temperory Staffing</a>
+                                                <ul>
+                                                    <li>
+                                                        <a href="{{ route('contractStaffing') }}">Contract Staffing</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('contractToHire') }}">Contract-to-Hire (C2H) Hiring</a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="{{ route('payrollProcessing') }}">Payroll Processing</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
                                     </li>
+
                                     <li>
-                                        <a href="{{route('consultingServices')}}"> Consulting Services</a>
+                                        <a href="{{route('universities')}}">Universities</a>
                                     </li>
-                                    <li>
-                                        <a href="{{route('otherServices')}}"> Other Services</a>
-                                    </li>
+
                                 </ul>
                             </li>
                             <li>
                                 <a href="{{ route('industriesWeServe') }}">Industries we serve </a>
                             </li>
-                          
+
                             <li>
-                                <a href="{{ route('ourApproach') }}">Our Approach</i></a>
-                               
+                                <a href="{{ route('ourApproach') }}">Recruitment Approach</i></a>
+
                             </li>
                             <li>
                                 <a href="#ourservices">Blog</a>
@@ -222,4 +275,3 @@
 </header>
 
 @endif
-
