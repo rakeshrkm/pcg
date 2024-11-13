@@ -22,7 +22,7 @@ Route::get('/', [HomeController::class, 'index'])->name('index');
 Route::get('/about-us', [HomeController::class, 'about'])->name('about');
 Route::get('/services', [HomeController::class, 'service'])->name('services');
 Route::get('/industries-we-serve', [HomeController::class, 'industriesWeServe'])->name('industriesWeServe');
-Route::get('/our-approach', [HomeController::class, 'ourApproach'])->name('ourApproach');
+Route::get('/recruitment-approach', [HomeController::class, 'ourApproach'])->name('ourApproach');
 Route::get('/contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
 Route::get('/career', [HomeController::class, 'career'])->name('career');
 // services
@@ -36,9 +36,6 @@ Route::get('/contract-staffing', [HomeController::class, 'contractStaffing'])->n
 Route::get('/contract-to-hire', [HomeController::class, 'contractToHire'])->name('contractToHire');
 Route::get('/payroll-processing', [HomeController::class, 'payrollProcessing'])->name('payrollProcessing');
 Route::get('/universities', [HomeController::class, 'universities'])->name('universities');
-
-
-
 
 Route::get('/training-development', [HomeController::class, 'trainingAndDevelopment'])->name('trainingAndDevelopment');
 Route::get('/consulting-services', [HomeController::class, 'consultingServices'])->name('consultingServices');

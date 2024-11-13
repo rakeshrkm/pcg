@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Temporary Staffing Services & Jobs in India | Prakhar Consulting Group',
+    'keyword' => 'Temporary Staffing Services in India, Temporary Staffing Jobs India, Temporary Staffing Solutions, Staffing Agency India, Contract Staffing India, Temporary Employment Services, Hire Temporary Employees India, Flexible Staffing Solutions, Staffing Recruitment India',
+    'description' => 'Prakhar Consulting Group offers exceptional Temporary Staffing Services in India, connecting you with top Temporary Staffing Jobs across the country'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">

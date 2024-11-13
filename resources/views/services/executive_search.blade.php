@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => ' Best Executive Search Firms & Services in India | Prakhar Consulting Group',
+    'keyword' => 'Best Executive Search Firms in India, Executive Search Services, Leadership Hiring India, Executive Search Firms India, C-Level Recruitment',
+    'description' => 'Prakhar Consulting Group, one of the Best Executive Search Firms in India, offers expert Executive Search Services to find top leadership talent for your business'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">

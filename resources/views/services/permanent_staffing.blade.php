@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Top Permanent Staffing Company in India | Permanent Hiring Solutions in India',
+    'keyword' => 'Top Permanent Staffing Company in India, Permanent Hiring Solutions India, Permanent Staffing Services, Recruitment Solutions, Staffing Agency India, HR Consulting, Talent Acquisition, Employment Services',
+    'description' => ' Prakhar Consulting Group is the Top Permanent Staffing Company in India, specializing in tailored Permanent Hiring Solutions in India'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">

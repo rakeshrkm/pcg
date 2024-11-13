@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Best IT & Non-IT Staffing Agency in India | Prakhar Consulting Group',
+    'keyword' => 'Best IT Recruitment Agency India, Best Non-IT Staffing Agency India, IT recruitment, non-IT staffing, staffing solutions, recruitment services, talent acquisition, staffing agency India, employment services, IT talent, non-IT workforce, recruitment consultancy',
+    'description' => 'Prakhar Consulting Group is the Best IT Recruitment Agency in India, connecting top talent with leading companies. We also excel as a Non-IT Staffing Agency in India'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">

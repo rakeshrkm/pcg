@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Leadership Hiring Consultants in India | Senior Leadership Hiring Services',
+    'keyword' => 'Leadership hiring consultant in India, Senior leadership hiring services India, Leadership recruitment India, Leadership hiring solutions, Senior leadership roles',
+    'description' => 'Prakhar Consulting Group, the top Leadership Hiring Consultant in India provides tailored Senior Leadership Hiring Services to help you secure the right leaders for your organization'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">

@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'University Partnerships | Prakhar Consulting Group',
+    'keyword' => 'University Partnership, educational collaborations, Campus Recruitment Services, university consulting, partnership solutions, academic partnerships, higher education consulting, strategic partnerships, university development',
+    'description' => 'Prakhar Consulting Group has unmatched University Partnership services, such as Staff Hiring Solutions, Job Placement Support, Technology Integration, etc'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">
@@ -47,42 +52,146 @@
 
     <section class="container">
         <div class="heading-title text-center">
-            <h2>Professional Payroll Management Process for Consistent Accuracy</h2>
+            <h2>3. Job Placement Support</h2>
         </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p>Managing payroll is a vital function for any organization, ensuring timely and accurate payments to employees while maintaining compliance with local regulations. </p>
-                    <p>At Prakhar Consulting Group, we offer a seamless <span class="whatwedotitile">Payroll Management Process</span> that simplifies the intricate tasks involved in payroll. As one of the trusted <span class="whatwedotitile">Payroll Processing organizations</span> in India, we prioritize precision, efficiency, and compliance in every stage of the payroll journey.</p>
-                    <p>Our Payroll Process is divided into five key stages:</p>
-                    <ul class="mt-4 mb-4">
-                        <li><span class="whatwedotitile">Setting up a System</span> : The first step involves understanding your organizational structure, payroll schedule, and unique needs. We establish a robust system customized to your requirements, creating a payroll calendar that highlights important dates to ensure timely payroll processing. This structured approach lays the foundation for smooth payroll operations, reducing errors and streamlining future processes.</li>
-                        <li><span class="whatwedotitile">Sharing of Data</span> : Data security and accessibility are at the forefront of our payroll management. We facilitate secure data transfer through email or cloud storage platforms like dropbox and google drive. This includes the collection of essential employee information and timesheets, ensuring that we have accurate data to proceed with payroll calculations.</li>
-                        <li><span class="whatwedotitile">Processing of Data</span> : Based on the data collected, our team calculates gross pay, deductions, net pay, provident fund, and other contributions. Leveraging advanced software, we ensure that each calculation aligns with local labor laws and company policies. Our meticulous approach in this stage minimizes errors, providing a seamless and compliant payroll experience.</li>
-                        <li><span class="whatwedotitile">Payment</span> : We generate batch files for all employee payments, sending them to the bank for quick and reliable fund transfers. This automated process ensures timely salaries, enhancing employee satisfaction and trust.</li>
-                        <li><span class="whatwedotitile">Review, Follow-Up, and Revisions</span> : Regular review and feedback are essential in payroll management. We evaluate payroll activities at constant intervals, seeking client feedback to identify areas for improvement. Any required adjustments are made promptly, ensuring accuracy and adaptability in payroll services.</li>
-                    </ul>
-                    <p>
-                        By partnering with us, every business can experience a streamlined, compliant, and efficient <span class="whatwedotitile">Payroll Process in India</span> that simplifies payroll management and enhances operational productivity.
-                    </p>
+                    <p>Our <span class="whatwedotitile">Job Placement Support service</span> is dedicated to helping students and recent graduates secure meaningful employment. </p>
+                    <p>Leveraging our strong industry connections and expertise in <span class="whatwedotitile">Employer Networking & Job Matching</span>, we connect candidates with suitable job opportunities. </p>
+                    <p>Our <span class="whatwedotitile">Campus Recruitment</span> coordination ensures a seamless recruitment process, creating pathways for students to meet top employers. </p>
+                    <p>By providing reliable placement assistance, Prakhar Consulting Group supports career growth and empowers individuals to succeed in their chosen fields, fulfilling our commitment to quality and impactful career solutions.                    </p>
                 </div>
             </div>
     </section>
 
     <section class="container">
         <div class="heading-title text-center">
-            <h2>The Essential Benefits of Outsourced Payroll Services</h2>
+            <h2>4. Student Training & Development</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
-                <ul class="mb-4 mt-4">
-                    <li>Outsourcing payroll offers a range of benefits that can transform payroll management for businesses of all sizes. By opting for Outsourced Payroll Services, companies experience enhanced efficiency in their payroll systems, controls, and processes. This improvement translates into faster and more accurate payroll cycles, freeing up valuable internal resources for strategic tasks.</li>
-                    <li>One of the significant advantages is the increased confidence in payroll accuracy. Our services ensure that every payroll calculation is precise, eliminating common errors that could lead to employee dissatisfaction. With outsourced services, there’s an assurance that employees will be paid correctly and on time, every time. This reliability boosts employee morale and trust in the organization.</li>
-                    <li>Customization is at the heart of our payroll services. We tailor our approach to meet each client’s unique needs, ensuring that our solutions align perfectly with their operational requirements. Moreover, our services comply with local legislation, offering clients peace of mind that their payroll functions are legally sound and up-to-date with regulatory changes.</li>
-                    <li>Data security is a top priority, with rigorous measures in place to protect sensitive payroll information. Businesses can be confident in the confidentiality and safety of their data, safeguarding both employee trust and company integrity.</li>
-                </ul>
-                <p>With over a decade of experience working with businesses of all sizes in India, our expertise and commitment to excellence make our <span class="whatwedotitile">Outsourced Payroll Services</span> a reliable choice for streamlined and secure payroll operations. If businesses are also looking for <span class="whatwedotitile">Permanent Staffing services</span>, we have an expert team to help them.</p>
+                <p>We offer a comprehensive suite of <span class="whatwedotitile">Student Training & Development</span> programs designed to equip students with essential skills for a successful transition into the professional world. </p>
+                <p>Our <span class="whatwedotitile">Pre-Placement Training</span> focuses on refining communication skills, interview etiquette, and resume building, ensuring students make a lasting first impression on potential employers. </p>
+                <p>We also offer <span class="whatwedotitile">Skill Development Programs</span> that encompass advanced, industry-specific training, including cutting-edge skills in drone technology in collaboration with the Indian Institute of Drone Technology (IIDT).</p>
+                <p>Our curriculum goes beyond basic competencies, incorporating <span class="whatwedotitile">Leadership and Soft Skills Development</span> to prepare students for diverse workplace environments. </p>
+                <p>Through mock assessments, interviews, and aptitude tests, we simulate real-world scenarios, helping students face industry-specific challenges confidently. </p>
+                <p>Prakhar Consulting Group also conducts industry-specific training, covering sectors such as IT, Engineering, and Marketing, to give students a competitive edge in their chosen fields.</p>
+                <p>Every training session includes real-time feedback, allowing students to understand their strengths and areas for improvement, enhancing their readiness for the job market. </p>
+                <p>By blending skill-building with practical assessments, Prakhar Consulting Group’s <span class="whatwedotitile">Student Training & Development Program</ provides a robust foundation for career success.</p>
             </div>
         </div>
     </section>
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>5. Internship Opportunities</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">               
+                <p>Our <span class="whatwedotitile">Internship Placement Programs</span> strategically match students with opportunities that align with their skills and career interests, providing valuable hands-on experience with our trusted partner companies. </p>
+                <p>To support students’ growth and confidence, Prakhar Consulting Group offers <span class="whatwedotitile">Internship Training and Preparation Sessions</span>, along with workplace readiness workshops that enhance soft skills critical for success.</p>
+                <p>Throughout the internship, participants benefit from ongoing mentorship, receiving guidance, feedback, and performance reviews to ensure they excel. </p>
+                <p>The post-internship support from us can help students map out their professional journeys. Every successful intern receives a certification of completion, validating their skills and achievements. </p>
+                <p>With a strong focus on skill alignment and personal growth, Prakhar Consulting Group’s Internship Program is crafted to set students on a path of career success and professional readiness.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>6. Industrial Visit Programs</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">               
+                <p>The <span class="whatwedotitile">Industrial Visit Programs</span> enable students to gain real-world exposure through hands-on experiences in various industries. </p>
+                <p>Our industry-specific visits focus on sectors like IT and Technology, providing in-depth knowledge sessions that align with students’ academic pursuits. </p>
+                <p>Each visit includes guided tours and interactive sessions, allowing participants to explore company facilities and understand core business operations up close.</p>
+                <p>Students are introduced to company representatives and are taken on facility tours where they witness workplace dynamics firsthand. </p>
+                <p>Through Q&A sessions with industry professionals, students gain insights into career paths, industry trends, and professional expectations. </p>
+                <p><span class="whatwedotitile">Workshops and Demonstrations</span> will also provide a practical understanding of industry tools and technologies, fostering a deeper appreciation of their studies. </p>
+                <p>To ensure maximum relevance, Prakhar Consulting Group also offers <span class="whatwedotitile">Customized Visit Packages</span>, tailored to meet the specific interests and career aspirations of student groups, making each visit an impactful learning experience.</p>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>7. Technology Integration</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">               
+                <p>Prakhar Consulting Group integrates advanced technology into its <span class="whatwedotitile">Student Training & Development Programs</span> to streamline access to opportunities and insights. </p>
+                <p>Through the Naukriyan portal, job seekers gain direct access to a comprehensive job marketplace, making it easier to connect with potential employers. </p>
+                <p>Our platform supports student registration and tracking, enabling efficient monitoring of progress and engagement. </p>
+                <p>Employers can list job openings, making opportunities easily accessible to students. </p>
+                <p>With integrated data and analytics, Prakhar Consulting Group offers valuable student assessment insights, allowing students to identify growth areas and track their performance, fostering a data-driven approach to career readiness.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>8. Industry Partnerships</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">               
+                <p>Through <span class="whatwedotitile">Industry Partnerships</span>, we connect students with exclusive career opportunities. </p>
+                <p>Sector-Specific Partnerships further enhance this by aligning students with industry-focused roles that match their career goals. </p>
+                <p><span class="whatwedotitile">Alumni Networking Support</span> enables graduates to maintain valuable connections, while Alumni Meetups offer a platform for sharing experiences and insights. </p>
+                <p>The <span class="whatwedotitile">Industry Mentorship Connections</span> add another layer of support, pairing students with seasoned professionals who provide guidance and mentorship to help them navigate their chosen career paths confidently.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>9. Value-Added Services</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">               
+                <p>The <span class="whatwedotitile">Value-Added Services</span> are designed to enhance student placement and engagement. </p>
+                <p>Our <span class="whatwedotitile">Campus Branding Support</span> includes tailored brochures and campus Materials, helping students make a strong impression on potential employers.</p>
+                <p>We also offer digital branding for students, equipping them with the online presence needed to stand out in today’s competitive job market. </p>
+                <p>Post-placement engagement ensures students receive ongoing support even after securing a position, fostering a connection to our alumni network. </p>
+                <p>Through ongoing mentorship programs, Prakhar Consulting Group promotes continuous growth and development, empowering students to build long-term, successful careers.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>10. On-Campus Drive Management</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">               
+                <p>Prakhar Consulting Group organizes both onsite and offsite <span class="whatwedotitile">Campus Recruitment Drives</span>, providing institutions with a seamless, end-to-end recruitment experience. </p>
+                <p>To start, Prakhar Consulting Group conducts mock recruitment sessions on campus to assess students’ strengths and place them in roles that match their skill sets. </p>
+                <p>Once the initial assessment is complete, Prakhar Consulting Group invites a variety of esteemed companies to participate in online and offline recruitment sessions. </p>
+                <ol>
+                    <li>
+                        <h3>Mock Placement Drive for Employment Transition (Mandatory)</h3>
+                        <p>The <span class="whatwedotitile">Mock Placement Drive</span> is a structured, paid program aimed at preparing students for real-world recruitment challenges. </p>
+                        <p>This initiative includes pre-screening assessments, mock interviews, and detailed feedback sessions, all of which serve as crucial components for student development. </p>
+                        <p>Following the mock drive, Prakhar Consulting Group provides the institute with a comprehensive report on each student’s performance, eligibility, and potential placement readiness, along with specific recommendations. </p>
+                        <p>These insights assist college administrators in making informed decisions regarding student placements. </p>
+                        <p>Prakhar Consulting Group identifies students who would benefit from further enhancement through paid grooming sessions, which the institution can choose to conduct through Prakhar Consulting Group or an alternate agency, depending on their preferences.</p>
+
+                    </li>
+              
+                    <li>
+                        <h3>Post-Placement Follow-Ups</h3>
+                        <p>To ensure ongoing success, we offer <span class="whatwedotitile">Post-Placement Follow-Up Services</span> in coordination with the institution. </p>
+                        <p>This involves handling all formalities and maintaining engagement with students after they have been placed. </p>
+                        <p>The follow-ups allow both Prakhar Consulting Group and the institute to monitor students’ progress, address any transitional challenges, and provide additional support as needed, ensuring students achieve long-term success in their careers.</p>
+                        <p>With these tailored deliverables, the aim is to provide a holistic approach to student placement, enhancing employability and fostering strong partnerships between academic institutions and industry.                        </p>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
 </main>
 @endsection

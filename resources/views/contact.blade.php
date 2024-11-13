@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Contact with us'])
+@extends('layouts.master',
+[
+    'title' => 'Contact Us | Prakhar Consulting Group',
+    'keyword' => 'Contact us, Reach out!',
+    'description' => 'Do you have any queries, remarks, or suggestions? You can contact us using this form'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">

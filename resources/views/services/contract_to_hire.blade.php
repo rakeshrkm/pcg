@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Best Contract-to-Hire Agency in India | C2H Recruitment Services',
+    'keyword' => 'Best Contract-to-Hire Agency in India, C2H Recruitment Services India, Contract-to-Hire solutions, C2H hiring, Recruitment services India',
+    'description' => 'Prakhar Consulting Group is the best Contract-to-Hire Agency in India, offering top-notch C2H Recruitment Services to meet your business staffing needs effectively'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">

@@ -82,16 +82,16 @@
                 <h3 class="text-center">Naukriyan </h3>
                 <ul>
                     <li>
-                        <p class="text-justify">Naukriyan is a dynamic job portal dedicated to shaping a new era of employment in India. </p>
+                        <p class="">Naukriyan is a dynamic job portal dedicated to shaping a new era of employment in India. </p>
                     </li>
                     <li>
-                        <p class="text-justify">Our platform connects freshers and experienced professionals with employers across the nation, offering opportunities in both e-governance and corporate projects. </p>
+                        <p class="">Our platform connects freshers and experienced professionals with employers across the nation, offering opportunities in both e-governance and corporate projects. </p>
                     </li>
                     <li>
-                        <p class="text-justify">At Naukriyan, we aim to assist job seekers and recruiters, providing a seamless interface that makes finding the right talent or job effortless. </p>
+                        <p class="">At Naukriyan, we aim to assist job seekers and recruiters, providing a seamless interface that makes finding the right talent or job effortless. </p>
                     </li>
                     <li>
-                        <p class="text-justify">Whether you’re an aspiring professional or an organization seeking skilled talent, Naukriyan is your gateway to unlocking a world of possibilities in the ever-evolving job market of India.</p>
+                        <p class="">Whether you’re an aspiring professional or an organization seeking skilled talent, Naukriyan is your gateway to unlocking a world of possibilities in the ever-evolving job market of India.</p>
                     </li>
                 </ul>
 
@@ -102,16 +102,16 @@
                 <ul>
                     <h3 class="text-center">Naukriyan Guftgu</h3>
                     <li>
-                        <p class="text-justify">Naukriyan Guftgu unravels the essence of corporate culture and beyond! </p>
+                        <p class="">Naukriyan Guftgu unravels the essence of corporate culture and beyond! </p>
                     </li>
                     <li>
-                        <p class="text-justify">The talk show here is a vibrant platform where industry leaders and visionaries come together to share their stories and insights. </p>
+                        <p class="">The talk show here is a vibrant platform where industry leaders and visionaries come together to share their stories and insights. </p>
                     </li>
                     <li>
-                        <p class="text-justify">They dive into discussions beyond the boardroom—exploring the evolving dynamics of organizations, the secrets to leadership, and inspiring journeys of perseverance. </p>
+                        <p class="">They dive into discussions beyond the boardroom—exploring the evolving dynamics of organizations, the secrets to leadership, and inspiring journeys of perseverance. </p>
                     </li>
                     <li>
-                        <p class="text-justify">Whether you’re seeking valuable insights or a fresh perspective on the world of work, Naukriyan Guftgu is your gateway to understanding what drives today’s corporate landscape and the minds shaping it.</p>
+                        <p class="">Whether you’re seeking valuable insights or a fresh perspective on the world of work, Naukriyan Guftgu is your gateway to understanding what drives today’s corporate landscape and the minds shaping it.</p>
                     </li>
                 </ul>
             </div>
@@ -121,19 +121,19 @@
                 <h3 class="text-center">The Gravity International</h3>
                 <ul>
                     <li>
-                        <p class="text-justify">"The Gravity International" is your go-to e-magazine, designed for ambitious individuals eager to elevate their careers.</p>
+                        <p class="">"The Gravity International" is your go-to e-magazine, designed for ambitious individuals eager to elevate their careers.</p>
                     </li>
                     <li>
-                        <p class="text-justify">Whether you're a professional, an aspiring entrepreneur, or a seasoned business leader, this magazine is your gateway to insights and inspiration.</p>
+                        <p class="">Whether you're a professional, an aspiring entrepreneur, or a seasoned business leader, this magazine is your gateway to insights and inspiration.</p>
                     </li>
                     <li>
-                        <p class="text-justify">Dive into a world of knowledge, where every article is crafted to fuel your passion for personal growth and professional success.</p>
+                        <p class="">Dive into a world of knowledge, where every article is crafted to fuel your passion for personal growth and professional success.</p>
                     </li>
                     <li>
-                        <p class="text-justify">From industry trends to leadership advice, "The Gravity International" offers the tools and guidance you need to thrive in a fast-paced, ever-evolving world. </p>
+                        <p class="">From industry trends to leadership advice, "The Gravity International" offers the tools and guidance you need to thrive in a fast-paced, ever-evolving world. </p>
                     </li>
                     <li>
-                        <p class="text-justify"> Embrace the journey of learning and growth with content that keeps you ahead of the curve.</p>
+                        <p class=""> Embrace the journey of learning and growth with content that keeps you ahead of the curve.</p>
                     </li>
                 </ul>
             </div>

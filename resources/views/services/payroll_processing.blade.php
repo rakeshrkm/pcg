@@ -1,11 +1,16 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Payroll Processing Company & Management in India | Prakhar Consulting Group',
+    'keyword' => 'Payroll Processing Company in India, Payroll Management Process, payroll solutions, payroll outsourcing, payroll services, payroll administration, efficient payroll management, best payroll services',
+    'description' => 'Prakhar Consulting Group is a leading Payroll Processing Company in India, specializing in streamlined Payroll Management Processes for efficient business operations'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">Payroll Staffing</h2>
+                <h2 class="page-title text-white">Payroll Processing</h2>
             </div>
         </div>
     </div>

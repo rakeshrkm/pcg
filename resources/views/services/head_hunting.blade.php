@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Head Hunting Firms & Recruitment Experts | Prakhar Consulting Group',
+    'keyword' => 'Head Hunting Firms, Head Hunting in Recruitment, Recruitment Head Hunters, Executive Search, Talent Acquisition Specialists',
+    'description' => 'Prakhar Consulting Group: Leading Head Hunting Firm specializing in Head Hunting in Recruitment to connect top talent with companies seeking excellence'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">

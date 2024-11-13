@@ -1,5 +1,4 @@
 @if(\Request::route()->getName() == 'index')
-
 <header id="header">
     <!-- header-top -->
     <div class="header-top">
@@ -47,9 +46,9 @@
                 <div class="col-md-12 head_details">
                     <div class="header-logo">
                         <a href="{{route('index')}}">
-                            <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
-                            <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
-                            <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" loading="lazy" width="300" height="200" />
+                            <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="Logo" title="Logo" loading="lazy" width="300" height="200" />
+                            <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" loading="lazy" width="300" height="200" />
+                            <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" loading="lazy" width="300" height="200" />
                         </a>
                     </div>
                     <nav class="menu-container">
@@ -61,7 +60,7 @@
                                 <a href="{{ route('about') }}">About Us</a>
                             </li>
                             <li>
-                                <a href="{{route('services')}}">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <a href="#">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul>
                                     <li>
                                         <a href="#">Organisation</a>
@@ -81,9 +80,7 @@
                                                     <li>
                                                         <a href="{{ route('ItNonIthiring') }}">IT/NON-IT Hiring</a>
                                                     </li>
-
                                                 </ul>
-
                                             <li>
                                                 <a href="{{ route('temporaryStaffing') }}">Temperory Staffing</a>
                                                 <ul>
@@ -97,16 +94,12 @@
                                                         <a href="{{ route('contractToHire') }}">Payroll Processing</a>
                                                     </li>
                                                 </ul>
-
                                             </li>
-
                                         </ul>
                                     </li>
-
                                     <li>
                                         <a href="{{route('universities')}}">Universities</a>
                                     </li>
-
                                 </ul>
                             </li>
                             <li>
@@ -177,9 +170,9 @@
                 <div class="col-md-12">
                     <div class="header-logo">
                         <a href="index.html">
-                            <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" />
-                            <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" />
-                            <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" />
+                            <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" />
+                            <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" title="Logo" alt="logo" />
+                            <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" />
                         </a>
                     </div>
                     <nav class="menu-container" id="manuId">
@@ -192,7 +185,7 @@
                                 <a href="{{ route('about') }}">About Us</a>
                             </li>
                             <li>
-                                <a href="{{route('services')}}">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <a href="#">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul>
                                     <li>
                                         <a href="#">Organisation</a>
@@ -254,18 +247,6 @@
                             </li>
                             <li><a href="{{ route('contactUs') }}">Contact Us</a></li>
                         </ul>
-                        {{-- <div class="additional-menu">
-                            <a href="#" class="btn btn-default">Enquire Now</a>
-                            <a href="#" class="btn btn-default">Open Jobs</a>
-                            <!-- <a class="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                <div class="search-panel">
-                    <form action="https://www.mazenet.com/search" class="form-search form-search-rounded">
-                        <div class="input-group-placeholder addon-right">
-                            <input name="search" type="text" class="form-control" placeholder="Search here.." />
-                        </div>
-                    </form>
-                </div>-->
-                        </div> --}}
                     </nav>
 
                 </div>

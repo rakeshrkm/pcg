@@ -1,4 +1,9 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Best Contract Staffing & Short-term Employment Services in India',
+    'keyword' => 'Best Contract Staffing Agency in India, Short-term Employment Services in India, Contract Staffing, Employment Solutions, Staffing Services India',
+    'description' => 'Prakhar Consulting Group is the best Contract Staffing Agency in India, providing exceptional Short-term Employment Services tailored to your needs'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">
