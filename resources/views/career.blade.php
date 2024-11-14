@@ -125,7 +125,7 @@
                                         <img src="{{ asset('assets/img/pcg-web-logo.png') }}" alt="logo" />
                                     </div>
                                     <div class="col-md-6 col-m-3 mt-2">
-                                        <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
+                                        <a href="https://naukriyan.com/job_details/${job.id}" target="_blank">
                                             <button type="button" class="btn btn-dark apply-now">
                                                 <span class="text-white">Job Description</span>
                                                 <i class="fa fa-arrow-circle-right" aria-hidden="true" style="color: white;"></i>
@@ -165,7 +165,7 @@
 
                                 <div class="row btn-container">
                                     <div>
-                                         <a href="https://naukriyan.com/#/viewjobs/${job.id}" target="_blank">
+                                         <a href="https://naukriyan.com/job_details/${job.id}" target="_blank">
                                         <button type="button" class="btn btn-dark job_id">
                                             <i class="fa fa-file-text-o text-white" aria-hidden="true"></i>
                                             <span class="text-white">Apply Now</span>
