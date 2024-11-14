@@ -80,7 +80,7 @@
 
     <section class="container">
         <div class="heading-title text-center">
-            <h2>Why Choose Prakhar Consulting Group for Permanent Hiring Solutions India ?</h2>
+            <h2>Why Choose Prakhar Consulting Group for P   ermanent Hiring Solutions India ?</h2>
         </div>
         <div class="row">
             <div class="col-md-12">

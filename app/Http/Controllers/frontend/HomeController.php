@@ -4,6 +4,8 @@ namespace App\Http\Controllers\frontend;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
+use App\Models\Contact;
+use Mail;
 
 class HomeController extends Controller
 {
@@ -87,18 +89,35 @@ class HomeController extends Controller
     }
 
     public function SubmitContact(Request $request){
-        $request->validate([
+
+      $validation =   $request->validate([
             'name' => 'required|max:30',
-            'phone_no' => 'required|max:30',
-            'email' => 'required|max:30|email',
+            'mobile' => 'required|max:30',
+            'email' => 'required|max:80|email',
             'services' => 'required',
             'comment' => 'required',
             'g-recaptcha-response' => 'required'
         ]);
 
-    
+        $contact = new Contact();
+        $contact->fill($request->all());
+        $contact->save();
+        $email = $request->email;
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'remarks' => $request->comment,
+            'mobile' => $request->mobile
+        ];
 
-        
+        Mail::send('mail.contact_mail', $data, function ($message) use ($email) {
+            $message->to($email)->subject('Consulting form PCG');
+        });
 
+        if($contact){
+            return redirect()->back()->with('success', 'Team will be contact You Soon !');
+        }else{
+            return redirect()->back()->with('error', 'Something went wrong !');
+        }
     }
 }

@@ -98,6 +98,18 @@
                     <div class="col-lg-6 col-md-12 mt-3">
                         <div class="row">
                             <div class="container">
+
+                                @if(session()->has('success'))
+                                    <div class="alert alert-success " role="alert">
+                                        {{ session()->get('success') }}
+                                    </div>
+                                @endif
+                                @if(session()->has('error'))
+                                    <div class="alert alert-danger" role="alert"">
+                                        {{ session()->get('error') }}
+                                    </div>
+                                @endif
+
                                 <form class="lms-form border" method="post" action="{{route('ContactSubmit')}}">
                                     @csrf
                                     <div class="cttopic">Contact Us<br></div>
