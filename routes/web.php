@@ -43,5 +43,10 @@ Route::get('/training-development', [HomeController::class, 'trainingAndDevelopm
 Route::get('/consulting-services', [HomeController::class, 'consultingServices'])->name('consultingServices');
 Route::get('/other-services', [HomeController::class, 'otherServices'])->name('otherServices');
 
+// If route not found.
+Route::fallback(function () {
+    return view('notfound');
+});
+
 
 
