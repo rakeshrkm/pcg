@@ -86,7 +86,7 @@
                 </div>
                 <div class="col-md-12">
                     <p>These services are invaluable for businesses aiming to fill C-suite and other senior positions, where leadership quality can significantly impact organizational growth and success.</p>
-                    <p>Prakhar Consulting Group is recognized as a well-known executive search firm in India, offering comprehensive talent acquisition services tailored to meet the unique needs of each client. Are you also looking for a consultant who can help with <span class="whatwedotitile">IT/NON-IT Hiring</span> service? PCG has the right strategies for this service. </p>
+                    <p>Prakhar Consulting Group is recognized as a well-known executive search firm in India, offering comprehensive talent acquisition services tailored to meet the unique needs of each client. Are you also looking for a consultant who can help with <a href="{{route('executiveSearch')}}">IT/NON-IT Hiring</a> service? PCG has the right strategies for this service. </p>
                 </div>
             </div>
     </section>
@@ -116,9 +116,9 @@
                     <li>We conduct a rigorous screening process that evaluates candidates' skills, leadership style, and alignment with your corporate values, ensuring that each candidate presented is an ideal fit for both the role and your organization. </li>
                     <li>We maintain ongoing communication to keep you informed at every stage of the search.</li>
                 </ul>
-                <p>As one of the Top Executive Search Firms in India, Prakhar Consulting Group will make sure to deliver results that exceed expectations. </p>
+                <p>As one of the <span class="whatwedotitile">Top Executive Search Firms in India</span>, Prakhar Consulting Group will make sure to deliver results that exceed expectations. </p>
                 <p>We work closely with clients to secure leaders who not only meet but elevate their strategic vision. </p>
-                <p>Our focus on quality, discretion, and client satisfaction has established us as a trusted partner in executive search, helping companies build the leadership teams they need to thrive in a competitive landscape. If you also need a <span class="whatwedotitile">Headhunting service</span>, contact PCG to get everything you need for your business's growth.</p>
+                <p>Our focus on quality, discretion, and client satisfaction has established us as a trusted partner in executive search, helping companies build the leadership teams they need to thrive in a competitive landscape. If you also need a <a href="{{ route('headHunting') }}"> Headhunting service</a>, contact PCG to get everything you need for your business's growth.</p>
             </div>
         </div>
     </section>

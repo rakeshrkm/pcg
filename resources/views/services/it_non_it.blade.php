@@ -75,7 +75,7 @@
                     </ul>
                     <p>Choosing Prakhar Consulting Group means partnering with a team that is dedicated to excellence. </p>
                     <p>We strive to be more than just a recruitment agency—we aim to be your strategic partner in building a successful workforce. </p>
-                    <p>As the top IT Recruitment Agency in India, we focus on delivering results that matter, helping businesses thrive by providing top-notch IT Talent Acquisition and innovative Hiring Solutions that truly make a difference. PCG is also there to provide  <span class="whatwedotitile">Temporary Staffing</span> service for your business. </p>
+                    <p>As the top IT Recruitment Agency in India, we focus on delivering results that matter, helping businesses thrive by providing top-notch IT Talent Acquisition and innovative Hiring Solutions that truly make a difference. PCG is also there to provide  <a href="{{ route('temporaryStaffing') }}" target="_blank">Temporary Staffing</a> service for your business. </p>
                 </div>
             </div>
     </section>
@@ -115,7 +115,7 @@
             <div class="col-md-12">
                 <p>Our approach to IT Staffing Solutions allows us to address the diverse needs of businesses, from startups to large enterprises. </p>
                 <p>By partnering with Prakhar Consulting Group, you gain a competitive edge in the market, supported by a reliable recruitment partner dedicated to your success. </p>
-                <p>Trust us to be your Top IT Staffing Company in India, committed to helping you find the right talent for every IT role. No need to search for any consultant for Permanent Staffing as we have the ultimate strategies for your organization. </p>
+                <p>Trust us to be your Top IT Staffing Company in India, committed to helping you find the right talent for every IT role. No need to search for any consultant for <a href="{{ route('temporaryStaffing') }}" target="_blank">Permanent Staffing</a> as we have the ultimate strategies for your organization. </p>
             </div>
         </div>
     </section>

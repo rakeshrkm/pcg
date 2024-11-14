@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">Contract-to-Hire (C2H) Hiring </h2>
+                <h2 class="page-title text-white    ">Contract-to-Hire (C2H) Hiring </h2>
             </div>
         </div>
     </div>
@@ -120,7 +120,7 @@
                 <p>Here, candidates can work in dynamic environments, gaining hands-on experience in roles that drive innovation and critical project outcomes. </p>
                 <p>For example, software developers can contribute to application builds, data analysts can work on insights-driven projects, and cybersecurity experts can enhance an organization’s security posture. </p>
                 <p>This approach allows companies to assess candidates' skills, adaptability, and alignment with company culture while providing professionals with a pathway to stable, long-term career growth in the thriving IT sector.</p>
-                <p>Through our commitment to excellence and understanding of <span class="whatwedotitile">Contract-to-Hire Employment in India</span>, Prakhar Consulting Group is a great choice for job seekers and businesses alike. For <span class="whatwedotitile">Payroll Processing service</span>, we are here to support you with our unmatched strategies and great process. </p>
+                <p>Through our commitment to excellence and understanding of <span class="whatwedotitile">Contract-to-Hire Employment in India</span>, Prakhar Consulting Group is a great choice for job seekers and businesses alike. For <a href="{{ route('payrollProcessing') }}" target="_blank">Payroll Processing</a> service, we are here to support you with our unmatched strategies and great process. </p>
                 <p>We are dedicated to fostering meaningful career paths that align with the evolving needs of the modern workforce, helping candidates unlock long-term career potential while supporting companies in building a versatile, talented workforce.</p>
 
             </div>

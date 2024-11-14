@@ -49,7 +49,7 @@
                     <p>Our team stays updated on the latest industry regulations and best practices, ensuring your payroll operations are handled with precision and accountability. </p>
                     <p>Furthermore, our secure systems safeguard sensitive payroll data, offering peace of mind that your information is protected.</p>
                     <p>Opting for payroll solutions with Prakhar Consulting Group translates into a hassle-free, efficient payroll experience, contributing to enhanced employee satisfaction and improved overall organizational performance. </p>
-                    <p>Discover the difference a professionally managed <span class="whatwedotitile">Payroll Processing System</span> can make in streamlining your payroll needs and optimizing your workforce management. Need <a href="#"> Contract Staffing</a> service? If you are looking for a professional consultant agency to get this service, Prakhar Consulting Group is there to assist you.</p>
+                    <p>Discover the difference a professionally managed <span class="whatwedotitile">Payroll Processing System</span> can make in streamlining your payroll needs and optimizing your workforce management. Need <a href="{{ route('contractStaffing') }}"> Contract Staffing</a> service? If you are looking for a professional consultant agency to get this service, Prakhar Consulting Group is there to assist you.</p>
                 </div>
             </div>
     </section>
@@ -90,7 +90,7 @@
                     <li>Customization is at the heart of our payroll services. We tailor our approach to meet each client’s unique needs, ensuring that our solutions align perfectly with their operational requirements. Moreover, our services comply with local legislation, offering clients peace of mind that their payroll functions are legally sound and up-to-date with regulatory changes.</li>
                     <li>Data security is a top priority, with rigorous measures in place to protect sensitive payroll information. Businesses can be confident in the confidentiality and safety of their data, safeguarding both employee trust and company integrity.</li>
                 </ul>
-                <p>With over a decade of experience working with businesses of all sizes in India, our expertise and commitment to excellence make our <span class="whatwedotitile">Outsourced Payroll Services</span> a reliable choice for streamlined and secure payroll operations. If businesses are also looking for <span class="whatwedotitile">Permanent Staffing services</span>, we have an expert team to help them.</p>
+                <p>With over a decade of experience working with businesses of all sizes in India, our expertise and commitment to excellence make our <span class="whatwedotitile">Outsourced Payroll Services</span> a reliable choice for streamlined and secure payroll operations. If businesses are also looking for <a href="{{ route('permanentStaffing') }}" target="_blank"> Permanent Staffing</span> services, we have an expert team to help them.</p>
             </div>
         </div>
     </section>

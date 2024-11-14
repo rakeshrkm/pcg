@@ -85,4 +85,20 @@ class HomeController extends Controller
     public function otherServices(){
         return view('other_services');
     }
+
+    public function SubmitContact(Request $request){
+        $request->validate([
+            'name' => 'required|max:30',
+            'phone_no' => 'required|max:30',
+            'email' => 'required|max:30|email',
+            'services' => 'required',
+            'comment' => 'required',
+            'g-recaptcha-response' => 'required'
+        ]);
+
+    
+
+        
+
+    }
 }

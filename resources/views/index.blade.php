@@ -72,7 +72,7 @@
 
                 <p>Prakhar Consulting Group Pvt. Ltd. specializes in bridging the gap between dynamic organizations and talented job seekers across India.</p>
                 <p>
-                    Our mission is to empower businesses by providing the Best <strong>HR Consulting Services in India</strong>, enabling them to find the right talent that aligns with their goals and vision.
+                    Our mission is to empower businesses by providing the <span class="whatwedotitile">Best HR Consulting Services in India</span>, enabling them to find the right talent that aligns with their goals and vision.
                 </p>
                 <p>At the same time, we are committed to guiding job seekers toward meaningful opportunities that match their skills and aspirations.</p>
                 <p>At Prakhar Consulting Group, we understand the rapidly evolving landscape of the job market, particularly in sectors such as:</p>
@@ -92,7 +92,7 @@
             <div class="col-lg-12 text-left ">
                 <p>We take pride in offering a comprehensive range of HR consulting solutions tailored to meet the unique demands of businesses, whether large corporations or startups.</p>
                 <p>Our team of experts leverages years of experience to ensure employers and job seekers benefit from a seamless recruitment process, driving success for all parties involved.</p>
-                <p>For emerging businesses, our Recruitment Services are particularly beneficial. As a trusted India HR Consultancy for Startups, we help young and growing companies build a solid workforce that can scale with them. We know the challenges that startups face in their early stages, and we work closely with them to design recruitment strategies that attract top talent while staying aligned with their budget and culture.</p>
+                <p>For emerging businesses, our <span class="whatwedotitile">Recruitment Services</span> are particularly beneficial. As a trusted <span class="whatwedotitile">India HR Consultancy for Startups</span>, we help young and growing companies build a solid workforce that can scale with them. We know the challenges that startups face in their early stages, and we work closely with them to design recruitment strategies that attract top talent while staying aligned with their budget and culture.</p>
                 <p>Our solutions go beyond basic recruitment. We offer end-to-end support, including talent acquisition, onboarding, and retention strategies, ensuring organizations have the tools they need to thrive in today's competitive market.</p>
                 <p>Whether you're looking for executives, managers, or skilled professionals, Prakhar Consulting Group should be your first priority. We believe the right candidates are the key to any organization's success, and we are here to connect them. Let Prakhar Consulting Group be your trusted partner in shaping a brighter future for your business.</p>
             </div>
@@ -139,7 +139,7 @@
                     At Prakhar Consulting Group, we believe that building a strong talent pipeline begins with recruiting the best fresh talent from campuses across India.
                 </p>
                 <p>
-                    Our best <strong> Recruitment Services in India</strong> are designed to provide businesses with access to the brightest young minds, ensuring a seamless transition from academic life to professional careers.
+                    Our best <span class="whatwedotitile">Recruitment Services in India</span> are designed to provide businesses with access to the brightest young minds, ensuring a seamless transition from academic life to professional careers.
                 </p>
                 <p>
                     As a leading HR consultancy, we go beyond the standard approach to recruitment, offering a personalized and strategic service that sets us apart from other agencies.
@@ -154,7 +154,7 @@
                     Unlike traditional agencies, we take a holistic approach to recruitment. Our services include conducting in-depth pre-assessments of candidates to ensure that they have the right skills, attitude, and cultural fit for the hiring company.
                 </p>
                 <p>
-                    We are the best staffing company in India that collaborate closely with colleges and universities to identify the most promising talent pools, ensuring that our clients have access to a diverse range of high-quality candidates.
+                    We are the <span class="whatwedotitile">best staffing company in India</span> that collaborate closely with colleges and universities to identify the most promising talent pools, ensuring that our clients have access to a diverse range of high-quality candidates.
                 </p>
 
             </div>
@@ -173,7 +173,7 @@
                     Prakhar Consulting Group offers a complete recruitment cycle, including pre-placement training, skill assessments, and post-placement support. Our process ensures that the students we recommend are not only academically qualified but also job-ready, reducing onboarding time and increasing productivity for your company.
                 </p>
                 <p>
-                    As a <strong> Manpower Consultancy in India</strong> with a vast network of connections in both educational institutions and corporate industries, we are helping both academia and the corporate world. Whether you are a startup or an established organization, we are the top <strong> HR Consulting and Staffing in India </strong> that help you tap into emerging talent and secure the future leaders of your business.
+                    As a <span class="whatwedotitile">Manpower Consultancy in India</span> with a vast network of connections in both educational institutions and corporate industries, we are helping both academia and the corporate world. Whether you are a startup or an established organization, we are the top <span class="whatwedotitile"> HR Consulting and Staffing in India</span> that help you tap into emerging talent and secure the future leaders of your business.
                 </p>
                 <p>
                     By partnering with Prakhar Consulting Group for consulting services, you’re choosing a partner committed to building a stronger future for your company.
@@ -195,7 +195,7 @@
                     <h2>Reliable Staffing Services India for Short-Term Hiring Needs</h2>
                 </div>
                 <p>
-                    We have well-versed experience in providing top-notch <strong>Staffing Services in India</strong> to help businesses meet their short-term staffing needs without compromising on quality.
+                    We have well-versed experience in providing top-notch <span class="whatwedotitile">Staffing Services in India</span> to help businesses meet their short-term staffing needs without compromising on quality.
                 </p>
                 <p>
                     Our contract staffing solutions are designed to offer flexibility and efficiency, ensuring that you have the right talent in place when you need it the most.
@@ -204,7 +204,7 @@
                     Whether you're handling seasonal demand, special projects, or unexpected workloads, our expert team ensures a smooth recruitment process to meet your temporary staffing requirements.
                 </p>
                 <p>
-                    We understand that businesses today need to remain agile, and our <strong> Staffing Services in India</strong> are tailored to offer the workforce solutions that suit your specific needs.
+                    We understand that businesses today need to remain agile, and our <span class="whatwedotitile">Temporary  Staffing Services in India</span> are tailored to offer the workforce solutions that suit your specific needs.
                 </p>
                 <p>
                     From IT professionals and engineers to administrative staff, Prakhar Consulting Group covers a wide range of industries and skill sets. What sets us apart is our outstanding process, ensuring that every candidate is job-ready and fits seamlessly into your company's culture and objectives.
@@ -225,7 +225,7 @@
                     <h2>Prakhar Consulting Group: Your Best Recruitment Partner</h2>
                 </div>
                 <p>
-                    We pride ourselves on being the <strong> Best Recruitment Partner in India</strong>, offering sublime recruitment solutions tailored to meet the unique needs of businesses across various industries.
+                    We pride ourselves on being the <span class="whatwedotitile">Best Recruitment Partner in India</span>, offering sublime recruitment solutions tailored to meet the unique needs of businesses across various industries.
                 </p>
                 <p>
                     Our comprehensive approach ensures that we provide companies with not just candidates, but long-term employees who align with their values, goals, and culture.
@@ -234,7 +234,7 @@
                     Whether you’re a startup or a well-established enterprise, our recruitment strategies are designed to drive your business success by securing the best talent.
                 </p>
                 <p>
-                    Our Hiring <storng>Solutions for Indian Companies</storng> go beyond simply filling vacancies; we work closely with our clients to understand their workforce requirements, organizational goals, and the specific skills they seek in candidates. </p>
+                    Our Hiring <span class="whatwedotitile">Solutions for Indian Companies</span> go beyond simply filling vacancies; we work closely with our clients to understand their workforce requirements, organizational goals, and the specific skills they seek in candidates. </p>
                 <p>
                     This collaborative approach allows us to deliver results that far exceed expectations. We leverage our vast network and in-depth market knowledge to find the perfect fit for your company, saving you time and resources.
                 </p>

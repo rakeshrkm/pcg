@@ -42,7 +42,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>At Prakhar Consulting Group, we are adept in Temporary Contract Staffing, delivering reliable, qualified professionals who are ready to contribute from day one. </p>
-                    <p>Our goal is to help companies maintain productivity and operational continuity by providing skilled talent exactly when and where they need it. We are always ready to help in providing services like <span class="whatwedotitile">Contract-to-hire (C2H) Hiring</span>.</p>
+                    <p>Our goal is to help companies maintain productivity and operational continuity by providing skilled talent exactly when and where they need it. We are always ready to help in providing services like <a href="{{ route('contractToHire') }}" target="_blank">Contract-to-hire (C2H) Hiring</a>.</p>
                 </div>
             </div>
     </section>
@@ -122,7 +122,7 @@
                 <li>Temporary staffing also grants access to a diverse talent pool. Prakhar Consulting Group’s extensive network of pre-screened candidates enables businesses to find skilled professionals for immediate needs across various fields—whether technical, administrative, or industry-specific roles. </li>
                 <li>Temporary staffing offers companies the chance to evaluate potential long-term employees. If the fit is right, temporary employees can transition smoothly into full-time roles. </li>
             </ul>
-            <p>Still searching for <span class="whatwedotitile">Temporary Staffing Companies near me?</span> Contact Prakhar Consulting Group that assists businesses to maintain flexibility, control costs, and sustain productivity in an evolving marketplace. We can even help small or well-seasoned businesses by providing services like <span class="whatwedotitile">Leadership Hiring</span>. </p>
+            <p>Still searching for <span class="whatwedotitile">Temporary Staffing Companies near me?</span> Contact Prakhar Consulting Group that assists businesses to maintain flexibility, control costs, and sustain productivity in an evolving marketplace. We can even help small or well-seasoned businesses by providing services like <a href="{{ route('leadershipHiring') }}" target="_blank">Leadership Hiring</a>. </p>
             </div>
         </div>
     </section>

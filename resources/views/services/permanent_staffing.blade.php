@@ -85,7 +85,7 @@
         <div class="row">
             <div class="col-md-12">
                 <p class="text-center">“Securing the right talent for critical roles is fundamental to sustained business growth.”</p>
-                <P><span class="whatwedotitile">Permanent Hiring Solutions in India</span> provide companies with the means to build a stable and skilled workforce, allowing them to focus on strategic priorities while leaving recruitment complexities to the experts. </P>
+                <P><a href="{{ route('temporaryStaffing') }}"> Permanent Hiring Solutions in India</a> provide companies with the means to build a stable and skilled workforce, allowing them to focus on strategic priorities while leaving recruitment complexities to the experts. </P>
                 <p>These solutions are specifically designed to align with your organization's long-term goals, ensuring a seamless hiring process. </p>
                 <p>At Prakhar Consulting Group, we deliver bespoke Hiring Solutions that cater to the needs of various industries. </p>
             </div>
@@ -123,7 +123,7 @@
         <div class="row">
             <div class="col-md-12">
                 <p>In a competitive market, building a skilled and reliable workforce is critical for sustained business growth. <span class="whatwedotitile">Permanent Staffing Services in India</span> offer companies a strategic solution, providing access to professionals who are committed to long-term roles.</p>
-                <p>These services are structured to streamline the recruitment process, ensuring that businesses find candidates who align with their goals and culture. At Prakhar Consulting Group, we are recognized as one of the most <span class="whatwedotitile">Trusted Permanent Hiring Agencies in India</span>. You can also get in touch with us to seek services like <span class="whatwedotitile">Executive Search</span>.</p>
+                <p>These services are structured to streamline the recruitment process, ensuring that businesses find candidates who align with their goals and culture. At Prakhar Consulting Group, we are recognized as one of the most <span class="whatwedotitile">Trusted Permanent Hiring Agencies in India</span>. You can also get in touch with us to seek services like <a href="{{ route('temporaryStaffing') }}"> Executive Search</a>.</p>
             </div>
         </div>
     </section>

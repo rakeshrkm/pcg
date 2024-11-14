@@ -117,7 +117,7 @@
                     <li>Our <span class="whatwedotitile">Leadership Talent Acquisition Services in India</span> are designed to attract exceptional leaders who align with your organization’s long-term vision.</li>
                 </ul>
                 <p>We recognize that senior leadership roles demand individuals who bring more than just technical expertise—they must inspire teams, foster innovation, and drive strategic change. </p>
-                <p>With our industry insights and extensive network, we identify top talent, including passive candidates who may not be actively job-hunting but possess the potential to transform your organization. Do you know about <span class="whatwedotitile">Payroll Processing</span>? If you need this service, PCG has everything you are looking for.  </p>
+                <p>With our industry insights and extensive network, we identify top talent, including passive candidates who may not be actively job-hunting but possess the potential to transform your organization. Do you know about <a href="{{ route('payrollProcessing') }}"> Payroll Processing</a>? If you need this service, PCG has everything you are looking for.  </p>
             </div>
         </div>
     </section>
@@ -186,7 +186,7 @@
                 <h3>1. Role and Responsibility Scope</h3>
                     <ul>
                         <li>Leadership hiring focuses on individuals who set the organization’s strategic direction and shape its vision.</li>
-                        <li><span class="whatwedotitile">Executive Search</span> hiring involves professionals who manage departments and ensure operational goals are met effectively.</li>
+                        <li><a href="{{ route('executiveSearch') }}" target="_blank"> Executive Search</a> hiring involves professionals who manage departments and ensure operational goals are met effectively.</li>
                     </ul>
               </div>
             </div>

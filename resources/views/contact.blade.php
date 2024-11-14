@@ -50,13 +50,7 @@
                     <a href="contact-us.html" class="email"><i class="fa fa-envelope" aria-hidden="true"></i> Enquire Now</a>
                 </div>
             </div>
-            <!-- <div class="col-md-4 mb-4">
-           <div class="text-Center spearteconatctbox" onclick="location.href='https://www.mazenet.com/staffing/';" style="cursor: pointer;">
-             <img src="img/ct-icons4.png" width="60" class="mb-1">
-             <h6 class="mb-0"> Assessment as a Service</h6>
-             <a href="https://www.mazenet.com/staffing/staffing-contact-b2b.php#enquiry" class="email"><i class="fa fa-envelope" aria-hidden="true"></i> Enquire Now</a>
-          </div>
-          </div>-->
+           
             <div class="col-md-4 mb-4">
                 <div class="text-Center spearteconatctbox">
                     <img src="{{ asset('assets/img/ct-icons1.png') }}" width="60" class="mb-1">
@@ -104,56 +98,81 @@
                     <div class="col-lg-6 col-md-12 mt-3">
                         <div class="row">
                             <div class="container">
-                                <form class="lms-form border">
+                                <form class="lms-form border" method="post" action="{{route('ContactSubmit')}}">
+                                    @csrf
                                     <div class="cttopic">Contact Us<br></div>
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Name<span class="required">*</span></label>
-                                                <input type="text" placeholder="Your Name*" name="name" required="" class="form-control">
+                                                <input type="text" placeholder="Your Name*" name="name" class="form-control">
+                                                @error('name')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
                                             </div>
                                         </div>
                                         <!--  col-md-6   -->
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Phone Number<span class="required">*</span></label>
-                                                <input type="text" name="phone_no" id="phone_no" minlength="10" maxlength="10" onkeypress="return isNumberKey(event)" pattern=".{10,10}" placeholder="Your Number*" name="number" class="form-control" required="" onpaste="return false;">
+                                                <input type="text" name="mobile" id="mobile" minlength="10" maxlength="10" onkeypress="return isNumberKey(event)" pattern=".{10,10}" placeholder="Your Number*" name="number" class="form-control" onpaste="return false;">
+                                                @error('phone_no')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
                                             </div>
                                         </div>
                                         <!--  col-md-6   -->
                                         <div class="col-md-6">
                                             <div class="form-group">
                                                 <label>Email address<span class="required">*</span></label>
-                                                <input type="email" placeholder="Your Mail*" name="mail" required="" class="form-control">
+                                                <input type="email" placeholder="Your Mail*" name="email" class="form-control">
+                                                @error('email')
+                                                    <small class="text-danger">{{ $message }}</small>
+                                                @enderror
                                             </div>
                                         </div>
                                         <!--  col-md-6   -->
                                         <!--newfield-->
                                         <div class="col-md-6">
                                             <label>Our Services <span class="required">*</span></label>
-                                            <select id="our-services">
-                                                <option value="Corporate Training">Corporate Training</option>
-                                                <option value="Train &amp; Hire">Train &amp; Hire</option>
-                                                <option value="Staffing as a Service"> Staffing as a Service</option>
-                                                <option value="Lab as a Service">Lab as a Service</option>
-                                                <option value="Mazenet LMS">Mazenet LMS</option>
-                                                <option value="Others">Others </option>
+                                            <select id="our-services" name="services">
+                                                <option value="">  -- Select Option --  </option>
+                                                <option value="Permanent Staffing">Permanent Staffing</option>
+                                                <option value="Executive Search">Executive Search</option>
+                                                <option value="Leadership Hiring">Leadership Hiring</option>
+                                                <option value="Head Hunting">Head Hunting</option>
+                                                <option value="IT/Non-IT Hiring">IT/Non-IT Hiring</option>
+                                                <option value="Temporary Staffing">Temporary Staffing </option>
+                                                <option value="Contract Staffing">Contract Staffing </option>
+                                                <option value="Contract-to-Hire(C2H) Hiring">Contract-to-Hire(C2H) Hiring</option>
+                                                <option value="Payroll Process">Payroll Process</option>
+                                                <option value="Campus Recruitment">Campus Recruitment</option>
+                                                <option value="Other Services">Other Services</option>
                                             </select>
+                                            @error('services')
+                                            <small class="text-danger">{{ $message }}</small>
+                                            @enderror
                                         </div>
                                         <!--newfield-->
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Message<span class="required">*</span></label><br />
-                                                <textarea class="form-control" placeholder="Comments" name="comment" rows="2" required="" onpaste="return false;" maxlength="300"></textarea>
+                                                <textarea class="form-control" placeholder="Comments" name="comment" rows="2"  onpaste="return false;" maxlength="300"></textarea>
                                             </div>
+                                            @error('comment')
+                                            <small class="text-danger">{{ $message }}</small>
+                                            @enderror
                                         </div>
                                         <!--  col-md-6   -->
-                                        <div class="col-md-6">
+                                        <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>&nbsp;</label><br />
-                                                <div class="g-recaptcha" data-sitekey="6LeQ9MYaAAAAAFdlplefv5LaRD8DT_f5ZHvWVLqs" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback" style="transform: scale(0.80);    -webkit-transform: scale(0.80);    transform-origin: 0 0;  -webkit-transform-origin: 0 0;"></div>
-                                                <!--<input class="form-control d-none" data-recaptcha="true" required data-error="Please complete the Captcha">-->
-                                                <input type="hidden" name="recaptcha_response" id="g-recaptcha-response" data-recaptcha="true" required data-error="Please complete the Captcha">
+                                                <label>Google Recaptcha</label><br />
+                                                <div class="g-recaptcha mt-2" data-sitekey='6LdnnAwqAAAAAJiPc-53xRwoK7E9tStqumixbpCz'>
+
+                                                </div>
+                                                @if ($errors->has('g-recaptcha-response'))
+                                                <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                                                @endif
                                             </div>
                                         </div>
                                         <!--  col-md-6   -->

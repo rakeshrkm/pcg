@@ -24,6 +24,8 @@ Route::get('/services', [HomeController::class, 'service'])->name('services');
 Route::get('/industries-we-serve', [HomeController::class, 'industriesWeServe'])->name('industriesWeServe');
 Route::get('/recruitment-approach', [HomeController::class, 'ourApproach'])->name('ourApproach');
 Route::get('/contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
+Route::post('/contact-us', [HomeController::class, 'SubmitContact'])->name('ContactSubmit');
+
 Route::get('/career', [HomeController::class, 'career'])->name('career');
 // services
 Route::get('/permanent-staffing', [HomeController::class, 'permanentStaffing'])->name('permanentStaffing');
@@ -40,4 +42,6 @@ Route::get('/universities', [HomeController::class, 'universities'])->name('univ
 Route::get('/training-development', [HomeController::class, 'trainingAndDevelopment'])->name('trainingAndDevelopment');
 Route::get('/consulting-services', [HomeController::class, 'consultingServices'])->name('consultingServices');
 Route::get('/other-services', [HomeController::class, 'otherServices'])->name('otherServices');
+
+
 

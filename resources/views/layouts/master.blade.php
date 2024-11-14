@@ -45,6 +45,7 @@
     <!-- <link rel="stylesheet" href="https://www.mazenet.com/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="{{ asset('assets/css/appointment/style.css') }}">
     <script src="{{ asset('assets/js/moment.min.js') }}"></script>
+    {!! htmlScriptTagJsApi() !!}
 </head>
 
 <body>

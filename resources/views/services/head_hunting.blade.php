@@ -72,7 +72,7 @@
             <div class="col-md-12">
                <p>Our headhunting services go beyond simply filling a position; we work closely with clients to understand their strategic goals, company culture, and specific hiring requirements. </p>
                <p>This enables us to identify candidates who not only meet the technical demands of the role but are also aligned with the company’s vision and values. </p>
-               <p>For businesses searching for a "reliable <span class="whatwedotitile">Headhunter Agency Near Me</span>," Prakhar Consulting Group is a right partner committed to delivering results. Even we are the best choice for <span class="whatwedotitile">Leadership Hiring</span>.</p>
+               <p>For businesses searching for a "reliable <span class="whatwedotitile">Headhunter Agency Near Me</span>," Prakhar Consulting Group is a right partner committed to delivering results. Even we are the best choice for <a href="{{ route('leadershipHiring') }}" target="_blank">Leadership Hiring</a>.</p>
             </div>
         </div>
     </section>
@@ -160,7 +160,7 @@
 
                     <li>Each candidate undergoes a comprehensive evaluation process, from skill assessments to cultural fit analysis, ensuring that only the best-suited leaders are presented to our clients.</li>
                 </ul>
-                <p>Prakhar Consulting Group’s commitment to excellence has made us a leading <span class="whatwedotitile">Headhunter Job Agency</span>. We can also be your first priority if you choose us for <span class="whatwedotitile">Contract Staffing service</span>.</p>
+                <p>Prakhar Consulting Group’s commitment to excellence has made us a leading <span class="whatwedotitile">Headhunter Job Agency</span>. We can also be your first priority if you choose us for <a href="{{ route('contractStaffing') }}"> Contract Staffing service</span>.</p>
                 <p>Our focus on quality and client satisfaction drives us to exceed expectations, helping organizations secure visionary leaders who can make a meaningful impact. </p>
                 <p>Partnering with us for executive head hunting services provides companies with the expertise and support needed to build a strong leadership foundation and stay competitive in today’s evolving market.</p>
             </div>

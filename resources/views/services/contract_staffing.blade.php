@@ -56,7 +56,7 @@
 
                     <p>Our commitment to transparency, ethical practices, and client satisfaction has made us a preferred partner in Contractual Hiring. </p>
                     <p>We collaborate closely with clients to ensure that their staffing needs are met with precision and professionalism, helping them achieve strategic objectives. </p>
-                    <p>Let Prakhar Consulting Group support you in sourcing the right talent, ensuring that your projects are executed on time with the best resources available. Do you also need <span class="whatwedotitile">Head Hunting</span> service? If yes, we have a team of professionals to help you here as well. </p>
+                    <p>Let Prakhar Consulting Group support you in sourcing the right talent, ensuring that your projects are executed on time with the best resources available. Do you also need <a href="{{ route('headHunting') }}" target="_blank"> Head Hunting</a> service? If yes, we have a team of professionals to help you here as well. </p>
                 </div>
             </div>
     </section>
@@ -124,7 +124,7 @@
                 <li>As a leading provider of manpower recruitment solutions, we employ advanced recruitment techniques and data-driven insights to source and evaluate candidates efficiently. </li>
                 <li>Our process involves a thorough assessment of candidates’ skills, experience, and cultural alignment, ensuring that every placement contributes positively to the long-term success of our clients. </li>
                 <li>This approach not only saves time and resources but also helps reduce turnover, fostering a more stable workforce.</li>
-                <li>Our <a href="#" target="_blank">Manpower Staffing Solutions in India</a> provide businesses with a streamlined hiring process that emphasizes quality and reliability. </li>
+                <li>Our <span class="whatwedotitile">Manpower Staffing Solutions in India</span> provide businesses with a streamlined hiring process that emphasizes quality and reliability. </li>
                 <li>With our extensive professional network across various industries, we offer clients access to a diverse talent pool. </li>
                 <li>By partnering with Prakhar Consulting Group, companies can maintain focus on their strategic priorities while we manage the complexities of recruitment. Experience a seamless hiring process that supports growth and strategic success. </li>
                 <li>Let us help you build a talented workforce that aligns with your business goals and supports your vision for the future. We are also the right choice for growth minded businesses who are looking for <a href="{{ route('ItNonIthiring') }}" target="_blank"> IT/NON-IT Hiring</a>. </li>
