@@ -19,11 +19,13 @@
 
 <!-- Main Wrapper-->
 <main class="wrapper">
-    <section>
+    <section class="section pt-3 container" id="ourservices">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-12">
-                    <h1 class="text-center mt-4 p-4 ">Renowned as the Top Permanent Staffing Company India</h1>
+            <div class="row">
+                <div class="col-lg-12 text-left ">
+                    <div class="heading-title text-center p-4">
+                        <h1 class="text-center mt-4 p-4 ">Renowned as the Top Permanent Staffing Company India</h1>
+                    </div>
                 </div>
                 <div class="col-md-12">
                     <p>
@@ -80,7 +82,7 @@
 
     <section class="container">
         <div class="heading-title text-center">
-            <h2>Why Choose Prakhar Consulting Group for P   ermanent Hiring Solutions India ?</h2>
+            <h2>Why Choose Prakhar Consulting Group for Permanent Hiring Solutions India ?</h2>
         </div>
         <div class="row">
             <div class="col-md-12">

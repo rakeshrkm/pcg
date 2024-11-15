@@ -25,8 +25,8 @@
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-right">
                                     {{-- <div class="bannertextbold" data-animate="animate__fadeInDown">" Empowering Your Business for Success with Strategic Recruitment Solutions "</div> --}}
-                                    <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">"Best HR Consulting Services India Tailored for Your Business Success"</b></span>
-                                    </h1>
+                                    <h2 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">"Best HR Consulting Services India Tailored for Your Business Success"</b></span>
+                                    </h2>
 
                                 </div>
                             </div>
@@ -42,8 +42,8 @@
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-right">
                                     {{-- <div class="bannertextbold" data-animate="animate__fadeInDown">" Empowering Your Business for Success with Strategic Recruitment Solutions "</div> --}}
-                                    <h1 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">"Best HR Consulting Services India Tailored for Your Business Success"</b></span>
-                                    </h1>
+                                    <h3 class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">"Best HR Consulting Services India Tailored for Your Business Success"</b></span>
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -253,11 +253,12 @@
 </section>
 
 <section class="section pt-3 container" id="ourservices">
-    <div>
-        <h2 class="text-center">Our Top Key Services</h2>
+    <div class="container">
+        <div class="heading-title text-center  p-4">
+            <h3 class="text-center">Our Top Key Services</h3>
+        </div>
+        <p class="key-services">We deliver state-of-the-art recruitment solutions that match businesses with the right talent. From permanent staffing to training and development, our services are designed to meet diverse hiring needs, ensuring your organization thrives.</p>
     </div>
-
-    <p class="key-services">We deliver state-of-the-art recruitment solutions that match businesses with the right talent. From permanent staffing to training and development, our services are designed to meet diverse hiring needs, ensuring your organization thrives.</p>
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">

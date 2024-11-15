@@ -276,7 +276,10 @@
         flex: 0 0 100%;
         max-width: 100%;
     }
+
+    
 }
+
 /* [small screen] */
 @media screen and (max-width: 576px) {
     .section {

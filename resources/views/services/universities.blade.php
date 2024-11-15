@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12">
-                    <h1 class="text-center mt-4 p-4 ">1. Staff Hiring Solutions</h1>
+                    <h1 class="text-center p-4 ">1. Staff Hiring Solutions</h1>
                 </div>
                 <div class="col-md-12">
                     <p>Prakhar Consulting Group collaborates with universities to provide tailored <span class="whatwedotitile">Staff Hiring Solutions</span> that support both internal hiring needs and student development. </p>
