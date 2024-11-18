@@ -26,13 +26,13 @@
                     <h1 class="text-center mt-4 p-4 ">Expert Leadership Hiring Consultants India for Strategic Growth</h1>
                 </div>
                 <div class="col-md-12">
-                    <p>Nowadays, identifying the right leaders is critical to maintaining a competitive edge. <span class="whatwedotitile">Leadership</span> hiring is more than just filling a role; it requires a deep understanding of your organization's vision, culture, and strategic direction.</p>
-                    <p>At Prakhar Consulting Group, we recognize the complexities and challenges that come with finding leaders who can not only adapt but also inspire, innovate, and drive growth. </p>
-                    <p>Prakhar Consulting Group is a leading <span class="whatwedotitile">Leadership Hiring Consultant</span>, specializing in connecting organizations with visionary leaders who can drive growth and success. </p>
-                    <p>Our Leadership Hiring Solutions are tailored to address the specific challenges of recruiting senior-level talent that aligns with your company’s culture and strategic objectives. </p>
-                    <p>With a keen understanding of the dynamic business landscape, we provide a customized approach that ensures you secure the right leadership for your organization’s needs.</p>
-                    <p>Our role as one of the <span class="whatwedotitile">Best Leadership Recruitment Companies in India</span> goes beyond traditional hiring. We emphasize understanding your organization’s strategic leadership needs and the qualities you seek in executives. </p>
-                    <p>This insight allows us to attract top-tier candidates with the experience, skills, and mindset required to excel in high-impact roles. Our comprehensive evaluation process includes:</p>
+                    <p class="">Nowadays, identifying the right leaders is critical to maintaining a competitive edge. <span class="whatwedotitile">Leadership</span> hiring is more than just filling a role; it requires a deep understanding of your organization's vision, culture, and strategic direction.</p>
+                    <p class="">At Prakhar Consulting Group, we recognize the complexities and challenges that come with finding leaders who can not only adapt but also inspire, innovate, and drive growth. </p>
+                    <p class="">Prakhar Consulting Group is a leading <span class="whatwedotitile">Leadership Hiring Consultant</span>, specializing in connecting organizations with visionary leaders who can drive growth and success. </p>
+                    <p class="">Our Leadership Hiring Solutions are tailored to address the specific challenges of recruiting senior-level talent that aligns with your company’s culture and strategic objectives. </p>
+                    <p class="">With a keen understanding of the dynamic business landscape, we provide a customized approach that ensures you secure the right leadership for your organization’s needs.</p>
+                    <p class="">Our role as one of the <span class="whatwedotitile">Best Leadership Recruitment Companies in India</span> goes beyond traditional hiring. We emphasize understanding your organization’s strategic leadership needs and the qualities you seek in executives. </p>
+                    <p class="">This insight allows us to attract top-tier candidates with the experience, skills, and mindset required to excel in high-impact roles. Our comprehensive evaluation process includes:</p>
 
 
                     <ul class="mb-4 mt-4">
@@ -58,7 +58,7 @@
         </div> --}}
         {{-- <div class="col-md-5 order-first order-md-last">
                     <div class="wptb-video-content">
-                        <div class="heading-title text-center">
+                        <div class=" text-center">
                             <h2>Our Process</h2>
                          </div>
                         <ul>
@@ -81,8 +81,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Commitment</h2>
+        <div class=" text-center">
+            <h3>Our Commitment</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -94,7 +94,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>Senior Leadership Hiring Services India: Building Tomorrow’s Leaders</h2>
         </div>
         <div class="row">
@@ -106,8 +106,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Solutions</h2>
+        <div class="text-center">
+            <h3>Our Solutions</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -123,8 +123,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Evaluation Process</h2>
+        <div class=" text-center">
+            <h3>Evaluation Process</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -144,7 +144,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>Why Choose Us Among Leadership Staffing Agency India?</h2>
         </div>
         <div class="row">
@@ -158,8 +158,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>What We Offer?</h2>
+        <div class=" text-center">
+            <h3>What We Offer?</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -177,12 +177,12 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>How Leadership Hiring Differs from Executive Recruitment?</h2>
         </div>
         <div class="row">
             <div class="col-md-4">
-              <div class="border shadow p-3 mb-5 bg-white rounded">
+              <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
                 <h3>1. Role and Responsibility Scope</h3>
                     <ul>
                         <li>Leadership hiring focuses on individuals who set the organization’s strategic direction and shape its vision.</li>
@@ -191,7 +191,7 @@
               </div>
             </div>
             <div class="col-md-4">
-                <div class="border shadow p-3 mb-5 bg-white rounded">
+                <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
                     <h3>2. Level of Influence</h3>
                     <ul>
                         <li>Leadership roles have a broad organizational influence, impacting culture, growth, and future strategies.</li>
@@ -200,7 +200,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="border shadow p-3 mb-5 bg-white rounded">
+                <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
                     <h3>3. Skillset and Expertise</h3>
                     <ul>
                         <li>Leadership positions demand visionaries with exceptional decision-making, mentoring, and people management skills.</li>
@@ -209,7 +209,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="border shadow p-3 mb-5 bg-white rounded">
+                <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
                     <h3>4. Recruitment Complexity</h3>
                     <ul>
                         <li>Leadership hiring is a highly customized process with in-depth personality and cultural alignment assessments.</li>
@@ -218,7 +218,7 @@
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="border shadow p-3 mb-5 bg-white rounded">
+                <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
                     <h3>4. Impact on Business Outcomes</h3>
                     <ul>
                         <li>Leadership hires determine the company’s long-term success and resilience in competitive markets.</li>

@@ -2,49 +2,52 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <div class="footer-logo">
-                    <h6 class="footer-title">Quick Links</h6>
-                    <ul class="me-list">
-                        <li><a href="#"><i class="fa fa-angle-right"></i> Privacy Policy</a></li>
-                        <!--li><a href="https://www.mazenet.com/accreditation.php"><i class="fa fa-angle-right"></i> Accreditations</a></li-->
-                        <li><a href="#"><i class="fa fa-angle-right"></i> Terms & Condition</a></li>
-                        <!--<li><a href="https://www.mazenet.com/sitemap"><i class="fa fa-angle-right"></i> Sitemap</a> </li>-->
-                    </ul>
-                    <h6 class="footer-title">Engage with us</h6>
+                <h4 class="footer-title">Services</h4>
                 <ul class="me-list">
-                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i> &nbsp;Career</a></li>
-                    {{-- <li><a href="#"><i class="fa fa-angle-right"></i> Careers <span class="badge bg-success ms-2">We're hiring</span></a> </li> --}}
-                    <!--li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Hire from us</a></li-->
+                    <li><a href="{{route('permanentStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Permanent Staffing</a></li>
+                    <li><a href="{{route('executiveSearch')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Executive Search</a></li>
+                    <li><a href="{{route('leadershipHiring')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Leadership Hiring</a></li>
+                    <li><a href="{{route('headHunting')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Head Hunting</a></li>
+                    <li><a href="{{route('ItNonIthiring')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; IT/NOT-IT Hiring</a></li>
                 </ul>
-                </div>
+            </div>
+
+            <div class="col-md-3">
+                <h5 class="footer-title mt-3">Services</h5>
+                <ul class="me-list">
+                    <li><a href="{{route('temporaryStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Temporary Staffing</a></li>
+                    
+                    <li><a href="{{route('contractStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contract Staffing</a></li>
+                    <li><a href="{{route('contractToHire')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contract To Hire</a></li>
+                    
+                    <li><a href="{{route('payrollProcessing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Payroll Processing</a></li>
+                </ul>
+                <ul class="me-list">
+                    <li><a href="{{route('universities')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; <b style="font-size: 16px;">Universities</b></a></li>
+                </ul>
             </div>
             <div class="col-md-3">
-                <h6 class="footer-title">Our Services</h6>
-                <ul class="me-list">
-                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Recruitment Services</a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i> &nbsp;Training & Development</a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Consulting Services</a></li>
-                </ul>
-                
-            </div>
-            <div class="col-md-2">
                 <h6 class="footer-title">Links</h6>
                 <ul class="me-list">
                     <li><a href="{{ route('about') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; About Us</a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contact Us</a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Our Approach</a></li>
+                    <li><a href="{{ route('industriesWeServe') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Industries We Serve</a></li>
+                    <li><a href="{{ route('ourApproach') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Recruitment Approach</a></li>
+                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Blog</a></li>
+                    <li><a href="{{ route('career') }}" target="_blank"><i class="fa fa-angle-right"></i> &nbsp;Career</a></li>
+                    <li><a href="{{ route('contactUs') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contact Us</a></li>
+
                 </ul>
                 
             </div>
-            <div class="col-md-4">
+           
+            <div class="col-md-3">
                 <h6 class="footer-title">Get In Touch</h6>
                 <p>
                     <strong><img src="{{ asset('assets/img/mail.png') }}" alt="mail id" width="40" height="40"></strong>
                     <a href="mailto:connect@pcginternational.in">connect@pcginternational.in</a> <br />
                     <strong><img src="{{ asset('assets/img/phone.png') }}" alt="phone" width="40" height="40"></strong>
-                    <a href="tel:8826665843">+91 88266 65843</a> |
-                    <a href="tel:8826665843">
-                    +91 8826665843</a> <br />
+                    <a href="tel:8826665843">+91 8826665843</a>
+                    <br />
                     <strong><img src="{{ asset('assets/img/location.png') }}" alt="address" width="40" height="40"></strong>
 
                     <a href="#" target="_blank"> Delhi</a> |
@@ -55,7 +58,7 @@
                             <a class="facebook-color" aria-label="facebook" rel="noopener" target="_blank" href="https://www.facebook.com/prakharconsultinggroup"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
                         <li>
-                            <a class="linkedin-color" aria-label="linkedin" rel="noopener" target="_blank" href="https://www.linkedin.com/company/prakhar-consulting-group"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a class="linkedin-color" aria-label="linkedin" rel="noopener" target="_blank" href="https://www.linkedin.com/company/prakhar-consulting-group-international/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                         </li>
                         <li>
                             <a class="twitter-color" aria-label="Twitter" rel="noopener" target="_blank" href="https://x.com/prakharconsult">
@@ -72,7 +75,12 @@
                             <a class="instagram-color" aria-label="instagram" rel="noopener" target="_blank" href="https://www.instagram.com/prakharconsultinggroup_hr/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
                         </li>
                     </ul>
+
                 </p>
+                <ul class="me-list">
+                    <li><a href="#"><i class="fa fa-angle-right"></i> Privacy Policy</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right"></i> Terms & Condition</a></li>
+                </ul>
             </div>
         </div>
     </div>

@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">IT/NON-IT Hiring</h2>
+                <p class="page-title text-white banner_text">IT/NON-IT Hiring</p>
             </div>
         </div>
     </div>
@@ -40,7 +40,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>Expertise in IT Recruitment</h2>
         </div>
             <div class="row">
@@ -63,8 +63,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Recruitment Solutions</h2>
+        <div class=" text-center">
+            <h3>Our Recruitment Solutions</h3>
         </div>
             <div class="row">
                 <div class="col-md-12">
@@ -81,7 +81,7 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>Top IT Recruitment Services India for Quality Candidates</h2>
         </div>
         <div class="row">
@@ -108,8 +108,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Approach</h2>
+        <div class=" text-center">
+            <h3>Our Approach</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -121,7 +121,7 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Best Non-IT Staffing Agency India: A Partner You Can Trust</h2>
         </div>
         <div class="row">
@@ -136,8 +136,8 @@
         </div>
     </section>
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>What We Offer ?</h2>
+        <div class=" text-center">
+            <h3>What We Offer ?</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -152,7 +152,7 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>Customized Non-IT Recruitment Services India for Every Sector</h2>
         </div>
         <div class="row">
@@ -172,8 +172,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Expertise</h2>
+        <div class=" text-center">
+            <h3>Our Expertise</h3>
         </div>
         <div class="row">
             <div class="col-md-12">

@@ -179,7 +179,7 @@
                                         <div class="col-md-12">
                                             <div class="form-group">
                                                 <label>Google Recaptcha</label><br />
-                                                <div class="g-recaptcha mt-2" data-sitekey='6LdnnAwqAAAAAJiPc-53xRwoK7E9tStqumixbpCz'>
+                                                <div class="g-recaptcha mt-2" data-sitekey='6Ldvjn4qAAAAAM5HszWMXOnqbUBgDHK2_vb_RrgU'>
 
                                                 </div>
                                                 @if ($errors->has('g-recaptcha-response'))

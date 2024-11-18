@@ -8,9 +8,9 @@
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">
         <div class="background-overlay"></div>
-        <div class="container centered-container">
+        <div class="container centered-container"> 
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">Universities</h2>
+                <h1 class="page-title text-white">Universities</h1>
             </div>
         </div>
     </div>
@@ -22,7 +22,7 @@
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-12">
-                    <h1 class="text-center p-4 ">1. Staff Hiring Solutions</h1>
+                    <h2 class="text-center p-4 ">Staff Hiring Solutions</h2>
                 </div>
                 <div class="col-md-12">
                     <p>Prakhar Consulting Group collaborates with universities to provide tailored <span class="whatwedotitile">Staff Hiring Solutions</span> that support both internal hiring needs and student development. </p>
@@ -36,8 +36,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>2. Campus-to-Corporate Program</h2>
+        <div class="text-center">
+            <h2>Campus-to-Corporate Program</h2>
         </div>
             <div class="row">
                 <div class="col-md-12">
@@ -51,8 +51,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>3. Job Placement Support</h2>
+        <div class="text-center">
+            <h2>Job Placement Support</h2>
         </div>
             <div class="row">
                 <div class="col-md-12">
@@ -65,8 +65,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>4. Student Training & Development</h2>
+        <div class="text-center">
+            <h2>Student Training & Development</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
@@ -82,8 +82,8 @@
         </div>
     </section>
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>5. Internship Opportunities</h2>
+        <div class="text-center">
+            <h2>Internship Opportunities</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
@@ -97,8 +97,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>6. Industrial Visit Programs</h2>
+        <div class="text-center">
+            <h2>Industrial Visit Programs</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
@@ -116,8 +116,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>7. Technology Integration</h2>
+        <div class="text-center">
+            <h2>Technology Integration</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
@@ -131,8 +131,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>8. Industry Partnerships</h2>
+        <div class="text-center">
+            <h2>Industry Partnerships</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
@@ -146,8 +146,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>9. Value-Added Services</h2>
+        <div class="text-center">
+            <h2>Value-Added Services</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
@@ -162,15 +162,15 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>10. On-Campus Drive Management</h2>
+        <div class="text-center">
+            <h2>On-Campus Drive Management</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
                 <p>Prakhar Consulting Group organizes both onsite and offsite <span class="whatwedotitile">Campus Recruitment Drives</span>, providing institutions with a seamless, end-to-end recruitment experience. </p>
                 <p>To start, Prakhar Consulting Group conducts mock recruitment sessions on campus to assess students’ strengths and place them in roles that match their skill sets. </p>
                 <p>Once the initial assessment is complete, Prakhar Consulting Group invites a variety of esteemed companies to participate in online and offline recruitment sessions. </p>
-                <ol>
+                <ul>
                     <li>
                         <h3>Mock Placement Drive for Employment Transition (Mandatory)</h3>
                         <p>The <span class="whatwedotitile">Mock Placement Drive</span> is a structured, paid program aimed at preparing students for real-world recruitment challenges. </p>
@@ -188,7 +188,7 @@
                         <p>The follow-ups allow both Prakhar Consulting Group and the institute to monitor students’ progress, address any transitional challenges, and provide additional support as needed, ensuring students achieve long-term success in their careers.</p>
                         <p>With these tailored deliverables, the aim is to provide a holistic approach to student placement, enhancing employability and fostering strong partnerships between academic institutions and industry.                        </p>
                     </li>
-                </ol>
+                </ul>
             </div>
         </div>
     </section>

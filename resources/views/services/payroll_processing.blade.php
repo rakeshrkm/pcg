@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">Payroll Processing</h2>
+                <p class="page-title text-white banner_text">Payroll Processing</p>
             </div>
         </div>
     </div>
@@ -35,8 +35,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Payroll Services</h2>
+        <div class="text-center">
+            <h3>Our Payroll Services</h3>
         </div>
             <div class="row">
                 <div class="col-md-12">
@@ -56,7 +56,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Professional Payroll Management Process for Consistent Accuracy</h2>
         </div>
             <div class="row">
@@ -79,7 +79,7 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>The Essential Benefits of Outsourced Payroll Services</h2>
         </div>
         <div class="row">

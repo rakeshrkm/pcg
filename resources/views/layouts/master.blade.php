@@ -45,6 +45,8 @@
     <!-- <link rel="stylesheet" href="https://www.mazenet.com/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="{{ asset('assets/css/appointment/style.css') }}">
     <script src="{{ asset('assets/js/moment.min.js') }}"></script>
+        <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
     {!! htmlScriptTagJsApi() !!}
 </head>
 

@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">Head Hunting</h2>
+                <p class="page-title text-white banner_text">Head Hunting</p>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
         </div> --}}
         {{-- <div class="col-md-5 order-first order-md-last">
                     <div class="wptb-video-content">
-                        <div class="heading-title text-center">
+                        <div class="text-center">
                             <h2>Our Process</h2>
                          </div>
                         <ul>
@@ -65,8 +65,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Headhunting Services</h2>
+        <div class="text-center">
+            <h3>Our Headhunting Services</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -79,8 +79,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Headhunting Process</h2>
+        <div class="text-center">
+            <h3>Our Headhunting Process</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -99,7 +99,7 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Head Hunting in Recruitment: Building Leadership Excellence</h2>
         </div>
         <div class="row">
@@ -118,7 +118,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Top Executive Headhunting Services for Strategic Talent Needs</h2>
         </div>
         <div class="row">
@@ -129,8 +129,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Aim</h2>
+        <div class="text-center">
+            <h3>Our Aim</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -145,7 +145,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Prakhar Consulting Group Team</h2>
         </div>
         <div class="row">

@@ -35,14 +35,14 @@
                     <p>Our expertise spans various industries, allowing us to understand the unique challenges and leadership needs of each sector. </p>
                     <p>We utilize an extensive network, advanced research tools, and in-depth industry knowledge to identify candidates who align with your organization’s strategic vision and cultural values.</p>
                 </div>
-                <div class="col-md-7">
+                {{-- <div class="col-md-7">
                     <div class="wptb-slider--img">
                         <img src="{{ asset('assets/img/ServicesImages/Recruitment-services.png') }}" alt="permanent staffing" title="permanent staffing">
                     </div>
                 </div>
                 <div class="col-md-5 order-first order-md-last">
                     <div class="wptb-video-content">
-                        <div class="heading-title text-center">
+                        <div class="text-center">
                             <h2>Our Process</h2>
                          </div>
                         <ul>
@@ -51,7 +51,7 @@
                             <li>As one of the <span class="whatwedotitile">Best Executive Search Firms in India</span>, Prakhar Consulting Group is committed to helping companies secure the right leadership talent to achieve their goals. </li>
                         </ul>
                     </div>
-                </div>
+                </div> --}}
                
             </div>
             <div class="row">
@@ -65,7 +65,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Top Executive Search Services India: Building Strong Leadership</h2>
         </div>
             <div class="row">
@@ -93,8 +93,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Process</h2>
+        <div class="text-center">
+            <h3>Our Process</h3>
         </div>
             <div class="row">
                 
@@ -106,8 +106,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Services</h2>
+        <div class="text-center">
+            <h3>Our Services</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -125,7 +125,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Executive Search Firms India: Shaping Tomorrow’s Strategy</h2>
         </div>
         <div class="row">

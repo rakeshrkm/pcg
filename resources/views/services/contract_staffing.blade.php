@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">Contract Staffing</h2>
+                <p class="page-title text-white banner_text banner_text">Contract Staffing</p>
             </div>
         </div>
     </div>
@@ -35,8 +35,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Expertise</h2>
+        <div class="text-center">
+            <h3>Our Expertise</h3>
         </div>
             <div class="row">
                 <div class="col-md-12">
@@ -63,7 +63,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Enhance Productivity with Our Short-term Employment Services India</h2>
         </div>
             <div class="row">
@@ -76,8 +76,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>What We Deliver ?</h2>
+        <div class="text-center">
+            <h3>What We Deliver ?</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -99,7 +99,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Manpower Recruitment Consultants India: Connecting Talent with Strategic Opportunity</h2>
         </div>
         <div class="row">
@@ -113,8 +113,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Process</h2>
+        <div class="text-center">
+            <h3>Our Process</h3>
         </div>
         <div class="row">
             <div class="col-md-12">

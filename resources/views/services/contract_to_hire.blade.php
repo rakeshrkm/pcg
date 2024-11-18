@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white    ">Contract-to-Hire (C2H) Hiring </h2>
+                <p class="page-title text-white banner_text">Contract-to-Hire (C2H) Hiring </p>
             </div>
         </div>
     </div>
@@ -42,7 +42,7 @@
                     <p>Choosing Prakhar Consulting Group as your top Contract-to-Hire Agency in India means gaining a strategic partner dedicated to your success. </p>
                     <p>Our commitment to quality, speed, and client satisfaction makes us the preferred choice for businesses seeking reliable C2H Talent Acquisition. </p>
                     <p>We will provide the expertise and support you need to build a talented workforce, ready to transition seamlessly into long-term roles. For <a href="{{ route('contractStaffing') }}">Contract Staffing</a>, Prakhar Consulting Group has better strategies and solutions for your company’s growth. </p>
-                    <p class="mt-4 mb4">Our Contract-to-Hire (C2H) Process:</p>
+                    <h3 class="mt-4 mb-4">Our Contract-to-Hire (C2H) Process:</h3>
                     <ul class="mt-4 mb-4">
                         <li><span class="whatwedotitile">Requirement Gathering</span> : First is to understand the client’s specific needs, job roles, and required qualifications for the position.</li>
                         <li><span class="whatwedotitile">Candidate Sourcing</span> : Identify suitable candidates from a vast talent pool using advanced recruitment tools and networks.</li>
@@ -62,7 +62,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>C2H Recruitment Services India: The Smart Way to Hire</h2>
         </div>
             <div class="row">
@@ -73,8 +73,8 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>How will this Model Help Companies?</h2>
+        <div class="text-center">
+            <h3>How will this Model Help Companies?</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -100,7 +100,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class="text-center">
             <h2>Secure Your Future with Contract-to-Hire Job Opportunities India </h2>
         </div>
         <div class="row">

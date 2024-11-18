@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">Temporary Staffing</h2>
+                <p class="page-title text-white banner_text">Temporary Staffing</p>
             </div>
         </div>
     </div>
@@ -36,8 +36,8 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>Our Goal</h2>
+        <div class=" text-center">
+            <h3>Our Goal</h3>
         </div>
             <div class="row">
                 <div class="col-md-12">
@@ -49,7 +49,7 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>Best Staffing Solutions We Have</h2>
         </div>
             <div class="row">
@@ -68,7 +68,7 @@
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>Prakhar Consulting Group: Your Top Choice for Temporary Staffing Jobs</h2>
         </div>
         <div class="row">
@@ -93,22 +93,20 @@
 
 
     <section class="container">
-        <div class="heading-title text-center">
-            <h2>The Major Role of Our Team</h2>
+        <div class=" text-center">
+            <h3>The Major Role of Our Team</h3>
         </div>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-12">
                 <p>Our team carefully matches candidates to temporary roles that suit their expertise and the company’s needs, ensuring a smooth and productive fit. </p>
                 <p>With our extensive network and industry knowledge, we support both candidates and businesses in achieving their short-term employment goals effectively.</p>
             </div>
-            <div class="col-md-6">
-                <img src="{{ asset('assets/img/ServicesImages/Recruitment-services.png') }}" alt="permanent staffing" title="permanent staffing">
-            </div>
+           
         </div>
     </section>
 
     <section class="container">
-        <div class="heading-title text-center">
+        <div class=" text-center">
             <h2>Benefits of Partnering with a Temporary Job Staffing Agency</h2>
         </div>
         <div class="row">

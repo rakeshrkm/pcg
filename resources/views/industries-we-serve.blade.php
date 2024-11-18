@@ -11,7 +11,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <h2 class="page-title text-white">Industries We Serve</h2>
+                <p class="page-title text-white banner_text">Industries We Serve</p>
                
             </div>
         </div>
@@ -27,13 +27,13 @@
 </div> --}}
 <!-- Main Wrapper-->
 <main class="wrapper">
-    <section style="background: url(../404.html), #f4f8fb; background-position: right; background-repeat: no-repeat;" id="recruitment-Services">
+    <section id="recruitment-Services">
         <div class="container">
            <div class="row align-items-center">
             <div class="col-md-12">
                     <h1 class="text-center mt-4 p-4">Connecting Talent to Industry Needs for Maximum Impact</h1>
             </div>
-              <div class="col-md-7">
+              {{-- <div class="col-md-7">
                  <div class="wptb-slider--img p-2">
                     <img class="shadow p-3 mb-5 bg-body rounded" src="{{ asset('assets/img/psspl-offering-to-the-world.jpg') }}" alt="permanent staffing" title="permanent staffing" height="50">
                  </div>
@@ -51,12 +51,12 @@
                     <a href="#" class="btn">Start Hiring
                     <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
                  </div>
-              </div>
+              </div> --}}
            </div>
         </div>
      </section>
      <section class="container">
-         <div class="heading-title text-center">
+         <div class="text-center">
             <h2>1. Information Technology (IT) and Telecom</h2>
         </div>
          <div class="row align-items-center">
@@ -73,7 +73,7 @@
      </section>
 
      <section class="container">
-      <div class="heading-title text-center">
+      <div class="text-center">
          <h2>2. Media and Entertainment</h2>
      </div>
       <div class="row align-items-center">
@@ -93,7 +93,7 @@
 
 
   <section class="container">
-   <div class="heading-title text-center">
+   <div class="text-center">
       <h2>3. Education and Edtech</h2>
   </div>
    <div class="row align-items-center">
@@ -111,7 +111,7 @@
 </section>
 
 <section class="container">
-   <div class="heading-title text-center">
+   <div class="text-center">
       <h2>4. Retail and E-commerce</h2>
   </div>
    <div class="row align-items-center">
@@ -128,7 +128,7 @@
 
 
 <section class="container">
-   <div class="heading-title text-center">
+   <div class="text-center">
       <h2>5.  E-Governance</h2>
   </div>
    <div class="row align-items-center">
@@ -144,7 +144,7 @@
 </section>
 
 <section class="container">
-   <div class="heading-title text-center">
+   <div class="text-center">
       <h2>6.  Fast-Moving Consumer Goods</h2>
   </div>
    <div class="row align-items-center">
@@ -163,7 +163,7 @@
 
 
 <section class="container">
-   <div class="heading-title text-center">
+   <div class="text-center">
       <h2>7.  Manufacturing </h2>
   </div>
    <div class="row align-items-center">
@@ -176,7 +176,7 @@
 </section>
 
 <section class="container">
-   <div class="heading-title text-center">
+   <div class="text-center">
       <h2>8. Automobile </h2>
   </div>
    <div class="row align-items-center">

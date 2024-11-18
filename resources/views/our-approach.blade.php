@@ -220,7 +220,7 @@
       </div>
    </section>
 
-   <section class="wptb-why-choose" id="consulting-services">
+   <section class="wptb-why-choose" id="consulting-services">`
       <div class="wptb-particle--one">
          <img src="../404.html" alt="">
       </div>
@@ -231,7 +231,7 @@
          <div class="row align-items-center">
           <div class="col-md-12">
               <div class="wptb-video-contenth2">
-                  <h2 class="text-center"><strong>Why Businesses Rely on Prakhar Consulting Group?</strong></h2>
+                  <h3 class="text-center"><strong>Why Businesses Rely on Prakhar Consulting Group?</strong></h3>
               </div>
           </div>
 
