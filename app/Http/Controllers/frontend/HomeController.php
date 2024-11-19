@@ -120,4 +120,12 @@ class HomeController extends Controller
             return redirect()->back()->with('error', 'Something went wrong !');
         }
     }
+
+    public function blog(){
+        return view('blog');
+    }
+
+    public function hrChallenges(){
+        return view('blog-details');
+    }
 }

@@ -70,7 +70,7 @@
 <section class="section">
     <div class="container">
         <div class="text-center">
-            <h2>In-House Platforms</h2>
+            <h2>Our In-House Platforms</h2>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -126,8 +126,7 @@
         <div class="row">
             <div class="col-md-6 col-lg-6 ">
                 <div class="content-box left border shadow p-3 mb-5 bg-white rounded">
-
-                    <h4 class="disableh5 text-center mb-2"><img src="{{ asset('assets/img/vision-icon.png') }}" alt="Our Vision" title="Our Vision"> Our Vision</h4>
+                    <h4 class="disableh5 text-center mb-2"> <img src="{{ asset('assets/img/mission-icon.png') }}" alt="Our Mission" title="Our Mission"> Our Mission</h4>
                     <ul class="pt-2">
                         <li>
                             <p class="text-justify"> Our mission at Prakhar Consulting Group is to build on our success in delivering impactful projects of national importance for e-governance clients, now expanding our services to support big corporate houses, medium-sized firms, and startups. </p>
@@ -140,7 +139,7 @@
             </div>
             <div class="col-md-6 col-lg-6 ">
                 <div class="content-box left no-margin border shadow p-3 mb-5 bg-white rounded ml-5">
-                    <h4 class="disableh5 text-center mb-2"> <img src="{{ asset('assets/img/mission-icon.png') }}" alt="Our Mission" title="Our Mission"> Our Mission</h4>
+                    <h4 class="disableh5 text-center mb-2"><img src="{{ asset('assets/img/vision-icon.png') }}" alt="Our Vision" title="Our Vision"> Our Vision</h4>
                     <ul class="pt-2">
                         <li>
                             <p class="text-justify"> Our vision is to be a trusted bridge between opportunity and ambition, transforming HR consulting by building strong partnerships that bring progress, innovation, and resilience across different industries.</p>
@@ -160,7 +159,7 @@
 </section>
 
 
-<section class="section">
+{{-- <section class="section">
     <div class="container">
         <div class="text-center">
             <h2>The Prakhar Consulting Group Story</h2>
@@ -172,7 +171,7 @@
         </div>
     </div>
 
-</section>
+</section> --}}
 
 {{-- <section class="pt-5" id="casestudy">
     <div class="container">

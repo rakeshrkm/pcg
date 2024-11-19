@@ -12,7 +12,6 @@
         <div class="container centered-container">
             <div class="centered-inner-container">
                 <p class="page-title text-white banner_text">Industries We Serve</p>
-               
             </div>
         </div>
     </div> 

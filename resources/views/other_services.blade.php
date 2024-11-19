@@ -6,7 +6,6 @@
         <div class="container centered-container">
             <div class="centered-inner-container">
                 <h1 class="page-title text-white">Other Services</h1>
-               
             </div>
         </div>
     </div>

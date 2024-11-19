@@ -2,32 +2,43 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3">
-                <h4 class="footer-title">Services</h4>
+                <h4 class="footer-title">Services for Organizations</h4>
                 <ul class="me-list">
-                    <li><a href="{{route('permanentStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Permanent Staffing</a></li>
-                    <li><a href="{{route('executiveSearch')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Executive Search</a></li>
-                    <li><a href="{{route('leadershipHiring')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Leadership Hiring</a></li>
-                    <li><a href="{{route('headHunting')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Head Hunting</a></li>
-                    <li><a href="{{route('ItNonIthiring')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; IT/NOT-IT Hiring</a></li>
+                    <li><a href="{{route('permanentStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Permanent Staffing</a>
+                    <ul>
+                        <li><a href="{{route('executiveSearch')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Executive Search</a></li>
+                        <li><a href="{{route('leadershipHiring')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Leadership Hiring</a></li>
+                        <li><a href="{{route('headHunting')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Head Hunting</a></li>
+                        <li><a href="{{route('ItNonIthiring')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; IT/NOT-IT Hiring</a></li>
+                    </ul>
+                    
+                    </li>
+                    <li><a href="{{route('temporaryStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Temporary Staffing</a>
+                        <ul>
+                            <li><a href="{{route('contractStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contract Staffing</a></li>
+                            <li><a href="{{route('contractToHire')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contract To Hire</a></li>
+                            <li><a href="{{route('payrollProcessing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Payroll Processing</a></li>
+                        </ul>
+                    </li>
+
+                   
                 </ul>
             </div>
 
             <div class="col-md-3">
-                <h5 class="footer-title mt-3">Services</h5>
+                <h4 class="footer-title" style="margin-top: 18px;">Services for Universities</h4>
                 <ul class="me-list">
-                    <li><a href="{{route('temporaryStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Temporary Staffing</a></li>
-                    
-                    <li><a href="{{route('contractStaffing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contract Staffing</a></li>
-                    <li><a href="{{route('contractToHire')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contract To Hire</a></li>
-                    
-                    <li><a href="{{route('payrollProcessing')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Payroll Processing</a></li>
+                    <li><a href="{{route('universities')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Universities</a></li>
                 </ul>
+
+                <h5 class="footer-title">Quick Links</h5>
                 <ul class="me-list">
-                    <li><a href="{{route('universities')}}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; <b style="font-size: 16px;">Universities</b></a></li>
+                    <li><a href="#"><i class="fa fa-angle-right"></i> Privacy Policy</a></li>
+                    <li><a href="#"><i class="fa fa-angle-right"></i> Terms & Condition</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h6 class="footer-title">Links</h6>
+                <h5 class="footer-title" style="margin-top: 18px;">Links</h5>
                 <ul class="me-list">
                     <li><a href="{{ route('about') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; About Us</a></li>
                     <li><a href="{{ route('industriesWeServe') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Industries We Serve</a></li>
@@ -41,7 +52,7 @@
             </div>
            
             <div class="col-md-3">
-                <h6 class="footer-title">Get In Touch</h6>
+                <h6 class="footer-title" style="margin-top: 15px;">Get In Touch</h6>
                 <p>
                     <strong><img src="{{ asset('assets/img/mail.png') }}" alt="mail id" width="40" height="40"></strong>
                     <a href="mailto:connect@pcginternational.in">connect@pcginternational.in</a> <br />
@@ -53,7 +64,10 @@
                     <a href="#" target="_blank"> Delhi</a> |
                     <a href="#" target="_blank"> India</a> |
                     <a href="#" target="_blank">110020 </a>
-                    <ul class="header-social social-icon   ml-5 mb-5">
+
+                    <h6 class="footer-title">Engage with us</h6>
+
+                    <ul class="header-social social-icon">
                         <li>
                             <a class="facebook-color" aria-label="facebook" rel="noopener" target="_blank" href="https://www.facebook.com/prakharconsultinggroup"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                         </li>
@@ -77,10 +91,6 @@
                     </ul>
 
                 </p>
-                <ul class="me-list">
-                    <li><a href="#"><i class="fa fa-angle-right"></i> Privacy Policy</a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i> Terms & Condition</a></li>
-                </ul>
             </div>
         </div>
     </div>

@@ -25,6 +25,9 @@ Route::get('/industries-we-serve', [HomeController::class, 'industriesWeServe'])
 Route::get('/recruitment-approach', [HomeController::class, 'ourApproach'])->name('ourApproach');
 Route::get('/contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
 Route::post('/contact-us', [HomeController::class, 'SubmitContact'])->name('ContactSubmit');
+Route::get('/blog', [HomeController::class, 'blog'])->name('blogs');
+Route::get('/blog-details/hr-challenges-scaling-management-consulting-india', [HomeController::class, 'hrChallenges'])->name('hrChallenges');
+
 
 Route::get('/career', [HomeController::class, 'career'])->name('career');
 // services

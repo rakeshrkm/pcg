@@ -60,10 +60,10 @@
                                 <a href="{{ route('about') }}">About Us</a>
                             </li>
                             <li>
-                                <a href="#">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <a>Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <ul>
                                     <li>
-                                        <a href="#">Organisation</a>
+                                        <a >Organisation</a>
                                         <ul>
                                             <li>
                                                 <a href="{{ route('permanentStaffing') }}">Permanent-Staffing</a>
@@ -109,7 +109,7 @@
                                 <a href="{{ route('ourApproach') }}">Recruitment Approach</i></a>
                             </li>
                             <li>
-                                <a href="#ourservices">Blog</a>
+                                <a href="{{ route('blogs') }}">Blog</a>
                             </li>
                             <li>
                                 <a href="{{ route('career') }}">Career</a>
@@ -240,7 +240,7 @@
 
                             </li>
                             <li>
-                                <a href="#ourservices">Blog</a>
+                                <a href="{{ route('blogs') }}">Blog</a>                            
                             </li>
                             <li>
                                 <a href="{{ route('career') }}">Career</a>

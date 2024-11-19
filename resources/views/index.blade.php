@@ -105,7 +105,7 @@
         <div class="row">
             <div class="col-lg-12 text-left ">
                 <div class="text-center">
-                    <h2>How Our Recruitment Services India Better Than Other Agencies ?</h2>
+                    <h2>How Our Recruitment Services India Better Than Other Agencies?</h2>
                 </div>
                 <p class="text-justify">
                     At Prakhar Consulting Group, we believe that building a strong talent pipeline begins with recruiting the best fresh talent from campuses across India.

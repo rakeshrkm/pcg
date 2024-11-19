@@ -14,6 +14,7 @@
 
    <!-- Mobile Responsive Menu -->
    {{-- <div class="mr-menu">
+   {{-- <div class="mr-menu">
     <div class="mr-menu_overlay"></div>
     <button type="button" class="mr-menu_close"><i class="bi bi-x-lg"></i></button>
     <div class="logo"></div> <!-- Keep this div empty. Logo will come here by JavaScript -->
