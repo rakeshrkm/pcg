@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta http-equiv="chontent-type" content="text/html;charset=UTF-8" />
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
     <meta charset="UTF-8" />
     <title>{{ isset($title) ? $title : 'Prakhar software consulting group'}}</title>
@@ -46,7 +46,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/appointment/style.css') }}">
     <script src="{{ asset('assets/js/moment.min.js') }}"></script>
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
     {!! htmlScriptTagJsApi() !!}
 </head>
 
@@ -80,35 +81,106 @@
     <script src="{{ asset('assets/js/config.js') }}"></script>
     <script src="../www.google.com/recaptcha/api.js" async defer></script>
     <script src="{{ asset('assets/js/training.js') }}"></script>
+    {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> --}}
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<!-- slick Carousel CDN -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.5.7/slick.min.js"></script>
+
     <script>
-        $(".testimonial-content").owlCarousel({
-            loop: true
-            , items: 2
-            , margin: 50
-            , dots: true
-            , nav: true
-            , mouseDrag: true
-            , autoplay: true
-            , autoplayTimeout: 4000
-            , smartSpeed: 800
-            , responsive: {
-                0: {
-                    items: 1
-                }
-                , 568: {
-                    items: 1
-                }
-                , 768: {
-                    items: 1
-                }
-                , 992: {
-                    items: 2
-                }
-                , 1200: {
-                    items: 2
-                }
-            , }
-        , });
+        //  $(".testimonial-content").owlCarousel({
+        //       loop: true
+        //       , items: 2
+        //       , margin: 50
+        //       , dots: true
+        //       , nav: true
+        //       , mouseDrag: true
+        //       , autoplay: true
+        //       , autoplayTimeout: 4000
+        //       , smartSpeed: 800
+        //       , responsive: {
+        //         0: {
+        //              items: 1
+        //         }
+        //         , 568: {
+        //             items: 1
+        //           }
+        //          , 768: {
+        //           items: 1
+        //            }
+        //           , 992: {
+        //              items: 2
+        //           }
+        //           , 1200: {
+        //              items: 2
+        //           }
+        //         , }
+        // , });
+
+
+
+//     //     $(document).ready(function(){
+//     // $('.carousel').slick({
+//     //     slidesToShow: 2,
+//     //     dots:true,
+//     //     centerMode: true,
+//     // });
+//     // });
+
+//  // Binding of init has to be before intialization!
+// $('.slick-slider').on('init', (event, slick, currentSlide) => {
+//   let slideIndex = slick.currentSlide;
+//   let slidesLength = slick.slideCount;
+// })
+
+// // Initialise.
+// $('.slick-slider').slick({
+//   slidesToShow: 3,
+//   dots: true,
+//   //centerMode: true,
+//   responsive: [
+//     {
+//       breakpoint: 768,
+//       settings: {
+//         slidesToShow: 1
+//       }
+//     }
+//   ]
+// })
+
+// let slideIndex = $('.slick-slide:not(.slick-cloned)').length
+//   $('.add-slide').on('click', () => {
+//     slideIndex++
+//     $('.slick-slider').slick('slickAdd','<li><h3>' + slideIndex + '</h3></li>')
+//     $('.slick-slider').slick('slickGoTo', 'slickCurrentSlide' + 1)
+//   })
+
+//   $('.remove-slide').on('click', () => {
+//     $('.slick-slider').slick('slickRemove', slideIndex - 1)
+//       if (slideIndex !== 0) {
+//         slideIndex--
+//       }
+//   })
+  
+
+
+
+
+
+  // Basic initialization is like this:
+// $('.your-class').slick();
+
+// I added some other properties to customize my slider
+// Play around with the numbers and stuff to see
+// how it works.
+$('.slick-carousel').slick({
+  infinite: true,
+  slidesToShow: 3, // Shows a three slides at a time
+  slidesToScroll: 1, // When you click an arrow, it scrolls 1 slide at a time
+  arrows: true, // Adds arrows to sides of slider
+  dots: true // Adds the dots on the bottom
+});
+
 
     </script>
     @yield('scripts')

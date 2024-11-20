@@ -1,4 +1,8 @@
-@extends('layouts.master', ['title' => 'Top HR Consultants in India | Prakhar Consulting Group','keyword' => 'Prakhar Consulting Group: Trusted HR Consultants in India, specializing in custom Staffing Solutions, Leadership Hiring, and Talent Acquisition for your business success', 'description' => 'Top HR Consultants in India, HR Consulting Services India, Talent Acquisition India, Leadership Hiring, HR Solutions, Workforce Management'])
+@extends('layouts.master',
+[
+    'title' => 'Top HR Consultants in India | Prakhar Consulting Group',
+    'keyword' => 'Top HR Consultants in India, HR Consulting Services India, Talent Acquisition India, Leadership Hiring, HR Solutions, Workforce Management',
+    'description' => 'Prakhar Consulting Group: Trusted HR Consultants in India, specializing in custom Staffing Solutions, Leadership Hiring, and Talent Acquisition for your business success'])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">
