@@ -20,9 +20,10 @@
 <main class="wrapper">
     <section>
         <div class="container">
+            {{ Breadcrumbs::render('contractToHire') }}
             <div class="row align-items-center">
                 <div class="col-md-12">
-                    <h1 class="text-center mt-4 p-4 ">Best Contract-to-Hire Agency in India for Flexible Staffing</h1>
+                    <h1 class="text-center">Best Contract-to-Hire Agency in India for Flexible Staffing</h1>
                 </div>
                 <div class="col-md-12">
                     <p class="text-justify">Contract-to-Hire (C2H) is a magnificent staffing solution where a candidate is initially hired on a contractual basis, with the option to transition into a permanent role after a defined period. </p>

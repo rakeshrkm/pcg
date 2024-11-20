@@ -21,6 +21,9 @@
 <main class="wrapper">
     <section class="section pt-3 container" id="ourservices">
         <div class="container">
+            
+            {{ Breadcrumbs::render('Permanent_Staffing') }}
+
             <div class="row">
                 <div class="col-lg-12 text-left ">
                     <div class="text-center">

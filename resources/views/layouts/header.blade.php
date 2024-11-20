@@ -17,7 +17,7 @@
                                 <a class="facebook-color" target="_blank" href="https://www.facebook.com/prakharconsultinggroup"><i class="fa fa-facebook" aria-hidden="true"></i></a>
                             </li>
                             <li>
-                                <a class="linkedin-color" target="_blank" href="https://www.linkedin.com/company/prakhar-consulting-group"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                <a class="linkedin-color" target="_blank" href="https://www.linkedin.com/company/prakhar-consulting-group-international/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                             </li>
                             <li>
                                 <a class="twitter-color" target="_blank" href="https://x.com/prakharconsult">

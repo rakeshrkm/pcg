@@ -20,6 +20,7 @@
 <main class="wrapper">
     <section>
         <div class="container">
+            {{ Breadcrumbs::render('contractStaffing') }}
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center">Best Contract Staffing Agency India for Growing Businesses</h1>

@@ -21,6 +21,7 @@
 <main class="wrapper">
     <section>
         <div class="container">
+            {{ Breadcrumbs::render('headHunting') }}
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center mt-4 p-4 ">Head Hunting Firms: Connecting You with Elite Talent</h1>

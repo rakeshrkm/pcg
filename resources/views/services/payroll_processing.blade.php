@@ -20,6 +20,7 @@
 <main class="wrapper">
     <section>
         <div class="container">
+            {{ Breadcrumbs::render('payrollProcessing') }}
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center">PCG: One of the Top-Grade Payroll Processing Companies India</h1>

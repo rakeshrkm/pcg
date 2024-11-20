@@ -20,6 +20,7 @@
 <main class="wrapper">
     <section>
         <div class="container">
+            {{ Breadcrumbs::render('Temporary_Staffing') }}
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center">Seamless Temporary Staffing Services to Fill Immediate Roles</h1>

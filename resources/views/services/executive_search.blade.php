@@ -21,12 +21,9 @@
 
 <!-- Main Wrapper-->
 <main class="wrapper">
-    <ul class="me-list">
-
-    </ul>
-
     <section>
         <div class="container">
+            {{ Breadcrumbs::render('executiveSearch') }}
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <h1 class="text-center mt-4 p-4 ">India’s Best Executive Search Firms for Key Positions</h1>
