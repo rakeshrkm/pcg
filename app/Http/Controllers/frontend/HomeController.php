@@ -128,4 +128,8 @@ class HomeController extends Controller
     public function hrChallenges(){
         return view('blog-details');
     }
+
+    public function permanentStaffingCompaniesBlog(){
+        return view('permanent-staffing-companies-blog');
+    }
 }

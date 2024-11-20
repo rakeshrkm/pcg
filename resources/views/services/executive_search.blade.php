@@ -22,7 +22,6 @@
 <!-- Main Wrapper-->
 <main class="wrapper">
     <ul class="me-list">
-        {{ Breadcrumbs::render('executiveSearch') }}
 
     </ul>
 
