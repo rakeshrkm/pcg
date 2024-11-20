@@ -520,41 +520,69 @@
         </div>
     </div>
 </section>
-<section class="testimonial-area mt-4">
-    <div class="container">
-        <div class="col-md-12">
-            <div class="text-center">
-                <h3>What <strong class="text-darkcolor">Our Clients</strong> Say</h3>
+<div class="container mt-5">
+    <!-- Swiper Slider -->
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <!-- Swiper Slide 1 -->
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Boond Engineering</h5>
+              <p class="card-text">"Finding the right Business Development Manager was a real challenge for us. We’d worked with multiple consultants, but none seemed able to connect us with the right fit. Then we partnered with Prakhar Consulting Group, and it made all the difference. Their expertise and deep understanding of our needs led us to the ideal candidate, who has since proven to be an invaluable addition to our team. If you're looking for a consulting partner who truly understands your hiring needs and delivers quality talent, we highly recommend Prakhar Consulting Group."</p>
             </div>
-            <div class="slick-carousel">
-                <div>
-                    <div class="p-2 card">
-                        <h3>Best Seller</h3>
-                        <p>"Prakhar Consulting Group has a remarkable team of talented professionals dedicated to delivering results. We entrusted them with our search for a Store Manager, and they met our needs perfectly. Unlike many consulting firms, Prakhar Consulting took the time to understand our specific requirements, and they delivered a qualified candidate exactly when promised. Their responsiveness, attention to detail, and commitment to excellence truly set them apart. We are highly satisfied with the experience and wholeheartedly recommend Prakhar Consulting Group to any business seeking reliable, timely, and effective recruitment solutions."</p>
-                    </div>
-                </div>
-                <div>
-                    <div class="p-2 card">
-                        <h3>GEM Enviro</h3>
-                        <p>"Prakhar Consulting Group provides outstanding recruitment services that truly make a difference. When we needed candidates for Accounting and Data Entry Operator roles, their professional team stepped in and delivered on time with a perfect match for our requirements. Their efficiency and commitment to understanding our needs have impressed us greatly. They will be our top choice for any future recruitment needs, as we trust their expertise and dedication to finding the right talent. For any business in need of dependable recruitment support, we highly recommend Prakhar Consulting Group."</p>
-                    </div>
-
-                </div>
-                <div class="card">
-                    <h3>GEM Enviro</h3>
-                    <p>"Prakhar Consulting Group provides outstanding recruitment services that truly make a difference. When we needed candidates for Accounting and Data Entry Operator roles, their professional team stepped in and delivered on time with a perfect match for our requirements. Their efficiency and commitment to understanding our needs have impressed us greatly. They will be our top choice for any future recruitment needs, as we trust their expertise and dedication to finding the right talent. For any business in need of dependable recruitment support, we highly recommend Prakhar Consulting Group."</p>
-                </div>
-                <div class="card">
-                    <h3>Sigma University</h3>
-                    <p>"Working with Prakhar Consulting Group has been a rewarding experience for Sigma University. When we needed to fill two professor positions at our Vadodara branch, their team’s support was instrumental in finding the right candidates. Prakhar Consulting Group showed a deep understanding of our academic requirements and provided skilled professionals who fit seamlessly into our faculty. Their responsiveness and dedication to meeting our hiring goals were outstanding, making the entire process smooth and efficient.”</p>
-                </div>
-                <div class="card">
-                    <h3>Chiranjeevi Group</h3>
-                    <p>"Our outdated hiring strategies led to long-standing vacancies and high recruitment costs, creating challenges for our team. With a revamped hiring process, we now fill positions faster and more efficiently, which has greatly improved team performance and morale. Thanks to Prakhar Consulting Group here for their ultimate hiring process. We highly recommend Prakhar Consulting Group (PCG) to any organization looking to upgrade their hiring approach and see better results."</p>
-                </div>
-            </div>
+          </div>
         </div>
-</section>
+        
+        <!-- Swiper Slide 2 -->
+        <div class="swiper-slide">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title text-center">Best Seller</h5>
+              <p class="card-text">"Prakhar Consulting Group has a remarkable team of talented professionals dedicated to delivering results. We entrusted them with our search for a Store Manager, and they met our needs perfectly. Unlike many consulting firms, Prakhar Consulting took the time to understand our specific requirements, and they delivered a qualified candidate exactly when promised. Their responsiveness, attention to detail, and commitment to excellence truly set them apart. We are highly satisfied with the experience and wholeheartedly recommend Prakhar Consulting Group to any business seeking reliable, timely, and effective recruitment solutions."</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Swiper Slide 3 -->
+        <div class="swiper-slide">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">GEM Enviro</h5>
+              <p class="card-text">"Prakhar Consulting Group provides outstanding recruitment services that truly make a difference. When we needed candidates for Accounting and Data Entry Operator roles, their professional team stepped in and delivered on time with a perfect match for our requirements. Their efficiency and commitment to understanding our needs have impressed us greatly. They will be our top choice for any future recruitment needs, as we trust their expertise and dedication to finding the right talent. For any business in need of dependable recruitment support, we highly recommend Prakhar Consulting Group."</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Swiper Slide 4 -->
+        <div class="swiper-slide">
+          <div class="card">
+            
+            <div class="card-body">
+              <h5 class="card-title">Sigma University</h5>
+              <p class="card-text">"Working with Prakhar Consulting Group has been a rewarding experience for Sigma University. When we needed to fill two professor positions at our Vadodara branch, their team’s support was instrumental in finding the right candidates. Prakhar Consulting Group showed a deep understanding of our academic requirements and provided skilled professionals who fit seamlessly into our faculty. Their responsiveness and dedication to meeting our hiring goals were outstanding, making the entire process smooth and efficient.”</p>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Swiper Slide 5 -->
+        <div class="swiper-slide">
+          <div class="card">
+
+            <div class="card-body">
+              <h5 class="card-title">Chiranjeevi Group</h5>
+              <p class="card-text">"Our outdated hiring strategies led to long-standing vacancies and high recruitment costs, creating challenges for our team. With a revamped hiring process, we now fill positions faster and more efficiently, which has greatly improved team performance and morale. Thanks to Prakhar Consulting Group here for their ultimate hiring process. We highly recommend Prakhar Consulting Group (PCG) to any organization looking to upgrade their hiring approach and see better results."</p>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Navigation Buttons -->
+      <div class="swiper-button-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+      <div class="swiper-button-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+    </div>
+</div>
 
 <div class="mt-5">
     <div class="container wptb-newsletter">
