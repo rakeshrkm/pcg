@@ -469,13 +469,23 @@
        min-height: 100px;
        margin: 0px;
        height: 100px !important;
+
+}
+
+.bannertext {
+    font-size: 20px !important;
+    color: #fff;
+    margin-bottom: 10px;
+    margin-top: -140px;
+    text-shadow: 2px 1px #2b2b2b;
+    font-weight: 500;
 }
 
 }
 
 @media only screen and (min-width: 500px) and (max-width: 790px) {
 	 .bannerslide-container {
-                 min-height: 400px;
+    min-height: 400px;
     background: url() center left no-repeat no-repeat;
     position: relative;
     margin-bottom: 50px;
@@ -486,7 +496,7 @@
     align-items: center;
     height: 100vh;
 }
-   .bannerservice-content {
+.bannerservice-content {
        /* padding: 130px 0; */
        text-align: center;
        position: relative;
@@ -513,7 +523,7 @@
     font-size: 20px !important;
     color: #fff;
     margin-bottom: 10px;
-    margin-top: 10px;
+    margin-top: -100px;
     text-shadow: 2px 1px #2b2b2b;
     font-weight: 500;
 }
@@ -751,6 +761,15 @@
 @media only screen and (min-width: 0px) and (max-width: 320px) {
     .slideshow .btn + .btn {
         margin-left: 0;
+    }
+
+    .bannertext {
+        font-size: 20px !important;
+        color: #fff;
+        margin-bottom: 10px;
+        margin-top: -180px;
+        text-shadow: 2px 1px #2b2b2b;
+        font-weight: 500;
     }
 }
 /* iPhone 6 Portrait */
