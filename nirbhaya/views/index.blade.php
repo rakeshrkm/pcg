@@ -48,7 +48,7 @@
                     <h2>About Prakhar Consulting Group </h2>
                 </div>
                 <div>
-                    <img src="{{ asset('assets/img/FCBO.jpg') }}" alt="permanent staffing" title="permanent staffing">
+                    <img src="{{ asset('assets/img/FCB.jpg') }}" alt="permanent staffing" title="permanent staffing">
 
                 </div>
 
