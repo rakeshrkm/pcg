@@ -23,44 +23,14 @@
         <div class="container">
             {{ Breadcrumbs::render('headHunting') }}
             <div class="row align-items-center">
-                <div class="col-md-12">
-                    <h1 class="text-center mt-4 p-4 ">Head Hunting Firms: Connecting You with Elite Talent</h1>
+                <div class="col-md-12 text-center heading-title">
+                    <h1 class="text-center mt-4 p-4 ">Top Head Hunting Firm: Connecting You with Elite Talent</h1>
                 </div>
                 <div class="col-md-12">
-                    <p class="text-justify">
-                        <span class="whatwedotitile">Head Hunting Firms</span> are always there in identifying and recruiting top-level talent for roles that require specific expertise and leadership qualities. 
-                    </p>
-                    <p class="text-justify">Such firms focus on a proactive approach, targeting highly skilled professionals who may not be actively looking for a new role but possess the qualifications and experience necessary to meet a client’s unique needs. </p>
-                    <p class="text-justify">This targeted approach ensures companies gain access to best candidates capable of driving business growth and innovation. </p>
-                    <p class="text-justify">Prakhar Consulting Group, a leading head hunt agency, is dedicated to connecting organizations with exceptional talent. </p>
-
+                    
                    
                 </div>
-                {{-- <div class="col-md-7">
-                    <div class="wptb-slider--img">
-                        <img src="{{ asset('assets/img/ServicesImages/Recruitment-services.png') }}" alt="permanent staffing" title="permanent staffing">
             </div>
-        </div> --}}
-        {{-- <div class="col-md-5 order-first order-md-last">
-                    <div class="wptb-video-content">
-                        <div class="text-center">
-                            <h2>Our Process</h2>
-                         </div>
-                        <ul>
-                            <li>Our executive search process is meticulous and confidential, ensuring that only the most qualified candidates are presented for consideration. </li>
-                            <li>We prioritize transparency, continuous communication, and a deep understanding of your business objectives. This allows us to build lasting partnerships with our clients, delivering long-term value and supporting your organization’s growth.</li>
-                            <li>As one of the <span class="whatwedotitile">Best Executive Search Firms in India</span>, Prakhar Consulting Group is committed to helping companies secure the right leadership talent to achieve their goals. </li>
-                        </ul>
-                    </div>
-                </div>
-                --}}
-        </div>
-        {{-- <div class="row">
-                <div class="col-md-12">
-                    <p>Our focus on quality, discretion, and client satisfaction makes us a trusted partner in executive search. Let us help you find the leaders who will drive innovation, foster growth, and position your organization for long-term success.</p>
-
-                </div>
-            </div> --}}
         </div>
     </section>
 

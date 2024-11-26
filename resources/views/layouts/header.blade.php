@@ -102,9 +102,9 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a href="{{ route('industriesWeServe') }}">Industries we serve</a>
-                            </li>
+                            </li> --}}
                             <li>
                                 <a href="{{ route('ourApproach') }}">Recruitment Approach</i></a>
                             </li>
@@ -231,9 +231,9 @@
 
                                 </ul>
                             </li>
-                            <li>
+                            {{-- <li>
                                 <a href="{{ route('industriesWeServe') }}">Industries we serve </a>
-                            </li>
+                            </li> --}}
 
                             <li>
                                 <a href="{{ route('ourApproach') }}">Recruitment Approach</i></a>

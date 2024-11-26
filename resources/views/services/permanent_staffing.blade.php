@@ -67,7 +67,7 @@
     </section>
 
 
-    <section class="section" style="background:#BCDDDB; background-position: right; background-repeat: no-repeat;">
+    <section class="section">
         <div class="container">
             <div class="text-center heading-title">
                 <h2>Why Are We the Best Permanent Recruitment Agency in India?</h2>
@@ -198,7 +198,7 @@
        
     </section>
 
-    <section class="section" style="background:#BCDDDB; background-position: right; background-repeat: no-repeat;">
+    <section class="section">
         <div class="container">
             <div class="text-center typewriter heading-title">
                 <h3>Why Partner with Us?</h3>

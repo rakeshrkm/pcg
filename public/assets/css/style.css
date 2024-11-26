@@ -209,7 +209,6 @@ h6 {
 
 h3{
     font-size: 28px;
-    font-weight:bold;
 }
 .highlight {
     background: #08847A;
@@ -20831,13 +20830,6 @@ h6,
     font-size: var(--fs-32);
     font-weight: 400;
     color: #08847A;
-    text-shadow: 1px 1px 2px #233657,
-               1px 1px 1px #233657,
-               1px 1px 2px #233657,
-               1px 1px 2px #233657;
-    /* font-size: var(--fs-48); */
-    /* line-height: var(--fs-52); */
-    /* set "line-height" based on "font-family" */
 }
 
 .h2,
@@ -20849,10 +20841,6 @@ h2 {
     font-size: var(--fs-30);
     font-weight: 400;
     color: #08847A;
-    text-shadow: 1px 1px 2px #233657,
-               1px 1px 1px #233657,
-               1px 1px 2px #233657,
-               1px 1px 2px #233657;
 }
 
 .h3,
@@ -20862,10 +20850,6 @@ h3 {
     /* set "line-height" based on "font-family" */
     font-weight: 400;
     color: #08847A;
-    text-shadow: 1px 1px 2px #233657,
-               1px 1px 1px #233657,
-               1px 1px 2px #233657,
-               1px 1px 2px #233657;
 }
 
 .h4,
@@ -20875,10 +20859,6 @@ h4 {
     /* set "line-height" based on "font-family" */
     font-weight: 400;
     color: #08847A;
-    text-shadow: 1px 1px 2px #233657,
-               1px 1px 1px #233657,
-               1px 1px 2px #233657,
-               1px 1px 2px #233657;
 }
 
 .h5,
@@ -20888,10 +20868,6 @@ h5 {
     /* set "line-height" based on "font-family" */
     font-weight: 400;
     color: #08847A;
-    text-shadow: 1px 1px 2px #233657,
-               1px 1px 1px #233657,
-               1px 1px 2px #233657,
-               1px 1px 2px #233657;
 }
 
 .h6,
@@ -20901,10 +20877,6 @@ h6 {
     /* set "line-height" based on "font-family" */
     font-weight: 400;
     color: #08847A;
-    text-shadow: 1px 1px 2px #233657,
-               1px 1px 1px #233657,
-               1px 1px 2px #233657,
-               1px 1px 2px #233657;
 }
 
 body.theme-style-email h1,

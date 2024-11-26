@@ -22,35 +22,85 @@
     <section>
         <div class="container">
             {{ Breadcrumbs::render('executiveSearch') }}
+            <div class="heading-title text-center mt-2">
+                <h1 class="text-center">Best Executive Search Firm in India for Key Positions</h1>
+            </div>
             <div class="row align-items-center">
-                <div class="col-md-12">
-                    <h1 class="text-center mt-4 p-4 ">Best Executive Search Firm in India for Key Positions</h1>
-                </div>
+               
+               
                 <div class="col-md-12">
                     <p class="text-justify">
                         PCG can help in identifying and recruiting top-tier executives and senior leaders who align with your organisation’s vision. Recognized as the <span class="whatwedotitile">Best Executive Search Firm in India</span>, we focus on sourcing exceptional talent for critical roles such as CEOs, CFOs, and senior management positions.
                     </p>
                   
                 </div>
-               
-                <div class="col-md-12 order-first order-md-last">
-                    <div class="wptb-video-content">
-                        <div class="text-center">
-                            <h3>Why Choose Us?</h3>
-                         </div>
-                        <ul>
-                            <li>Our executive search process is meticulous and confidential, ensuring that only the most qualified candidates are presented for consideration. </li>
-                            <li>We prioritize transparency, continuous communication, and a deep understanding of your business objectives. This allows us to build lasting partnerships with our clients, delivering long-term value and supporting your organization’s growth.</li>
-                            <li>As one of the <span class="whatwedotitile">Best Executive Search Firms in India</span>, Prakhar Consulting Group is committed to helping companies secure the right leadership talent to achieve their goals. </li>
-                        </ul>
+                 <div class="col-md-12">
+                    <div class="text-center heading-title">
+                        <h3>Why Choose Us?</h3>
                     </div>
                 </div>
+
+
+                <div class="col-md-12 col-lg-4 pt-3 pt-3 text-center">
+                    <div class="flip-card card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="{{ asset('assets/img/PCGImages/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
+    
+                                <h5 class="whatwedotitile mt-4">Targeted Approach</h5>
+                            </div>
+                            <div class="flip-card-back p-4">
+                                <h5 class="whatwedotitile ">Targeted Approach</h5>
+                                <p class="whatwedodecs text-justify">We go beyond traditional recruitment to find leaders with the skills, experience, and leadership qualities essential for organisational growth.</p>
+                                    <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center">View More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12 col-lg-4 pt-3 pt-3 text-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="{{ asset('assets/img/PCGImages/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
+    
+                                <h5 class="whatwedotitile mt-4">Industry Expertise</h5>
+                            </div>
+                            <div class="flip-card-back p-4">
+                                <h5 class="whatwedotitile ">Industry Expertise</h5>
+                                <p class="whatwedodecs text-justify">Our vast experience across industries enables us to understand the unique leadership challenges of each sector.</p>
+                                    <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center"><span class="text-white">View More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-12 col-lg-4 pt-3 pt-3 text-center">
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                            <div class="flip-card-front">
+                                <img src="{{ asset('assets/img/PCGImages/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
+                                <h5 class="whatwedotitile mt-4">Confidential & Rigorous Process</h5>
+                            </div>
+                            <div class="flip-card-back p-4">
+                                <h5 class="whatwedotitile ">Confidential & Rigorous Process</h5>
+                                <p class="whatwedodecs text-justify">We ensure a meticulous, discrete approach, presenting only the most qualified candidates who align with your business objectives.</p>
+                                    <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center"><span class="text-white">View More</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
                
             </div>
-            <div class="row">
+            <div class="row mt-2">
                 <div class="col-md-12">
-                    <p class="text-justify">Our focus on quality, discretion, and client satisfaction makes us a trusted partner in executive search. Let us help you find the leaders who will drive innovation, foster growth, and position your organization for long-term success.</p>
-
+                    <p class="text-justify"><span class="whatwedotitile">Our Commitment</span></p>
+                </div>
+                <div class="col-md-12">
+                    <p class="text-justify">As one of the top <span class="whatwedotitile">Executive Search Firms</span>, we prioritize transparency, continuous communication, and client satisfaction, building lasting partnerships that deliver long-term value. Our mission is to help companies secure leaders who will drive innovation, foster growth, and position your organisation for sustained success.</p>
+                    <p class="text-justify">Are you also looking for a consultant who can help with <a href="{{ route('ItNonIthiring') }}" class="text-primary font-weight-bold">IT/NON-IT Hiring</a> services? PCG has the right strategies for this service.</p>
                 </div>
             </div>
         </div>
@@ -58,90 +108,88 @@
 
 
     <section class="container">
-        <div class="text-center">
-            <h2>Top Executive Search Services India: Building Strong Leadership</h2>
+        <div class="text-center heading-title">
+            <h2>Find Top Leaders with Executive Search Services in India</h2>
         </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-justify"><span class="whatwedotitile">Executive Search Services</span> are designed to help organizations identify, attract, and secure top-tier leaders who align with their strategic objectives. Unlike conventional recruitment, these services focus on high-level roles that require: </p>
+                    <p class="text-justify">Get <span class="whatwedotitile">Executive Search Services</span> as they are designed to identify, attract, and secure top-tier leaders who align with your organisation’s strategic goals.</p>
+                    <p class="text-justify">Unlike traditional recruitment, our services focus on C-suite and senior leadership roles where exceptional skills, strategic vision, and extensive experience are essential for driving organisational success.</p>
+                </div>
+            </div>
+    </section>
 
-                    <ul class="mt-4 mb-4">
-                        <li>
-                            Skills
-                        </li>
-                        <li>
-                            Strategic vision
-                        </li>
-                        <li>
-                            Extensive experience
-                        </li>
+
+    <section class="container">
+        <div class="text-center heading-title">
+            <h3>Why Choose PCG for Executive Search Services?</h3>
+        </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul >
+                        <li class="text-justify"><span class="whatwedotitile">Tailored Approach:</span> We delve deep into your culture, values, and objectives to find leaders who truly fit.</li>
+                        <li class="text-justify"><span class="whatwedotitile">Comprehensive Network:</span> Leveraging industry insights and an extensive professional network to identify proven leaders.</li>
+                        <li class="text-justify"><span class="whatwedotitile">Rigorous Screening:</span> Ensuring each candidate aligns with your corporate values, leadership requirements, and strategic vision.</li>
                     </ul>
                 </div>
-                <div class="col-md-12">
-                    <p class="text-justify">These services are invaluable for businesses aiming to fill C-suite and other senior positions, where leadership quality can significantly impact organizational growth and success.</p>
-                    <p class="text-justify">Prakhar Consulting Group is recognized as a well-known executive search firm in India, offering comprehensive talent acquisition services tailored to meet the unique needs of each client. Are you also looking for a consultant who can help with <a href="{{route('ItNonIthiring')}}"><span class="whatwedotitile">IT/NON-IT Hiring</span></a> service? PCG has the right strategies for this service. </p>
+
+                <div class="col-md-6">
+                    <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting" alt="business consulting" width="400">
                 </div>
             </div>
-    </section>
-
-
-    <section class="container">
-        <div class="text-center">
-            <h3>Our Process</h3>
-        </div>
             <div class="row">
-                
                 <div class="col-md-12">
-                    <p class="text-justify">Our process begins with a deep dive into your organizational culture, values, and goals to understand the leadership qualities that will drive success. </p>
-                    <p class="text-justify">We leverage our extensive network, industry insights, and targeted research to source candidates with proven expertise, strategic insight, and the capacity to lead.</p>
+                    <p><span class="whatwedotitile">Empowering Leadership for Success</span></p>
+                    <p class="text-justify">Recognized as one of the Top Executive Search Firms in India, we deliver results that go beyond expectations. Our process is grounded in confidentiality, integrity, and excellence, ensuring that every candidate we present is an ideal fit for your organisation.</p>
                 </div>
             </div>
     </section>
 
-    <section class="container">
-        <div class="text-center">
-            <h3>Our Services</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <ul class="">
-                    <li class="text-justify">Our services are built on a foundation of confidentiality, integrity, and commitment to excellence. </li>
-                    <li class="text-justify">We conduct a rigorous screening process that evaluates candidates' skills, leadership style, and alignment with your corporate values, ensuring that each candidate presented is an ideal fit for both the role and your organization. </li>
-                    <li class="text-justify">We maintain ongoing communication to keep you informed at every stage of the search.</li>
-                </ul>
-                <p class="text-justify">As one of the <span class="whatwedotitile">Top Executive Search Firms in India</span>, Prakhar Consulting Group will make sure to deliver results that exceed expectations. </p>
-                <p class="text-justify">We work closely with clients to secure leaders who not only meet but elevate their strategic vision. </p>
-                <p class="text-justify">Our focus on quality, discretion, and client satisfaction has established us as a trusted partner in executive search, helping companies build the leadership teams they need to thrive in a competitive landscape. If you also need a <a href="{{ route('headHunting') }}"><span class="whatwedotitile">Headhunting</span></a>, service contact PCG to get everything you need for your business's growth.</p>
+    <section class="section">
+        <div class="container">
+            <div class="text-center heading-title">
+                <h3>Executive Recruitment Agency in India: Shaping Tomorrow’s Strategy</h3>
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-justify">In an ever-evolving business environment, the <span class="whatwedotitile">Executive Recruitment Agency in India</span> plays an instrumental role in strengthening leadership that drives strategic innovation and operational excellence.</p>
+                    <p class="text-justify">Effective leadership goes beyond managing teams—it defines a company’s vision, sets its goals, and ensures adaptability in dynamic markets.</p>
+                    <p class="text-justify">If you also need a <a href="{{ route('headHunting') }}" class="text-primary font-weight-bold"> Headhunting</a> service, contact PCG to get everything you need for your business's growth.</p>
+                </div>
+                <div class="col-md-12">
+                    <div class="text-center">
+                        <p class="text-justify"><span class="whatwedotitile">The Role of Leadership in Business Strategy</span></p>
+                    </div>    
+                </div>
+            </div>
+           
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="">
+                        <li class="text-justify"><span class="whatwedotitile">Market Expansion:</span> Capturing new opportunities in emerging and established markets.</li>
+                        <li class="text-justify"><span class="whatwedotitile">Product Innovation:</span> Driving creativity and differentiation to meet evolving customer needs.</li>
+                        <li class="text-justify"><span class="whatwedotitile">Operational Efficiency:</span> Streamlining processes for sustainable performance and growth.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting"  alt="business consulting" height="400" width="450">
+
+                </div>
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-md-12">
+                    <p class="text-justify">By placing individuals with proven strategic insights, executive search firms enable organisations to remain competitive and agile in the face of challenges.</p>
+                </div>
+            </div>
+
+
         </div>
+
     </section>
 
 
-    <section class="container">
-        <div class="text-center">
-            <h2>Executive Search Firms India: Shaping Tomorrow’s Strategy</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-justify"><span class="whatwedotitile">Executive Search Firms in India</span> play a critical role not just in finding leadership but in shaping the strategic direction of a business.</p>
-                <p class="text-justify">Effective leaders are the architects of a company’s vision and goals, and the right executive search firm helps secure leaders who bring fresh perspectives, strategic insights, and an innovative approach to business challenges. </p>
-                <p class="text-justify">By focusing on candidates who align with a company’s strategic needs, these firms help businesses build a leadership team capable of driving impactful change and achieving long-term objectives.</p>
-                <p class="text-justify">An executive search firm goes beyond matching a candidate’s qualifications to the job description. They take a consultative approach, working closely with clients to understand the broader business strategy, market position, and competitive landscape. </p>
-                <p class="text-justify">This insight enables them to identify executives who bring industry-specific expertise and can guide the business in areas such as: </p>  
-                <ul class="mt-4 mb-4">
-                    <li>Market expansion</li>
-                    <li>Product innovation</li>
-                    <li>Operational efficiency</li>
-                </ul>
-                <p class="text-justify">The top executive search companies understand that leadership hires are strategic investments, and they prioritize candidates who possess the vision to make informed decisions that align with the company’s strategic direction.</p>
-                <p class="text-justify">Additionally, executive search companies assist in aligning leadership skills with future business needs. </p>
-                <p class="text-justify">They focus on finding candidates who have not only a successful track record but also the adaptability to navigate a rapidly changing market environment. </p>
-                <p class="text-justify">This forward-looking approach ensures that new leaders can evolve alongside the company, adapting strategies to meet emerging challenges and opportunities. </p>
-                <p class="text-justify">By fostering a leadership team equipped to anticipate change, executive search companies help position companies for sustainable growth and resilience.</p>
-                <p class="text-justify">In this way, the <span class="whatwedotitile">Executive Recruitment Agency</span> will contribute to shaping and strengthening business strategy by placing leaders who can envision, execute, and adapt, ensuring a competitive edge in an increasingly complex business world.</p>
-            </div>
-        </div>
-    </section>
+
 
 </main>
 @endsection

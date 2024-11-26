@@ -23,67 +23,44 @@
         <div class="container">
             {{ Breadcrumbs::render('leadershipHiring') }}
             <div class="row align-items-center">
-                <div class="col-md-12">
-                    <h1 class="text-center">Expert Leadership Hiring Consultants India for Strategic Growth</h1>
+                <div class="col-md-12 heading-title text-center">
+                    <h1 class="text-center">Expert Leadership Hiring Consultants in India for Strategic Growth</h1>
                 </div>
                 <div class="col-md-12">
-                    <p class="text-justify">Nowadays, identifying the right leaders is critical to maintaining a competitive edge. <span class="whatwedotitile">Leadership</span> hiring is more than just filling a role; it requires a deep understanding of your organization's vision, culture, and strategic direction.</p>
-                    <p class="text-justify">At Prakhar Consulting Group, we recognize the complexities and challenges that come with finding leaders who can not only adapt but also inspire, innovate, and drive growth. </p>
-                    <p class="text-justify">Prakhar Consulting Group is a leading <span class="whatwedotitile">Leadership Hiring Consultant</span>, specializing in connecting organizations with visionary leaders who can drive growth and success. </p>
-                    <p class="text-justify">Our Leadership Hiring Solutions are tailored to address the specific challenges of recruiting senior-level talent that aligns with your company’s culture and strategic objectives. </p>
-                    <p class="text-justify">With a keen understanding of the dynamic business landscape, we provide a customized approach that ensures you secure the right leadership for your organization’s needs.</p>
-                    <p class="text-justify">Our role as one of the <span class="whatwedotitile">Best Leadership Recruitment Companies in India</span> goes beyond traditional hiring. We emphasize understanding your organization’s strategic leadership needs and the qualities you seek in executives. </p>
-                    <p class="text-justify">This insight allows us to attract top-tier candidates with the experience, skills, and mindset required to excel in high-impact roles. Our comprehensive evaluation process includes:</p>
-
-
-                    <ul class="mb-4 mt-4">
-                        <li>In-depth interviews</li>
-                        <li>Behavioral assessments</li>
-                        <li>Market insights</li>
+                    <p class="text-justify">In today’s competitive market, securing visionary leaders is crucial for driving innovation, growth, and success.</p>
+                    <p class="text-justify">As one of the leading <span class="whatwedotitile">Leadership Hiring Consultants in India</span>, we leverage our expertise to identify and attract executives who can inspire teams, adapt to dynamic challenges, and deliver measurable results.</p>
+                    <p><span class="whatwedotitile">Why Choose Us for Leadership Recruitment?</span></p>
+                </div>   
+             </div>
+             <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li class="text-justify"><span class="whatwedotitile">Stellar Approach:</span> We deeply understand your unique leadership needs to attract the right candidates.</li>
+                        <li class="text-justify"><span class="whatwedotitile">Proven Expertise:</span> Successfully placing senior executives across industries like IT, Finance, and Manufacturing.</li>
+                        <li class="text-justify"><span class="whatwedotitile">Comprehensive Evaluation:</span> Utilizing in-depth interviews, behavioral assessments, and market insights to ensure a seamless fit.</li>
                     </ul>
-                    <p>As a <span class="whatwedotitile">Top Leadership Hiring Firm in India</span>, we have a proven track record of successfully placing senior executives across industries such as:</p>
-
-                    <ul class="mb-4 mt-4">
-                        <li>IT</li>
-                        <li>Finance</li>
-                        <li>Manufacturing</li>
-                    </ul>
-
-                    <p class="text-justify">Our extensive network and deep industry expertise enable us to reach a diverse pool of passive candidates who are ideal for your leadership needs, even if they are not actively seeking new opportunities.</p>
-                    <p class="text-justify">Partnering with Prakhar Consulting Group means gaining access to Leadership Hiring Solutions that focus on quality, precision, and long-term success. </p>
                 </div>
-                {{-- <div class="col-md-7">
-                    <div class="wptb-slider--img">
-                        <img src="{{ asset('assets/img/ServicesImages/Recruitment-services.png') }}" alt="permanent staffing" title="permanent staffing">
-            </div>
-        </div> --}}
-        {{-- <div class="col-md-5 order-first order-md-last">
-                    <div class="wptb-video-content">
-                        <div class=" text-center">
-                            <h2>Our Process</h2>
-                         </div>
-                        <ul>
-                            <li>Our executive search process is meticulous and confidential, ensuring that only the most qualified candidates are presented for consideration. </li>
-                            <li>We prioritize transparency, continuous communication, and a deep understanding of your business objectives. This allows us to build lasting partnerships with our clients, delivering long-term value and supporting your organization’s growth.</li>
-                            <li>As one of the <span class="whatwedotitile">Best Executive Search Firms in India</span>, Prakhar Consulting Group is committed to helping companies secure the right leadership talent to achieve their goals. </li>
-                        </ul>
-                    </div>
+                <div class="col-md-6">
+                    <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting"  alt="business consulting" height="400" width="350">
+
                 </div>
-                --}}
-        </div>
-        {{-- <div class="row">
+             </div>
+
+             <div class="row">
                 <div class="col-md-12">
-                    <p>Our focus on quality, discretion, and client satisfaction makes us a trusted partner in executive search. Let us help you find the leaders who will drive innovation, foster growth, and position your organization for long-term success.</p>
+                    <p class="text-justify">With a strong network and deep industry expertise, PCG reaches top-tier passive candidates who excel in high-impact roles. </p>
+                    <p class="text-justify">We are the <span class="whatwedotitile">Top Leadership Hiring Firm in India</span> that can help organisations build leadership teams that inspire, innovate, and drive long-term success. </p>
+                    <p class="text-justify">Do you know about <a href="{{ route('payrollProcessing') }}" class="text-primary font-weight-bold"> Payroll Processing</a>? If you need this service, PCG has everything you are looking for. </p>
 
                 </div>
-            </div> --}}
+             </div>
         </div>
     </section>
 
 
     <section class="container">
-        <div class=" text-center">
-            <h3>Our Commitment</h3>
+        <div class="text-center heading-title">
+            <h3>Senior Leadership Hiring Services in India: Building Top Leaders</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -95,83 +72,140 @@
 
 
     <section class="container">
-        <div class=" text-center">
+        <div class="heading-title text-center">
             <h2>Senior Leadership Hiring Services India: Building Tomorrow’s Leaders</h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="text-justify">At Prakhar Consulting Group, we specialize in <span class="whatwedotitile">Senior Leadership Hiring Services in India</span>, aligning businesses with visionary leaders who can drive transformation. </p>
+                <p class="text-justify">PCG is ready to provide <span class="whatwedotitile">Senior Leadership Hiring Services in India</span>, aligning businesses with visionary leaders who inspire innovation, foster growth, and drive strategic transformation. </p>
+                <p class="text-justify">With a customised approach, we ensure that the leaders we place align seamlessly with your organisation’s culture, goals, and long-term vision.</p>
             </div>
         </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify"><span class="whatwedotitile">Our Rigorous Evaluation Process </span></p>
+                <p class="text-justify">As leaders in <span class="whatwedotitile">Executive Leadership Recruitment in India</span>, we apply a thorough evaluation process to ensure only the best candidates are presented. This process includes:</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">In-Depth Interviews</span></p>
+                    <p class="text-justify">Comprehensive discussions to assess leadership potential and expertise.</p>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Behavioral Assessments</span></p>
+                    <p class="text-justify">Evaluating candidates' problem-solving skills, adaptability, and strategic thinking.</p>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center ">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Reference Checks</span></p>
+                    <p class="text-justify">Verifying credentials and track records for proven success.</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-12 mt-4">
+                <p>Our meticulous approach ensures that every recommendation is a step toward sustainable leadership and organisational excellence.</p>
+            </div>
+        </div>
+
     </section>
 
 
     <section class="container">
-        <div class="text-center">
-            <h3>Our Solutions</h3>
+        <div class="heading-title text-center">
+            <h3>Why Do We Excel as a Leadership Staffing Agency in India?</h3>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <ul class="mb-4 mt-4">
-                    <li class="text-justify">Our solutions are customized to meet the unique needs of each client, ensuring that the leaders we place are equipped with the skills and mindset to navigate complex business environments. </li>
-                    <li class="text-justify">By focusing on strategic alignment and cultural fit, we help companies build leadership teams capable of driving sustainable growth.</li>
-                    <li class="text-justify">Our <span class="whatwedotitile">Leadership Talent Acquisition Services in India</span> are designed to attract exceptional leaders who align with your organization’s long-term vision.</li>
-                </ul>
-                <p class="text-justify">We recognize that senior leadership roles demand individuals who bring more than just technical expertise—they must inspire teams, foster innovation, and drive strategic change. </p>
-                <p class="text-justify">With our industry insights and extensive network, we identify top talent, including passive candidates who may not be actively job-hunting but possess the potential to transform your organization. Do you know about <a href="{{ route('payrollProcessing') }}"><span class="whatwedotitile">Payroll Processing</span></a>? If you need this service, PCG has everything you are looking for.  </p>
+                <p class="text-justify">PCG stands out among the <span class="whatwedotitile">Leadership Staffing Agency in India</span> by offering solutions that extend beyond conventional recruitment methods. </p>
+                <p class="text-justify">Our approach to leadership staffing is grounded in a thorough understanding of each client’s strategic needs and long-term vision.</p>
             </div>
         </div>
-    </section>
 
-    <section class="container">
-        <div class=" text-center">
-            <h3>Evaluation Process</h3>
-        </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="text-justify">As an expert in <span class="whatwedotitile">Executive Leadership Recruitment in India</span>, our evaluation process ensures that each candidate meets your specific criteria. This process includes: </p>
-                <ul class="mb-4 mt-4">
-                    <li>In-depth interviews</li>
-                    <li>Behavioral assessments</li>
-                    <li>Reference checks</li>
-                </ul>
-                <p class="text-justify">Our goal is to ensure that the leaders we recommend have a proven track record and align with your company’s culture and vision.</p>
-                <p class="text-justify">By partnering with Prakhar Consulting Group, businesses can focus on their core activities while we manage the complexities of leadership recruitment. </p>
-                <p class="text-justify">Let Prakhar Consulting Group support your organization in building a leadership team that drives long-term success.</p>
-
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Advanced Leadership Assessment:</span> Utilizing behavioral interviews and leadership simulations to identify candidates with exceptional potential and the ability to excel in high-impact roles.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-
-
-    <section class="container">
-        <div class=" text-center">
-            <h2>Why Choose Us Among Leadership Staffing Agency India?</h2>
-        </div>
-        <div class="row">
             <div class="col-md-12">
-                <p class="text-justify">Prakhar Consulting Group stands out among Leadership Staffing Agency in India by offering solutions that extend beyond conventional recruitment methods. </p>
-                <p class="text-justify">Our approach to leadership staffing is grounded in a thorough understanding of each client’s strategic needs and long-term vision. </p>
-                <p class="text-justify">Unlike other Leadership Search Firms, we deliver a customized recruitment experience that ensures organizations find leaders who are both technically qualified and aligned with their values and goals.</p>
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Access to Hidden Talent:</span>  Leveraging an extensive network to connect with passive candidates—leaders who are not actively seeking roles but bring unparalleled expertise and vision.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-
-
-    <section class="container">
-        <div class=" text-center">
-            <h3>What We Offer?</h3>
-        </div>
-        <div class="row">
             <div class="col-md-12">
-                <ul>
-                    <li class="text-justify">One of our key offerings is a specialized leadership assessment process. We employ advanced evaluation techniques, including behavioral interviews and leadership simulations, to ensure every candidate is equipped to thrive in high-impact roles. </li>
-                </ul>
-                <p class="text-justify">This focus on cultural fit and leadership potential sets us apart, ensuring that the leaders we place can seamlessly integrate into your organization and drive immediate results.</p>
-                <p class="text-justify">As one of the most sought-after <span class="whatwedotitile">Leadership Search Firms in India</span>, we leverage our extensive network to access passive candidates who may not be actively seeking new roles but possess the vision and expertise to drive growth. </p>
-                <p class="text-justify">Our ability to tap into this hidden talent pool gives our clients access to leaders who may not be available through traditional recruitment channels.</p>
-                <p class="text-justify">We provide post-placement support to ensure that new leaders transition smoothly into their roles, minimizing turnover risks and fostering long-term success.</p>
-                <p class="text-justify">By choosing Prakhar Consulting Group, businesses gain access to a strategic partner among Leadership Staffing Agencies—one that prioritizes leadership alignment and is committed to finding the right talent to meet your unique requirements.</p>
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Cultural Fit and Immediate Results:</span> Ensuring the leaders we place seamlessly integrate into your organisation and contribute to success from day one.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -183,48 +217,31 @@
         </div>
         <div class="row">
             <div class="col-md-4">
-              <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
-                <h3>1. Role and Responsibility Scope</h3>
-                    <ul>
-                        <li class="text-justify">Leadership hiring focuses on individuals who set the organization’s strategic direction and shape its vision.</li>
-                        <li class="text-justify"><a href="{{ route('executiveSearch') }}" target="_blank"> <span class="whatwedotitile">Executive Search</span></a> hiring involves professionals who manage departments and ensure operational goals are met effectively.</li>
-                    </ul>
+              <div class="border shadow p-4 mb-5 bg-white rounded leadership-text-font">
+                <p class="text-center">Icon</p>
+                <h4 class="text-center">Role and Responsibility</h4>
+                <p class="text-justify">Leadership Hiring focuses on visionaries who define strategy and shape organisational direction. Executive Recruitment targets managers driving operational objectives.</p>
               </div>
             </div>
             <div class="col-md-4">
-                <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
-                    <h3>2. Level of Influence</h3>
-                    <ul>
-                        <li class="text-justify">Leadership roles have a broad organizational influence, impacting culture, growth, and future strategies.</li>
-                        <li class="text-justify">Executive roles concentrate on specific domains, driving success within their functional areas.</li>
-                    </ul>
+                <div class="border shadow p-4 mb-5 bg-white rounded leadership-text-font">
+                    <p class="text-center">Icon</p>
+                    <h4 class="text-center">Level of Influence</h4>
+                    <p class="text-justify">Leadership roles impact culture, growth, and long-term strategies. Executive roles focus on achieving functional and domain-specific success.</p>
                 </div>
             </div>
             <div class="col-md-4">
                 <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
-                    <h3>3. Skillset and Expertise</h3>
-                    <ul>
-                        <li class="text-justify">Leadership positions demand visionaries with exceptional decision-making, mentoring, and people management skills.</li>
-                        <li class="text-justify">Executive roles require technical expertise, industry knowledge, and an ability to execute plans effectively.</li>
-                    </ul>
+                    <p class="text-center">Icon</p>
+                    <h4 class="text-center">Skillset and Expertise</h4>
+                    <p class="text-justify">Leadership requires decision-making, mentoring, and vision. Executive roles demand technical expertise and effective execution.</p>
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
-                    <h3>4. Recruitment Complexity</h3>
-                    <ul>
-                        <li class="text-justify">Leadership hiring is a highly customized process with in-depth personality and cultural alignment assessments.</li>
-                        <li class="text-justify">Executive hiring uses well-defined evaluation metrics and streamlined processes to ensure quick and precise selection.</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="border shadow p-3 mb-5 bg-white rounded leadership-text-font">
-                    <h3>4. Impact on Business Outcomes</h3>
-                    <ul>
-                        <li class="text-justify">Leadership hires determine the company’s long-term success and resilience in competitive markets.</li>
-                        <li class="text-justify">Executive hires focus on achieving short-term goals and ensuring the smooth functioning of operations.</li>
-                    </ul>
+                <div class="border shadow p-4 mb-5 bg-white rounded leadership-text-font">
+                    <p class="text-center">Icon</p>
+                    <h4 class="text-center">Recruitment Approach</h4>
+                    <p class="text-justify">Leadership Hiring involves customised processes with cultural and personality alignment. Executive Recruitment uses streamlined metrics for precision.</p>
                 </div>
             </div>
         </div>

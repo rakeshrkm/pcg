@@ -60,7 +60,7 @@
                 </div>
                 <div class="text-center">
                     <img src="{{ asset('assets/img/FCB.jpg') }}" width="600" height="200" alt="FCBO" title="FCBO">
-                    
+
                 </div>
 
                 <p class="text-justify mt-4">At <span class="whatwedotitile">PCG Global Consulting Pvt. Ltd.,</span>  we connect businesses with exceptional talent across India, empowering growth and fostering success.</p>
@@ -142,7 +142,7 @@
                     Let us help you build a brighter future for your business. Partner with <span class="whatwedotitile">PCG</span>, where talent meets opportunity.
                 </p>
 
-                <div class="d-flex align-items-center justify-content-center">
+                <div class="d-flex align-items-center justify-content-center mt-4">
                     <a hef="{{ route('contactUs') }}"><button type="submit" name="submit_contact" class="btn btn-default" value="Submit" id="submit_contact">
                             Book your Call with Us Now
                         </button></a>
@@ -153,7 +153,7 @@
     </div>
 </section>
 
-<section class="section mt-4" style="background:#BCDDDB; background-position: right; background-repeat: no-repeat;">
+<section class="section mt-4">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-left">
@@ -279,7 +279,7 @@
     </div>
 </section>
 
-<section class="section" style="background:#BCDDDB; background-position: right; background-repeat: no-repeat;">
+<section class="section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-left ">
@@ -506,7 +506,7 @@
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
 
-                            <h5 class="whatwedotitile mt-4 text-white">Permanent Staffing </h5>
+                            <h5 class="whatwedotitile mt-4">Permanent Staffing </h5>
                         </div>
                         <div class="flip-card-back p-4">
                             <h5 class="whatwedotitile ">Permanent Staffing </h5>
@@ -523,7 +523,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/Training_development.jpg') }}" alt="Training and Development" title="Training and Development" />
-                            <h5 class="whatwedotitile mt-4 text-white">Executive Search </h5>
+                            <h5 class="whatwedotitile mt-4">Executive Search </h5>
                         </div>
                         <div class="flip-card-back p-4">
                             <h5 class="whatwedotitile ">Executive Search </h5>
@@ -540,7 +540,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/leadership_hiring.jpg') }}" alt="Consulting Services" title="Consulting Services" />
-                            <h5 class="whatwedotitile mt-4 text-white">Leadership Hiring </h5>
+                            <h5 class="whatwedotitile mt-4">Leadership Hiring </h5>
                         </div>
                         <div class="flip-card-back p-4">
                             <h5 class="whatwedotitile">Leadership Hiring </h5>
@@ -557,7 +557,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/leadership_hiring.jpg') }}" alt="leadership hiring" title="leadership hiring" />
-                            <h5 class="whatwedotitile mt-4 text-white">Head Hunting</h5>
+                            <h5 class="whatwedotitile mt-4">Head Hunting</h5>
                         </div>
                         <div class="flip-card-back p-4">
                             <h5 class="whatwedotitile">Head Hunting</h5>
@@ -574,7 +574,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/it_nonit.jpg') }}" alt="Non IT" title="Non IT" />
-                            <h5 class="whatwedotitile mt-4 text-white">IT/Non-IT Hiring</h5>
+                            <h5 class="whatwedotitile mt-4">IT/Non-IT Hiring</h5>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">IT/Non-IT Hiring</h5>
@@ -589,7 +589,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/campus_recruitment.jpg') }}" alt="Temporary Staffing" title="Temporary Staffing" />
-                            <h5 class="whatwedotitile mt-4 text-white">Temporary Staffing</h5>
+                            <h5 class="whatwedotitile mt-4">Temporary Staffing</h5>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">Temporary Staffing</h5>
@@ -605,7 +605,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Contract Staffing" title="Contract Staffing" />
-                            <h5 class="whatwedotitile mt-4 text-white">Contract Staffing</h5>
+                            <h5 class="whatwedotitile mt-4">Contract Staffing</h5>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">Contract Staffing</h5>
@@ -622,7 +622,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Contract-to-Hire (C2H) Hiring" title="Contract-to-Hire (C2H) Hiring" />
-                            <h5 class="whatwedotitile mt-4 text-white">Contract-to-Hire (C2H) Hiring</h5>
+                            <h5 class="whatwedotitile mt-4">Contract-to-Hire (C2H) Hiring</h5>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">Contract-to-Hire (C2H) Hiring</h5>
@@ -639,7 +639,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Payroll Process" title="Payroll Process" />
-                            <h5 class="whatwedotitile mt-4 text-white">Payroll Processing</h5>
+                            <h5 class="whatwedotitile mt-4">Payroll Processing</h5>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">Payroll Processing</h5>
@@ -656,7 +656,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Campus Recruitment" title="Campus Recruitment" />
-                            <h5 class="whatwedotitile mt-4 text-white">Universities</h5>
+                            <h5 class="whatwedotitile mt-4">Universities</h5>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile mt-4">Universities</h5>
@@ -672,7 +672,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/mazenet-LMS-service.webp') }}" alt="Campus Recruitment" title="Campus Recruitment" />
-                            <h5 class="whatwedotitile mt-4 text-white">Other Services</h5>
+                            <h5 class="whatwedotitile mt-4">Other Services</h5>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile mt-4">Other Services</h5>
@@ -682,8 +682,6 @@
                     </div>
                 </div>
             </div>
-
-
             <div class="col-md-12 text-center mt-4 mb-4">
                 <div class="cta2 mt-4"><a href="{{route('contactUs')}}" class="btn text-white">Start Your Journey with Us Today. <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a></div>
             </div>
@@ -712,9 +710,9 @@
                         <div class="counter-box no-margin-lg no-margin-md">
                             <img src="{{ asset('assets/img/tech-workforce-development-companies.png') }}" alt="tech workforce development companies" title="tech-workforce-development-companies.png" />
                             <div class="counter-content">
-                                <span class="count-me number" data-to="300" data-speed="2500">300</span>
+                                <span class="count-me number" data-to="100" data-speed="2500">100</span>
                                 <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
-                                <h6 class="counter-title textwhite">Corporate Clientele</h6>
+                                <h6 class="counter-title textwhite">Corporate Clients</h6>
                             </div>
                         </div>
                     </li>
@@ -958,8 +956,6 @@
                 </ul>
                 <p>These certifications reflect our dedication to maintaining the highest standards in service delivery and client satisfaction.</p>
             </div>
-
-
         </div>
     </div>
 </section>
