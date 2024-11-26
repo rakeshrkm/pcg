@@ -14,28 +14,217 @@
         </div>
     </div>
 </div>
-<section class="section">
+<section class="">
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <div class="text-center">
-                    <h1>Our Journey to Becoming the Top HR Consultants India</h1>
+                <div class="heading-title text-center">
+                    <h1>PCG Global Consulting: One of the Leading HR Consultants in India</h1>
                 </div>
 
                 <p class="text-justify">
-                    PCG Global Consulting Pvt. Ltd, a proud subsidiary of Prakhar Software Solutions Pvt Ltd, is recognized as one of the <span class="whatwedotitile">Top HR Consultants in India</span>.
+                    PCG Global Consulting Pvt. Ltd., a subsidiary of Prakhar Software Solutions Pvt. Ltd., stands proudly among the <span class="whatwedotitile">Top HR Consultants in India</span>. Rooted in our parent organisation’s success in e-governance, skill development, and drone technology, we bring a proven track record of innovation and excellence to the corporate world.
                 </p>
+            </div>
+        </div>
+    </div>
+</section>
 
-                <p class="text-justify">
-                    Our parent organisation Prakhar Software Solutions has successfully worked on critical projects of national importance in the e-governance sector with <span class="whatwedotitile">2400 + employees across the nation, 14 Skill development centers across India</span> and initiating multiple projects in <span class="whatwedotitile">Drone technology in India</span>. Now, we are also serving Corporates.
-                </p>
-                <p class="text-justify">With a robust team of<span class="whatwedotitile"> 2200+ skilled professionals</span>, we are dedicated to creating a right path for organizations and job seekers, offering end-to-end HR solutions that meet the unique needs of our clients.</p>
-                <p class="text-justify">Our extensive expertise spans collaborations with both government and corporate clients across India, allowing us to deliver customized recruitment strategies and staffing solutions.</p>
-                <p class="text-justify">As a leader in<span class="whatwedotitile"> HR Consulting and Staffing India</span>, Prakhar Consulting Group has successfully placed over 4500 candidates nationwide, ensuring a perfect match between talent and opportunity. We focus on building long-term relationships, providing clients with the best-fit talent while guiding job seekers towards promising career paths.</p>
-                <p class="text-justify">Our commitment to excellence, transparency, and ethical practices has made us a trusted partner for organizations seeking to enhance their workforce. </p>
+<section class="section">
+    <div class="container">
+        <div class="heading-title text-center">
+            <h2>Why We Are Your Best HR Partner?</h2>
+        </div>
 
-                <p class="text-justify">We leverage data-driven insights and industry expertise to craft tailored HR solutions that drive growth and success. Whether you are a company looking to expand your team or a professional aiming for the next big career move, Prakhar Consulting Group is your go-to partner for achieving your goals. </p>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center ">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Robust Expertise</span></p>
+                    <p class="text-justify">A team of 2200+ professionals delivering tailored HR solutions across industries.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center ">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Extensive Reach</span></p>
+                    <p class="text-justify">Presence in 14 skill development centers nationwide, enabling workforce transformation.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-4 card business-choose shadow">
+                        <div class="text-center">
+                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <p class="text-center mt-2"><span class="whatwedotitile">Proven Success</span></p>
+                        <p class="text-justify">Over 4,500 candidates placed through data-driven recruitment strategies.</p>
+                </div>
+            </div>
+            <div class="col-md-3">
+                    <div class="p-4 card business-choose shadow">
+                        <div class="text-center ">
+                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <p class="text-center mt-2"><span class="whatwedotitile">Customised Solutions</span></p>
+                        <p class="text-justify">End-to-end HR consulting, recruitment, and staffing tailored to your needs.</p>
+                    </div>
+            </div>
+            <div class="col-md-3 mt-4">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center ">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        </div>
+                        <p class="text-center mt-2"><span class="whatwedotitile">Commitment to Transparency</span></p>
+                        <p class="text-justify">Ethical practices and long-term partnerships ensure client satisfaction.</p>
+                    </div>
+                 </div>
+            </div>
+            <div class="col-md-12 mt-4">
+                <p class="text-justify">At PCG, we bridge the gap between employers and top talent, delivering <span class="whatwedotitile">HR Consulting and Staffing Services in India</span> that drive business success. Our focus on cultural fit, skill alignment, and workforce agility ensures exceptional outcomes for both organisations and job seekers.</p>
+            </div>
+            <div class="col-md-12 mt-4">
+                <div class="d-flex align-items-center justify-content-center">
+                    <a hef="{{ route('contactUs') }}"><button type="submit" name="submit_contact" class="btn btn-default" value="Submit" id="submit_contact">
+                            Get in Touch
+                        </button></a>
 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="section">
+    <div class="container">
+        <div class="heading-title text-center">
+            <h2>Transform Your Team with Our Ultimate Hiring Solutions in India</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify">At PCG, we will help deliver tailored <span class="whatwedotitile">Hiring Solutions in India</span> that redefine traditional recruitment. Our process focuses on aligning leadership talent with your organisation’s vision, culture, and strategic goals, ensuring every hire is not just a placement but a valuable asset.</p>
+            </div>
+        </div>
+        <div class="heading-title text-center">
+            <h3>Why Choose Our Hiring Solutions?</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Strategic Talent Alignment:</span> We prioritize leadership candidates who align with your company’s values, ensuring long-term success.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Market-Driven Insights:</span> Thorough market research and industry benchmarking enable us to identify top-tier professionals who bring innovation and growth.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Extensive Industry Network:</span> Tap into a vast pool of passive candidates and senior executives, leveraging deep industry connections.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Advanced Talent Assessment:</span> Our process includes behavioral interviews, leadership simulations, and assessment tools to ensure precision in matching talent.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Post-Placement Integration:</span> Seamless support ensures a smooth transition for leaders, mitigating turnover risks and strengthening organisational stability.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12 mt-4">
+               <p class="text-justify"> Unlike many HR firms, we focus on quality over quantity. Our leadership hiring solutions are designed to create a stable leadership pipeline, foster innovation, and drive long-term business growth.</p>
             </div>
         </div>
     </div>
@@ -44,79 +233,59 @@
 <section class="section">
     <div class="container">
         <div class="text-center">
-            <h2>Transform Your Team with Our Ultimate Hiring Solutions India</h2>
+            <h3>Our In-House Platforms</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify">Our in-house platforms redefine how talent, businesses, and industry leaders connect. Explore our unique offerings designed to empower professionals and organisations alike.</p>
+            </div>
         </div>
 
         <div class="row">
-            <div class="col-md-12">
-                <p class="text-justify">Prakhar Consulting Group is renowned for offering Hiring Solutions in India that go beyond traditional recruitment approaches.</p>
-                <p class="text-justify">Our unique process is built on understanding the strategic needs of businesses, ensuring that the leadership talent we bring on board aligns with the vision, culture, and long-term objectives of our clients.</p>
-                <p class="text-justify">Unlike many other HR firms, we focus on a customized approach that prioritizes quality over quantity, ensuring that every leader placed through us is not just a hire but a strategic asset to the organization.</p>
+            <div class="col-md-6">
+                <img src="{{ asset('assets/img/PCGImages/business consulting.jpg') }}" title="business consulting" alt="business consulting">
+            </div>
+            <div class="col-md-6">
+                <p class="mt-3"><span class="whatwedotitile">Naukriyan.com</span></p>
+                <p>Naukriyan.com bridges the gap between job seekers and employers, offering opportunities in <span class="whatwedotitile">e-governance</span> and <span class="whatwedotitile">corporate sectors</span>.</p>
                 <ul>
-                    <li>Our approach to Hiring Solutions for Companies in India is tailored to the ever-changing market dynamics.</li>
-
-                    <li>We conduct thorough market research and industry benchmarking to identify top-tier leadership candidates who bring fresh perspectives and innovative ideas to drive growth.</li>
-
-                    <li>Our extensive network of industry experts and deep connections with senior executives enables us to tap into a vast pool of passive candidates—those who are not actively seeking new roles but possess the potential to transform businesses.</li>
+                    <li class="text-justify"><span class="whatwedotitile">For Job Seekers:</span> Access jobs tailored to your skills and aspirations.</li>
+                    <li class="text-justify"><span class="whatwedotitile">For Employers:</span> Discover top-tier talent across industries with ease. This platform simplifies recruitment and job hunting, transforming careers across India.</li>
                 </ul>
-                <p class="text-justify">At Prakhar Consulting Group, we leverage advanced assessment tools, behavioral interviews, and leadership simulations to ensure that each candidate's capabilities align with the specific needs of our clients.</p>
-                <p class="text-justify">This meticulous evaluation process sets us apart from others in the industry, enabling us to deliver leadership candidates who are not only experienced but also culturally fit to lead teams effectively.</p>
-                <p class="text-justify">In addition, we offer post-placement support and integration assistance, which ensures a smooth transition for newly appointed leaders. </p>
-                <p class="text-justify">This added layer of support is a key aspect of our Leadership hiring solutions that many competitors overlook. By focusing on long-term success, we help companies mitigate turnover risks and create a stable leadership pipeline for the future.</p>
-                <p class="text-justify">Our focus is not just on finding leaders but on building long-lasting partnerships with our clients, ensuring that they have the right leadership in place to meet their strategic goals. </p>
-                <p class="text-justify">With Prakhar Consulting Group, you gain access to innovative hiring solutions for companies that are designed to elevate your business to new heights.
-                </p>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section class="section">
-    <div class="container">
-        <div class="text-center">
-            <h2>Our In-House Platforms</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-justify">If you don’t know what In-House portals we are running in the market, the below points will help you learn about them in detail.</p>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12">
-
-                <table class="table-bordered">
-                    <thead>
-                        <tr>
-                            <th>Naukriyan</th>
-                            <th>Naukriyan Guftgu</th>
-                            <th>The Gravity International</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                            <tr>
-                                <td><p class="text-justify">Naukriyan is a dynamic job portal dedicated to shaping a new era of employment in India. </p></td>
-                                <td><p class="text-justify">Naukriyan Guftgu unravels the essence of corporate culture and beyond! </p></td>
-                                <td><p class="text-justify">"The Gravity International" is your go-to e-magazine, designed for ambitious individuals eager to elevate their careers.</p></td>
-                            </tr>
-                            <tr>
-                                <td><p class="text-justify">Our platform connects freshers and experienced professionals with employers across the nation, offering opportunities in both e-governance and corporate projects. </p></td>
-                                <td><p class="text-justify">The talk show here is a vibrant platform where industry leaders and visionaries come together to share their stories and insights. </p></td>
-                                <td><p class="text-justify">Whether you're a professional, an aspiring entrepreneur, or a seasoned business leader, this magazine is your gateway to insights and inspiration.</p></td>
-                            </tr>
-                            <tr>
-                                <td><p class="text-justify">At Naukriyan, we aim to assist job seekers and recruiters, providing a seamless interface that makes finding the right talent or job effortless. </p></td>
-                                <td><p class="text-justify">They dive into discussions beyond the boardroom—exploring the evolving dynamics of organizations, the secrets to leadership, and inspiring journeys of perseverance. </p></td>
-                                <td><p class="text-justify">Dive into a world of knowledge, where every article is crafted to fuel your passion for personal growth and professional success.</p></td>
-                            </tr>
-                            <tr>
-                                <td><p class="text-justify">Whether you’re an aspiring professional or an organization seeking skilled talent, Naukriyan is your gateway to unlocking a world of possibilities in the ever-evolving job market of India.</p></td>
-                                <td><p class="text-justify">Whether you’re seeking valuable insights or a fresh perspective on the world of work, Naukriyan Guftgu is your gateway to understanding what drives today’s corporate landscape and the minds shaping it.</p></td>
-                                <td><p class="text-justify">From industry trends to leadership advice, "The Gravity International" offers the tools and guidance you need to thrive in a fast-paced, ever-evolving world. </p></td>
-                            </tr>
-                    </tbody>
-                </table>
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <p class="mt-3"><span class="whatwedotitile">Naukriyan Guftgu</span></p>
+                <p>Naukriyan Guftgu is an engaging <span class="whatwedotitile">corporate talk show</span> featuring discussions with industry leaders and visionaries.</p>
+                <ul>
+                    <li class="text-justify"><span class="whatwedotitile">Key Themes:</span> Leadership strategies, workplace culture, and inspiring career journeys.</li>
+                    <li class="text-justify"><span class="whatwedotitile">For Professionals:</span> Unlock actionable insights and fresh perspectives on corporate dynamics.<p>This platform offers an exclusive look into what drives today’s leaders and organisations.</p></li>
+                </ul>
             </div>
+
+            <div class="col-md-6">
+                <img src="{{ asset('assets/img/PCGImages/business consulting.jpg') }}" title="business consulting" alt="business consulting">
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <img src="{{ asset('assets/img/PCGImages/business consulting.jpg') }}" title="business consulting" alt="business consulting">
+            </div>
+
+            <div class="col-md-6">
+                <p class="mt-3"><span class="whatwedotitile">The Gravity International</span></p>
+                <p class="text-justify"><span class="whatwedotitile">The Gravity International</span> is a premier <span class="whatwedotitile">e-magazine</span> for professionals, entrepreneurs, and leaders.</p>
+                <ul>
+                    <li class="text-justify"><span class="whatwedotitile">What It Offers:</span> Thought-provoking articles on industry trends, leadership, and personal growth.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Why It Matters:</span>  Equip yourself with insights and tools to thrive in a competitive, fast-changing world.
+                        Stay ahead with content designed to inspire and elevate your professional journey.</li>
+                </ul>
+            </div>
+
+           
         </div>
     </div>
 </section>
@@ -125,36 +294,28 @@
     <div class="container">
         <div class="">
             <h2 class="text-center">Our Mission & Vision</h2>
-            <p>We specialize in connecting talent with the right opportunities, ensuring a perfect match for both candidates and organizations. Our expertise spans across diverse sectors, making us a trusted partner in building successful careers and strong teams."</p>
         </div>
         <div class="row">
-            <div class="col-md-6 col-lg-6 ">
-                <div class="content-box left border shadow p-3 mb-5 bg-white rounded">
+            <div class="col-md-6 col-lg-6">
+                <div class="content-box left border shadow p-3 mb-5 bg-white rounded mission_vission">
                     <h4 class="disableh5 text-center mb-2"> <img src="{{ asset('assets/img/mission-icon.png') }}" alt="Our Mission" title="Our Mission"> Our Mission</h4>
                     <ul class="pt-2">
                         <li>
-                            <p class="text-justify"> Our mission at Prakhar Consulting Group is to build on our success in delivering impactful projects of national importance for e-governance clients, now expanding our services to support big corporate houses, medium-sized firms, and startups. </p>
+                            <p class="text-justify"> 
+                                At <span class="whatwedotitile">PCG Global  Consulting</span>, our mission is to be the driving force behind successful organisations by connecting them with exceptional talent. We aim to deliver <span class="whatwedotitile">Customised HR Solutions</span> that empower businesses to achieve growth and professionals to unlock their potential.
+                            </p>
                         </li>
-                        <li>
-                            <p class="text-justify">With our presence across India and global connections, we aim to connect top talent with visionary organisations, providing customized HR solutions that drive growth and empower both businesses and professionals to reach their highest potential.</p>
-                        </li>
+                       
                     </ul>
                 </div>
             </div>
-            <div class="col-md-6 col-lg-6 ">
-                <div class="content-box left no-margin border shadow p-3 mb-5 bg-white rounded ml-5">
+            <div class="col-md-6 col-lg-6">
+                <div class="content-box left no-margin border shadow p-3 mb-5 bg-white rounded ml-5 mission_vission">
                     <h4 class="disableh5 text-center mb-2"><img src="{{ asset('assets/img/vision-icon.png') }}" alt="Our Vision" title="Our Vision"> Our Vision</h4>
                     <ul class="pt-2">
                         <li>
-                            <p class="text-justify"> Our vision is to be a trusted bridge between opportunity and ambition, transforming HR consulting by building strong partnerships that bring progress, innovation, and resilience across different industries.</p>
+                            <p class="text-justify">Our vision is to become the most trusted partner for businesses and professionals, fostering progress and innovation across industries. We envision a world where every company has access to the right talent, and every professional finds a meaningful career.</p>
                         </li>
-                       
-                       
-
-                        <li>
-                            <p class="text-justify"> We dream of a future where every company, from large corporate houses to small startups, finds the right talent, and every professional finds a fulfilling career path. As we grow our presence globally, we stay committed to setting new standards in HR, building a workforce that drives sustainable growth and success for future generations.</p>
-                        </li>
-
                     </ul>
                 </div>
             </div>
@@ -261,7 +422,7 @@
     </div>
 </section> --}}
 
-<section class="section">
+{{-- <section class="section">
     <div class="container">
         <div class="text-center">
             <h2>Our Team</h2>
@@ -313,7 +474,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 
 
 {{-- <section class="section">

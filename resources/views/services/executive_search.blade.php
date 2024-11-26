@@ -11,8 +11,6 @@
         <div class="container centered-container">
             <div class="centered-inner-container">
                 <p class="page-title text-white banner_text">Executive Search</p>
-               
-
             </div>
         </div>
     </div>
@@ -26,22 +24,19 @@
             {{ Breadcrumbs::render('executiveSearch') }}
             <div class="row align-items-center">
                 <div class="col-md-12">
-                    <h1 class="text-center mt-4 p-4 ">India’s Best Executive Search Firms for Key Positions</h1>
+                    <h1 class="text-center mt-4 p-4 ">Best Executive Search Firm in India for Key Positions</h1>
                 </div>
                 <div class="col-md-12">
                     <p class="text-justify">
-                        <span class="whatwedotitile"> Executive Search Firms</span> help identify and recruit high-caliber executives and senior leaders for organizations. 
+                        PCG can help in identifying and recruiting top-tier executives and senior leaders who align with your organisation’s vision. Recognized as the <span class="whatwedotitile">Best Executive Search Firm in India</span>, we focus on sourcing exceptional talent for critical roles such as CEOs, CFOs, and senior management positions.
                     </p>
-                    <p class="text-justify">Unlike traditional recruitment agencies, executive search agencies focus on finding top-level talent with the skills, experience, and leadership qualities required to drive an organization’s success.</p>
-                    <p class="text-justify">This service is essential for companies seeking to fill critical roles, such as CEOs, CFOs, and other senior management positions, where the right hire can make a significant impact.</p>
-                    <p class="text-justify">Prakhar Consulting Group stands out among the best executive search agencies in India, offering a rigorous, targeted approach to finding and placing exceptional leaders. </p>
-                    <p class="text-justify">Our expertise spans various industries, allowing us to understand the unique challenges and leadership needs of each sector. </p>
+                  
                 </div>
                
                 <div class="col-md-12 order-first order-md-last">
                     <div class="wptb-video-content">
                         <div class="text-center">
-                            <h2>Our Process</h2>
+                            <h3>Why Choose Us?</h3>
                          </div>
                         <ul>
                             <li>Our executive search process is meticulous and confidential, ensuring that only the most qualified candidates are presented for consideration. </li>

@@ -848,7 +848,7 @@ opacity: 0.3;
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/css/appointment/materialize.min.js') }}"></script>
     <script src="{{ asset('assets/js/page-redirect.js') }}"></script> <!-- javascript here -->
-    <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script>
+    {{-- <script src="{{ asset('assets/js/jquery-3.6.0.min.js') }}"></script> --}}
     <script src="https://maps.google.com/maps/api/js?key=AIzaSyBJ7vR7u5Tw1Ii8qA0mAsKVUvSnoidOkhE"></script>
     <script src="{{ asset('assets/js/bootstrap.bundle.min.js') }}"></script>
     <script src="{{ asset('assets/js/jquery.smartmenus.min.js') }}"></script>

@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <p class="page-title text-white banner_text">Permanent Staffing </p>
+                <h4 class="page-title text-white banner_text">Permanent Staffing </h4>
             </div>
         </div>
     </div>
@@ -26,33 +26,17 @@
 
             <div class="row">
                 <div class="col-lg-12 text-left ">
-                    <div class="text-center">
-                        <h1 class="text-center">Renowned as the Top Permanent Staffing Company India</h1>
+                    <div class="text-center heading-title">
+                        <h1 class="text-center">Renowned as the Top Permanent Staffing Company in India</h1>
                     </div>
                 </div>
                 <div class="col-md-12">
                     <p class="text-justify">
-                        Prakhar Consulting Group is a trusted name among the <span class="whatwedotitile">Top Permanent Staffing Company in India</span>, specializing in aligning organizations with top-tier talent for sustainable growth. Our mission is to help companies in need of skilled professionals and job seekers aiming for long-term career opportunities.
+                        PCG is the <span class="whatwedotitile">Top Permanent Staffing Company in India</span>, providing tailored recruitment solutions that align skilled professionals with your organisational vision. 
                     </p>
+                    <p class="text-justify">Focusing on building cohesive teams, we ensure long-term success for businesses across industries. </p>
 
-                    <ul class="mb-4 mt-4">
-                        <li class="text-justify">As a <span class="whatwedotitile">Best Permanent Recruitment Agency in India</span>, we recognize that finding the ideal candidate extends beyond simply matching resumes with job descriptions. </li>
-                        <li class="text-justify">Our recruitment process involves a thorough understanding of each client’s culture, goals, and values, ensuring that the talent we place is both technically proficient and culturally aligned.</li>
-                        <li class="text-justify">This approach enables businesses to cultivate a cohesive workforce that drives productivity and growth.</li>
-                    </ul>
-                    <p><span class="whatwedotitile">Our comprehensive services include:</span> </p>
-
-                    <ul class="mb-4 mt-4">
-                        <li>Candidate sourcing</li>
-                        <li>In-depth screening</li>
-                        <li>Rigorous assessments </li>
-                    </ul>
-
-                    <p class="text-justify">As a strategic partner, we work alongside organizations throughout the recruitment process, offering valuable market intelligence and insights for successful placements. </p>
-                    <p class="text-justify">This dedication to excellence makes us the preferred choice for businesses seeking top permanent recruitment solutions.</p>
-                    <p class="text-justify">With our deep industry knowledge and extensive professional network, we simplify the hiring process for companies of all sizes. </p>
-                    <p class="text-justify">Whether you are a startup or an established enterprise, Prakhar Consulting Group has the expertise and resources to meet your permanent staffing needs efficiently.</p>
-                    <p class="text-justify">Choosing Prakhar Consulting Group means partnering with a leading Permanent Staffing Company committed to building a skilled workforce that supports long-term organizational success. Our focus on customized solutions ensures a perfect match between employers and candidates. If you also need <a href ="{{route('temporaryStaffing') }}"><span class="whatwedotitile">Temporary Staffing</span></a> services, PCG is the right choice to support you. </p>
+                   
                 </div>
                 {{-- <div class="col-md-7">
                     <div class="wptb-slider--img">
@@ -83,80 +67,221 @@
     </section>
 
 
-    <section class="container">
-        <div class="text-center">
-            <h2>Why Choose Prakhar Consulting Group for Permanent Hiring Solutions India?</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-justify">Securing the right talent for critical roles is fundamental to sustained business growth.</p>
-                <P class="text-justify">Permanent Hiring Solutions in India provide companies with the means to build a stable and skilled workforce, allowing them to focus on strategic priorities while leaving recruitment complexities to the experts. </P>
-                <p class="text-justify">These solutions are specifically designed to align with your organization's long-term goals, ensuring a seamless hiring process. </p>
-                <p class="text-justify">At Prakhar Consulting Group, we deliver bespoke Hiring Solutions that cater to the needs of various industries. </p>
+    <section class="section" style="background:#BCDDDB; background-position: right; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="text-center heading-title">
+                <h2>Why Are We the Best Permanent Recruitment Agency in India?</h2>
             </div>
 
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-justify">We prioritize understanding your organisation’s unique needs to deliver exceptional hiring solutions. Known for being the<span class="whatwedotitile"> Best Permanent Recruitment Agency in India</span>, our recruitment strategies empower businesses to achieve sustainable growth.</p>
+                </div>
+            </div>
+
+
+            <div class="row mt-4">
+                <div class="col-md-12">
+                    <ul class="me-list">
+                        <li> <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="whatwedotitile">Strategic Talent Alignment:</span> We match candidates not only based on skills but also on culture, values, and goals, ensuring a seamless fit.</li>
+                        <li>
+                             <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="whatwedotitile">Comprehensive Recruitment Services:</span> Our process includes: 
+                            <ul>
+                                <li> <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                                    <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <span class="whatwedotitile">Candidate Sourcing:</span> Leveraging our extensive network to find top-tier talent.</li>
+                                <li> <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                                    <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                </svg>
+                                <span class="whatwedotitile">In-Depth Screening:</span> Rigorous assessments to ensure quality.</li>
+                                <li>
+                                    <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                                        <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </svg>
+                                    <span class="whatwedotitile">Expert Insights:</span> Market intelligence to guide successful placements.</li>
+
+                            </ul>
+                        </li>
+                        <li> <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                        <span class="whatwedotitile">Industry Expertise:</span> From startups to large enterprises, we deliver tailored solutions to meet diverse hiring needs.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
+       
+    </section>
+
+
+    <section class="section">
+        <div class="container">
+            <div class="text-center heading-title">
+                <h2>Why Choose PCG for Permanent Hiring Solutions in India?</h2>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-justify">At PCG, we are adept at tailoring Permanent Hiring Solutions in India that help businesses build stable, skilled workforces that are aligned with their long-term goals.</p>
+                    <p class="text-justify">Our expertise spans multiple industries, ensuring seamless recruitment processes that allow companies to focus on growth while we handle the complexities of hiring. If you also need  <a href="{{ route('temporaryStaffing') }}" class="text-primary font-weight-bold">Temporary Staffing</a> services, PCG is the right choice to support you.</p>
+                </div>
+    
+                <div class="col-md-12 mt-4">
+                    <p class="text-justify"><span class="whatwedotitile">Our Methodology</span></p>
+                </div>
+    
+                <div class="col-md-12 text-left">
+                    <div class="accordion" id="accordionExample">
+                        <div class="card">
+                          <div class="card-header" id="headingOne">
+                            <h2 class="mb-0 text-left">
+                              <button class="btn btn-link text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                               <p class="text-left mt-2" > <span class="whatwedotitile">Client-Centric Approach</span></p>
+                              </button>
+                            </h2>
+                          </div>
+                      
+                          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                            <div class="card-body text-center">
+                                We deeply understand your organisational culture and values to ensure candidates seamlessly integrate and contribute effectively.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card">
+                          <div class="card-header" id="headingTwo">
+                            <h2 class="mb-0">
+                              <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <p class="text-left mt-2"><span class="whatwedotitile text-left">Advanced Recruitment Techniques</span></p>
+                              </button>
+                            </h2>
+                          </div>
+                          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                            <div class="card-body center">
+                                Combining industry insights with cutting-edge assessment methods to identify top talent.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <section class="section" style="background:#BCDDDB; background-position: right; background-repeat: no-repeat;">
+        <div class="container">
+            <div class="text-center typewriter heading-title">
+                <h3>Why Partner with Us?</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                   <ul class="me-list">
+                    <li><span class="whatwedotitile">Industry Expertise:</span> Proficiency in sectors like IT, manufacturing, finance, and healthcare.</li>
+                    <li><span class="whatwedotitile">Strategic Insights:</span> Access market trends and hiring strategies to stay competitive.</li>
+                    <li><span class="whatwedotitile">Reliable Solutions:</span> Ensure retention and long-term success through bespoke hiring strategies.</li>
+                   </ul>
+                </div>
+    
+                <div class="col-md-12">
+                    <p class="text-justify">Choosing PCG means partnering with one of the <span class="whatwedotitile">Top Permanent Staffing Companies in India</span>. Let us help you build a high-performing team that drives growth and supports your strategic objectives.</p>
+                </div>
+            </div>
+
+
+        </div>
+       
     </section>
 
 
     <section class="container">
         <div class="text-center">
-            <h3>Methodology</h3>
+            <h2>Permanent Staffing Services in India: Your Key to Lasting Success</h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="text-justify">Our methodology focuses on understanding each client's specific requirements, ensuring that the candidates we place have not only the right skills but also align with your organizational culture and values. This approach guarantees a smooth integration of new hires into the business, leading to improved retention and long-term success.</p>
-                <p class="text-justify">As one of the <span class="whatwedotitile">Top Permanent Hiring Firms in India</span>, we utilize advanced recruitment techniques and a deep understanding of industry dynamics to identify and secure top talent. Our services encompass: </p>
-                <ul class="mb-4 mt-4">
-                    <li>Candidate sourcing</li>
-                    <li>Screening</li>
-                    <li>Evaluations through thorough assessments</li>
+                <p class="text-justify">We deliver <span class="whatwedotitile">Permanent Staffing Services in India</span> that empower businesses with skilled, reliable talent for long-term growth. Recognized as one of the most trusted <span class="whatwedotitile">Permanent Hiring Agencies in India</span>, we streamline the recruitment process to connect companies with professionals who are aligned with their goals and culture. You can also get in touch with us to seek services like <a href="{{ route('executiveSearch') }}" class="text-primary font-weight-bold">Executive Search</a>.</p>
+               
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-6">
+                <p>
+                    <span class="whatwedotitile">Why Choose Our Permanent Staffing Services?</span>
+                </p>
+                <ul>
+                    <li class="text-justify"><span class="whatwedotitile">Tailored Recruitment Solutions:</span> Customised to meet your unique business needs.</li>
+                    <li class="text-justify"><span class="whatwedotitile">End-to-End Support:</span> From candidate sourcing and screening to onboarding.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Cultural Fit:</span> Focused on identifying candidates who seamlessly integrate into your organisation.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Proven Expertise:</span> Leveraging industry experience and a vast professional network to ensure higher retention rates and a stable workforce.</li>
+                     
                 </ul>
-                <p class="text-justify">Our expertise spans a wide range of sectors, from IT and manufacturing to finance and healthcare, making us a valuable partner for businesses across the country.</p>
-                <p class="text-justify">Our Permanent Hiring Solutions extend beyond filling roles; they include strategic insights into market trends, enabling businesses to adapt to evolving hiring landscapes. </p>
-                <p class="text-justify">This strategic approach from one of the top <span class="whatwedotitile">Permanent Staffing Companies in India</span> ensures that organizations remain competitive and attract the best talent available.</p>
-                <p class="text-justify">Partnering with Prakhar Consulting Group gives you access to a permanent hiring specialist dedicated to providing effective and reliable recruitment solutions. </p>
-                <p class="text-justify">Let us help you build a high-performing team that will drive your business forward and support your long-term strategic objectives.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting"  alt="business consulting" height="400" width="450">
+
             </div>
         </div>
-    </section>
 
-    <section class="container">
-        <div class="text-center">
-            <h2>Permanent Staffing Services India: Your Strategic Path to Long-Term Success</h2>
-        </div>
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-md-12">
-                <p class="text-justify">In a competitive market, building a skilled and reliable workforce is critical for sustained business growth. <span class="whatwedotitile">Permanent Staffing Services in India</span> offer companies a strategic solution, providing access to professionals who are committed to long-term roles.</p>
-                <p class="text-justify">These services are structured to streamline the recruitment process, ensuring that businesses find candidates who align with their goals and culture. At Prakhar Consulting Group, we are recognized as one of the most <span class="whatwedotitile">Trusted Permanent Hiring Agencies in India</span>. You can also get in touch with us to seek services like <a href="{{ route('executiveSearch') }}"><span class="whatwedotitile">Executive Search</span></a>.</p>
+                <p>
+                    <span class="whatwedotitile">Why Choose Our Permanent Staffing Services?</span>
+                </p>
             </div>
-        </div>
-    </section>
+            <div class="col-md-6 mt-2">
+                <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting"  alt="business consulting" height="400" width="450">
 
+            </div>
 
-    <section class="container">
-        <div class="text-center">
-            <h3>Our Approach</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-justify">Our approach is centered on delivering tailored recruitment solutions that address the needs of each client. </p>
-                <p class="text-justify">From understanding your business requirements to candidate sourcing, screening, and onboarding, we manage every aspect of the hiring process with precision, ensuring that you secure a dependable workforce that supports your organizational growth.</p>
-                <p class="text-justify">Leveraging our extensive industry experience and professional network, we focus on identifying candidates who are not only technically capable but also culturally aligned with your organization. </p>
-                <p class="text-justify">This ensures a seamless transition, leading to higher retention rates and a more stable workforce, minimizing disruptions caused by turnover.</p>
-
-                <p class="mt-4 mb-4"><span class="whatwedotitile">Our services include:</span></p>
-                <ul class="mt-4 mb-4">
-                    <li>Market insights</li>
-                    <li>Salary benchmarking</li>
-                    <li>Candidate evaluations</li>
+            <div class="col-md-6 mt-2">
+                
+                <ul>
+                    <li class="text-justify"><span class="whatwedotitile">Market Insights:</span> Stay competitive with data-driven hiring strategies.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Salary Benchmarking:</span> Attract top talent with industry-standard compensation.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Candidate Evaluations:</span> Thorough assessments to secure quality hires.</li>                     
                 </ul>
-                <p class="text-justify">We believe in building lasting relationships with our clients, acting as a strategic partner invested in your success. This dedication to excellence has established our reputation as one of the most sought-after Permanent Hiring Agencies in India.</p>
-                <p class="text-justify">By choosing Prakhar Consulting Group’s Permanent Employment Services, you gain a partner who understands the importance of quality talent. </p>
-                <p class="text-justify">Even if you are looking for  <span class="whatwedotitile">Affordable Permanent Hiring India</span>, we can help you build a strong, committed workforce that drives your business forward in a sustainable way.</p>
             </div>
+          
         </div>
     </section>
 
 </main>
+@endsection
+
+@section('scripts')
+<script>
+    $('.collapse').collapse();
+</script>
+    
 @endsection

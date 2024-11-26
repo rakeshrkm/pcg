@@ -25,8 +25,8 @@
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col-md-12">
-                            <div class="blog_div shadow p-3 mb-5 bg-body rounded">
-                                <img src="{{ asset('assets/img/PCGImages/blog/10 -hr-challenges.jpg') }}" alt="Training and Development" title="Training and Development" />
+                            <div class="blog_div bg-body rounded">
+                                <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
                                 <h1 class="mt-2 text-justify">Permanent Staffing Companies: Key to Building a Stable Workforce</h1>
                                 <p class="text-justify">"An organization’s workforce serves as its backbone, fueling every milestone and driving its success forward. In the highly competitive business landscape today, companies are placing greater emphasis on cultivating a stable and dependable workforce to ensure sustainable growth and efficiency." While temporary hires may address immediate needs, their benefits often pale in comparison to the long-term value that permanent employees bring to an organization. This is where <span class="whatwedotitile">Permanent Staffing Companies</span> play a pivotal role, offering tailored staffing solutions to help businesses build a strong foundation for sustained stability and growth.</p>
                                 <div class="text-center">

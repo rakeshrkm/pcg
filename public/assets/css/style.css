@@ -20827,9 +20827,15 @@ h6,
     margin-bottom: 28px;
 }
 
-.h1,
-h1 {
-    font-size: var(--fs-48);
+.h1, h1 {
+    font-size: var(--fs-32);
+    font-weight: 400;
+    color: #08847A;
+    text-shadow: 1px 1px 2px #233657,
+               1px 1px 1px #233657,
+               1px 1px 2px #233657,
+               1px 1px 2px #233657;
+    /* font-size: var(--fs-48); */
     /* line-height: var(--fs-52); */
     /* set "line-height" based on "font-family" */
 }
@@ -20839,13 +20845,27 @@ h2 {
     font-size: var(--fs-36);
     /* line-height: var(--fs-52); */
     /* set "line-height" based on "font-family" */
+
+    font-size: var(--fs-30);
+    font-weight: 400;
+    color: #08847A;
+    text-shadow: 1px 1px 2px #233657,
+               1px 1px 1px #233657,
+               1px 1px 2px #233657,
+               1px 1px 2px #233657;
 }
 
 .h3,
 h3 {
-    font-size: var(--fs-30);
+    font-size: var(--fs-28);
     /* line-height: var(--fs-52); */
     /* set "line-height" based on "font-family" */
+    font-weight: 400;
+    color: #08847A;
+    text-shadow: 1px 1px 2px #233657,
+               1px 1px 1px #233657,
+               1px 1px 2px #233657,
+               1px 1px 2px #233657;
 }
 
 .h4,
@@ -20853,6 +20873,12 @@ h4 {
     font-size: var(--fs-24);
     /* line-height: var(--fs-52); */
     /* set "line-height" based on "font-family" */
+    font-weight: 400;
+    color: #08847A;
+    text-shadow: 1px 1px 2px #233657,
+               1px 1px 1px #233657,
+               1px 1px 2px #233657,
+               1px 1px 2px #233657;
 }
 
 .h5,
@@ -20860,6 +20886,12 @@ h5 {
     font-size: var(--fs-20);
     /* line-height: var(--fs-52); */
     /* set "line-height" based on "font-family" */
+    font-weight: 400;
+    color: #08847A;
+    text-shadow: 1px 1px 2px #233657,
+               1px 1px 1px #233657,
+               1px 1px 2px #233657,
+               1px 1px 2px #233657;
 }
 
 .h6,
@@ -20867,6 +20899,12 @@ h6 {
     font-size: var(--fs-16);
     /* line-height: var(--fs-52); */
     /* set "line-height" based on "font-family" */
+    font-weight: 400;
+    color: #08847A;
+    text-shadow: 1px 1px 2px #233657,
+               1px 1px 1px #233657,
+               1px 1px 2px #233657,
+               1px 1px 2px #233657;
 }
 
 body.theme-style-email h1,
