@@ -525,6 +525,10 @@
         padding-right: 6%;
         display: table;
     }
+
+    .ctabutton{
+      margin-top:25px;
+    }
     
     
     @media only screen 
@@ -1272,6 +1276,14 @@
   .swiper-slide .card-title {
     font-size: 1.2em;
   }
+
+  .business-choose{
+    padding-top:50px;
+    height: auto;
+    margin-top:15px
+  }
+
+  
 }
 
 .we_serve{
@@ -1357,5 +1369,8 @@
   from, to { border-color: transparent }
   50% { border-color: #08847A }
 }
+
+
+
 
 

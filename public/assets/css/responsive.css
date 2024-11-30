@@ -772,6 +772,18 @@
         font-weight: 500;
     }
 }
+
+@media only screen (max-width: 768) {
+
+    .bannertext {
+        font-size: 20px !important;
+        color: #fff;
+        margin-bottom: 10px;
+        margin-top: -350px;
+        text-shadow: 2px 1px #2b2b2b;
+        font-weight: 500;
+    }
+}
 /* iPhone 6 Portrait */
 @media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (orientation: landscape) {
     .slideshow {

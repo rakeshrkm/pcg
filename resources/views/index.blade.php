@@ -51,7 +51,7 @@
     </div>
 </div>
 
-<section class="section pt-2 pb-0">
+<section class="section">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 mb-2">
@@ -145,7 +145,7 @@
             </div>
         </div>
 
-        <div class="row mt-4 section">
+        <div class="row mt-4">
             <div class="col-md-6">
                 <p class="mt-3"><span class="whatwedotitile">What Sets Us Apart?</span></p>
                 <p>At PCG, we go beyond traditional recruitment with:</p>
@@ -170,11 +170,17 @@
                     Let us help you build a brighter future for your business. Partner with <span class="whatwedotitile">PCG</span>, where talent meets opportunity.
                 </p>
 
-                <div class="d-flex align-items-center justify-content-center mt-4">
-                    <a hef="{{ route('contactUs') }}"><button type="submit" name="submit_contact" class="btn btn-default" value="Submit" id="submit_contact">
+               
+            </div>
+        </div>
+        <div class="row ctabutton">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <a hef="{{ route('contactUs') }}">
+                        <button type="button" class="btn btn-default">
                             <span class="text-white"> Book your Call with Us Now</span>
-                        </button></a>
-
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
@@ -361,15 +367,21 @@
                     <p class="text-justify">Minimized onboarding time with a focus on job readiness.</p>
                 </div>
             </div>
-            <div class="col-md-12 mt-4">
-                <div class="d-flex align-items-center justify-content-center">
-                    <a hef="{{ route('contactUs') }}"><button type="submit" name="submit_contact" class="btn btn-default" value="Submit" id="submit_contact">
-                            <span class="text-white">Request Staffing Solutions</span>
-                        </button></a>
+        </div>
 
+
+        <div class="row ctabutton">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <a hef="{{ route('contactUs') }}">
+                        <button type="button" class="btn btn-default">
+                            <span class="text-white">Request Staffing Solutions</span>
+                        </button>
+                    </a>
                 </div>
             </div>
         </div>
+
 
     </div>
 </section>
@@ -636,74 +648,88 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12 text-center mt-4 mb-4">
-                <div class="cta2 mt-4"><a href="{{route('contactUs')}}" class="btn text-white">Start Your Journey with Us Today. <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a></div>
+            
+        </div>
+
+        <div class="row ctabutton">
+            <div class="col-md-12">
+                <div class="text-center">
+                    <a hef="{{ route('contactUs') }}">
+                        <button type="button" class="btn btn-default">
+                            <span class="text-white">Start Your Journey with Us Today</span>
+                        </button>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
+
+        </div>
     </div>
 </section>
-<div class="section testimonial-container pt-5">
-    <div class="overlay-background fixed"></div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <ul class="grid-md-5 grid-sm-2 no-wrap text-center">
-                    <li>
-                        <div class="counter-box no-margin-lg no-margin-md">
-                            <img src="{{ asset('assets/img/workforce-development-company.png') }}" alt="Workforce Development Company" title="Workforce Development Company" />
-                            <div class="counter-content">
-                                <span class="count-me number" data-to="10" data-speed="2500">10</span>
-                                <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
-                                <!--<div> <sup style="font-size: 25px; position: absolute; top: 9px; left: 59%; color: #fff; font-weight: 600;">+<sup></sup></sup></div>-->
-                                <h6 class="counter-title textwhite">Years of Expertise</h6>
+
+<section class="section">
+    <div class="section testimonial-container pt-5">
+        <div class="overlay-background fixed"></div>
+        <div class="container">
+            <div class="row mt-">
+                <div class="col-lg-12">
+                    <ul class="grid-md-5 grid-sm-2 no-wrap text-center">
+                        <li>
+                            <div class="counter-box no-margin-lg no-margin-md">
+                                <img src="{{ asset('assets/img/workforce-development-company.png') }}" alt="Workforce Development Company" title="Workforce Development Company" />
+                                <div class="counter-content">
+                                    <span class="count-me number" data-to="10" data-speed="2500">10</span>
+                                    <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
+                                    <!--<div> <sup style="font-size: 25px; position: absolute; top: 9px; left: 59%; color: #fff; font-weight: 600;">+<sup></sup></sup></div>-->
+                                    <h6 class="counter-title textwhite">Years of Expertise</h6>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="counter-box no-margin-lg no-margin-md">
-                            <img src="{{ asset('assets/img/tech-workforce-development-companies.png') }}" alt="tech workforce development companies" title="tech-workforce-development-companies.png" />
-                            <div class="counter-content">
-                                <span class="count-me number" data-to="100" data-speed="2500">100</span>
-                                <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
-                                <h6 class="counter-title textwhite">Corporate Clients</h6>
+                        </li>
+                        <li>
+                            <div class="counter-box no-margin-lg no-margin-md">
+                                <img src="{{ asset('assets/img/tech-workforce-development-companies.png') }}" alt="tech workforce development companies" title="tech-workforce-development-companies.png" />
+                                <div class="counter-content">
+                                    <span class="count-me number" data-to="100" data-speed="2500">100</span>
+                                    <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
+                                    <h6 class="counter-title textwhite">Corporate Clients</h6>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="counter-box no-margin-lg no-margin-md">
-                            <img src="{{ asset('assets/img/onboarding-icons.png') }}" alt="onboarding-icons" title="onboarding-icons" />
-                            <div class="counter-content">
-                                <span class="count-me number" data-to="5000" data-speed="2500">5000 </span>
-                                <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
-                                <h6 class="counter-title textwhite">Onboardings</h6>
+                        </li>
+                        <li>
+                            <div class="counter-box no-margin-lg no-margin-md">
+                                <img src="{{ asset('assets/img/onboarding-icons.png') }}" alt="onboarding-icons" title="onboarding-icons" />
+                                <div class="counter-content">
+                                    <span class="count-me number" data-to="5000" data-speed="2500">5000 </span>
+                                    <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
+                                    <h6 class="counter-title textwhite">Onboardings</h6>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="counter-box no-margin-lg no-margin-md">
-                            <img src="{{ asset('assets/img/sme-icon.png') }}" alt="SME" title="SME" />
-                            <div class="counter-content">
-                                <span class="count-me number" data-to="2500" data-speed="2500">2500</span>
-                                <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
-                                <h6 class="counter-title textwhite">SME </h6>
+                        </li>
+                        <li>
+                            <div class="counter-box no-margin-lg no-margin-md">
+                                <img src="{{ asset('assets/img/sme-icon.png') }}" alt="SME" title="SME" />
+                                <div class="counter-content">
+                                    <span class="count-me number" data-to="2500" data-speed="2500">2500</span>
+                                    <span style="font-size: 25px; color: #fff; font-weight: 600;">+</span>
+                                    <h6 class="counter-title textwhite">SME </h6>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="counter-box no-margin-lg no-margin-md">
-                            <img src="{{ asset('assets/img/Professionals-Trained-icon.png') }}" alt="Professionals-Trained" title="Professionals Trained" />
-                            <div class="counter-content">
-                                <span style="font-size: 35px; font-weight: bold; color: #fff;">4.5 L </span>
-                                <h6 class="counter-title textwhite">Professionals Trained</h6>
+                        </li>
+                        <li>
+                            <div class="counter-box no-margin-lg no-margin-md">
+                                <img src="{{ asset('assets/img/Professionals-Trained-icon.png') }}" alt="Professionals-Trained" title="Professionals Trained" />
+                                <div class="counter-content">
+                                    <span style="font-size: 35px; font-weight: bold; color: #fff;">4.5 L </span>
+                                    <h6 class="counter-title textwhite">Professionals Trained</h6>
+                                </div>
                             </div>
-                        </div>
-                    </li>
-                </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </div>
-</div>
+</section>
 <div class="container">
     <div class="col-md-12">
         <div class="text-center heading-title">
@@ -802,79 +828,83 @@
         </div>
     </div>
 </section>
-<div class="container">
-    <div class="text-center heading-title">
-        <h3>What are our Clients Say's </h3>
-    </div>
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <!-- Swiper Slide 1 -->
-            <div class="swiper-slide">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="image">
-                            <img src="{{ asset('assets/img/PCGImages/home/Boond-Logo-PNG-1.png') }}" alt="image" class="circular-image w-50" />
-                        </div>
-                        <p class="card-text mt-2">"Finding the right Business Development Manager was a real challenge for us. We’d worked with multiple consultants, but none seemed able to connect us with the right fit. Then we partnered with Prakhar Consulting Group, and it made all the difference. Their expertise and deep understanding of our needs led us to the ideal candidate, who has since proven to be an invaluable addition to our team. If you're looking for a consulting partner who truly understands your hiring needs and delivers quality talent, we highly recommend Prakhar Consulting Group."</p>
-                        <h5 class="card-title text-center mt-2">Boond Engineering</h5>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- Swiper Slide 2 -->
-            {{-- <div class="swiper-slide">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="{{ asset('assets/img/PCGImages/home/GEMLogo.png') }}" alt="image" class="GemLogo" width="50" />                    
-                        <p class="card-text mt-2">"Prakhar Consulting Group has a remarkable team of talented professionals dedicated to delivering results. We entrusted them with our search for a Store Manager, and they met our needs perfectly. Unlike many consulting firms, Prakhar Consulting took the time to understand our specific requirements, and they delivered a qualified candidate exactly when promised. Their responsiveness, attention to detail, and commitment to excellence truly set them apart. We are highly satisfied with the experience and wholeheartedly recommend Prakhar Consulting Group to any business seeking reliable, timely, and effective recruitment solutions."</p>
-                        <h5 class="card-title text-center mt-2">Best Seller</h5>
-
-                    </div>
-                </div>
-            </div> --}}
-
-            <!-- Swiper Slide 3 -->
-            <div class="swiper-slide">
-                <div class="card">
-
-                    <div class="card-body">
-                        <img src="{{ asset('assets/img/PCGImages/home/GEMLogo.png') }}" alt="image" class="GemLogo" width="50" />                    
-                        <p class="card-text mt-2">"Prakhar Consulting Group provides outstanding recruitment services that truly make a difference. When we needed candidates for Accounting and Data Entry Operator roles, their professional team stepped in and delivered on time with a perfect match for our requirements. Their efficiency and commitment to understanding our needs have impressed us greatly. They will be our top choice for any future recruitment needs, as we trust their expertise and dedication to finding the right talent. For any business in need of dependable recruitment support, we highly recommend Prakhar Consulting Group."</p>
-                        <h5 class="card-title mt">GEM Enviro</h5>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Swiper Slide 4 -->
-            <div class="swiper-slide">
-                <div class="card">
-
-                    <div class="card-body">
-                        <img src="{{ asset('assets/img/PCGImages/home/sigma.png') }}" alt="image" class="circular-image w-20" />
-                        <p class="card-text mt-2">"Working with Prakhar Consulting Group has been a rewarding experience for Sigma University. When we needed to fill two professor positions at our Vadodara branch, their team’s support was instrumental in finding the right candidates. Prakhar Consulting Group showed a deep understanding of our academic requirements and provided skilled professionals who fit seamlessly into our faculty. Their responsiveness and dedication to meeting our hiring goals were outstanding, making the entire process smooth and efficient.”</p>
-                        <h5 class="card-title mt-2">Sigma University</h5>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Swiper Slide 5 -->
-            <div class="swiper-slide">
-                <div class="card">
-                    <div class="card-body">
-                        <img src="{{ asset('assets/img/PCGImages/home/chirn.png') }}" alt="image" class="circular-image w-20" />
-                        <p class="card-text mt-2">"Our outdated hiring strategies led to long-standing vacancies and high recruitment costs, creating challenges for our team. With a revamped hiring process, we now fill positions faster and more efficiently, which has greatly improved team performance and morale. Thanks to Prakhar Consulting Group here for their ultimate hiring process. We highly recommend Prakhar Consulting Group (PCG) to any organization looking to upgrade their hiring approach and see better results."</p>
-                        <h5 class="card-title mt-2">Chiranjeevi Group</h5>
-                    </div>
-                </div>
-            </div>
+<section class="section">
+    <div class="container">
+        <div class="text-center heading-title">
+            <h3>What are our Clients Say's </h3>
         </div>
-
-        <!-- Navigation Buttons -->
-        <div class="swiper-button-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-        <div class="swiper-button-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Swiper Slide 1 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="image">
+                                <img src="{{ asset('assets/img/PCGImages/home/Boond-Logo-PNG-1.png') }}" alt="image" class="circular-image w-50" />
+                            </div>
+                            <p class="card-text mt-2">"Finding the right Business Development Manager was a real challenge for us. We’d worked with multiple consultants, but none seemed able to connect us with the right fit. Then we partnered with Prakhar Consulting Group, and it made all the difference. Their expertise and deep understanding of our needs led us to the ideal candidate, who has since proven to be an invaluable addition to our team. If you're looking for a consulting partner who truly understands your hiring needs and delivers quality talent, we highly recommend Prakhar Consulting Group."</p>
+                            <h5 class="card-title text-center mt-2">Boond Engineering</h5>
+    
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Swiper Slide 2 -->
+                {{-- <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/img/PCGImages/home/GEMLogo.png') }}" alt="image" class="GemLogo" width="50" />                    
+                            <p class="card-text mt-2">"Prakhar Consulting Group has a remarkable team of talented professionals dedicated to delivering results. We entrusted them with our search for a Store Manager, and they met our needs perfectly. Unlike many consulting firms, Prakhar Consulting took the time to understand our specific requirements, and they delivered a qualified candidate exactly when promised. Their responsiveness, attention to detail, and commitment to excellence truly set them apart. We are highly satisfied with the experience and wholeheartedly recommend Prakhar Consulting Group to any business seeking reliable, timely, and effective recruitment solutions."</p>
+                            <h5 class="card-title text-center mt-2">Best Seller</h5>
+    
+                        </div>
+                    </div>
+                </div> --}}
+    
+                <!-- Swiper Slide 3 -->
+                <div class="swiper-slide">
+                    <div class="card">
+    
+                        <div class="card-body">
+                            <img src="{{ asset('assets/img/PCGImages/home/GEMLogo.png') }}" alt="image" class="GemLogo" width="50" />                    
+                            <p class="card-text mt-2">"Prakhar Consulting Group provides outstanding recruitment services that truly make a difference. When we needed candidates for Accounting and Data Entry Operator roles, their professional team stepped in and delivered on time with a perfect match for our requirements. Their efficiency and commitment to understanding our needs have impressed us greatly. They will be our top choice for any future recruitment needs, as we trust their expertise and dedication to finding the right talent. For any business in need of dependable recruitment support, we highly recommend Prakhar Consulting Group."</p>
+                            <h5 class="card-title mt">GEM Enviro</h5>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Swiper Slide 4 -->
+                <div class="swiper-slide">
+                    <div class="card">
+    
+                        <div class="card-body">
+                            <img src="{{ asset('assets/img/PCGImages/home/sigma.png') }}" alt="image" class="circular-image w-20" />
+                            <p class="card-text mt-2">"Working with Prakhar Consulting Group has been a rewarding experience for Sigma University. When we needed to fill two professor positions at our Vadodara branch, their team’s support was instrumental in finding the right candidates. Prakhar Consulting Group showed a deep understanding of our academic requirements and provided skilled professionals who fit seamlessly into our faculty. Their responsiveness and dedication to meeting our hiring goals were outstanding, making the entire process smooth and efficient.”</p>
+                            <h5 class="card-title mt-2">Sigma University</h5>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Swiper Slide 5 -->
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="{{ asset('assets/img/PCGImages/home/chirn.png') }}" alt="image" class="circular-image w-20" />
+                            <p class="card-text mt-2">"Our outdated hiring strategies led to long-standing vacancies and high recruitment costs, creating challenges for our team. With a revamped hiring process, we now fill positions faster and more efficiently, which has greatly improved team performance and morale. Thanks to Prakhar Consulting Group here for their ultimate hiring process. We highly recommend Prakhar Consulting Group (PCG) to any organization looking to upgrade their hiring approach and see better results."</p>
+                            <h5 class="card-title mt-2">Chiranjeevi Group</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Navigation Buttons -->
+            <div class="swiper-button-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+            <div class="swiper-button-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+        </div>
     </div>
-</div>
+</section>
+
+
 
 <div class="mt-5">
     <div class="container wptb-newsletter">

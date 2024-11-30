@@ -22,7 +22,7 @@
                     <h1>PCG Global Consulting: One of the Leading HR Consultants in India</h1>
                 </div>
 
-                <p class="text-justify">
+                <p class="text-justify shadow p-4">
                     PCG Global Consulting Pvt. Ltd., a subsidiary of Prakhar Software Solutions Pvt. Ltd., stands proudly among the <span class="whatwedotitile">Top HR Consultants in India</span>. Rooted in our parent organisation’s success in e-governance, skill development, and drone technology, we bring a proven track record of innovation and excellence to the corporate world.
                 </p>
             </div>
@@ -171,14 +171,8 @@
             </div>
             <div class="col-md-6">
                 <div class="d-flex justify-content-center gap-8">
-                    <div>
-                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
+                    <div class="text-center">
+                        <img src="{{ asset('assets/img/PCGImages/about/Extensive-Industry-Network.png') }}" alt="Extensive Industry Network" title="Extensive Industry Network" />
                     </div>
                     <div class="ml-3">
                         <p><span class="whatwedotitile">Extensive Industry Network:</span> Tap into a vast pool of passive candidates and senior executives, leveraging deep industry connections.</p>
@@ -187,14 +181,8 @@
             </div>
             <div class="col-md-6">
                 <div class="d-flex justify-content-center gap-8">
-                    <div>
-                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
+                    <div class="text-center">
+                        <img src="{{ asset('assets/img/PCGImages/about/Advanced-Talent-Assessment.png') }}" alt="Advanced Talent Assessment" title="Advanced Talent Assessment" />
                     </div>
                     <div class="ml-3">
                         <p><span class="whatwedotitile">Advanced Talent Assessment:</span> Our process includes behavioral interviews, leadership simulations, and assessment tools to ensure precision in matching talent.</p>
@@ -203,14 +191,8 @@
             </div>
             <div class="col-md-6">
                 <div class="d-flex justify-content-center gap-8">
-                    <div>
-                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
+                    <div class="text-center">
+                        <img src="{{ asset('assets/img/PCGImages/about/Post-Placement-Integration.png') }}" alt="Post-Placement Integration" title="Post-Placement Integration" />
                     </div>
                     <div class="ml-3">
                         <p><span class="whatwedotitile">Post-Placement Integration:</span> Seamless support ensures a smooth transition for leaders, mitigating turnover risks and strengthening organisational stability.</p>
@@ -226,7 +208,7 @@
 
 <section class="section">
     <div class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h3>Our In-House Platforms</h3>
         </div>
         <div class="row">
@@ -237,7 +219,7 @@
 
         <div class="row">
             <div class="col-md-6">
-                <img src="{{ asset('assets/img/PCGImages/business consulting.jpg') }}" title="business consulting" alt="business consulting">
+                <img src="{{ asset('assets/img/PCGImages/about/naukriyan.png') }}" alt="Naukriyan.com" title="Naukriyan.com" />
             </div>
             <div class="col-md-6">
                 <p class="mt-3"><span class="whatwedotitile">Naukriyan.com</span></p>
@@ -260,13 +242,13 @@
             </div>
 
             <div class="col-md-6">
-                <img src="{{ asset('assets/img/PCGImages/business consulting.jpg') }}" title="business consulting" alt="business consulting">
+                <img src="{{ asset('assets/img/PCGImages/about/guftgu.png') }}" alt="Naukriyan.com" title="Naukriyan.com" />
             </div>
         </div>
-
+       
         <div class="row mt-4">
             <div class="col-md-6">
-                <img src="{{ asset('assets/img/PCGImages/business consulting.jpg') }}" title="business consulting" alt="business consulting">
+                <img src="{{ asset('assets/img/PCGImages/about/gravity-international.png') }}" alt="The Gravity International" title="The Gravity International" />
             </div>
 
             <div class="col-md-6">
@@ -286,7 +268,7 @@
 
 <section class="section">
     <div class="container">
-        <div class="">
+        <div class="heading-title text-center">
             <h2 class="text-center">Our Mission & Vision</h2>
         </div>
         <div class="row">
