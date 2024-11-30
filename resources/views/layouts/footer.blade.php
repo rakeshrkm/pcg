@@ -57,7 +57,8 @@
                     <strong><img src="{{ asset('assets/img/mail.png') }}" alt="mail id" width="40" height="40"></strong>
                     <a href="mailto:connect@pcginternational.in">connect@pcginternational.in</a> <br />
                     <strong><img src="{{ asset('assets/img/phone.png') }}" alt="phone" width="40" height="40"></strong>
-                    <a href="tel:8826665843">+91 8826665843</a>
+                    <a href="tel:+918826665842">+918826660308</a></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="tel:+918826665842">+918826665842</a>
                     <br />
                     <strong><img src="{{ asset('assets/img/location.png') }}" alt="address" width="40" height="40"></strong>
 
@@ -98,7 +99,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="copyright">© Copyright 2024 <a href="#">Prakhar Software Consulting Group Pvt. Ltd.</a></strong></div>
+                    <div class="copyright">© Copyright 2024 <a href="https://prakharsoftwares.com/">Prakhar Software Solutions Private Limited</a></strong></div>
                 </div>
             </div>
         </div>

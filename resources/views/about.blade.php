@@ -9,7 +9,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <p class="page-title text-white banner_text">About Us</p>
+                <p class="page-title text-white banner_text text-center">About Us</p>
             </div>
         </div>
     </div>
@@ -35,18 +35,24 @@
         <div class="heading-title text-center">
             <h2>Why We Are Your Best HR Partner?</h2>
         </div>
-
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-6">
+                <ul>
+                    <li class="text-justify"><span class="whatwedotitile">Robust Expertise:</span> A team of 2200+ professionals delivering tailored HR solutions across industries.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Extensive Reach:</span> Presence in 14 skill development centers nationwide, enabling workforce transformation.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Proven Success:</span> Over 4,500 candidates placed through data-driven recruitment strategies.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Customised Solutions:</span> End-to-end HR consulting, recruitment, and staffing tailored to your needs.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Commitment to Transparency:</span> Ethical practices and long-term partnerships ensure client satisfaction.</li>
+                </ul>
+              
+            </div>
+            <div class="col-md-6">
+                Use icons like a map for nationwide presence, a briefcase for placements, and a chart for expertise.
+            </div>
+            {{-- <div class="col-md-3">
                 <div class="p-4 card business-choose shadow">
-                    <div class="text-center ">
-                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
+                    <div class="text-center">
+                        <img src="{{ asset('assets/img/PCGImages/about/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
                     </div>
                     <p class="text-center mt-2"><span class="whatwedotitile">Robust Expertise</span></p>
                     <p class="text-justify">A team of 2200+ professionals delivering tailored HR solutions across industries.</p>
@@ -112,13 +118,13 @@
                         <p class="text-justify">Ethical practices and long-term partnerships ensure client satisfaction.</p>
                     </div>
                  </div>
-            </div>
-            <div class="col-md-12 mt-4">
+            </div> --}}
+            <div class="col-md-12 mt-2">
                 <p class="text-justify">At PCG, we bridge the gap between employers and top talent, delivering <span class="whatwedotitile">HR Consulting and Staffing Services in India</span> that drive business success. Our focus on cultural fit, skill alignment, and workforce agility ensures exceptional outcomes for both organisations and job seekers.</p>
             </div>
             <div class="col-md-12 mt-4">
                 <div class="d-flex align-items-center justify-content-center">
-                    <a hef="{{ route('contactUs') }}"><button type="submit" name="submit_contact" class="btn btn-default" value="Submit" id="submit_contact">
+                    <a hef="{{ route('contactUs') }}"><button type="submit" name="submit_contact" class="btn btn-default text-white" value="Submit" id="submit_contact">
                             Get in Touch
                         </button></a>
 
@@ -145,14 +151,8 @@
         <div class="row">
             <div class="col-md-6">
                 <div class="d-flex justify-content-center gap-8">
-                    <div>
-                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
+                    <div class="text-center">
+                        <img src="{{ asset('assets/img/PCGImages/about/Strategic-Talent-Alignment.png') }}" alt="Strategic Talent Alignment" title="Strategic Talent Alignment" />
                     </div>
                     <div class="ml-3">
                         <p><span class="whatwedotitile">Strategic Talent Alignment:</span> We prioritize leadership candidates who align with your company’s values, ensuring long-term success.</p>
@@ -161,14 +161,8 @@
             </div>
             <div class="col-md-6">
                 <div class="d-flex justify-content-center gap-8">
-                    <div>
-                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
+                    <div class="text-center">
+                        <img src="{{ asset('assets/img/PCGImages/about/Market-Driven-Insights.png') }}" alt="Market-Driven Insights" title="Market-Driven Insights" />
                     </div>
                     <div class="ml-3">
                         <p><span class="whatwedotitile">Market-Driven Insights:</span> Thorough market research and industry benchmarking enable us to identify top-tier professionals who bring innovation and growth.</p>

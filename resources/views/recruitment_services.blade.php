@@ -4,8 +4,8 @@
     <div class="page-title-container">
         <div class="background-overlay"></div>
         <div class="container centered-container">
-            <div class="centered-inner-container">
-                <h1 class="page-title text-white">Recruitment Services</h1>
+            <div class="centered-inner-container text-center">
+                <h1 class="page-title text-white text-center">Recruitment Services</h1>
             </div>
         </div>
     </div>

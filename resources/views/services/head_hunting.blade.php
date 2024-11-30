@@ -24,11 +24,13 @@
             {{ Breadcrumbs::render('headHunting') }}
             <div class="row align-items-center">
                 <div class="col-md-12 text-center heading-title">
-                    <h1 class="text-center mt-4 p-4 ">Top Head Hunting Firm: Connecting You with Elite Talent</h1>
+                    <h1 class="text-center">Top Head Hunting Firm: Connecting You with Elite Talent</h1>
                 </div>
-                <div class="col-md-12">
-                    
-                   
+                <div class="col-md-12"> 
+                    <p class="text-justify">As a leading <span class="whatwedotitile">Head Hunting Firm in India</span>, PCG specializes in identifying and recruiting top-tier professionals for high-impact roles. </p>
+                    <p class="text-justify">Our proactive approach targets skilled individuals who bring exceptional expertise and leadership qualities, even if they are not actively seeking new opportunities.</p>
+                    <p class="text-justify">This ensures businesses gain access to elite candidates who can drive growth, innovation, and long-term success.</p>
+                    <p class="text-justify">When businesses search for a <span class="whatwedotitile">“Reliable Headhunter Agency Near Me,”</span> we stand out as the trusted partner delivering precision, transparency, and results. Even we are the best choice for <a href="{{ route('leadershipHiring') }}" class="text-primary font-weight-bold">Leadership Hiring</a>. </p>
                 </div>
             </div>
         </div>
@@ -36,106 +38,291 @@
 
 
     <section class="container">
-        <div class="text-center">
-            <h3>Our Headhunting Services</h3>
+        <div class="text-center heading-title">
+            <h3>Our Headhunting Process for Businesses</h3>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Extensive Talent Network</span></p>
+                    <p class="text-justify">Leveraging our vast professional network and advanced tools to locate high-calibre candidates.</p>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Targeted Search</span></p>
+                    <p class="text-justify">Identifying passive talent with the expertise and leadership qualities required for high-stakes roles.</p>
+                </div>
+
+            </div>
+            <div class="col-md-4">
+                <div class="p-4 card business-choose shadow">
+                    <div class="text-center ">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Rigorous Evaluation</span></p>
+                    <p class="text-justify">Conducting thorough assessments to ensure candidates meet technical, cultural, and strategic requirements.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="text-center heading-title">
+            <h2>Why Choose Our Headhunting Services? </h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-               <p class="text-justify">Our headhunting services go beyond simply filling a position; we work closely with clients to understand their strategic goals, company culture, and specific hiring requirements. </p>
-               <p class="text-justify">This enables us to identify candidates who not only meet the technical demands of the role but are also aligned with the company’s vision and values. </p>
-               <p class="text-justify">For businesses searching for a "reliable <span class="whatwedotitile">Headhunter Agency Near Me</span>," Prakhar Consulting Group is a right partner committed to delivering results. Even we are the best choice for <a href="{{ route('leadershipHiring') }}" target="_blank"><span class="whatwedotitile">Leadership Hiring</span></a>.</p>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="container">
-        <div class="text-center">
-            <h3>Our Headhunting Process</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-justify">Our headhunting process is meticulous and personalized. We leverage an extensive network, advanced search tools, and in-depth industry knowledge to locate individuals who fit the exact profile our clients need. </p>
-                <p class="text-justify">Each candidate undergoes a rigorous assessment process, ensuring they have the skills, experience, and cultural fit to succeed in high-stakes roles.</p>
-                <p class="text-justify">As a top <span class="whatwedotitile">Head Hunt Company</span>, we are committed to: </p>
-                <ul class="mb-4 mt-4">
-                    <li>Excellence</li>
-                    <li>Discretion</li>
-                    <li>Transparency</li>
-                </ul>
-
-                <p class="text-justify">Prakhar Consulting Group’s headhunting services empower businesses to secure talent that drives leadership and innovation, helping companies stay competitive in a rapidly evolving market. Partner with us to gain access to a curated pool of elite professionals who can make a lasting impact on your organization.</p>
+                <div class="p-4 shadow">
+                    <p class="text-justify">At <span class="whatwedotitile">PCG</span>, our <span class="whatwedotitile">Headhunting Services</span> go beyond filling roles. We prioritize understanding your strategic goals, company culture, and specific requirements to ensure we connect you with candidates who are technically skilled and aligned with your vision and values.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Head Hunting in Recruitment: Building Leadership Excellence</h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="text-justify"><span class="whatwedotitile">Head Hunting in Recruitment</span> is a specialized approach focused on sourcing top-tier talent for high-stakes roles that require unique expertise and leadership qualities.</p>
-                <p class="text-justify">Unlike general recruitment, headhunting takes a targeted and strategic approach, where skilled recruiters proactively identify and engage candidates who may not be actively seeking new roles but are highly suited to specific executive positions. </p>
-                <p class="text-justify">This method is especially valuable for organizations seeking transformational leaders who can drive business growth and operational excellence.</p>
-                <p class="text-justify">At Prakhar Consulting Group, we are recognized among the leading <span class="whatwedotitile">Headhunting Recruitment Companies</span> for our commitment to precision and quality. </p>
-                <p class="text-justify">Our team of <span class="whatwedotitile">Top Executive Headhunters</span> works closely with clients to gain a deep understanding of their organizational goals, culture, and specific leadership needs. </p>
-                <p class="text-justify">This consultative approach enables us to locate candidates who bring not only technical expertise but also strategic insight and alignment with company values. </p>
-                <p class="text-justify">Our process is rigorous and confidential. Leveraging an extensive network, industry insights, and cutting-edge search tools, we identify and engage top professionals who match the client’s unique requirements. </p>
-                <p class="text-justify">Each potential candidate is meticulously evaluated through multi-stage assessments to ensure they meet the highest standards of performance and integrity.</p>
+                <div class="p-4 shadow">
+                    <p class="text-justify"><span class="whatwedotitile">Head Hunting in Recruitment</span> is a strategic and specialized process designed to identify and secure top-tier talent for critical executive roles. This method focuses on sourcing candidates with unique expertise and leadership qualities, ensuring businesses are equipped with transformational leaders capable of driving growth and operational success.</p>
+                </div>
             </div>
         </div>
     </section>
 
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
+            <h2>Why Head Hunting Differs from General Recruitment?</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify">Unlike general recruitment, headhunting is a targeted and proactive approach. Skilled recruiters identify and engage highly qualified professionals, including those not actively seeking new opportunities, but who are perfectly suited for leadership positions.</p>
+            </div>
+        </div>
+        <div class="row mt-2">
+
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Drive Innovation and Strategic Change</span></p>
+                        <p class="text-justify">Headhunted executives bring fresh perspectives and strategic vision to transform organisations.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Align with Company Values and Vision</span></p>
+                        <p class="text-justify">Leadership hires align seamlessly with organisational culture and long-term goals.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Deliver Measurable Business Growth</span></p>
+                        <p class="text-justify">Executives sourced through headhunting strategies are key drivers of business performance and success.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="container">
+        <div class="text-center heading-title">
+            <h3>PCG: Trusted Headhunting Experts in India</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="p-4">
+                    <p>As one of the leading <span class="whatwedotitile">Headhunting Recruitment Companies</span>, PCG is committed to precision, quality, and confidentiality.</p>
+                    <p>Our team of <span class="whatwedotitile">Top Executive Headhunters</span> collaborates closely with clients to understand their goals, culture, and specific leadership requirements. This ensures we find candidates who combine technical expertise with strategic insight and cultural alignment.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="text-center heading-title">
             <h2>Top Executive Headhunting Services for Strategic Talent Needs</h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="text-justify"><span class="whatwedotitile">Executive Headhunting Services</span> provide organizations with a strategic advantage in securing high-impact leaders. </p>
+                <p class="text-justify"><span class="whatwedotitile">Executive Headhunting Services</span> provide organisations with a competitive edge by sourcing senior leaders with unique expertise, vision, and alignment with organisational goals. At PCG, we help businesses secure transformative leaders who drive growth, innovation, and change. We can also be your first priority if you choose us for <a href="{{route('contractStaffing')}}" class="text-primary font-weight-bold">Contract Staffing</a> service.</p>
+                <p><span class="whatwedotitile">Why Choose Executive Headhunting?</span></p>
             </div>
-        </div>
-    </section>
-
-    <section class="container">
-        <div class="text-center">
-            <h3>Our Aim</h3>
-        </div>
-        <div class="row">
             <div class="col-md-12">
-                <ul>
-                    <li class="text-justify">The aim is to source candidates for senior roles that require unique expertise, vision, and a strong alignment with the company’s mission. </li>
-                    <li class="text-justify">By targeting only the most qualified professionals, executive headhunting ensures that businesses gain access to leaders capable of driving growth, innovation, and organizational change.</li>
-                </ul>
-                <p class="text-justify">At Prakhar Consulting Group, our headhunting services are designed to meet the needs of organizations seeking transformative talent. We understand that effective leadership is the backbone of any successful organization. </p>
+                <div class="d-flex gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3 mt-3">
+                        <p class="text-justify"><span class="whatwedotitile">Targeted Talent Acquisition:</span>Identifying and engaging top-tier professionals for high-impact roles.</p>
+                    </div>
+                </div>
             </div>
-        </div>
-    </section>
-
-
-    <section class="container">
-        <div class="text-center">
-            <h2>Prakhar Consulting Group Team</h2>
-        </div>
-        <div class="row">
             <div class="col-md-12">
-                <p class="text-justify">
-                    Our team of experienced headhunters works closely with clients to understand their strategic goals, company culture, and the specific qualifications needed for each role. 
-                </p>
-                <p class="text-justify">This in-depth knowledge allows us to pinpoint and engage candidates who not only bring the required skills but also embody the values and vision of the organization.</p>
-
-                <ul>
-                    <li class="text-justify">We leverage a vast network of industry connections, advanced search tools, and tailored outreach strategies to identify the perfect candidates.</li>
-                    <li class="text-justify">Each candidate undergoes a comprehensive evaluation process, from skill assessments to cultural fit analysis, ensuring that only the best-suited leaders are presented to our clients.</li>
-                </ul>
-                <p class="text-justify">Prakhar Consulting Group’s commitment to excellence has made us a leading <span class="whatwedotitile">Headhunter Job Agency</span>. We can also be your first priority if you choose us for <a href="{{ route('contractStaffing') }}"> <span class="whatwedotitile">Contract Staffing</span> service.</p>
-                <p class="text-justify">Our focus on quality and client satisfaction drives us to exceed expectations, helping organizations secure visionary leaders who can make a meaningful impact. </p>
-                <p class="text-justify">Partnering with us for executive head hunting services provides companies with the expertise and support needed to build a strong leadership foundation and stay competitive in today’s evolving market.</p>
+                <div class="d-flex gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3 mt-3">
+                        <p class="text-justify"><span class="whatwedotitile">Strategic Leadership Focus:</span>Aligning leaders with your company’s mission and long-term vision.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="d-flex gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3 mt-3">
+                        <p class="text-justify"><span class="whatwedotitile">Comprehensive Evaluation:</span>Ensuring candidates meet technical, strategic, and cultural requirements.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
+    
+    <section class="section">
+        <div class="container">
+            <div class="text-center heading-title">
+                <h3>Why Partner with PCG?</h3>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-justify">As a leading <span class="whatwedotitile">Headhunter Job Agency</span>, we are committed to:</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex gap-8">
+                        <div>
+                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="ml-3 mt-3">
+                            <p class="text-justify">Delivering visionary leaders who make meaningful impacts.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-8">
+                        <div>
+                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="ml-3 mt-3">
+                            <p class="text-justify">Exceeding expectations with tailored solutions.</p>
+                        </div>
+                    </div>
+
+                    <div class="d-flex gap-8">
+                        <div>
+                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            </svg>
+                        </div>
+                        <div class="ml-3 mt-3">
+                            <p class="text-justify">Supporting businesses in building strong leadership foundations.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting" alt="business consulting">
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 </main>
 @endsection

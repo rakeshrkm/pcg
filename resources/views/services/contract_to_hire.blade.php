@@ -22,40 +22,12 @@
         <div class="container">
             {{ Breadcrumbs::render('contractToHire') }}
             <div class="row align-items-center">
-                <div class="col-md-12">
+                <div class="col-md-12 heading-title text-center">
                     <h1 class="text-center">Best Contract-to-Hire Agency in India for Flexible Staffing</h1>
                 </div>
                 <div class="col-md-12">
-                    <p class="text-justify">Contract-to-Hire (C2H) is a magnificent staffing solution where a candidate is initially hired on a contractual basis, with the option to transition into a permanent role after a defined period. </p>
-                    <p class="text-justify">This approach enables companies to assess candidates' skills, performance, and cultural alignment before committing to long-term employment. </p>
-                    <p class="text-justify">By leveraging C2H, organizations can minimize hiring risks, optimize recruitment costs, and ensure a seamless fit for their team. </p>
-                    <p class="text-justify">Partnering with a <span class="whatwedotitile">Best Contract-to-Hire Agency in India</span> can give businesses the agility they need in today’s dynamic market.</p>
-                    <p class="text-justify">Prakhar Consulting Group is currently the best C2H Company in India, offering splendid solutions that align with the unique needs of businesses across various industries. As the <span class="whatwedotitile">Top C2H Company in India</span>, we excel in: </p>
-
-                    <ul class="mt-4 mb-4">
-                        <li>Sourcing</li>
-                        <li>Screening</li>
-                        <li>Onboarding top-tier talent for temporary roles</li>
-                    </ul>
-                    <p class="text-justify">Our comprehensive process ensures that companies have the flexibility to evaluate potential employees in real-world scenarios before making a long-term decision.</p>
-                    <p class="text-justify">With a deep understanding of <span class="whatwedotitile">C2H Talent Acquisition in India</span>, our approach begins with a thorough needs analysis. </p>
-                    <p class="text-justify">This ensures that we deliver candidates who are not only technically proficient but also a cultural match for your organization. We handle every aspect of the C2H process, from initial recruitment to smooth onboarding, enabling you to focus on core business operations while we take care of your staffing needs.</p>
-                    <p class="text-justify">Choosing Prakhar Consulting Group as your top Contract-to-Hire Agency in India means gaining a strategic partner dedicated to your success. </p>
-                    <p class="text-justify">Our commitment to quality, speed, and client satisfaction makes us the preferred choice for businesses seeking reliable C2H Talent Acquisition. </p>
-                    <p class="text-justify">We will provide the expertise and support you need to build a talented workforce, ready to transition seamlessly into long-term roles. For <a href="{{ route('contractStaffing') }}"><span class="whatwedotitile">Contract Staffing</span></a>, Prakhar Consulting Group has better strategies and solutions for your company’s growth. </p>
-                    <h3 class="mt-4 mb-4">Our Contract-to-Hire (C2H) Process:</h3>
-                    <ul class="mt-4 mb-4">
-                        <li class="text-justify"><span class="whatwedotitile">Requirement Gathering:</span> First is to understand the client’s specific needs, job roles, and required qualifications for the position.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Candidate Sourcing:</span> Identify suitable candidates from a vast talent pool using advanced recruitment tools and networks.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Screening & Shortlisting:</span>  Conduct initial screenings, technical assessments, and interviews to shortlist candidates who match the client’s requirements.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Client Interview:</span> Arrange interviews between the shortlisted candidates and the client for final selection.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Offer & Contract Signing:</span> Extend an offer to the selected candidate, detailing the contract terms, duration, and transition to permanent employment.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Onboarding:</span> Facilitate smooth onboarding, ensuring the candidate is well-integrated into the client’s team and processes.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Compliance & Documentation:</span> Handle all legal and compliance-related formalities, including contracts, background checks, and statutory requirements.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Performance Evaluation:</span> Monitor the candidate’s performance during the contract period, providing feedback to both the client and the candidate.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Conversion to Full-Time:</span> Upon satisfactory performance, assist in transitioning the candidate from contract to permanent employment, finalizing all necessary paperwork.</li>
-                        
-                    </ul>
+                    <p class="text-justify">In today’s dynamic market, flexibility is essential, and <span class="whatwedotitile">Contract-to-Hire (C2H)</span> staffing solutions provide businesses with the opportunity to test potential hires before making long-term commitments.</p>
+                    <p class="text-justify">As the Best Contract-to-Hire Agency in India, we offer an approach that bridges the gap between temporary and permanent employment, allowing companies to evaluate skills, performance, and cultural fit in real-world scenarios. For <a href="{{ route('contractStaffing') }}" class="text-primary font-weight-bold">Contract Staffing</a>, PCG also has better strategies and solutions for your company’s growth.</p>        
                 </div>
             </div>
         </div>
@@ -63,70 +35,266 @@
 
 
     <section class="container">
-        <div class="text-center">
-            <h2>C2H Recruitment Services India: The Smart Way to Hire</h2>
+        <div class="text-center heading-title">
+            <h3>Why Choose C2H for Your Staffing Needs?</h3>
         </div>
             <div class="row">
-                <div class="col-md-12">
-                    <p class="text-justify"><span class="whatwedotitile">C2H Recruitment Services in India</span> provides a strategic staffing solution that allows businesses to hire candidates on a contractual basis, with the option to convert them into permanent employees after a trial period.</p>                    
+                <div class="col-md-6">
+                    <ul>
+                        <li class="text-justify"><span class="whatwedotitile">Reduced Hiring Risks:</span> Minimize uncertainties by observing candidates’ real-world performance before permanent placement.</li>
+                        <li class="text-justify"><span class="whatwedotitile">Cost Optimization:</span> Save recruitment costs with a strategic transition from contract to permanent roles.</li>
+                        <li class="text-justify"><span class="whatwedotitile">Team Alignment:</span> Ensure candidates seamlessly integrate with your organisational culture and goals.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    Visual: Interactive comparison chart showing "Before C2H" vs. "After C2H" with icons for reduced risks, cost savings, and alignment.
                 </div>
             </div>
     </section>
 
     <section class="container">
-        <div class="text-center">
-            <h3>How will this Model Help Companies?</h3>
+        <div class="text-center heading-title">
+            <h2>Top C2H Talent Acquisition Services from PCG </h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="text-justify">This model enables companies to evaluate the candidate’s skills, performance, and cultural fit before making a long-term commitment, reducing the risk of a mismatch and ensuring seamless integration into the team. </p>
-                <p class="text-justify">The flexibility offered by C2H services makes them an ideal choice for businesses that need to adapt to fluctuating project demands and evolving market conditions.</p>
-                <p class="text-justify">Prakhar Consulting Group offers <span class="whatwedotitile">C2H Staffing Services in India</span>, for identifying and placing skilled professionals across various sectors. </p>
-                <p class="text-justify">Our approach focuses on understanding the specific needs of each client and sourcing candidates who align with both technical requirements and organizational values. </p>
-                <p class="text-justify">We handle every step of the process, from sourcing and screening to onboarding, ensuring a smooth transition for both clients and candidates. </p>
-                <p class="text-justify">This enables businesses to meet their staffing needs efficiently while maintaining high standards of quality.</p>
-                <p class="text-justify">Understanding the <span class="whatwedotitile">C2H Employment Trends in India</span> is crucial for organizations looking to stay ahead in a competitive market. </p>
-                <p class="text-justify">With a growing preference for flexible hiring solutions, C2H has become increasingly popular among businesses of all sizes. </p>
-                <p class="text-justify">It allows companies to scale their workforce quickly without the long-term commitment of permanent hiring. This trend is particularly relevant in industries where project-based work is common, such as:</p>
-
-                <ul class="mb-4 mt-4">
-                    <li>IT</li>
-                    <li>Engineering</li>
-                    <li>Consulting</li>
+                <p class="text-justify">At <span class="whatwedotitile">PCG</span>, we excel in providing <span class="whatwedotitile">C2H Talent Acquisition Services</span> customised to align with industry-specific needs.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li class="text-justify"><span class="whatwedotitile">In-depth Needs Analysis:</span> Understanding your exact requirements to identify suitable candidates.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Comprehensive Screening:</span> Evaluating technical proficiency, soft skills, and cultural alignment.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Seamless Onboarding:</span> Facilitating a smooth transition for candidates into temporary roles with potential for permanence.</li>
                 </ul>
-                <p class="text-justify">All you need to do is get in touch with us for <span class="whatwedotitile">C2H Recruitment Services in India</span> as our expertise in C2H Services ensures that clients can build a dynamic, adaptable workforce ready to transition into permanent roles when the time is right.</p>
+            </div>
+            <div class="col-md-6">
+                Visual: A step-by-step vertical timeline with icons representing each stage of the C2H process (e.g., magnifying glass, checklist, onboarding icon).
             </div>
         </div>
     </section>
 
 
     <section class="container">
-        <div class="text-center">
-            <h2>Secure Your Future with Contract-to-Hire Job Opportunities India </h2>
+        <div class="heading-title text-center">
+            <h3>Our Contract-to-Hire (C2H) Process:</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="mt-4 mb-4">
+                    <li class="text-justify"><span class="whatwedotitile">Requirement Analysis:</span> Understand client-specific needs, job roles, and qualifications for precise candidate alignment.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Talent Sourcing:</span> Identify suitable candidates using advanced recruitment tools and extensive networks.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Screening & Shortlisting:</span> Conduct evaluations to shortlist candidates matching technical and cultural requirements.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Client Interviews:</span> Facilitate interviews between shortlisted candidates and the client for informed selection.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Offer & Contract Finalization:</span> Extend offers with clear terms, duration, and transition details for employment.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Seamless Onboarding:</span> Ensure candidates integrate smoothly into the client’s team and processes.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Compliance & Documentation:</span> Handle contracts, background checks, and legal formalities efficiently.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Performance Monitoring:</span> Evaluate candidates’ performance during the contract period for alignment with expectations.</li>
+                    <li class="text-justify"><span class="whatwedotitile">Transition to Permanent Role:</span> Assist in converting candidates to full-time employees with all necessary documentation.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                    Image
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>C2H Recruitment Services in India: The Smart Way to Hire </h2>
         </div>
         <div class="row">
             <div class="col-md-12">
-                <p class="text-justify"><span class="whatwedotitile">Contract-to-Hire Job Opportunities in India</span> are transforming the way professionals build their careers, providing flexibility and security for both candidates and employers. </p>
-                <p class="text-justify">This model allows candidates to begin in a contract position with the potential to transition into a permanent role based on performance and organizational fit. </p>
-                <p class="text-justify">For professionals seeking dynamic career opportunities, Contract-to-Hire Employment offers a chance to showcase skills, gain valuable experience, and build meaningful connections within reputable organizations.</p>
-                <p class="text-justify">Contract-to-Hire Job Opportunities offer IT professionals a flexible entry point into roles such as:</p>
-
-                <ul class="mt-4 mb-4">
-                    <li>Software development</li>
-                    <li>Data analysis</li>
-                    <li>Cybersecurity</li>
-                    <li>Cloud engineering</li>
-                </ul>
-
-                <p class="text-justify">Here, candidates can work in dynamic environments, gaining hands-on experience in roles that drive innovation and critical project outcomes. </p>
-                <p class="text-justify">For example, software developers can contribute to application builds, data analysts can work on insights-driven projects, and cybersecurity experts can enhance an organization’s security posture. </p>
-                <p class="text-justify">This approach allows companies to assess candidates' skills, adaptability, and alignment with company culture while providing professionals with a pathway to stable, long-term career growth in the thriving IT sector.</p>
-                <p class="text-justify">Through our commitment to excellence and understanding of <span class="whatwedotitile">Contract-to-Hire Employment in India</span>, Prakhar Consulting Group is a great choice for job seekers and businesses alike. For <a href="{{ route('payrollProcessing') }}" target="_blank"><span class="whatwedotitile">Payroll Processing</span></a> service, we are here to support you with our unmatched strategies and great process. </p>
-                <p class="text-justify">We are dedicated to fostering meaningful career paths that align with the evolving needs of the modern workforce, helping candidates unlock long-term career potential while supporting companies in building a versatile, talented workforce.</p>
-
+                <p class="text-justify">Contract-to-Hire (C2H) staffing offers businesses the flexibility to assess candidates’ skills, performance, and cultural fit during a trial period. With the support of <span class="whatwedotitile">C2H Recruitment Services in India</span>, businesses can minimize hiring risks, ensure seamless team integration, and adapt to evolving market demands.</p>
             </div>
-           
         </div>
     </section>
+
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h3>Why is C2H Ideal for Businesses?</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li class="text-justify">Evaluate candidates in real-world scenarios before long-term commitments.</li>
+                    <li class="text-justify">Adapt swiftly to project demands and market fluctuations.</li>
+                    <li class="text-justify">Reduce risks associated with mismatched hires while maintaining operational efficiency.</li>
+                </ul>
+                
+            </div>
+            <div class="col-md-6">
+                Visual: A split-screen layout with a graphic of a flexible team on one side and bullet points on the other.
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify">PCG provides <span class="whatwedotitile">C2H Staffing Services in India</span>, catering to diverse industries like IT, engineering, and consulting. Our approach ensures clients find professionals who align with both technical requirements and organisational values.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify"><span class="whatwedotitile">Key Benefits of C2H Staffing</span></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="p-2 card business-choose shadow">
+                    <div class="text-center">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Flexibility in Workforce Management</span></p>
+                    <p class="text-justify">Scale teams quickly without long-term hiring commitments.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="p-2 card business-choose shadow">
+                    <div class="text-center">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Streamlined Recruitment Process</span></p>
+                    <p class="text-justify">From sourcing to onboarding, every step is handled seamlessly.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="p-2 card business-choose shadow">
+                    <div class="text-center ">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">High-Quality Talent</span></p>
+                    <p class="text-justify">Access pre-screened, qualified professionals ready to contribute immediately.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="p-2 card business-choose shadow">
+                    <div class="text-center">
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <p class="text-center mt-2"><span class="whatwedotitile">Improved Workforce Adaptability</span></p>
+                    <p class="text-justify">Build a dynamic team capable of transitioning into permanent roles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>Redefine Stability with Contract-to-Hire Job Opportunities in India</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify">The evolving job market offers candidates an innovative way to build secure and flexible careers through <span class="whatwedotitile">Contract-to-Hire Job Opportunities in India</span>.</p>
+                <p class="text-justify">This model bridges the gap between contract roles and permanent employment, providing professionals with a unique platform to showcase their skills while aligning with organisational goals.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p><span class="whatwedotitile">This approach is ideal for candidates seeking opportunities in:</span></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-3">
+                <div class="p-2 card business-choose shadow">
+                    <p class="text-center mt-2"><span class="whatwedotitile">Software Development</span></p>
+                    <p class="text-justify">Contribute to innovative application builds and system solutions.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="p-2 card business-choose shadow">
+                    <p class="text-center mt-2"><span class="whatwedotitile">Data Analysis</span></p>
+                    <p class="text-justify">Deliver insights-driven results on critical projects.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="p-2 card business-choose shadow">
+                    <p class="text-center mt-2"><span class="whatwedotitile">Cybersecurity</span></p>
+                    <p class="text-justify">Enhance organisational resilience with advanced security protocols.</p>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="p-2 card business-choose shadow">
+                    <p class="text-center mt-2"><span class="whatwedotitile">Cloud Engineering</span></p>
+                    <p class="text-justify">Drive scalable solutions and operational efficiency.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="container">
+        <div class="heading-title text-center">
+            <h2>Leading the Way in Contract-to-Hire Employment in India</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+              <p>PCG combines industry expertise with a commitment to creating pathways for long-term career growth. Our <span class="whatwedotitile">Contract-to-Hire Employment in India</span> supports both candidates and organisations by ensuring seamless collaboration and exceptional results.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p><span class="whatwedotitile">We prioritize</span></p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li>Excellence in recruitment strategy.</li>
+                    <li>Building versatile, talented teams.</li>
+                    <li>Aligning workforce needs with evolving market trends.</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                Visual: A circular infographic
+            </div>
+        </div>
+
+        <div class="row">
+            <p>Through our commitment to excellence and understanding of Contract-to-Hire (C2H) service, PCG is a great choice for job seekers and businesses. For <a href="{{ route('payrollProcessing') }}" class="tex-primary font-weight-bold">Payroll Processing</a>, we can also support you with our unmatched strategies and great process.</p>
+        </div>
+    </section>
+    
+
+
+
+
 </main>
 @endsection

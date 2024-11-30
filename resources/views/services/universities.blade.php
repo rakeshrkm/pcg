@@ -21,14 +21,11 @@
     <section>
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-md-12">
+                <div class="col-md-12 heading-title text-center">
                     <h2 class="text-center">Staff Hiring Solutions</h2>
                 </div>
                 <div class="col-md-12">
-                    <p class="text-justify">Prakhar Consulting Group collaborates with universities to provide tailored <span class="whatwedotitile">Staff Hiring Solutions</span> that support both internal hiring needs and student development. </p>
-                    <p class="text-justify">Through our <span class="whatwedotitile">Internal Hiring Support Services</span>, we streamline staff recruitment for various roles and offer <span class="whatwedotitile">Contract & Temporary Staffing</span> options, ensuring flexibility and efficiency for educational institutions. </p>
-                    <p class="text-justify">We run <span class="whatwedotitile">Student Development Programs</span> to prepare students for professional success, bridging the gap between academia and industry. </p>
-                    <p class="text-justify">With a commitment to quality, compliance, and tailored HR solutions, Prakhar Consulting Group empowers universities to build a competent and resilient workforce.</p>
+                    <p class="text-justify">PCG Global Consulting collaborates with universities to deliver <span class="whatwedotitile">Staff Hiring Solutions</span> that address internal recruitment needs while fostering <span class="whatwedotitile">Student Development Programs</span> for career readiness. By offering <span class="whatwedotitile">Contract & Temporary Staffing</span>, we ensure flexible and efficient hiring for educational institutions. Our tailored HR solutions prioritize quality, compliance, and building a resilient workforce.</p>
                 </div>
             </div>
         </div>
@@ -36,158 +33,103 @@
 
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Campus-to-Corporate Program</h2>
         </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-justify">The <span class="whatwedotitile">Campus-to-Corporate Program</span> is designed to equip students with essential skills for a successful transition into the corporate world. </p>
-                    <p class="text-justify">Through <span class="whatwedotitile">Career Readiness Training</span> and <span class="whatwedotitile">Skill Development & Career Prep</span>, we provide tailored guidance that enhances students’ professional competencies. </p>
-                    <p class="text-justify">Our program connects students to <span class="whatwedotitile">Placement & Job Opportunities</span>, preparing them to excel in real-world work environments. </p>
-                    <p class="text-justify">Prakhar Consulting Group empowers young professionals with the tools and confidence needed for a thriving career.</p>
+                    <p class="text-justify">The <span class="whatwedotitile">Campus-to-Corporate Program</span> equips students with essential skills for a seamless transition into the corporate world. Through <span class="whatwedotitile">Career Readiness Training and Skill Development & Career Prep</span>, we enhance professional competencies while connecting students to <span class="whatwedotitile">Placement & Job Opportunities</span>. PCG ensures young professionals are prepared for thriving careers with confidence and expertise.</p>
                 </div>
             </div>
     </section>
 
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Job Placement Support</h2>
         </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-justify">Our <span class="whatwedotitile">Job Placement Support service</span> is dedicated to helping students and recent graduates secure meaningful employment. </p>
-                    <p class="text-justify">Leveraging our strong industry connections and expertise in <span class="whatwedotitile">Employer Networking & Job Matching</span>, we connect candidates with suitable job opportunities. </p>
-                    <p class="text-justify">Our <span class="whatwedotitile">Campus Recruitment</span> coordination ensures a seamless recruitment process, creating pathways for students to meet top employers. </p>
-                    <p class="text-justify">By providing reliable placement assistance, Prakhar Consulting Group supports career growth and empowers individuals to succeed in their chosen fields, fulfilling our commitment to quality and impactful career solutions.                    </p>
+                    <p>Our <span class="whatwedotitile">Job Placement Support service</span> helps students and recent graduates secure meaningful employment by leveraging strong <span class="whatwedotitile">Employer Networking & Job Matching</span> expertise. Through seamless <span class="whatwedotitile">Campus Recruitment</span> coordination, we connect candidates with top employers, ensuring impactful career opportunities. PCG empowers individuals to achieve career growth with reliable and quality-driven placement assistance.</p>                    
                 </div>
             </div>
     </section>
 
     <section class="container">
-        <div class="text-center">
-            <h2>Student Training & Development</h2>
+        <div class="text-center heading-title">
+            <h2>Student Training & Development </h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
-                <p class="text-justify">We offer a comprehensive suite of <span class="whatwedotitile">Student Training & Development</span> programs designed to equip students with essential skills for a successful transition into the professional world. </p>
-                <p class="text-justify">Our <span class="whatwedotitile">Pre-Placement Training</span> focuses on refining communication skills, interview etiquette, and resume building, ensuring students make a lasting first impression on potential employers. </p>
-                <p class="text-justify">We also offer <span class="whatwedotitile">Skill Development Programs</span> that encompass advanced, industry-specific training, including cutting-edge skills in drone technology in collaboration with the Indian Institute of Drone Technology (IIDT).</p>
-                <p class="text-justify">Our curriculum goes beyond basic competencies, incorporating <span class="whatwedotitile">Leadership and Soft Skills Development</span> to prepare students for diverse workplace environments. </p>
-                <p class="text-justify">Through mock assessments, interviews, and aptitude tests, we simulate real-world scenarios, helping students face industry-specific challenges confidently. </p>
-                <p class="text-justify">Prakhar Consulting Group also conducts industry-specific training, covering sectors such as IT, Engineering, and Marketing, to give students a competitive edge in their chosen fields.</p>
-                <p class="text-justify">Every training session includes real-time feedback, allowing students to understand their strengths and areas for improvement, enhancing their readiness for the job market. </p>
-                <p class="text-justify">By blending skill-building with practical assessments, Prakhar Consulting Group’s <span class="whatwedotitile">Student Training & Development Program</span> provides a robust foundation for career success.</p>
+                <p>PCG’s <span class="whatwedotitile">Student Training & Development programs</span> prepare students for professional success through <span class="whatwedotitile">Pre-Placement Training</span> that refines communication, resume building, and interview etiquette. Our <span class="whatwedotitile">Skill Development Programs</span> include industry-specific training, such as drone technology with IIDT, and a focus on Leadership and Soft Skills Development to enhance workplace readiness.</p>
             </div>
         </div>
     </section>
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Internship Opportunities</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
-                <p class="text-justify">Our <span class="whatwedotitile">Internship Placement Programs</span> strategically match students with opportunities that align with their skills and career interests, providing valuable hands-on experience with our trusted partner companies. </p>
-                <p class="text-justify">To support students’ growth and confidence, Prakhar Consulting Group offers <span class="whatwedotitile">Internship Training and Preparation Sessions</span>, along with workplace readiness workshops that enhance soft skills critical for success.</p>
-                <p class="text-justify">Throughout the internship, participants benefit from ongoing mentorship, receiving guidance, feedback, and performance reviews to ensure they excel. </p>
-                <p class="text-justify">The post-internship support from us can help students map out their professional journeys. Every successful intern receives a certification of completion, validating their skills and achievements. </p>
-                <p class="text-justify">With a strong focus on skill alignment and personal growth, Prakhar Consulting Group’s Internship Program is crafted to set students on a path of career success and professional readiness.</p>
+                <p>Our <span class="whatwedotitile">Internship Placement Programs</span> connect students with opportunities aligned with their skills and career goals, providing hands-on experience with trusted partner companies. Through <span class="whatwedotitile">Internship Training and Preparation Sessions</span> and workplace readiness workshops, we enhance soft skills and boost confidence for professional success. </p>
             </div>
         </div>
     </section>
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Industrial Visit Programs</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
-                <p class="text-justify">The <span class="whatwedotitile">Industrial Visit Programs</span> enable students to gain real-world exposure through hands-on experiences in various industries. </p>
-                <p class="text-justify">Our industry-specific visits focus on sectors like IT and Technology, providing in-depth knowledge sessions that align with students’ academic pursuits. </p>
-                <p class="text-justify">Each visit includes guided tours and interactive sessions, allowing participants to explore company facilities and understand core business operations up close.</p>
-                <p class="text-justify">Students are introduced to company representatives and are taken on facility tours where they witness workplace dynamics firsthand. </p>
-                <p class="text-justify">Through Q&A sessions with industry professionals, students gain insights into career paths, industry trends, and professional expectations. </p>
-                <p class="text-justify"><span class="whatwedotitile">Workshops and Demonstrations</span> will also provide a practical understanding of industry tools and technologies, fostering a deeper appreciation of their studies. </p>
-                <p class="text-justify">To ensure maximum relevance, Prakhar Consulting Group also offers <span class="whatwedotitile">Customized Visit Packages</span>, tailored to meet the specific interests and career aspirations of student groups, making each visit an impactful learning experience.</p>
-
+                <p>PCG’s <span class="whatwedotitile">Industrial Visit Programs</span> offer students real-world exposure through guided tours, Q&A sessions, and hands-on workshops in sectors like IT and Technology. Tailored <span class="whatwedotitile">Customised Visit Packages</span> align visits with students’ career aspirations, providing practical insights into industry operations and tools.</p>
             </div>
         </div>
     </section>
 
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Technology Integration</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
-                <p class="text-justify">Prakhar Consulting Group integrates advanced technology into its <span class="whatwedotitile">Student Training & Development Programs</span> to streamline access to opportunities and insights. </p>
-                <p class="text-justify">Through the Naukriyan portal, job seekers gain direct access to a comprehensive job marketplace, making it easier to connect with potential employers. </p>
-                <p class="text-justify">Our platform supports student registration and tracking, enabling efficient monitoring of progress and engagement. </p>
-                <p class="text-justify">Employers can list job openings, making opportunities easily accessible to students. </p>
-                <p class="text-justify">With integrated data and analytics, Prakhar Consulting Group offers valuable student assessment insights, allowing students to identify growth areas and track their performance, fostering a data-driven approach to career readiness.</p>
+                <p>PCG enhances Industrial Visit Programs by integrating advanced technology to provide students with seamless access to opportunities and career insights. Through Customised Visit Packages and the Naukriyan portal, students can explore tailored career paths while employers list job openings, ensuring a data-driven approach to readiness.</p>
             </div>
         </div>
     </section>
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Industry Partnerships</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
-                <p class="text-justify">Through <span class="whatwedotitile">Industry Partnerships</span>, we connect students with exclusive career opportunities. </p>
-                <p class="text-justify">Sector-Specific Partnerships further enhance this by aligning students with industry-focused roles that match their career goals. </p>
-                <p class="text-justify"><span class="whatwedotitile">Alumni Networking Support</span> enables graduates to maintain valuable connections, while Alumni Meetups offer a platform for sharing experiences and insights. </p>
-                <p class="text-justify">The <span class="whatwedotitile">Industry Mentorship Connections</span> add another layer of support, pairing students with seasoned professionals who provide guidance and mentorship to help them navigate their chosen career paths confidently.</p>
+             <p>Industry Partnerships connect students with exclusive career opportunities and align them with industry-focused roles tailored to their career goals. With <span class="whatwedotitile">Alumni Networking Support</span> and meetups, graduates maintain valuable connections, while Industry Mentorship Connections guide from seasoned professionals. This approach ensures students are equipped to confidently navigate their career paths.</p>
             </div>
         </div>
     </section>
 
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Value-Added Services</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
-                <p class="text-justify">The <span class="whatwedotitile">Value-Added Services</span> are designed to enhance student placement and engagement. </p>
-                <p class="text-justify">Our <span class="whatwedotitile">Campus Branding Support</span> includes tailored brochures and campus Materials, helping students make a strong impression on potential employers.</p>
-                <p class="text-justify">We also offer digital branding for students, equipping them with the online presence needed to stand out in today’s competitive job market. </p>
-                <p class="text-justify">Post-placement engagement ensures students receive ongoing support even after securing a position, fostering a connection to our alumni network. </p>
-                <p class="text-justify">Through ongoing mentorship programs, Prakhar Consulting Group promotes continuous growth and development, empowering students to build long-term, successful careers.</p>
+                <p>Value-Added Services focus on enhancing student placement through tailored campus branding materials and digital branding to strengthen its professional presence. Post-placement engagement and mentorship programs ensure continuous growth, fostering strong alumni connections and long-term career success. These services empower students to thrive in today’s competitive job market.</p>
             </div>
         </div>
     </section>
 
 
-    <section class="container">
-        <div class="text-center">
+    <section class="container mt-2">
+        <div class="text-center heading-title">
             <h2>On-Campus Drive Management</h2>
         </div>
         <div class="row">
-            <div class="col-md-12">               
-                <p class="text-justify">Prakhar Consulting Group organizes both onsite and offsite <span class="whatwedotitile">Campus Recruitment Drives</span>, providing institutions with a seamless, end-to-end recruitment experience. </p>
-                <p class="text-justify">To start, Prakhar Consulting Group conducts mock recruitment sessions on campus to assess students’ strengths and place them in roles that match their skill sets. </p>
-                <p class="text-justify">Once the initial assessment is complete, Prakhar Consulting Group invites a variety of esteemed companies to participate in online and offline recruitment sessions. </p>
-                <ul>
-                    <li>
-                        <h3>Mock Placement Drive for Employment Transition (Mandatory)</h3>
-                        <p class="text-justify">The <span class="whatwedotitile">Mock Placement Drive</span> is a structured, paid program aimed at preparing students for real-world recruitment challenges. </p>
-                        <p class="text-justify">This initiative includes pre-screening assessments, mock interviews, and detailed feedback sessions, all of which serve as crucial components for student development. </p>
-                        <p class="text-justify">Following the mock drive, Prakhar Consulting Group provides the institute with a comprehensive report on each student’s performance, eligibility, and potential placement readiness, along with specific recommendations. </p>
-                        <p class="text-justify">These insights assist college administrators in making informed decisions regarding student placements. </p>
-                        <p class="text-justify">Prakhar Consulting Group identifies students who would benefit from further enhancement through paid grooming sessions, which the institution can choose to conduct through Prakhar Consulting Group or an alternate agency, depending on their preferences.</p>
-                    </li>
-              
-                    <li>
-                        <h3>Post-Placement Follow-Ups</h3>
-                        <p class="text-justify">To ensure ongoing success, we offer <span class="whatwedotitile">Post-Placement Follow-Up Services</span> in coordination with the institution. </p>
-                        <p class="text-justify">This involves handling all formalities and maintaining engagement with students after they have been placed. </p>
-                        <p class="text-justify">The follow-ups allow both Prakhar Consulting Group and the institute to monitor students’ progress, address any transitional challenges, and provide additional support as needed, ensuring students achieve long-term success in their careers.</p>
-                        <p class="text-justify">With these tailored deliverables, the aim is to provide a holistic approach to student placement, enhancing employability and fostering strong partnerships between academic institutions and industry.                        </p>
-                    </li>
-                </ul>
+            <div class="col-md-12 ">              
+                <p>On-campus drive management ensures seamless recruitment experiences with both online and offline sessions, starting with mock recruitment drives to evaluate students' strengths. Structured mock placement drives include pre-screening, interviews, and feedback to prepare students for real-world challenges. Post-placement follow-ups monitor progress, address challenges, and provide ongoing support for long-term career success, fostering strong academic-industry partnerships.</p>
             </div>
         </div>
     </section>

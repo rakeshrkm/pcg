@@ -22,13 +22,11 @@
         <div class="container">
             {{ Breadcrumbs::render('payrollProcessing') }}
             <div class="row align-items-center">
-                <div class="col-md-12">
-                    <h1 class="text-center">PCG: One of the Top-Grade Payroll Processing Companies India</h1>
+                <div class="col-md-12 heading-title text-center">
+                    <h1 class="text-center">PCG: One of the Top-Grade Payroll Processing Companies in India</h1>
                 </div>
                 <div class="col-md-12">
-                    <p class="text-justify">Prakhar Consulting Group, one of the best <span class="whatwedotitile">Payroll Processing Companies in India</span>, understands that managing payroll is a critical yet time-consuming function for any organization. </p>
-                    <p class="text-justify">Therefore, our <span class="whatwedotitile">Payroll Outsourcing Services</span> are designed to streamline and simplify this process, enabling companies to focus on their core business activities. </p>
-                    <p class="text-justify">By choosing us, businesses can benefit from a smooth, accurate, and compliant payroll system that minimizes administrative burdens and ensures that employees are paid on time, every time.</p>
+                    <p class="text-justify">Managing payroll can be a complex and time-intensive task for organisations. PCG, recognized among the top <span class="whatwedotitile">Payroll Processing Companies in India</span>, offers top solutions to simplify this critical function. Our services enable businesses to streamline payroll management while focusing on core objectives.</p>
                 </div>
             </div>
         </div>
@@ -36,64 +34,274 @@
 
 
     <section class="container">
-        <div class="text-center">
-            <h3>Our Payroll Services</h3>
+        <div class="text-center heading-title">
+            <h2>Efficient and Reliable Payroll Outsourcing Services You Can Trust</h2>
         </div>
             <div class="row">
                 <div class="col-md-12">
-                    <ul class="mb-4 mt-4">
-                        <li class="text-justify">Our <span class="whatwedotitile">Payroll Services</span> cover every aspect of payroll management, from salary calculations and tax deductions to compliance with labor laws and regulatory requirements. </li>
-                        <li class="text-justify">With a robust payroll system in place, we ensure that your payroll data remains secure, accessible, and efficiently managed. </li>
-                        <li class="text-justify">By outsourcing payroll functions, businesses can also reduce operational costs, mitigate risks of payroll errors, and maintain strict compliance with constantly evolving payroll legislation.</li>
+                    <p>We handle every aspect of payroll processing, from calculating salaries and tax deductions to ensuring compliance with labor laws and regulatory updates. Our robust systems ensure data security, accuracy, and accessibility at all times.</p>
+                    <p>By choosing us for <span class="whatwedotitile">Payroll Outsourcing Services</span>, organisations will get the benefits of:</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li>Reduced operational costs.</li>
+                        <li>Compliance with evolving payroll regulations.</li>
+                        <li>Improved accuracy and minimized risk of errors.</li>
                     </ul>
-                    <p class="text-justify">We leverage cutting-edge technology and experienced payroll professionals to provide customized solutions that meet the unique needs of each client. </p>
-                    <p class="text-justify">Our team stays updated on the latest industry regulations and best practices, ensuring your payroll operations are handled with precision and accountability. </p>
-                    <p class="text-justify">Furthermore, our secure systems safeguard sensitive payroll data, offering peace of mind that your information is protected.</p>
-                    <p class="text-justify">Opting for payroll solutions with Prakhar Consulting Group translates into a hassle-free, efficient payroll experience, contributing to enhanced employee satisfaction and improved overall organizational performance. </p>
-                    <p class="text-justify">Discover the difference a professionally managed <span class="whatwedotitile">Payroll Processing System</span> can make in streamlining your payroll needs and optimizing your workforce management. Need <a href="{{ route('contractStaffing') }}"><span class="whatwedotitile">Contract Staffing</span></a> service? If you are looking for a professional consultant agency to get this service, Prakhar Consulting Group is there to assist you.</p>
+                </div>
+
+                <div class="col-md-6">
+                    Visual: Create a Horizontal Flow Chart with arrows connecting each point, showing the flow of benefits businesses achieve from outsourcing payrol
                 </div>
             </div>
     </section>
 
 
     <section class="container">
-        <div class="text-center">
-            <h2>Professional Payroll Management Process for Consistent Accuracy</h2>
+        <div class="heading-title text-center">
+            <h3>Why Choose PCG for Payroll Processing?</h3>
         </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-justify">Managing payroll is a vital function for any organization, ensuring timely and accurate payments to employees while maintaining compliance with local regulations. </p>
-                    <p class="text-justify">At Prakhar Consulting Group, we offer a seamless <span class="whatwedotitile">Payroll Management Process</span> that simplifies the intricate tasks involved in payroll. As one of the trusted <span class="whatwedotitile">Payroll Processing organizations</span> in India, we prioritize precision, efficiency, and compliance in every stage of the payroll journey.</p>
-                    <p class="text-justify"><span class="whatwedotitile">Our Payroll Process is divided into five key stages:</span></p>
-                    <ol class="mt-4 mb-4">
-                        <li class="text-justify"><span class="whatwedotitile">Setting up a System:</span> The first step involves understanding your organizational structure, payroll schedule, and unique needs. We establish a robust system customized to your requirements, creating a payroll calendar that highlights important dates to ensure timely payroll processing. This structured approach lays the foundation for smooth payroll operations, reducing errors and streamlining future processes.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Sharing of Data:</span> Data security and accessibility are at the forefront of our payroll management. We facilitate secure data transfer through email or cloud storage platforms like dropbox and google drive. This includes the collection of essential employee information and timesheets, ensuring that we have accurate data to proceed with payroll calculations.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Processing of Data:</span> Based on the data collected, our team calculates gross pay, deductions, net pay, provident fund, and other contributions. Leveraging advanced software, we ensure that each calculation aligns with local labor laws and company policies. Our meticulous approach in this stage minimizes errors, providing a seamless and compliant payroll experience.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Payment:</span> We generate batch files for all employee payments, sending them to the bank for quick and reliable fund transfers. This automated process ensures timely salaries, enhancing employee satisfaction and trust.</li>
-                        <li class="text-justify"><span class="whatwedotitile">Review, Follow-Up, and Revisions:</span> Regular review and feedback are essential in payroll management. We evaluate payroll activities at constant intervals, seeking client feedback to identify areas for improvement. Any required adjustments are made promptly, ensuring accuracy and adaptability in payroll services.</li>
-                    </ol>
-                    <p class="text-justify">
-                        By partnering with us, every business can experience a streamlined, compliant, and efficient <span class="whatwedotitile">Payroll Process in India</span> that simplifies payroll management and enhances operational productivity.
-                    </p>
+                    <p>We provide end-to-end payroll processing services backed by cutting-edge technology and industry expertise. Our secure systems safeguard sensitive employee data, ensuring confidentiality and compliance with data protection standards. By partnering with us, businesses can:</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6">
+                        <ul>
+                            <li>Enhance operational efficiency.</li>
+                            <li>Maintain employee satisfaction with timely and accurate payroll.</li>
+                            <li>Achieve hassle-free payroll management.</li>
+                        </ul>
+                </div>
+                <div class="col-md-6">
+                    Visual: Create an arrow image like this and put the content in between that. Like this:
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <p>Let us help you achieve seamless payroll operations that support your strategic goals. Need <a href="{{ route('contractStaffing') }}" class="text-primary font-weight-bold">Contract Staffing</a> service? If you are looking for a professional consultant agency to get this service, PCG is there to assist you.</p>
                 </div>
             </div>
     </section>
 
     <section class="container">
-        <div class="text-center">
-            <h2>The Essential Benefits of Outsourced Payroll Services</h2>
+        <div class="text-center heading-title">
+            <h2>Professional Payroll Management Process: Simplifying Accuracy and Compliance</h2>
         </div>
         <div class="row">
             <div class="col-md-12">               
-                <ol class="mb-4 mt-4">
-                    <li class="text-justify">Outsourcing payroll offers a range of benefits that can transform payroll management for businesses of all sizes. By opting for Outsourced Payroll Services, companies experience enhanced efficiency in their payroll systems, controls, and processes. This improvement translates into faster and more accurate payroll cycles, freeing up valuable internal resources for strategic tasks.</li>
-                    <li class="text-justify">One of the significant advantages is the increased confidence in payroll accuracy. Our services ensure that every payroll calculation is precise, eliminating common errors that could lead to employee dissatisfaction. With outsourced services, there’s an assurance that employees will be paid correctly and on time, every time. This reliability boosts employee morale and trust in the organization.</li>
-                    <li class="text-justify">Customization is at the heart of our payroll services. We tailor our approach to meet each client’s unique needs, ensuring that our solutions align perfectly with their operational requirements. Moreover, our services comply with local legislation, offering clients peace of mind that their payroll functions are legally sound and up-to-date with regulatory changes.</li>
-                    <li class="text-justify">Data security is a top priority, with rigorous measures in place to protect sensitive payroll information. Businesses can be confident in the confidentiality and safety of their data, safeguarding both employee trust and company integrity.</li>
-                </ol>
-                <p class="text-justify">With over a decade of experience working with businesses of all sizes in India, our expertise and commitment to excellence make our <span class="whatwedotitile">Outsourced Payroll Services</span> a reliable choice for streamlined and secure payroll operations. If businesses are also looking for <a href="{{ route('permanentStaffing') }}" target="_blank"><span class="whatwedotitile">Permanent Staffing</span></span> services, we have an expert team to help them.</p>
+                <p>Efficient payroll management is essential for maintaining employee trust and organisational compliance. </p>
+                <p>At PCG, we provide a streamlined <span class="whatwedotitile">Payroll Management Process</span> that combines precision, security, and efficiency at every step.</p>
+                <p>Our tailored approach ensures seamless handling of complex payroll tasks, reducing errors and saving valuable time.</p>
             </div>
         </div>
     </section>
+
+
+
+    <section class="container">
+        <div class="text-center heading-title">
+            <h3>Our Five-Stage Payroll Process</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-6">               
+                <ul>
+                    <li>
+                        <p><span class="whatwedotitile">Establishing a Custom System</span></p>
+                        Tailoring a payroll system and calendar to align with your organisation’s unique structure and needs for accuracy and timeliness.
+                    </li>
+                    <li>
+                        <p><span class="whatwedotitile">Secure Data Collection</span></p>
+                        Ensuring safe and efficient data sharing via secure platforms while gathering essential employee information.
+                    </li>
+                    <li>
+                        <p><span class="whatwedotitile">Accurate Payroll Processing</span></p>
+                        Leveraging advanced software to compute salaries and deductions while adhering to labor laws for error-free payroll.
+                    </li>
+                   <li>
+                        <p><span class="whatwedotitile">Reliable Payments</span></p>
+                        Automating bank transactions to guarantee timely salary disbursement, fostering employee trust.
+                   </li>
+                    <li>
+                        <p><span class="whatwedotitile">Ongoing Review and Improvements</span></p>
+                        Conducting regular reviews and addressing feedback to enhance accuracy and adaptability in payroll management.
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                    img
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="text-center heading-title">
+            <h3>Partner with PCG for Professional Payroll Management</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-12">               
+                <p>Experience a hassle-free payroll process designed to enhance productivity and ensure compliance. Our expertise in payroll solutions makes us a reliable partner for businesses seeking streamlined operations.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="container">
+        <div class="text-center heading-title">
+            <h3>The Essential Benefits of Outsourced Payroll Services</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-12">               
+                <p>Efficient payroll management is crucial for maintaining employee satisfaction and compliance with regulations. With <span class="whatwedotitile">Outsourced Payroll Services</span>, businesses can streamline operations, reduce errors, and focus on core growth strategies while ensuring secure and accurate payroll management.</p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Enhanced Efficiency:</span> Streamline payroll systems and processes, enabling faster and more accurate payroll cycles.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Resource Optimization:</span> Free up internal teams for strategic tasks by delegating payroll responsibilities to professionals.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Improved Payroll Accuracy:</span> Eliminate errors in calculations, ensuring employees are paid correctly and on time.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Boost Employee Morale:</span> Reliable payroll management enhances trust and satisfaction within the organisation.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Tailored Solutions:</span> Customised payroll processes align with unique operational requirements for businesses.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Regulatory Compliance:</span> Ensure payroll functions comply with evolving labor laws and local regulations.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Data Security:</span> Protect sensitive information with robust measures, safeguarding company and employee trust.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="d-flex justify-content-center gap-8">
+                    <div>
+                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
+                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
+                        </svg>
+                    </div>
+                    <div class="ml-3">
+                        <p><span class="whatwedotitile">Expertise You Can Rely On:</span> Over a decade of experience in payroll management ensures quality and consistency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-md-12">
+                <p>Backed by over a decade of experience across industries, our services deliver streamlined and compliant payroll operations. Additionally, for businesses seeking <a href="{{ route('permanentStaffing') }}" class="text-primary font-weight-bold">Permanent Staffing services</a>, our dedicated team provides reliable solutions for building a capable workforce.</p>
+            </div>
+        </div>
+    </section>
+
 </main>
 @endsection

@@ -46,6 +46,9 @@
       .payment-hero-img .h-shape {
         display: none;
       }
+      h1{
+        font-size: 20px !important;
+      }
     }
     /*header End*/
     
@@ -1276,7 +1279,7 @@
 }
 .business-choose{
   padding-top:50px;
-  height: 250px;
+  height: 300px;
 }
 
 
@@ -1354,3 +1357,5 @@
   from, to { border-color: transparent }
   50% { border-color: #08847A }
 }
+
+

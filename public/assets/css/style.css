@@ -5272,8 +5272,9 @@ strong {
 }
 
 /*homestyle*/
+
 .bannertextbold {
-    font-size: 24px;
+    font-size: 40px;
     font-weight: 500;
     font-style: normal;
     color: #fff;
@@ -5305,7 +5306,7 @@ strong {
 }
 
 .bannertext {
-    font-size: 28px !important;
+    font-size: 32px !important;
     color: #fff;
     margin-bottom: 10px;
     margin-top: 0px;
@@ -23558,3 +23559,7 @@ input[type="submit"]:hover,
     height: 480px;
 }
 /* end blog */
+
+p{
+    text-align: justify;
+}
