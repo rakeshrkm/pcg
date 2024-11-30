@@ -47,78 +47,8 @@
               
             </div>
             <div class="col-md-6">
-                Use icons like a map for nationwide presence, a briefcase for placements, and a chart for expertise.
+                <img src="{{ asset('assets/img/PCGImages/what-sets-us-apart-450x350px.png') }}" class="shadow w-100" title="business consulting" alt="business consulting" style="height:240px; ">
             </div>
-            {{-- <div class="col-md-3">
-                <div class="p-4 card business-choose shadow">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/about/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
-                    </div>
-                    <p class="text-center mt-2"><span class="whatwedotitile">Robust Expertise</span></p>
-                    <p class="text-justify">A team of 2200+ professionals delivering tailored HR solutions across industries.</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="p-4 card business-choose shadow">
-                    <div class="text-center ">
-                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                    </div>
-                    <p class="text-center mt-2"><span class="whatwedotitile">Extensive Reach</span></p>
-                    <p class="text-justify">Presence in 14 skill development centers nationwide, enabling workforce transformation.</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                <div class="p-4 card business-choose shadow">
-                        <div class="text-center">
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </div>
-                        <p class="text-center mt-2"><span class="whatwedotitile">Proven Success</span></p>
-                        <p class="text-justify">Over 4,500 candidates placed through data-driven recruitment strategies.</p>
-                </div>
-            </div>
-            <div class="col-md-3">
-                    <div class="p-4 card business-choose shadow">
-                        <div class="text-center ">
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
-                        </div>
-                        <p class="text-center mt-2"><span class="whatwedotitile">Customised Solutions</span></p>
-                        <p class="text-justify">End-to-end HR consulting, recruitment, and staffing tailored to your needs.</p>
-                    </div>
-            </div>
-            <div class="col-md-3 mt-4">
-                <div class="p-4 card business-choose shadow">
-                    <div class="text-center ">
-                        <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                            <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                        </svg>
-                        </div>
-                        <p class="text-center mt-2"><span class="whatwedotitile">Commitment to Transparency</span></p>
-                        <p class="text-justify">Ethical practices and long-term partnerships ensure client satisfaction.</p>
-                    </div>
-                 </div>
-            </div> --}}
             <div class="col-md-12 mt-2">
                 <p class="text-justify">At PCG, we bridge the gap between employers and top talent, delivering <span class="whatwedotitile">HR Consulting and Staffing Services in India</span> that drive business success. Our focus on cultural fit, skill alignment, and workforce agility ensures exceptional outcomes for both organisations and job seekers.</p>
             </div>
@@ -141,10 +71,14 @@
             <h2>Transform Your Team with Our Ultimate Hiring Solutions in India</h2>
         </div>
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 shadow p-4">
                 <p class="text-justify">At PCG, we will help deliver tailored <span class="whatwedotitile">Hiring Solutions in India</span> that redefine traditional recruitment. Our process focuses on aligning leadership talent with your organisation’s vision, culture, and strategic goals, ensuring every hire is not just a placement but a valuable asset.</p>
             </div>
         </div>
+    </div>
+</section>
+<section class="section">
+    <div class="container">
         <div class="heading-title text-center">
             <h3>Why Choose Our Hiring Solutions?</h3>
         </div>

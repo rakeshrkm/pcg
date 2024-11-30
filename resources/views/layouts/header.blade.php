@@ -54,7 +54,7 @@
                     <nav class="menu-container">
                         <ul id="menu" class="sm me-menu">
                             <li>
-                                <a href="{{ route('index') }}">Home</a>
+                                <a href="{{ route('index') }}"><i class="fa fa-home"></i> Home</a>
                             </li>
                             <li>
                                 <a href="{{ route('about') }}">About Us</a>

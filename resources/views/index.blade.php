@@ -255,14 +255,14 @@
 
 <section class="section">
     <div class="container">
+        <div class="text-center heading-title">
+            <h2>PCG: #1 HR Consulting and Staffing in India</h2>
+        </div>
+
         <div class="row">
-            <div class="col-lg-12 text-left ">
-                <div class="text-center heading-title">
-                    <h2>PCG: #1 HR Consulting and Staffing in India</h2>
-                </div>
+            <div class="col-lg-12 text-left shadow p-4">
                 <p class="text-justify">
                     PCG is renowned for <span class="whatwedotitile">HR Consulting and Staffing in India</span> providing comprehensive recruitment solutions tailored to meet the dynamic needs of businesses.
-
                 </p>
                 <p class="text-justify">
                     From pre-placement training and skill assessments to post-placement support, our services ensure you onboard job-ready candidates who can contribute from day one.
@@ -302,11 +302,13 @@
 
 <section class="section">
     <div class="container">
+        <div class="text-center heading-title">
+            <h2>Reliable Staffing Services in India for Short-Term Hiring Needs</h2>
+        </div>
+
         <div class="row">
-            <div class="col-lg-12 text-left ">
-                <div class="text-center heading-title">
-                    <h2>Reliable Staffing Services in India for Short-Term Hiring Needs</h2>
-                </div>
+            <div class="col-lg-12 text-left shadow p-4">
+                
                 <p class="text-justify">
                     At PCG, we excel in delivering temporary <span class="whatwedotitile">Staffing Services in India</span> that empower businesses to address their short-term workforce requirements seamlessly. Our expertise lies in providing Contract Staffing Solutions designed for flexibility, quality, and efficiency.
                 </p>
@@ -388,11 +390,12 @@
 
 <section class="section">
     <div class="container">
+        <div class="text-center heading-title">
+            <h2>PCG: Your Premier Recruitment Partner in India</h2>
+        </div>
+
         <div class="row">
-            <div class="col-lg-12 text-left ">
-                <div class="text-center heading-title">
-                    <h2>PCG: Your Premier Recruitment Partner in India</h2>
-                </div>
+            <div class="col-lg-12 shadow p-4">
                 <p class="text-justify">
                     PCG Global Consulting is your best <span class="whatwedotitile">ERecruitment Partner in India</span> who is professional in delivering tailored hiring solutions, helping businesses secure top talent that aligns with their values, goals, and culture.
                 </p>
