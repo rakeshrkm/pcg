@@ -133,11 +133,11 @@
 
     <section class="container">
         <div class="heading-title text-center">
-            <h2>Our Recruitment Process: Proven and Trusted</h2>
+            <h3>Our Recruitment Process: Proven and Trusted</h3>
         </div>
         <div class="row">
             <div class="col-md-6">
-                <p class="text-justify">With a focus on precision and reliability, our process involves:</p> 
+                <p class="text-justify whatwedotitile">With a focus on precision and reliability, our process involves:</p> 
                 <ul class="mb-4 mt-4">
                     <li class="text-justify"><span class="whatwedotitile">In-depth Candidate Assessments:</span> Evaluating skills, experience, and cultural alignment.</li>
                     <li class="text-justify"><span class="whatwedotitile">Data-Driven Insights:</span> Leveraging analytics to ensure quality placements.</li>

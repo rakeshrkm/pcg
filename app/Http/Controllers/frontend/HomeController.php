@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use Mail;
+use Illuminate\Support\Facades\Validator;
 
 class HomeController extends Controller
 {
@@ -121,6 +122,47 @@ class HomeController extends Controller
         }
     }
 
+
+    public function enquiry(Request $request){
+        $validator = Validator::make($request->all(), [
+            'name' => 'required|max:30',
+            'mobile' => 'required|max:30',
+            'email' => 'required',
+            'services' => 'required',
+            'comment' => 'required',
+            // 'g-recaptcha-response' => 'required'
+        ]);
+
+        if ($validator->fails()) {
+            return response()->json([
+                        'error' => $validator->errors()->all()
+                    ]);
+
+            }
+
+        $contact = new Contact();
+        $contact->fill($request->all());
+        $contact->save();
+        $email = $request->email;
+        $data = [
+            'name' => $request->name,
+            'email' => $request->email,
+            'remarks' => $request->comment,
+            'mobile' => $request->mobile
+        ];
+
+        Mail::send('mail.contact_mail', $data, function ($message) use ($email) {
+            $message->to($email)->subject('Consulting form PCG');
+        });
+
+        if($contact){
+            return response()->json(['success' => 'Thanks for connecting with us team will contact you soon']);
+
+        }else{
+            return response()->json(['error' => 'Something went wrong']);
+        }
+    }
+
     public function blog(){
         return view('blog');
     }
@@ -131,5 +173,13 @@ class HomeController extends Controller
 
     public function permanentStaffingCompaniesBlog(){
         return view('permanent-staffing-companies-blog');
+    }
+
+    public function privacyPolicy(){
+        return view('privacy-policy');
+    }
+
+    public function termsAndCondition(){
+        return view('terms-and-condition');
     }
 }

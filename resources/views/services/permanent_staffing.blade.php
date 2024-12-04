@@ -182,6 +182,7 @@
                             <h2 class="mb-0">
                               <button class="btn btn-link text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                 <p class="text-left mt-2"><span class="whatwedotitile text-left">Advanced Recruitment Techniques</span></p>
+                            <hr>
                               </button>
                             </h2>
                           </div>
@@ -224,7 +225,7 @@
 
 
     <section class="container">
-        <div class="text-center">
+        <div class="text-center heading-title">
             <h2>Permanent Staffing Services in India: Your Key to Lasting Success</h2>
         </div>
         <div class="row">
@@ -254,18 +255,18 @@
         </div>
 
         <div class="row mt-4">
-            <div class="col-md-12">
-                <p>
-                    <span class="whatwedotitile">Why Choose Our Permanent Staffing Services?</span>
-                </p>
-            </div>
+  
             <div class="col-md-6 mt-2">
                 <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting"  alt="business consulting" height="400" width="450">
 
             </div>
 
             <div class="col-md-6 mt-2">
-                
+                <div class="col-md-12">
+                    <p>
+                        <span class="whatwedotitile">PCG can also help your business in:</span>
+                    </p>
+                </div>
                 <ul>
                     <li class="text-justify"><span class="whatwedotitile">Market Insights:</span> Stay competitive with data-driven hiring strategies.</li>
                     <li class="text-justify"><span class="whatwedotitile">Salary Benchmarking:</span> Attract top talent with industry-standard compensation.</li>

@@ -22,8 +22,10 @@
         <div class="container">
             {{ Breadcrumbs::render('ItNonIthiring') }}
             <div class="row align-items-center">
-                <div class="col-md-12 heading-title">
-                    <h1 class="text-center">Best IT Recruitment Agency in India for Business Growth</h1>
+                <div class="col-md-12">
+                    <div class="heading-title text-center">
+                        <h1 class="text-center">Best IT Recruitment Agency in India for Business Growth</h1>
+                    </div>
                 </div>
                 <div class="col-md-12">
                     <p class="text-justify">
@@ -48,7 +50,7 @@
                             </svg>
                         </div>
                         <div class="ml-3 mt-3">
-                            <p class="text-justify"><span class="whatwedotitile">Expertise in IT Talent Acquisition:</span> We work closely with you to exceed expectations and deliver measurable results.</p>
+                            <p class="text-justify"><span class="whatwedotitile">Expertise in IT Talent Acquisition:</span> We specialize in sourcing skilled IT professionals who align with your organisational goals and culture.</p>
                         </div>
                     </div>
                     <div class="d-flex justify-content-center gap-8">
@@ -102,7 +104,7 @@
 
 
     <section class="container">
-        <div class=" text-center">
+        <div class="heading-title text-center">
             <h2>Top IT Recruitment Services in India for Quality Talent</h2>
         </div>
         <div class="row">
@@ -159,7 +161,7 @@
                         </svg>
                     </div>
                     <div class="ml-3 mt-3">
-                        <p class="text-justify"><span class="whatwedotitile">Project-Based Hiring:</span> </p>
+                        <p class="text-justify"><span class="whatwedotitile">Project-Based Hiring:</span> Ensuring agility in scaling IT teams.</p>
                     </div>
                 </div>
             </div>
@@ -200,8 +202,8 @@
 
 
     <section class="container">
-        <div class=" text-center">
-            <h3>Best Non-IT Staffing Agency in India: A Partner You Can Trust</h3>
+        <div class=" text-center heading-title">
+            <h2>Best Non-IT Staffing Agency in India: A Partner You Can Trust</h2>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -256,9 +258,10 @@
     </section>
 
     <section class="container">
-        <div class=" text-center">
+        <div class="heading-title text-center">
             <h3>Our Expertise Across Industries</h3>
         </div>
+       
         <div class="row">
             <div class="col-md-12">
                 <p class="text-justify">From operations and sales to finance and logistics, our <span class="whatwedotitile">Non-IT Recruitment Services in India</span> cater to diverse roles, ensuring businesses gain access to:</p>

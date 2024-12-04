@@ -160,6 +160,7 @@
                     <div class="text-center">
                         <p class="text-justify"><span class="whatwedotitile">The Role of Leadership in Business Strategy</span></p>
                     </div>    
+                    <p class="text-justify whatwedotitile">Leaders are architects of change. They leverage industry insights and expertise to address critical areas such as:</p>
                 </div>
             </div>
            

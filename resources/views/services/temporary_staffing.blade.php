@@ -137,6 +137,11 @@
             <h3>Benefits of Partnering with a Temporary Job Staffing Agency</h3>
         </div>
         <div class="row">
+            <div class="col-md-12">
+                <p class="text-justify">Collaborating with a <span class="whatwedotitile">Temporary Job Staffing Agency</span> like PCG helps businesses stay agile, efficient, and productive in a dynamic marketplace.</p>
+            </div>
+        </div>
+        <div class="row">
             <div class="col-md-6">
                 <ul>
                     <li class="text-justify"><span class="whatwedotitile">Enhanced Workforce Flexibility:</span> Scale your team up or down based on project demands and seasonal needs.</li>
@@ -175,7 +180,7 @@
 
     <section class="container">
         <div class="heading-title text-center">
-            <h3>Still Searching for Temporary Staffing Companies Near Me?</h3>
+            <h2>Still Searching for Temporary Staffing Companies Near Me?</h2>
         </div>
         <div class="row">
             <div class="col-md-12">

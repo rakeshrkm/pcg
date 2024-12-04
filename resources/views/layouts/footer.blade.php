@@ -33,8 +33,8 @@
 
                 <h5 class="footer-title">Quick Links</h5>
                 <ul class="me-list">
-                    <li><a href="#"><i class="fa fa-angle-right"></i> Privacy Policy</a></li>
-                    <li><a href="#"><i class="fa fa-angle-right"></i> Terms & Condition</a></li>
+                    <li><a href="{{ route('privacyPolicy') }}"><i class="fa fa-angle-right"></i> Privacy Policy</a></li>
+                    <li><a href="{{ route('termsAndCondition') }}"><i class="fa fa-angle-right"></i> Terms & Condition</a></li>
                 </ul>
             </div>
             <div class="col-md-3">
@@ -43,7 +43,7 @@
                     <li><a href="{{ route('about') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; About Us</a></li>
                     <li><a href="{{ route('industriesWeServe') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Industries We Serve</a></li>
                     <li><a href="{{ route('ourApproach') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Recruitment Approach</a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Blog</a></li>
+                    <li><a href="{{ route('blogs') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Blog</a></li>
                     <li><a href="{{ route('career') }}" target="_blank"><i class="fa fa-angle-right"></i> &nbsp;Career</a></li>
                     <li><a href="{{ route('contactUs') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Contact Us</a></li>
 

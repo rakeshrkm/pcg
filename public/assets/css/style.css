@@ -1612,7 +1612,7 @@ ul.owl-carousel {
     margin: 0;
     position: relative;
     width: 100%;
-    /* height: 100%; */
+    height: 100%; 
     /* overflow: auto; */
     zoom: 1;
     /* height: 300px !important; */
@@ -1630,7 +1630,7 @@ ul.owl-carousel {
 
 .slideshow {
     width: 100%;
-    height: 820px;
+    height: 450px !important;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
@@ -1652,7 +1652,7 @@ ul.owl-carousel {
 .slideshow .flex-direction-nav a {
     width: 60px;
     height: 60px;
-    margin-top: 30px;
+    margin-top: 0px;
     line-height: 60px;
     text-align: center;
     background: rgba(0, 0, 0, 0.5);
@@ -5308,8 +5308,8 @@ strong {
 .bannertext {
     font-size: 32px !important;
     color: #fff;
-    margin-bottom: 10px;
-    margin-top:-55px;
+    margin-bottom: 350px; */
+    /* margin-top:-100; */
     text-shadow: 2px 1px #2b2b2b;
     font-weight: 500;
 }

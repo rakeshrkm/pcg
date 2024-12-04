@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <title>{{ isset($title) ? $title : 'Prakhar software consulting group'}}</title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="{{isset($description) ? $description : 'Prakhar software consulting group'}}" />
+    <meta name="keywords" content="{{ isset($keyword) ? $keyword : 'Prakhar software consulting group'}}" />
     <meta http-equiv="Content-Type" con tent="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,7 +25,7 @@
     <meta property="og:title" content="Workforce Development Company">
     <meta property="og:image" content="meta-banner/corporate-training.jpg">
     <meta property="og:description" content="">
-    <meta name="google-site-verification" content="" />
+    <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <!-- css -->
     <link rel="stylesheet" href="{{ asset('assets/css/bootstrap.min.css') }}" />

@@ -223,7 +223,7 @@
                         </svg>
                     </div>
                     <div class="ml-3 mt-3">
-                        <p class="text-justify"><span class="whatwedotitile">Targeted Talent Acquisition:</span>Identifying and engaging top-tier professionals for high-impact roles.</p>
+                        <p class="text-justify"><span class="whatwedotitile">Targeted Talent Acquisition:</span> Identifying and engaging top-tier professionals for high-impact roles.</p>
                     </div>
                 </div>
             </div>
@@ -239,7 +239,7 @@
                         </svg>
                     </div>
                     <div class="ml-3 mt-3">
-                        <p class="text-justify"><span class="whatwedotitile">Strategic Leadership Focus:</span>Aligning leaders with your company’s mission and long-term vision.</p>
+                        <p class="text-justify"><span class="whatwedotitile">Strategic Leadership Focus:</span> Aligning leaders with your company’s mission and long-term vision.</p>
                     </div>
                 </div>
             </div>
@@ -255,7 +255,7 @@
                         </svg>
                     </div>
                     <div class="ml-3 mt-3">
-                        <p class="text-justify"><span class="whatwedotitile">Comprehensive Evaluation:</span>Ensuring candidates meet technical, strategic, and cultural requirements.</p>
+                        <p class="text-justify"><span class="whatwedotitile">Comprehensive Evaluation:</span> Ensuring candidates meet technical, strategic, and cultural requirements.</p>
                     </div>
                 </div>
             </div>

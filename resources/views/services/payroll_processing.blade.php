@@ -113,23 +113,27 @@
             <div class="col-md-6">               
                 <ul>
                     <li>
-                        <p><span class="whatwedotitile">Establishing a Custom System</span></p>
+                        <span class="whatwedotitile">Establishing a Custom System</span><br>
                         Tailoring a payroll system and calendar to align with your organisation’s unique structure and needs for accuracy and timeliness.
+                        <p></p>
                     </li>
                     <li>
-                        <p><span class="whatwedotitile">Secure Data Collection</span></p>
+                        <span class="whatwedotitile">Secure Data Collection</span><br>
                         Ensuring safe and efficient data sharing via secure platforms while gathering essential employee information.
+                        <p></p>
                     </li>
                     <li>
-                        <p><span class="whatwedotitile">Accurate Payroll Processing</span></p>
+                        <span class="whatwedotitile">Accurate Payroll Processing</span><br>
                         Leveraging advanced software to compute salaries and deductions while adhering to labor laws for error-free payroll.
+                        <p></p>
                     </li>
                    <li>
-                        <p><span class="whatwedotitile">Reliable Payments</span></p>
+                        <span class="whatwedotitile">Reliable Payments</span><br>
                         Automating bank transactions to guarantee timely salary disbursement, fostering employee trust.
+                        <p></p>
                    </li>
                     <li>
-                        <p><span class="whatwedotitile">Ongoing Review and Improvements</span></p>
+                        <span class="whatwedotitile">Ongoing Review and Improvements</span><br>
                         Conducting regular reviews and addressing feedback to enhance accuracy and adaptability in payroll management.
                     </li>
                 </ul>
@@ -298,7 +302,7 @@
 
         <div class="row mt-4">
             <div class="col-md-12">
-                <p>Backed by over a decade of experience across industries, our services deliver streamlined and compliant payroll operations. Additionally, for businesses seeking <a href="{{ route('permanentStaffing') }}" class="text-primary font-weight-bold">Permanent Staffing services</a>, our dedicated team provides reliable solutions for building a capable workforce.</p>
+                <p>Backed by over a decade of experience across industries, our services deliver streamlined and compliant payroll operations. Additionally, for businesses seeking <a href="{{ route('permanentStaffing') }}" class="text-primary font-weight-bold">Permanent Staffing</a> services, our dedicated team provides reliable solutions for building a capable workforce.</p>
             </div>
         </div>
     </section>

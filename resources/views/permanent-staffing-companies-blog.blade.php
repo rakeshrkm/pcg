@@ -26,17 +26,19 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="blog_div bg-body rounded">
+                                <div class="text-center heading-title">
+                                    <h1 class="mt-2 text-justify">Permanent Staffing Companies: Key to Building a Stable Workforce</h1>
+                                </div>
                                 <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
-                                <h1 class="mt-2 text-justify">Permanent Staffing Companies: Key to Building a Stable Workforce</h1>
                                 <p class="text-justify">"An organization’s workforce serves as its backbone, fueling every milestone and driving its success forward. In the highly competitive business landscape today, companies are placing greater emphasis on cultivating a stable and dependable workforce to ensure sustainable growth and efficiency." While temporary hires may address immediate needs, their benefits often pale in comparison to the long-term value that permanent employees bring to an organization. This is where <span class="whatwedotitile">Permanent Staffing Companies</span> play a pivotal role, offering tailored staffing solutions to help businesses build a strong foundation for sustained stability and growth.</p>
-                                <div class="text-center">
+                                <div class="text-center heading-title">
                                    <h2>How Permanent Staffing Services Shape Modern Businesses?</h2>
                                 </div>
                                 <p class="text-justify">Permanent staffing involves hiring employees for long-term roles, integrating them as vital contributors to the organisation. <span class="whatwedotitile">Permanent Staffing Services</span> play a crucial role in identifying and onboarding such employees, ensuring they align with the company’s culture and objectives. 
                                     These employees are more than just resources—they are partners in growth, sharing the company’s vision and goals. Unlike temporary staff, permanent employees exhibit higher levels of engagement, loyalty, and performance, fostering a stable and productive environment.
                                 </p>
         
-                                <div class="text-center">
+                                <div class="text-center heading-title">
                                     <h2>Why Permanent Staffing is Crucial for Organizations?</h2>
                                 </div>
                                 <p class="text-justify">The decision to prioritize permanent staffing is often rooted in its numerous advantages, which go beyond operational efficiency. Here’s why permanent staffing is a strategic necessity for businesses:</p>
@@ -51,8 +53,8 @@
                                 <p class="text-justify"><span class="whatwedotitile">5. Compliance and Stability</span></p>
                                 <p class="text-justify">Permanent staffing reduces the risk of legal complications, as these employees are fully integrated into the organization’s policies and labor laws. This ensures stability in operations and adherence to compliance standards.</p>
         
-                                <div class="text-center">
-                                    <h2>Challenges in Permanent Staffing and Solutions?</h2>
+                                <div class="text-center heading-title">
+                                    <h3>Challenges in Permanent Staffing and Solutions?</h3>
                                 </div>
         
                                 <p class="text-justify">While the benefits of permanent staffing are evident, the process comes with its own set of challenges. Addressing these effectively can help businesses optimize their staffing strategies.</p>
@@ -69,8 +71,8 @@
                                 <p class="text-justify">Market downturns can make it challenging to sustain a large permanent workforce.</p>
                                 <p class="text-justify"><span class="whatwedotitile">Solution:</span> Develop flexible workforce strategies that combine permanent and temporary staffing to adapt to market conditions.</p>
         
-                                <div class="text-center">
-                                    <h3>Challenges in Permanent Staffing and Solutions?</h3>
+                                <div class="text-center heading-title">
+                                    <h3>Permanent Staffing Best Practices for Workforce Excellence</h3>
                                 </div>
         
                                 <p class="text-justify">Implementing <span class="whatwedotitile">Permanent Staffing Best Practices</span> ensures that organizations attract, retain, and develop top talent. Here are some strategies to build a resilient workforce:</p>
@@ -87,7 +89,7 @@
                                 <p class="text-justify"><span class="whatwedotitile">6. Employer Branding</span></p>
                                 <p class="text-justify">Building a strong employer brand helps position the company as an attractive workplace. Highlighting workplace culture, values, and career growth opportunities attracts high-quality candidates.</p>
                                 
-                                <div class="text-center">
+                                <div class="text-center heading-title">
                                     <h3>Permanent Staffing Solutions for Small Businesses</h3>
                                 </div>
                                 <p class="text-justify">Small businesses face unique challenges when it comes to workforce management. Limited budgets, high turnover, and lack of HR expertise often hinder growth. <span class="whatwedotitile">Permanent Staffing Solutions for Small Businesses</span> address these issues effectively, providing tailored approaches that enable small enterprises to thrive.</p>
@@ -98,7 +100,7 @@
                                 <p class="text-justify"><span class="whatwedotitile">3. Customer Relationships</span></p>
                                 <p class="text-justify">Permanent employees often build lasting relationships with clients, enhancing trust and loyalty. This continuity strengthens customer satisfaction and brand reputation.</p>
 
-                                <div class="text-center">
+                                <div class="text-center heading-title">
                                     <h3>How Permanent Staffing Drives Organizational Growth?</h3>
                                 </div>
 
@@ -112,13 +114,13 @@
                                 <p class="text-justify"><span class="whatwedotitile">4. Facilitates Strategic Planning</span></p>
                                 <p class="text-justify">A stable workforce allows organizations to focus on long-term goals rather than constantly addressing staffing challenges. This stability supports strategic initiatives and operational scalability.</p>
 
-                                <div class="text-center">
+                                <div class="text-center heading-title">
                                     <h3>The Future of Permanent Staffing</h3>
                                 </div>
                                 <p class="text-justify">The landscape of permanent staffing is evolving, driven by technological advancements and changing workforce dynamics. While automation and gig roles continue to rise, permanent staffing remains essential for roles that require deep expertise and long-term organizational commitment.</p>
                                 <p class="text-justify">Organizations that prioritize permanent staffing are better positioned to adapt to industry changes, foster innovation, and achieve sustained growth.</p>
 
-                                <div class="text-center">
+                                <div class="text-center heading-title">
                                     <h3>Conclusion</h3>
                                 </div>
 

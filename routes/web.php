@@ -25,6 +25,8 @@ Route::get('/industries-we-serve', [HomeController::class, 'industriesWeServe'])
 Route::get('/recruitment-approach', [HomeController::class, 'ourApproach'])->name('ourApproach');
 Route::get('/contact-us', [HomeController::class, 'contactUs'])->name('contactUs');
 Route::post('/contact-us', [HomeController::class, 'SubmitContact'])->name('ContactSubmit');
+Route::post('/enquiry', [HomeController::class, 'enquiry'])->name('enquiry');
+
 Route::get('/blog', [HomeController::class, 'blog'])->name('blogs');
 Route::get('/blog-details/hr-challenges-scaling-management-consulting-india', [HomeController::class, 'hrChallenges'])->name('hrChallenges');
 Route::get('/blog-details/permanent-staffing-companies-building-stable-workforce', [HomeController::class, 'permanentStaffingCompaniesBlog'])->name('permanentStaffingCompaniesBlog');
@@ -48,6 +50,8 @@ Route::get('/universities', [HomeController::class, 'universities'])->name('univ
 Route::get('/training-development', [HomeController::class, 'trainingAndDevelopment'])->name('trainingAndDevelopment');
 Route::get('/consulting-services', [HomeController::class, 'consultingServices'])->name('consultingServices');
 Route::get('/other-services', [HomeController::class, 'otherServices'])->name('otherServices');
+Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
+Route::get('/terms-and-condition', [HomeController::class, 'termsAndCondition'])->name('termsAndCondition');
 
 // If route not found.
 Route::fallback(function () {

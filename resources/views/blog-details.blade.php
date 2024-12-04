@@ -26,10 +26,15 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="blog_div">
+                                <div class="text-center heading-title">
+                                    <h1>10 HR Challenges in Scaling Management Consulting Companies in India</h1>
+                                 </div>
+
                                 <img src="{{ asset('assets/img/PCGImages/blog/10-hr-challenges.jpg') }}" alt="Training and Development" title="Training and Development" />
-                                <p class="mt-2 text-justify"><span class="whatwedotitile">10 HR Challenges in Scaling Management Consulting Companies in India</span></p>
+                              
+
                                 <p class="text-justify">Scaling a business in India is a rewarding yet complex journey, especially in the domain of Human Resources (HR). As organizations grow, they encounter intricate HR challenges that, if unaddressed, can obstruct progress. This blog delves into the top 10 HR challenges faced by scaling Management Consulting Companies in India and emphasizes the significance of strategic HR planning to overcome these obstacles.</p>
-                                <div class="text-center">
+                                <div class="text-center heading-title">
                                    <h2>HR Pain Points for Growing Recruitment Agencies in India</h2>
                                 </div>
                                 <p><span class="whatwedotitile">1. Talent Acquisition and Retention</span></p>

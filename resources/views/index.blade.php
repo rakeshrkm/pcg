@@ -1,10 +1,14 @@
-@extends('layouts.master', ['title' => 'Best HR Consulting Services in India | Prakhar Consulting Group', 'keyword' => 'Best HR consulting services in India, HR solutions India, top HR consulting India, leadership hiring, staffing solutions India, HR consultancy', 'description' => 'Prakhar Consulting Group offers Best HR Consulting Services in India that help businesses in Permanent Staffing, Executive Search, Leadership Hiring, etc'])
+@extends('layouts.master',
+['title' => 'Best HR Consulting Services in India | Prakhar Consulting Group',
+'keyword' => 'Best HR consulting services in India, HR solutions India, top HR consulting India, leadership hiring, staffing solutions India, HR consultancy',
+'description' => 'Prakhar Consulting Group offers Best HR Consulting Services in India that help businesses in Permanent Staffing, Executive Search, Leadership Hiring, etc'
+])
 @section('contents')
 <div class="slideshow-container" id="hero">
     <div class="slideshow" data-flex-fullscreen="true">
         <ul class="slides">
             <li>
-                <img src="{{ asset('assets/img/PCGImages/banner_new.jpg') }}" data-position-y="top" alt="Corporate Training" title="Corporate Training" />
+                <img src="{{ asset('assets/img/PCGImages/banner_new.jpg') }}" data-position-y="top" alt="Corporate Training" title="Corporate Training"  />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -18,7 +22,7 @@
                 </div>
             </li>
             <li>
-                <img src="{{ asset('assets/img/PCGImages/banner2.jpg') }}" data-position-y="top" alt="Banner" title="Banner" />
+                <img src="{{ asset('assets/img/PCGImages/banner2.jpg') }}" data-position-y="top" alt="Banner" title="Banner" height="300" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -33,7 +37,7 @@
                 </div>
             </li>
             <li>
-                <img src="{{ asset('assets/img/PCGImages/newBanner3.jpg') }}" data-position-y="top" alt="Banner" title="Banner" />
+                <img src="{{ asset('assets/img/PCGImages/newBanner3.jpg') }}" data-position-y="top" alt="Banner" title="Banner" height="300" />
                 <div class="flex-content-wrapper1 flexttect">
                     <div class="">
                         <div class="container">
@@ -71,84 +75,109 @@
                     <li class="text-justify">Deliver the <span class="whatwedotitile">Best HR Consulting Services in India</span> for businesses seeking dynamic, goal-aligned talent.</li>
                     <li>Guide job seekers toward career opportunities that match their skills and aspirations</li>
                 </ul>
-                <p><span class="whatwedotitile">Industries We Serve:</span></p>
+                <h3><span class="whatwedotitile">Industries We Serve:</span></h3>
                 <p class="text-justify">With expertise spanning diverse sectors, we stay ahead of the curve in an evolving job market.</p>
                 <p><span class="whatwedotitile">Our focus includes:</span></p>
             </div>
             <div class="col-md-3 text-center">
                 <div class="card shadow p-3 bg-white rounded we_serve">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/home/IT-and-Telecom.png') }}" alt="IT and Telecom" title="IT and Telecom" />
-                    </div>
-                    <p class="mt-3 text-center"><span class="whatwedotitile"><a href="{{ route('industriesWeServe') }}">IT and Telecom</a></span></p>
+                    <a href="{{ route('industriesWeServe') }}">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/PCGImages/home/IT-and-Telecom.png') }}" alt="IT and Telecom" title="IT and Telecom" />
+                        </div>
+                        <p class="mt-3 text-center"><span class="whatwedotitile">IT and Telecom</span></p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="card shadow p-3 bg-white rounded text-center we_serve">
+                    <a href="{{ route('industriesWeServe') }}">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/PCGImages/home/Media-and-Entertainment.png') }}" alt="Media & Entertainment" title="Media & Entertainment" />
+                        </div>
+                        <p class="mt-3 text-center"><span class="whatwedotitile">Media & Entertainment</span></p>
+                    </a>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card shadow p-3 bg-white rounded text-center we_serve">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/home/Media-and-Entertainment.png') }}" alt="Media & Entertainment" title="Media & Entertainment" />
-                    </div>
-                    <p class="mt-3 text-center"><span class="whatwedotitile"><a href="{{ route('industriesWeServe') }}">Media & Entertainment</a></span></p>
+                    <a href="{{ route('industriesWeServe') }}">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/PCGImages/home/retail&e-commerce.png') }}" alt="Retail & E-commerce" title="Retail & E-commerce" />
+                        </div>
+
+                        <p class="mt-3 text-center"><span class="whatwedotitile">Retail & E-commerce</span></p>
+                    </a>
                 </div>
+
             </div>
             <div class="col-md-3">
-                <div class="card shadow p-3 bg-white rounded text-center we_serve">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/home/retail&e-commerce.png') }}" alt="Retail & E-commerce" title="Retail & E-commerce" />
-                    </div>
 
-                    <p class="mt-3 text-center"><span class="whatwedotitile"><a href="{{ route('industriesWeServe') }}">Retail & E-commerce</a></span></p>
-                </div>
-            </div>
-            <div class="col-md-3">
                 <div class="card shadow p-3 bg-white rounded text-center we_serve">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/home/E-Governance.png') }}" alt="E-Governance" title="E-Governance" />
-                    </div>
-                    <p class="mt-3 text-center"><span class="whatwedotitile"><a href="{{ route('industriesWeServe') }}">E-Governance</a></span></p>
-
+                    <a href="{{ route('industriesWeServe') }}">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/PCGImages/home/E-Governance.png') }}" alt="E-Governance" title="E-Governance" />
+                        </div>
+                        <p class="mt-3 text-center"><span class="whatwedotitile">E-Governance</span></p>
+                    </a>
                 </div>
+
             </div>
             <div class="col-md-3 mt-4">
-                <div class="card shadow p-3 bg-white rounded text-center we_serve">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/home/Education-EdTech.png') }}" alt="Education & EdTech" title="Education & EdTech" />
-                    </div>
-                    <p class="mt-3 text-center"><span class="whatwedotitile"><a href="{{ route('industriesWeServe') }}">Education & EdTech</a></span></p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-4">
-                <div class="card shadow p-3 bg-white rounded text-center we_serve">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/home/fmcg.png') }}" alt="FMCG" title="FMCG" />
-                    </div>
 
-                    <p class="mt-3 text-center"><span class="whatwedotitile"><a href="{{ route('industriesWeServe') }}">FMCG</a></span></p>
-                </div>
-            </div>
-            <div class="col-md-3 mt-4">
                 <div class="card shadow p-3 bg-white rounded text-center we_serve">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/home/automobiles.png') }}" alt="Automobiles" title="Automobiles" />
-                    </div>
-
-                    <p class="mt-3 text-center"><span class="whatwedotitile"><a href="{{ route('industriesWeServe') }}">Automobiles</a></span></p>
+                    <a href="{{ route('industriesWeServe') }}">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/PCGImages/home/Education-EdTech.png') }}" alt="Education & EdTech" title="Education & EdTech" />
+                        </div>
+                        <p class="mt-3 text-center"><span class="whatwedotitile">Education & EdTech</span></p>
+                    </a>
                 </div>
+
             </div>
             <div class="col-md-3 mt-4">
+
+                <div class="card shadow p-3 bg-white rounded text-center we_serve">
+                    <a href="{{ route('industriesWeServe') }}">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/PCGImages/home/fmcg.png') }}" alt="FMCG" title="FMCG" />
+                        </div>
+                        <p class="mt-3 text-center"><span class="whatwedotitile">FMCG</span></p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-3 mt-4">
+
+                <div class="card shadow p-3 bg-white rounded text-center we_serve">
+                    <a href="{{ route('industriesWeServe') }}">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/PCGImages/home/automobiles.png') }}" alt="Automobiles" title="Automobiles" />
+                        </div>
+                        <p class="mt-3 text-center"><span class="whatwedotitile">Automobiles</span></p>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col-md-3 mt-4">
+
                 <div class="card shadow p-3 bg-white text-center rounded we_serve">
-                    <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/home/manufacturing.png') }}" alt="Manufacturing" title="Manufacturing" />
-                    </div>
-                    <p class="mt-3 text-center"><span class="whatwedotitile"><a href="{{ route('industriesWeServe') }}">Manufacturing</a></span></p>
+                    <a href="{{ route('industriesWeServe') }}">
+                        <div class="text-center">
+                            <img src="{{ asset('assets/img/PCGImages/home/manufacturing.png') }}" alt="Manufacturing" title="Manufacturing" />
+                        </div>
+                        <p class="mt-3 text-center"><span class="whatwedotitile">Manufacturing</span></p>
+                    </a>
                 </div>
+
             </div>
         </div>
 
         <div class="row mt-4">
             <div class="col-md-6">
                 <p class="mt-3"><span class="whatwedotitile">What Sets Us Apart?</span></p>
-                <p>At PCG, we go beyond traditional recruitment with:</p>
+                <p class="whatwedotitile">At PCG, we go beyond traditional recruitment with:</p>
 
                 <ul>
                     <li class="text-justify"><span class="whatwedotitile">Tailored HR Solutions:</span> Customised strategies for businesses of all sizes.</li>
@@ -170,17 +199,17 @@
                     Let us help you build a brighter future for your business. Partner with <span class="whatwedotitile">PCG</span>, where talent meets opportunity.
                 </p>
 
-               
+
             </div>
         </div>
         <div class="row ctabutton">
             <div class="col-md-12">
                 <div class="text-center">
-                    <a hef="{{ route('contactUs') }}">
-                        <button type="button" class="btn btn-default">
+                  
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModalCenter">
                             <span class="text-white"> Book your Call with Us Now</span>
                         </button>
-                    </a>
+                  
                 </div>
             </div>
         </div>
@@ -223,6 +252,7 @@
                         <img src="{{ asset('assets/img/PCGImages/home/Strategic-Talent-Acquisition.png') }}" title="Strategic Talent Acquisition" alt="Strategic Talent Acquisition">
                     </div>
                     <p class="text-center mt-2"><span class="whatwedotitile">Strategic Talent Acquisition</span></p>
+                    <br>
                     <p class="text-justify">Our personalised approach guarantees that fresh graduates are ready to drive organisational success.</p>
                 </div>
 
@@ -233,6 +263,7 @@
                         <img src="{{ asset('assets/img/PCGImages/home/In-Depth-Assessments.png') }}" title="In-Depth Assessments" alt="In-Depth Assessments">
                     </div>
                     <p class="text-center mt-2"><span class="whatwedotitile">In-Depth Assessments</span></p>
+                    <br>
                     <p class="text-justify">Pre-screening ensures only the most qualified candidates reach your team.</p>
                 </div>
 
@@ -243,6 +274,7 @@
                         <img src="{{ asset('assets/img/PCGImages/home/Campus-Partnership.png') }}" title="Campus Partnerships" alt="Campus Partnerships">
                     </div>
                     <p class="text-center mt-2"><span class="whatwedotitile">Campus Partnerships</span></p>
+                    <br>
                     <p class="text-justify">Collaborations with top colleges give access to diverse, high-potential talent pools.</p>
                 </div>
             </div>
@@ -308,7 +340,7 @@
 
         <div class="row">
             <div class="col-lg-12 text-left shadow p-4">
-                
+
                 <p class="text-justify">
                     At PCG, we excel in delivering temporary <span class="whatwedotitile">Staffing Services in India</span> that empower businesses to address their short-term workforce requirements seamlessly. Our expertise lies in providing Contract Staffing Solutions designed for flexibility, quality, and efficiency.
                 </p>
@@ -346,6 +378,7 @@
                         <img src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
                     </div>
                     <p class="text-center mt-2"><span class="whatwedotitile">Comprehensive Talent Pool</span></p>
+                    <br>
                     <p class="text-justify">Expertise across industries, including IT, engineering, and administration.</p>
                 </div>
 
@@ -356,6 +389,7 @@
                         <img src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
                     </div>
                     <p class="text-center mt-2"><span class="whatwedotitile">Efficient Recruitment Process</span></p>
+                    <br>
                     <p class="text-justify">We ensure candidates are screened, skill-assessed, and culturally aligned.</p>
                 </div>
 
@@ -366,6 +400,7 @@
                         <img src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
                     </div>
                     <p class="text-center mt-2"><span class="whatwedotitile">Enhanced Productivity</span></p>
+                    <br>
                     <p class="text-justify">Minimized onboarding time with a focus on job readiness.</p>
                 </div>
             </div>
@@ -375,11 +410,10 @@
         <div class="row ctabutton">
             <div class="col-md-12">
                 <div class="text-center">
-                    <a hef="{{ route('contactUs') }}">
-                        <button type="button" class="btn btn-default">
-                            <span class="text-white">Request Staffing Solutions</span>
-                        </button>
-                    </a>
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModalCenter">
+                        <span class="text-white">Request Staffing Solutions</span>
+                    </button>
+                  
                 </div>
             </div>
         </div>
@@ -397,7 +431,7 @@
         <div class="row">
             <div class="col-lg-12 shadow p-4">
                 <p class="text-justify">
-                    PCG Global Consulting is your best <span class="whatwedotitile">ERecruitment Partner in India</span> who is professional in delivering tailored hiring solutions, helping businesses secure top talent that aligns with their values, goals, and culture.
+                    PCG Global Consulting is your best <span class="whatwedotitile">Recruitment Partner in India</span> who is professional in delivering tailored hiring solutions, helping businesses secure top talent that aligns with their values, goals, and culture.
                 </p>
                 <p class="text-justify">With a focus on long-term success, we provide candidates who become integral contributors to your organisation’s growth.</p>
             </div>
@@ -651,22 +685,21 @@
                     </div>
                 </div>
             </div>
-            
+
         </div>
 
         <div class="row ctabutton">
             <div class="col-md-12">
                 <div class="text-center">
-                    <a hef="{{ route('contactUs') }}">
-                        <button type="button" class="btn btn-default">
+                        <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModalCenter">
                             <span class="text-white">Start Your Journey with Us Today</span>
                         </button>
-                    </a>
+                    
                 </div>
             </div>
         </div>
 
-        </div>
+    </div>
     </div>
 </section>
 
@@ -821,7 +854,7 @@
             </div>
 
             <div class="col-md-12 col-lg-3  pt-3 pt-3 text-center">
-                <a href="{{ route('trainingAndDevelopment') }}">
+                <a href="{{ route('permanentStaffingCompaniesBlog') }}">
                     <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
                     <h5 class="whatwedotitile">Permanent Staffing Companies: Key to Building a Stable Workforce </h5>
                 </a>
@@ -847,63 +880,67 @@
                             </div>
                             <p class="card-text mt-2">"Finding the right Business Development Manager was a real challenge for us. We’d worked with multiple consultants, but none seemed able to connect us with the right fit. Then we partnered with Prakhar Consulting Group, and it made all the difference. Their expertise and deep understanding of our needs led us to the ideal candidate, who has since proven to be an invaluable addition to our team. If you're looking for a consulting partner who truly understands your hiring needs and delivers quality talent, we highly recommend Prakhar Consulting Group."</p>
                             <h5 class="card-title text-center mt-2">Boond Engineering</h5>
-    
+
                         </div>
                     </div>
                 </div>
-    
+
                 <!-- Swiper Slide 2 -->
                 {{-- <div class="swiper-slide">
                     <div class="card">
                         <div class="card-body">
-                            <img src="{{ asset('assets/img/PCGImages/home/GEMLogo.png') }}" alt="image" class="GemLogo" width="50" />                    
-                            <p class="card-text mt-2">"Prakhar Consulting Group has a remarkable team of talented professionals dedicated to delivering results. We entrusted them with our search for a Store Manager, and they met our needs perfectly. Unlike many consulting firms, Prakhar Consulting took the time to understand our specific requirements, and they delivered a qualified candidate exactly when promised. Their responsiveness, attention to detail, and commitment to excellence truly set them apart. We are highly satisfied with the experience and wholeheartedly recommend Prakhar Consulting Group to any business seeking reliable, timely, and effective recruitment solutions."</p>
-                            <h5 class="card-title text-center mt-2">Best Seller</h5>
-    
-                        </div>
-                    </div>
-                </div> --}}
-    
-                <!-- Swiper Slide 3 -->
-                <div class="swiper-slide">
-                    <div class="card">
-    
-                        <div class="card-body">
-                            <img src="{{ asset('assets/img/PCGImages/home/GEMLogo.png') }}" alt="image" class="GemLogo" width="50" />                    
-                            <p class="card-text mt-2">"Prakhar Consulting Group provides outstanding recruitment services that truly make a difference. When we needed candidates for Accounting and Data Entry Operator roles, their professional team stepped in and delivered on time with a perfect match for our requirements. Their efficiency and commitment to understanding our needs have impressed us greatly. They will be our top choice for any future recruitment needs, as we trust their expertise and dedication to finding the right talent. For any business in need of dependable recruitment support, we highly recommend Prakhar Consulting Group."</p>
-                            <h5 class="card-title mt">GEM Enviro</h5>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Swiper Slide 4 -->
-                <div class="swiper-slide">
-                    <div class="card">
-    
-                        <div class="card-body">
-                            <img src="{{ asset('assets/img/PCGImages/home/sigma.png') }}" alt="image" class="circular-image w-20" />
-                            <p class="card-text mt-2">"Working with Prakhar Consulting Group has been a rewarding experience for Sigma University. When we needed to fill two professor positions at our Vadodara branch, their team’s support was instrumental in finding the right candidates. Prakhar Consulting Group showed a deep understanding of our academic requirements and provided skilled professionals who fit seamlessly into our faculty. Their responsiveness and dedication to meeting our hiring goals were outstanding, making the entire process smooth and efficient.”</p>
-                            <h5 class="card-title mt-2">Sigma University</h5>
-                        </div>
-                    </div>
-                </div>
-    
-                <!-- Swiper Slide 5 -->
-                <div class="swiper-slide">
-                    <div class="card">
-                        <div class="card-body">
-                            <img src="{{ asset('assets/img/PCGImages/home/chirn.png') }}" alt="image" class="circular-image w-20" />
-                            <p class="card-text mt-2">"Our outdated hiring strategies led to long-standing vacancies and high recruitment costs, creating challenges for our team. With a revamped hiring process, we now fill positions faster and more efficiently, which has greatly improved team performance and morale. Thanks to Prakhar Consulting Group here for their ultimate hiring process. We highly recommend Prakhar Consulting Group (PCG) to any organization looking to upgrade their hiring approach and see better results."</p>
-                            <h5 class="card-title mt-2">Chiranjeevi Group</h5>
-                        </div>
-                    </div>
-                </div>
+                            <img src="{{ asset('assets/img/PCGImages/home/GEMLogo.png') }}" alt="image" class="GemLogo" width="50" />
+                <p class="card-text mt-2">"Prakhar Consulting Group has a remarkable team of talented professionals dedicated to delivering results. We entrusted them with our search for a Store Manager, and they met our needs perfectly. Unlike many consulting firms, Prakhar Consulting took the time to understand our specific requirements, and they delivered a qualified candidate exactly when promised. Their responsiveness, attention to detail, and commitment to excellence truly set them apart. We are highly satisfied with the experience and wholeheartedly recommend Prakhar Consulting Group to any business seeking reliable, timely, and effective recruitment solutions."</p>
+                <h5 class="card-title text-center mt-2">Best Seller</h5>
+
             </div>
-    
-            <!-- Navigation Buttons -->
-            <div class="swiper-button-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
-            <div class="swiper-button-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
         </div>
+    </div> --}}
+
+    <!-- Swiper Slide 3 -->
+    <div class="swiper-slide">
+        <div class="card">
+
+            <div class="card-body">
+                <img src="{{ asset('assets/img/PCGImages/home/GEMLogo.png') }}" alt="image" class="GemLogo" width="50" />
+                <p class="card-text mt-2">"Prakhar Consulting Group provides outstanding recruitment services that truly make a difference. When we needed candidates for Accounting and Data Entry Operator roles, their professional team stepped in and delivered on time with a perfect match for our requirements. Their efficiency and commitment to understanding our needs have impressed us greatly. They will be our top choice for any future recruitment needs, as we trust their expertise and dedication to finding the right talent. For any business in need of dependable recruitment support, we highly recommend Prakhar Consulting Group."</p>
+                <h5 class="card-title mt">GEM Enviro</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper Slide 4 -->
+    <div class="swiper-slide">
+        <div class="card">
+
+            <div class="card-body">
+                <img src="{{ asset('assets/img/PCGImages/home/sigma.png') }}" alt="image" class="circular-image w-20" />
+                <p class="card-text mt-2">"Working with Prakhar Consulting Group has been a rewarding experience for Sigma University. When we needed to fill two professor positions at our Vadodara branch, their team’s support was instrumental in finding the right candidates. Prakhar Consulting Group showed a deep understanding of our academic requirements and provided skilled professionals who fit seamlessly into our faculty. Their responsiveness and dedication to meeting our hiring goals were outstanding, making the entire process smooth and efficient.”</p>
+                <br>
+                <h5 class="card-title mt-2">Sigma University</h5>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper Slide 5 -->
+    <div class="swiper-slide">
+        <div class="card">
+            <div class="card-body">
+                <img src="{{ asset('assets/img/PCGImages/home/chirn.png') }}" alt="image" class="circular-image w-20" />
+                <p class="card-text mt-2">"Our outdated hiring strategies led to long-standing vacancies and high recruitment costs, creating challenges for our team. With a revamped hiring process, we now fill positions faster and more efficiently, which has greatly improved team performance and morale. Thanks to Prakhar Consulting Group here for their ultimate hiring process. We highly recommend Prakhar Consulting Group (PCG) to any organization looking to upgrade their hiring approach and see better results."</p>
+                <br>
+                <br>
+                <br>
+                <h5 class="card-title mt-2">Chiranjeevi Group</h5>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- Navigation Buttons -->
+    <div class="swiper-button-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
+    <div class="swiper-button-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>
+    </div>
     </div>
 </section>
 
@@ -916,7 +953,10 @@
                 <div class="col-lg-7">
                     <h4 class="newstitle  mt-5">We're not just hiring <br> We're solving!</h4>
                     <p class="color--white cta2">Overcome all the challenges in the staffing processes with our world-class staffing solutions that help you discover top global talent, train them for your requirements, and get onboarded in less than a week!</p>
-                    <div class="cta2 mb-5"><a href="#enquiry" class="btn text-white">Get Started Now <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a></div>
+
+                    <div class="cta2 mb-5">
+                        <a href="#" class="btn text-white" data-toggle="modal" data-target="#exampleModalCenter">Get Started Now <span class="btn-arrow-hover"><i class="bi bi-arrow-up-right"></i><i class="bi bi-arrow-up-right"></i></span></a>
+                    </div>
                 </div>
                 <div class="col-lg-5 p-0">
                     <img src="{{ asset('assets/img/PCGImages/talent-solutions.png') }}" class="ctaimg" alt="talent solution" title="talent solution">
@@ -958,5 +998,168 @@
 </section>
 <!-- partial -->
 
+  {{-- Modal --}}
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalCenterTitle">Book your FREE APPOINTMENT, Now !</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="container">
+            <form id='myForm'>
+                @csrf
+                    <div class="alert alert-danger print-error-msg" style="display:none">
+                        <ul></ul>
+                    </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Name<span class="required">*</span></label>
+                            <input type="text" placeholder="Your Name*" name="name" id="name" class="form-control">
+                          
+                        </div>
+                    </div>
+                    <!--  col-md-6   -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Phone Number<span class="required">*</span></label>
+                            <input type="text" name="mobile" id="mobile" minlength="10" maxlength="10" onkeypress="return isNumberKey(event)" pattern=".{10,10}" placeholder="Your Number*" name="number" class="form-control" onpaste="return false;">
+                         
+                        </div>
+                    </div>
+                    <!--  col-md-6   -->
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label>Email address<span class="required">*</span></label>
+                            <input type="text" placeholder="Your Mail*" name="email" id='emails' class="form-control">
+                          
+                        </div>
+                    </div>
+                    <!--  col-md-6   -->
+                    <!--newfield-->
+                    <div class="col-md-6">
+                        <label>Our Services <span class="required">*</span></label>
+                        <select id="our-services" name="services">
+                            <option value="">  -- Select Option --  </option>
+                            <option value="Permanent Staffing">Permanent Staffing</option>
+                            <option value="Executive Search">Executive Search</option>
+                            <option value="Leadership Hiring">Leadership Hiring</option>
+                            <option value="Head Hunting">Head Hunting</option>
+                            <option value="IT/Non-IT Hiring">IT/Non-IT Hiring</option>
+                            <option value="Temporary Staffing">Temporary Staffing </option>
+                            <option value="Contract Staffing">Contract Staffing </option>
+                            <option value="Contract-to-Hire(C2H) Hiring">Contract-to-Hire(C2H) Hiring</option>
+                            <option value="Payroll Process">Payroll Process</option>
+                            <option value="Campus Recruitment">Campus Recruitment</option>
+                            <option value="Other Services">Other Services</option>
+                        </select>
+                        @error('services')
+                        <small class="text-danger">{{ $message }}</small>
+                        @enderror
+                    </div>
+                    <!--newfield-->
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label>Message<span class="required">*</span></label><br />
+                            <textarea class="form-control" placeholder="Comments" name="comment" id="comment" rows="2"  onpaste="return false;" maxlength="300"></textarea>
+                        </div>
+                        @error('comment')
+                        <small class="text-danger">{{ $message }}</small>
+                        @enderror
+                    </div>
+                    <!--  col-md-6   -->
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            {{-- <label>Google Recaptcha</label><br /> --}}
+                            {{-- <div class="g-recaptcha mt-2" data-sitekey='6Lcz3pEqAAAAAFGfZqdrib6sQJzjaJiWc056nU0_'>
+                            </div>
+                            @if ($errors->has('g-recaptcha-response'))
+                            <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                            @endif --}}
+                        </div>
+                    </div>
+                    <!--  col-md-6   -->
+                </div>
+          
+          </div>
+        {{-- <div class="text-center p-4 mb-5">
+         
+         
+        </div> --}}
+        <div class="row text-center p-4">
+          <div class="col-md-6 text-center">
+            {{-- <a href="{{ route('meeting') }}"><button type="button" class="btn btn-secondary" id="scheduleMeeting">Schedule Meeting</button></a> --}}
+          </div>
+          <div class="col-md-12 text-center" id="submit">
+            <button type="submit" class="btn btn-secondary btn-submit text-center">Submit</button>
+          </div>
+        </div>
+      </form>
+    </div>
+      </div>
+    </div>
+</div>
 
+@endsection
+@section('scripts')
+<script>
+$.ajaxSetup({
+headers: {
+    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+}
+});
+
+$(".btn-submit").click(function(e){
+    e.preventDefault();
+    var name = $("#name").val();
+    var email = $("#emails").val();
+    var mobile = $("#mobile").val();
+    var services = $("#our-services").val();
+    var comment = $("#comment").val();
+$.ajax({
+   type:'POST',
+   url:"{{route('enquiry')}}",
+   data:{
+    name:name,
+    email:email,
+    mobile:mobile,
+    services:services,
+    comment:comment
+  },
+   success:function(data){
+
+    console.log(data);
+
+        if($.isEmptyObject(data.error)){
+
+            alert(data.success);
+        $('#myForm')[0].reset();
+            location.reload();
+        }else{
+            printErrorMsg(data.error);
+        }
+
+   }
+
+});
+});
+
+function printErrorMsg (msg) {
+
+$(".print-error-msg").find("ul").html('');
+
+$(".print-error-msg").css('display','block');
+
+$.each( msg, function( key, value ) {
+
+    $(".print-error-msg").find("ul").append('<li>'+value+'</li>');
+
+});
+
+}
+</script>   
 @endsection

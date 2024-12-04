@@ -1,11 +1,16 @@
-@extends('layouts.master', ['title' => 'Services Prakhar Software Consulting Pvt Ltd'])
+@extends('layouts.master',
+[
+    'title' => 'Blog | Prakhar Consulting Group',
+    'keyword' => 'Blog, Expert Insights, HR Consulting Services Blog',
+    'description' => 'Get the expert insight about the HR Consulting Services, Stay updated with top HR strategies, trends, and solutions for businesses'
+])
 @section('contents')
 <div id="page-header" class="content-contrast">
     <div class="page-title-container">
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <p class="page-title text-white banner_text">Blogs</p>
+                <p class="page-title text-white banner_text text-center">Blogs</p>
             </div>
         </div>
     </div>

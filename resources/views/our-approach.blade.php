@@ -1,7 +1,7 @@
 @extends('layouts.master',
 [
-'title' => 'Recruitment Approach | Prakhar Consulting Group',
-'keyword' => 'Recruitment Approach, talent solutions, recruitment strategy, consulting methods, effective hiring, client-centric approach, tailored recruitment, innovative solutions, workforce development',
+'title' => 'Recruitment Approach | Prakhar Consulting Group | Trusted HR Solutions | Prakhar Consulting Group',
+'keyword' => 'Recruitment Approach, talent solutions, recruitment strategy, consulting methods, effective hiring, client-centric approach, tailored recruitment, innovative solutions, workforce development,Recruitment Services in India, Permanent hiring, contractual hiring, leadership recruitment, campus recruitment services, staffing solutions, executive search, recruitment consultants',
 'description' => 'Discover how Prakhar Consulting Groups tailored recruitment approach empowers businesses with effective talent solutions. Explore our unique methodologies today!'
 ])
 @section('contents')
@@ -232,9 +232,9 @@
 
                         <ul>
                             <li class="text-justify"><span class="whatwedotitile">Needs Analysis:</span> PCG Conducts a detailed analysis of current and future talent needs to align <span class="whatwedotitile">hiring strategies with business goals</span>. We identify the skills, experience, and roles required to support immediate and long-term organisational growth.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Market Insights:</span>  We deeply understand <span class="whatwedotitile">salary benchmarks, industry trends</span>, and the competitive hiring environment to position your organisation effectively.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Customised Recruitment Plans:</span> We Develop <span class="whatwedotitile">tailored recruitment strategies</span> to attract and retain top talent. PCG focuses on sourcing channels, candidate engagement, and onboarding processes for a <span class="whatwedotitile">seamless hiring experience</span>.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Employer Branding:</span> PCG builds a <span class="whatwedotitile">strong employer brand</span> to attract <span class="whatwedotitile">quality candidates</span>.  We promote a positive work culture that aligns with your mission and values, making your business an employer of choice in the talent market.</li>
+                            <li class="text-justify mt-2"><span class="whatwedotitile">Market Insights:</span>  We deeply understand <span class="whatwedotitile">salary benchmarks, industry trends</span>, and the competitive hiring environment to position your organisation effectively.</li>
+                            <li class="text-justify mt-2"><span class="whatwedotitile">Customised Recruitment Plans:</span> We Develop <span class="whatwedotitile">tailored recruitment strategies</span> to attract and retain top talent. PCG focuses on sourcing channels, candidate engagement, and onboarding processes for a <span class="whatwedotitile">seamless hiring experience</span>.</li>
+                            <li class="text-justify mt-2"><span class="whatwedotitile">Employer Branding:</span> PCG builds a <span class="whatwedotitile">strong employer brand</span> to attract <span class="whatwedotitile">quality candidates</span>.  We promote a positive work culture that aligns with your mission and values, making your business an employer of choice in the talent market.</li>
                         </ul>
 
                     </div>
@@ -263,9 +263,9 @@
                   <div class="wptb-video-content">
                       <ul>
                           <li class="text-justify"><span class="whatwedotitile">Extensive Network:</span> Access a vast pool of active and passive candidates through industry connections and professional networks.</li>
-                          <li class="text-justify"><span class="whatwedotitile">Advanced Technology:</span>  Utilize AI-powered tools, ATS, and digital platforms to streamline and target the sourcing process effectively.</li>
-                          <li class="text-justify"><span class="whatwedotitile">Rigorous Screening:</span> Conduct resume reviews, skill assessments, and behavioral interviews to identify highly qualified candidates.</li>
-                          <li class="text-justify"><span class="whatwedotitile">Cultural Fit Assessment:</span> Ensure alignment between candidates’ values and the organisation's culture to foster long-term retention and satisfaction.</li>
+                          <li class="text-justify mt-2"><span class="whatwedotitile">Advanced Technology:</span>  Utilize AI-powered tools, ATS, and digital platforms to streamline and target the sourcing process effectively.</li>
+                          <li class="text-justify mt-2"><span class="whatwedotitile">Rigorous Screening:</span> Conduct resume reviews, skill assessments, and behavioral interviews to identify highly qualified candidates.</li>
+                          <li class="text-justify mt-2"><span class="whatwedotitile">Cultural Fit Assessment:</span> Ensure alignment between candidates’ values and the organisation's culture to foster long-term retention and satisfaction.</li>
                       </ul>
 
                   </div>
@@ -293,9 +293,9 @@
                <div class="wptb-video-content">
                    <ul>
                        <li class="text-justify"><span class="whatwedotitile">Selection Support:</span> Detailed evaluations and interview feedback help identify candidates who align with team culture and business needs.</li>
-                       <li class="text-justify"><span class="whatwedotitile">Comprehensive Onboarding:</span>  Structured orientation and training programs equip employees with the tools to excel in their roles.</li>
-                       <li class="text-justify"><span class="whatwedotitile">Engagement Initiatives:</span> Early engagement fosters collaboration and a sense of belonging, improving satisfaction and retention.</li>
-                       <li class="text-justify"><span class="whatwedotitile">Cultural Fit Assessment:</span> Ensure alignment between candidates’ values and the organisation's culture to foster long-term retention and satisfaction.</li>
+                       <li class="text-justify mt-2"><span class="whatwedotitile">Comprehensive Onboarding:</span>  Structured orientation and training programs equip employees with the tools to excel in their roles.</li>
+                       <li class="text-justify mt-2"><span class="whatwedotitile">Engagement Initiatives:</span> Early engagement fosters collaboration and a sense of belonging, improving satisfaction and retention.</li>
+                       <li class="text-justify mt-2"><span class="whatwedotitile">Cultural Fit Assessment:</span> Ensure alignment between candidates’ values and the organisation's culture to foster long-term retention and satisfaction.</li>
                    </ul>
 
                </div>
@@ -327,13 +327,13 @@
                 <div class="col-md-12">
                     <div class="wptb-video-content">
                         <ul>
-                            <li class="text-justify"><span class="whatwedotitile">Cultural Fit and Skill Alignment :</span> We deliver talent that matches both the cultural and skill needs of our clients, ensuring seamless integration into their teams.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Multi-Layered Screening : </span>Our thorough screening process ensures that only the right-fit candidates are selected for each role.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Streamlined Recruitment : </span>By using advanced technology, we make the recruitment process more efficient to save time and resources.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Diverse Sourcing Channels : </span>Our wide range of sourcing strategies expands the candidate pool, providing access to a broader spectrum of talent.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Clear Communication : </span>We ensure transparent job descriptions and open communication, leading to a smoother recruitment experience.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Reduced Turnover : </span>Our strategies have led to an 18% boost in productivity by reducing turnover rates.</li>
-                            <li class="text-justify"><span class="whatwedotitile">Improved Retention : </span>We focus on retention strategies that have increased workforce stability by 25%, helping clients maintain a strong and consistent team.</li>
+                            <li class="text-justify"><span class="whatwedotitile">Cultural Fit and Skill Alignment:</span> We deliver talent that matches both the cultural and skill needs of our clients, ensuring seamless integration into their teams.</li>
+                            <li class="text-justify"><span class="whatwedotitile">Multi-Layered Screening: </span>Our thorough screening process ensures that only the right-fit candidates are selected for each role.</li>
+                            <li class="text-justify"><span class="whatwedotitile">Streamlined Recruitment: </span>By using advanced technology, we make the recruitment process more efficient to save time and resources.</li>
+                            <li class="text-justify"><span class="whatwedotitile">Diverse Sourcing Channels: </span>Our wide range of sourcing strategies expands the candidate pool, providing access to a broader spectrum of talent.</li>
+                            <li class="text-justify"><span class="whatwedotitile">Clear Communication: </span>We ensure transparent job descriptions and open communication, leading to a smoother recruitment experience.</li>
+                            <li class="text-justify"><span class="whatwedotitile">Reduced Turnover: </span>Our strategies have led to an 18% boost in productivity by reducing turnover rates.</li>
+                            <li class="text-justify"><span class="whatwedotitile">Improved Retention: </span>We focus on retention strategies that have increased workforce stability by 25%, helping clients maintain a strong and consistent team.</li>
                         </ul>
 
                     </div>

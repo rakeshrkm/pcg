@@ -58,22 +58,11 @@
     </section>
 
 
+ 
+
     <section class="container">
         <div class="text-center heading-title">
-            <h3>Senior Leadership Hiring Services in India: Building Top Leaders</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-justify">Our commitment to transparency and ethical practices has made us a trusted partner for businesses looking to strengthen their leadership teams. </p>
-                <p class="text-justify">With Prakhar Consulting Group, you can be confident that your leadership hiring needs are managed by experts, ensuring a seamless and effective recruitment process tailored to your strategic goals.</p>
-            </div>
-        </div>
-    </section>
-
-
-    <section class="container">
-        <div class="heading-title text-center">
-            <h2>Senior Leadership Hiring Services India: Building Tomorrow’s Leaders</h2>
+            <h2>Senior Leadership Hiring Services in India: Building Top Leaders</h2>
         </div>
         <div class="row">
             <div class="col-md-12">
@@ -212,8 +201,8 @@
 
 
     <section class="container">
-        <div class=" text-center">
-            <h2>How Leadership Hiring Differs from Executive Recruitment?</h2>
+        <div class="heading-title text-center">
+            <h3>How Leadership Hiring Differs from Executive Recruitment?</h3>
         </div>
         <div class="row">
             <div class="col-md-4">

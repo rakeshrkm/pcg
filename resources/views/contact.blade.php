@@ -178,13 +178,13 @@
                                         <!--  col-md-6   -->
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Google Recaptcha</label><br />
-                                                <div class="g-recaptcha mt-2" data-sitekey='6Ldvjn4qAAAAAM5HszWMXOnqbUBgDHK2_vb_RrgU'>
+                                                {{-- <label>Google Recaptcha</label><br />
+                                                <div class="g-recaptcha mt-2" data-sitekey='6Lcz3pEqAAAAAFGfZqdrib6sQJzjaJiWc056nU0_'>
 
                                                 </div>
                                                 @if ($errors->has('g-recaptcha-response'))
                                                 <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-                                                @endif
+                                                @endif --}}
                                             </div>
                                         </div>
                                         <!--  col-md-6   -->
