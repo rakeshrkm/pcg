@@ -28,8 +28,8 @@ Route::post('/contact-us', [HomeController::class, 'SubmitContact'])->name('Cont
 Route::post('/enquiry', [HomeController::class, 'enquiry'])->name('enquiry');
 
 Route::get('/blog', [HomeController::class, 'blog'])->name('blogs');
-Route::get('/blog-details/hr-challenges-scaling-management-consulting-india', [HomeController::class, 'hrChallenges'])->name('hrChallenges');
-Route::get('/blog-details/permanent-staffing-companies-building-stable-workforce', [HomeController::class, 'permanentStaffingCompaniesBlog'])->name('permanentStaffingCompaniesBlog');
+Route::get('/blog/hr-challenges-scaling-management-consulting-india', [HomeController::class, 'hrChallenges'])->name('hrChallenges');
+Route::get('/blog/permanent-staffing-companies-building-stable-workforce', [HomeController::class, 'permanentStaffingCompaniesBlog'])->name('permanentStaffingCompaniesBlog');
 
 
 

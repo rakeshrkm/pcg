@@ -4,11 +4,11 @@
     <div class="header-top">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 head_details">
+                <div class="col-md-12  mt-2">
                     <ul class="header-info pull-left">
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a href="tel:911140104369">+91 11 4010 4369</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a href="tel:8826665842">+918826665842</a></li>
                         <li>
-                            <a href="mailto:info@pcginternational.in"><i class="fa fa-envelope" aria-hidden="true"></i> info@pcginternational.in</a>
+                            <a href="mailto:connect@pcginternational.in"><i class="fa fa-envelope" aria-hidden="true"></i>connect@pcginternational.in</a>
                         </li>
                     </ul>
                     <div class="pull-right">
@@ -43,12 +43,12 @@
     <div class="header-main">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 head_details">
-                    <div class="header-logo">
+                <div class="col-md-12">
+                    <div class="header-logo ml-3">
                         <a href="{{route('index')}}">
-                            <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="Logo" title="Logo" loading="lazy" width="300" height="200" />
-                            <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" loading="lazy" width="300" height="200" />
-                            <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" loading="lazy" width="300" height="200" />
+                            <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="Logo" title="Logo" loading="lazy"  />
+                            <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" loading="lazy"  />
+                            <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" loading="lazy" />
                         </a>
                     </div>
                     <nav class="menu-container">
@@ -61,7 +61,12 @@
                             </li>
                             <li>
                                 <a>Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+
+                               
                                 <ul>
+                                
+
+
                                     <li>
                                         <a >Organisation</a>
                                         <ul>
@@ -82,7 +87,7 @@
                                                     </li>
                                                 </ul>
                                             <li>
-                                                <a href="{{ route('temporaryStaffing') }}">Temperory Staffing</a>
+                                                <a href="{{ route('temporaryStaffing') }}">Temporary Staffing</a>
                                                 <ul>
                                                     <li>
                                                         <a href="{{ route('contractStaffing') }}">Contract Staffing</a>
@@ -99,7 +104,7 @@
                                     </li>
                                     <li>
                                         <a href="{{route('universities')}}">Universities</a>
-                                    </li>
+                                    </li> 
                                 </ul>
                             </li>
                             {{-- <li>
@@ -123,14 +128,14 @@
     </div>
 </header>
 @else
-<header id="header" class="header-version2">
+<header id="header" class="header-version2" >
     <!-- header-top -->
     <div class="header-top">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <ul class="header-info pull-left">
-                        <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a href="tel:911140104369">+91 1140104369</a></li>
+                        <li><i class="fa fa-phone" aria-hidden="true"></i> Phone: <a href="tel:8826665842">+918826665842</a></li>
                         <li>
                             <a href="mailto:connect@pcginternational.in"><i class="fa fa-envelope" aria-hidden="true"></i>connect@pcginternational.in</a>
                         </li>
@@ -164,18 +169,18 @@
     </div>
     <!-- header-top end here -->
 
-    <div class="header-main">
+    <div class="header-main" >
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="header-logo">
-                        <a href="index.html">
+                        <a href="{{route('index')}}">
                             <img src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" />
                             <img class="logo-responsive" src="{{ asset('assets/img/PCGhighlogo.png') }}" title="Logo" alt="logo" />
                             <img class="logo-sticky" src="{{ asset('assets/img/PCGhighlogo.png') }}" alt="logo" title="Logo" />
                         </a>
                     </div>
-                    <nav class="menu-container" id="manuId">
+                    <nav class="menu-container">
                         <ul id="menu" class="sm me-menu">
                             <li>
 
@@ -209,7 +214,7 @@
                                                 </ul>
 
                                             <li>
-                                                <a href="{{ route('temporaryStaffing') }}">Temperory Staffing</a>
+                                                <a href="{{ route('temporaryStaffing') }}">Temporary Staffing</a>
                                                 <ul>
                                                     <li>
                                                         <a href="{{ route('contractStaffing') }}">Contract Staffing</a>

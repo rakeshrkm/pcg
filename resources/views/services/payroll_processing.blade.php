@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <p class="page-title text-white banner_text">Payroll Processing</p>
+                <p class="page-title text-white banner_text text-center">Payroll Processing</p>
             </div>
         </div>
     </div>

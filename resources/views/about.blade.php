@@ -220,7 +220,7 @@
                 </div>
             </div>
             <div class="col-md-6 col-lg-6">
-                <div class="content-box left no-margin border shadow p-3 mb-5 bg-white rounded ml-5 mission_vission">
+                <div class="content-box left no-margin border shadow p-3 mb-5 bg-white rounded mission_vission">
                     <h4 class="disableh5 text-center mb-2"><img src="{{ asset('assets/img/vision-icon.png') }}" alt="Our Vision" title="Our Vision"> Our Vision</h4>
                     <ul class="pt-2">
                         <li>

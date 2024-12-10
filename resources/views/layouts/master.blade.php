@@ -9,22 +9,12 @@
     <meta http-equiv="Content-Type" con tent="text/html; charset=UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="canonical" href="" />
-    <meta name=”robots” content=”index, follow”>
-    <meta name="googlebot" content=”index, follow”>
+    <link rel="canonical" href="{{Request::url()}}" />
     <meta name="language" content="english" />
-    <meta name="Expires" content="never" />
-    <meta name="revisit-after" content="Daily" />
-    <meta name="Author" content="Mazenet Solution Pvt Limited" />
     <meta name="Distribution" content="Global" />
     <meta name="Rating" content="general" />
-    <meta name="search engines" content="ALL" />
-    <meta property="og:site_name" content="Mazenet" />
-    <meta property="og:type" content="website" />
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="Workforce Development Company">
-    <meta property="og:image" content="meta-banner/corporate-training.jpg">
-    <meta property="og:description" content="">
+    <meta name="search engines" content="AL" />
+    <meta name="google-site-verification" content="vl624ubIqWTWlzizQTRyEoun56fbQt3WfGDzlilX8IU" />
     <meta name="csrf-token" content="{{ csrf_token() }}" />
 
     <!-- css -->
@@ -56,6 +46,7 @@
     <link href="{{ asset('assets/css/bot.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/css/main.css') }}" rel="stylesheet" type="text/css" />
     <link href="{{ asset('assets/css/custom.css') }}" rel="stylesheet" type="text/css" />
+    {{-- <link href="{{ asset('assets/css/style-career.css') }}" rel="stylesheet" type="text/css" />  --}}
     {{-- contact us --}}
     <link rel="stylesheet" href="{{ asset('assets/css/appointment/materialize.min.css') }}">
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>  
@@ -63,130 +54,114 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- <link rel="stylesheet" href="https://www.mazenet.com/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="{{ asset('assets/css/animate.min.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/appointment/style.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('assets/css/appointment/style.css') }}"> --}}
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="{{ asset('assets/js/moment.min.js') }}"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <style>
-        .g-recaptcha.error {
-            border: none;
-            padding: .2em;
-            width: 19em;
-        }
 
-        #g-recaptcha-response {
-            display: block !important;
-            position: absolute;
-            margin: -78px 0 0 0 !important;
-            width: 302px !important;
-            height: 76px !important;
-            z-index: -999999;
-            opacity: 0;
-        }
 
-        .blocked{
-     border-radius: 6px;
-opacity: 0.3;
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G2WKTVBEYZ"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-G2WKTVBEYZ');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-MXB4FS53');</script>
+<!-- End Google Tag Manager -->
+
+<script>
+    {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "PCG Global Consulting Pvt. Ltd.",
+  "url": "https://pcginternational.in/",
+  "logo": "https://pcginternational.in/index.php",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "B-1/44, LGF, Malviya Nagar, Near Tikona Park",
+    "addressLocality": "New Delhi",
+    "addressRegion": "Delhi",
+    "postalCode": "110017",
+    "addressCountry": "India"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 28.573730,
+    "longitude": 77.239070
+  },
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91 88266 60308",
+      "contactType": "customer service"
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+91 88266 65842",
+      "contactType": "customer service"
+    }
+  ],
+  "email": "connect@pcginternational.in",
+  "sameAs": [
+    "https://www.facebook.com/prakharconsultinggroup",
+    "https://www.instagram.com/prakharconsultinggroup_hr/",
+    "https://www.linkedin.com/company/prakhar-consulting-group-international/",
+    "https://x.com/prakharconsult"
+  ],
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:30",
+      "closes": "18:30"
+    },
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Sunday",
+      "opens": "00:00",
+      "closes": "00:00"
+    }
+  ],
+  "description": "PCG Global Consulting Pvt. Ltd. is a leading Recruitment Agency, Staffing Firm, and HR Consultancy specializing in Permanent Staffing, Temporary Staffing, and University Hiring.",
+  "serviceOffered": [
+    {
+      "@type": "Service",
+      "name": "Permanent Staffing"
+    },
+    {
+      "@type": "Service",
+      "name": "Temporary Staffing"
+    },
+    {
+      "@type": "Service",
+      "name": "University Hiring"
+    }
+  ]
 }
+</script>
 
-#table-body .row .col{
- margin:1px !important;
-}
-
-
-    </style>
-    <script>
-        (function(w, d, t, r, u) {
-            var f, n, i;
-            w[u] = w[u] || [], f = function() {
-                var o = {
-                    ti: "97086964"
-                    , enableAutoSpaTracking: true
-                };
-                o.q = w[u], w[u] = new UET(o), w[u].push("pageLoad")
-            }, n = d.createElement(t), n.src = r, n.async = 1, n.onload = n.onreadystatechange = function() {
-                var s = this.readyState;
-                s && s !== "loaded" && s !== "complete" || (f(), n.onload = n.onreadystatechange = null)
-            }, i = d.getElementsByTagName(t)[0], i.parentNode.insertBefore(n, i)
-        })(window, document, "script", "../bat.bing.com/bat.js", "uetq");
-
-    </script>
-
-    <!-- Google Tag Manager -->
-    <script>
-        (function(w, d, s, l, i) {
-            w[l] = w[l] || [];
-            w[l].push({
-                'gtm.start': new Date().getTime()
-                , event: 'gtm.js'
-            });
-            var f = d.getElementsByTagName(s)[0]
-                , j = d.createElement(s)
-                , dl = l != 'dataLayer' ? '&l=' + l : '';
-            j.async = true;
-            j.src =
-                '../www.googletagmanager.com/gtm5445.html?id=' + i + dl;
-            f.parentNode.insertBefore(j, f);
-        })(window, document, 'script', 'dataLayer', 'GTM-5VKJ6JB7');
-
-    </script>
-    <!-- End Google Tag Manager -->
-
-
-    <!-- Taboola Pixel Code -->
-    <script type='text/javascript'>
-        window._tfa = window._tfa || [];
-        window._tfa.push({
-            notify: 'event'
-            , name: 'page_view'
-            , id: 1602056
-        });
-        ! function(t, f, a, x) {
-            if (!document.getElementById(x)) {
-                t.async = 1;
-                t.src = a;
-                t.id = x;
-                f.parentNode.insertBefore(t, f);
-            }
-        }(document.createElement('script')
-            , document.getElementsByTagName('script')[0]
-            , '../cdn.taboola.com/libtrc/unip/1602056/tfa.js'
-            , 'tb_tfa_script');
-
-    </script>
-    <!-- End of Taboola Pixel Code -->
-
-    <!-- Taboola Pixel Code -->
-    <script>
-        _tfa.push({
-            notify: 'event'
-            , name: 'lead'
-            , id: 1602056
-        });
-
-        
-
-    </script>
-    <!-- End of Taboola Pixel Code -->
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-1007638593"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-        gtag('config', 'AW-1007638593');
-
-    </script>
 
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5VKJ6JB7" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MXB4FS53"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <!-- Chat bot UI start -->
     <div class="chat-screen">
@@ -865,11 +840,18 @@ opacity: 0.3;
     <script src="{{ asset('assets/js/jquery.easypiechart.min.js') }}"></script>
     <!--script src="js/jquery.maps.js"></script-->
     <script src="{{ asset('assets/js/config.js') }}"></script>
+    <script src="{{ asset('assets/js/custom.js') }}"></script>
 
 
 
     <script src="../www.google.com/recaptcha/api.js" async defer></script>
     <script src="{{ asset('assets/js/training.js') }}"></script>
+    
+    
+    
+
+
+
 
     @yield('scripts')
     <!--script>
@@ -2030,5 +2012,28 @@ $(".section-faq .questions .single-question > div").on("click", function() {
         </div>
     </div> -->
     <!--bottom popup-->
+    
+    
+    {{-- script start 05-12-2024 --}}
+
+<script type="text/javascript">
+    _linkedin_partner_id = "6823740";
+    window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    </script><script type="text/javascript">
+    (function(l) {
+    if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+    window.lintrk.q=[]}
+    var s = document.getElementsByTagName("script")[0];
+    var b = document.createElement("script");
+    b.type = "text/javascript";b.async = true;
+    b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    s.parentNode.insertBefore(b, s);})(window.lintrk);
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://px.ads.linkedin.com/collect/?pid=6823740&fmt=gif" />
+    </noscript>
+
+{{-- script 05-12-2024 end --}}
 </body>
 </html>

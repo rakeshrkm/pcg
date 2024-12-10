@@ -84,6 +84,20 @@
     </div>
 </section>
 
+<section class="container">
+    <div class="text-center heading-title">
+       <h2>E-Governance</h2>
+   </div>
+    <div class="row align-items-center">
+ 
+     <div class="col-md-6">
+        <p>E-Governance recruitment requires the best talent to drive digital transformation, public service efficiency, and innovation. We source skilled professionals in IT, public policy, and project management, ensuring seamless execution of e-governance projects for impactful community development.</p>
+    </div>
+     <div class="col-md-6">
+            Visual (Right): A digital government service center with citizens accessing e-services on touchscreens and kiosks, while a team of professionals in the background analyzes digital dashboards displaying data on public service delivery, citizen engagement, and IT infrastructure metrics.
+    </div>
+ </section>
+
 
 
 <section class="container">

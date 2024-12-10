@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <p class="page-title text-white banner_text">Executive Search</p>
+                <p class="page-title text-white banner_text text-center">Executive Search</p>
             </div>
         </div>
     </div>
@@ -45,14 +45,14 @@
                     <div class="flip-card card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="{{ asset('assets/img/PCGImages/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
+                                <img src="{{ asset('assets/img/PCGImages/executive-search/targeted-approach.png') }}" alt="Recruitment Services" title="Recruitment Services" />
     
                                 <h5 class="whatwedotitile mt-4">Targeted Approach</h5>
                             </div>
                             <div class="flip-card-back p-4">
                                 <h5 class="whatwedotitile ">Targeted Approach</h5>
                                 <p class="whatwedodecs text-justify">We go beyond traditional recruitment to find leaders with the skills, experience, and leadership qualities essential for organisational growth.</p>
-                                    <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center">View More</a>
+                                    {{-- <a href="#" class="btn btn-success mt-4  text-center text-white">View More</a> --}}
                             </div>
                         </div>
                     </div>
@@ -62,14 +62,14 @@
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="{{ asset('assets/img/PCGImages/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
+                                <img src="{{ asset('assets/img/PCGImages/executive-search/industry-expertise.png') }}" alt="Recruitment Services" title="Recruitment Services" />
     
                                 <h5 class="whatwedotitile mt-4">Industry Expertise</h5>
                             </div>
                             <div class="flip-card-back p-4">
                                 <h5 class="whatwedotitile ">Industry Expertise</h5>
                                 <p class="whatwedodecs text-justify">Our vast experience across industries enables us to understand the unique leadership challenges of each sector.</p>
-                                    <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center"><span class="text-white">View More</span></a>
+                                    {{-- <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center"><span class="text-white">View More</span></a> --}}
                             </div>
                         </div>
                     </div>
@@ -80,13 +80,13 @@
                     <div class="flip-card">
                         <div class="flip-card-inner">
                             <div class="flip-card-front">
-                                <img src="{{ asset('assets/img/PCGImages/recrutment_services.jpg') }}" alt="Recruitment Services" title="Recruitment Services" />
+                                <img src="{{ asset('assets/img/PCGImages/executive-search/confidential-processing.png') }}" alt="Recruitment Services" title="Recruitment Services" />
                                 <h5 class="whatwedotitile mt-4">Confidential & Rigorous Process</h5>
                             </div>
                             <div class="flip-card-back p-4">
                                 <h5 class="whatwedotitile ">Confidential & Rigorous Process</h5>
                                 <p class="whatwedodecs text-justify">We ensure a meticulous, discrete approach, presenting only the most qualified candidates who align with your business objectives.</p>
-                                    <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center"><span class="text-white">View More</span></a>
+                                    {{-- <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center"><span class="text-white">View More</span></a> --}}
                             </div>
                         </div>
                     </div>
@@ -133,8 +133,8 @@
                     </ul>
                 </div>
 
-                <div class="col-md-6">
-                    <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting" alt="business consulting" width="400">
+                <div class="col-md-6 text-center">
+                    <img src="{{ asset('assets/img/PCGImages/executive-search/Executive-Search-Services.jpg') }}" title="business consulting" alt="business consulting" width="300">
                 </div>
             </div>
             <div class="row">
@@ -156,24 +156,25 @@
                     <p class="text-justify">Effective leadership goes beyond managing teams—it defines a company’s vision, sets its goals, and ensures adaptability in dynamic markets.</p>
                     <p class="text-justify">If you also need a <a href="{{ route('headHunting') }}" class="text-primary font-weight-bold"> Headhunting</a> service, contact PCG to get everything you need for your business's growth.</p>
                 </div>
-                <div class="col-md-12">
-                    <div class="text-center">
-                        <p class="text-justify"><span class="whatwedotitile">The Role of Leadership in Business Strategy</span></p>
-                    </div>    
-                    <p class="text-justify whatwedotitile">Leaders are architects of change. They leverage industry insights and expertise to address critical areas such as:</p>
-                </div>
+             
             </div>
            
             <div class="row">
                 <div class="col-md-6">
+                    <div class="text-center">
+                        <p class="text-justify"><span class="whatwedotitile">The Role of Leadership in Business Strategy</span></p>
+                    </div>    
+                    <p class="text-justify whatwedotitile">Leaders are architects of change. They leverage industry insights and expertise to address critical areas such as:</p>
                     <ul class="">
                         <li class="text-justify"><span class="whatwedotitile">Market Expansion:</span> Capturing new opportunities in emerging and established markets.</li>
                         <li class="text-justify"><span class="whatwedotitile">Product Innovation:</span> Driving creativity and differentiation to meet evolving customer needs.</li>
                         <li class="text-justify"><span class="whatwedotitile">Operational Efficiency:</span> Streamlining processes for sustainable performance and growth.</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    <img src="{{ asset('assets/img/PCGImages/triadadvantage.png') }}" title="business consulting"  alt="business consulting" height="400" width="450">
+                <div class="col-md-6 text-center">
+                    <div>
+                        <img src="{{ asset('assets/img/PCGImages/executive-search/Shaping-Tomorrow-Strategy.jpg') }}" title="business consulting"  alt="business consulting">
+                    </div>
 
                 </div>
             </div>

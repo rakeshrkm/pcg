@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <p class="page-title text-white banner_text">Blogs Details</p>
+                <p class="page-title text-white banner_text text-center">Blog Details</p>
             </div>
         </div>
     </div>
@@ -29,8 +29,10 @@
                                 <div class="text-center heading-title">
                                     <h1 class="mt-2 text-justify">Permanent Staffing Companies: Key to Building a Stable Workforce</h1>
                                 </div>
+                                <p><span class="whatwedotitile ">Author:</span> <a href="https://www.linkedin.com/in/mayank-puri-contentwriter/" target="_blank" class="text-primary font-weight-bold">Mayank Puri</a></p>
+
                                 <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
-                                <p class="text-justify">"An organization’s workforce serves as its backbone, fueling every milestone and driving its success forward. In the highly competitive business landscape today, companies are placing greater emphasis on cultivating a stable and dependable workforce to ensure sustainable growth and efficiency." While temporary hires may address immediate needs, their benefits often pale in comparison to the long-term value that permanent employees bring to an organization. This is where <span class="whatwedotitile">Permanent Staffing Companies</span> play a pivotal role, offering tailored staffing solutions to help businesses build a strong foundation for sustained stability and growth.</p>
+                                <p class="text-justify mt-3">"An organization’s workforce serves as its backbone, fueling every milestone and driving its success forward. In the highly competitive business landscape today, companies are placing greater emphasis on cultivating a stable and dependable workforce to ensure sustainable growth and efficiency." While temporary hires may address immediate needs, their benefits often pale in comparison to the long-term value that permanent employees bring to an organization. This is where <span class="whatwedotitile">Permanent Staffing Companies</span> play a pivotal role, offering tailored staffing solutions to help businesses build a strong foundation for sustained stability and growth.</p>
                                 <div class="text-center heading-title">
                                    <h2>How Permanent Staffing Services Shape Modern Businesses?</h2>
                                 </div>

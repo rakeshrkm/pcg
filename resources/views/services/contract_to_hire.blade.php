@@ -10,7 +10,7 @@
         <div class="background-overlay"></div>
         <div class="container centered-container">
             <div class="centered-inner-container">
-                <p class="page-title text-white banner_text">Contract-to-Hire (C2H) Hiring </p>
+                <p class="page-title text-white banner_text text-center">Contract-to-Hire (C2H) Hiring </p>
             </div>
         </div>
     </div>

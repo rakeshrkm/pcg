@@ -302,10 +302,20 @@
                                 }
 
 
-                                // testimonial
+                                // redmore
+                                //-------------------------------------------------
                                 
-                               
-                                    //  endtestimonial
+                                // $('.moreless-button').click(function() {
+                                //     $('.moretext').toggle();
+                                //     if ($('.moreless-button').text() == "Read more") {
+                                //       $(this).text("Read less")
+                                //     } else {
+                                //       $(this).text("Read more")
+                                //     }
+                                //   });
+                                  
+                                // @end read more
+                                //---------------------------------------------------------
 
                                 
 
