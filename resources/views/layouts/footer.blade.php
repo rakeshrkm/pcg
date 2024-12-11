@@ -38,7 +38,7 @@
                 </ul>
             </div>
             <div class="col-md-3">
-                <h5 class="footer-title">Links</h5>
+                <h5 class="footer-title mt-3">Links</h5>
                 <ul class="me-list">
                     <li><a href="{{ route('about') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; About Us</a></li>
                     <li><a href="{{ route('industriesWeServe') }}" target="_blank"><i class="fa fa-angle-right"></i>&nbsp; Industries We Serve</a></li>
@@ -52,7 +52,7 @@
             </div>
            
             <div class="col-md-3">
-                <h6 class="footer-title" >Get In Touch</h6>
+                <h6 class="footer-title mt-3" >Get In Touch</h6>
                 <p>
                     <strong><img src="{{ asset('assets/img/mail.png') }}" alt="mail id" width="40" height="40"></strong>
                     <a href="mailto:connect@pcginternational.in">connect@pcginternational.in</a> <br />

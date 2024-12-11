@@ -673,6 +673,9 @@
   .blog_heading{
     height: auto !important;
   }
+  .What_Makes_PCG{
+    margin-top:auto !important;
+  }
   
 }
 
@@ -1327,8 +1330,9 @@
   }
 
   .business-choose{
-    margin-top:20px; 
+    padding:20px; 
     height: auto;
+
   }
 
   .we_serve{
@@ -1346,10 +1350,11 @@
 
 .business-choose{
   /* padding: 16px; */
-  height: 240px;
+  height: 260px;
 }
 .we_serve{
-  margin-top:15px
+  margin-top:15px;
+  height: 180px;
 }
 
 /* home page */
@@ -1395,10 +1400,9 @@ background-color: transparent;
   backface-visibility: hidden;
 }
 
-/* .flip-card-front {
-  background-color: #08847A;
-  color: #fff; 
-} */
+.flip-card-front img{
+object-fit: contain;
+}
 
 .flip-card-back {
   background-color: #BCDDDB;
@@ -1495,5 +1499,13 @@ background: linear-gradient(to right, #AC4F2A 0%, #382857 100%)
 .blog_heading{
   height: 200px;
 }
+/* .What_Makes_PCG{
+  margin-top:38px;
+} */
 
+.What_Makes_PCG p {
+  margin-top: 3%;
+  position: relative;
+  vertical-align: middle;
+}
 

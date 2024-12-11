@@ -14,7 +14,7 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-center">
-                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">Empowering Your Business with Premier HR Consulting Services in India</b></span></p>
+                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white text-center">Empowering Your Business with Premier HR Consulting Services in India</b></span></p>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +28,7 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-center">
-                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">India’s Best HR Consulting – Tailored to Propel Your Business</b></span></p>
+                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white text-center">India’s Best HR Consulting – Tailored to Propel Your Business</b></span></p>
                                 </div>
                             </div>
                         </div>
@@ -42,7 +42,7 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-center">
-                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">Transforming Your Workforce with Top HR Consulting Services in India</b></span></p>
+                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white text-center">Transforming Your Workforce with Top HR Consulting Services in India</b></span></p>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@
                 <div class="card m-4 shadow bg-white rounded we_serve">
                     <a href="{{ route('industriesWeServe') }}">
                         <div class="text-center">
-                            <img class="w-25 pt-3" src="{{ asset('assets/img/PCGImages/home/IT-and-Telecom.png') }}" alt="IT and Telecom" title="IT and Telecom" />
+                            <img class="pt-2" src="{{ asset('assets/img/PCGImages/home/IT-and-Telecom.png') }}" alt="IT and Telecom" title="IT and Telecom" />
                         </div>
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">IT and Telecom</span></p>
                     </a>
@@ -103,7 +103,7 @@
                 <div class="card m-4 shadow bg-white rounded we_serve">
                     <a href="{{ route('industriesWeServe') }}">
                         <div class="text-center">
-                            <img class="w-25 pt-3" src="{{ asset('assets/img/PCGImages/home/Media-and-Entertainment.png') }}" alt="Media & Entertainment" title="Media & Entertainment" />
+                            <img class="pt-2" src="{{ asset('assets/img/PCGImages/home/Media-and-Entertainment.png') }}" alt="Media & Entertainment" title="Media & Entertainment" />
                         </div>
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">Media & Entertainment</span></p>
                     </a>
@@ -113,7 +113,7 @@
                 <div class="card m-4 shadow bg-white rounded we_serve">
                     <a href="{{ route('industriesWeServe') }}">
                         <div class="text-center">
-                            <img class="w-25 pt-3" src="{{ asset('assets/img/PCGImages/home/retail&e-commerce.png') }}" alt="Retail & E-commerce" title="Retail & E-commerce" />
+                            <img class="pt-2" src="{{ asset('assets/img/PCGImages/home/retail&e-commerce.png') }}" alt="Retail & E-commerce" title="Retail & E-commerce" />
                         </div>
 
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">Retail & E-commerce</span></p>
@@ -126,7 +126,7 @@
                 <div class="card m-4 shadow bg-white rounded we_serve">
                     <a href="{{ route('industriesWeServe') }}">
                         <div class="text-center">
-                            <img class="w-25 pt-3" src="{{ asset('assets/img/PCGImages/home/E-Governance.png') }}" alt="E-Governance" title="E-Governance" />
+                            <img class="pt-2" src="{{ asset('assets/img/PCGImages/home/E-Governance.png') }}" alt="E-Governance" title="E-Governance" />
                         </div>
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">E-Governance</span></p>
                     </a>
@@ -137,7 +137,7 @@
                 <div class="card m-4 shadow bg-white rounded we_serve">
                     <a href="{{ route('industriesWeServe') }}">
                         <div class="text-center">
-                            <img class="w-25 pt-3" src="{{ asset('assets/img/PCGImages/home/Education-EdTech.png') }}" alt="Education & EdTech" title="Education & EdTech" />
+                            <img class="pt-2" src="{{ asset('assets/img/PCGImages/home/Education-EdTech.png') }}" alt="Education & EdTech" title="Education & EdTech" />
                         </div>
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">Education & EdTech</span></p>
                     </a>
@@ -148,7 +148,7 @@
                 <div class="card m-4 shadow bg-white rounded we_serve">
                     <a href="{{ route('industriesWeServe') }}">
                         <div class="text-center">
-                            <img class="w-25 pt-3" src="{{ asset('assets/img/PCGImages/home/fmcg.png') }}" alt="FMCG" title="FMCG" />
+                            <img class="pt-2" src="{{ asset('assets/img/PCGImages/home/fmcg.png') }}" alt="FMCG" title="FMCG" />
                         </div>
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">FMCG</span></p>
                     </a>
@@ -159,7 +159,7 @@
                 <div class="card m-4 shadow bg-white rounded we_serve">
                     <a href="{{ route('industriesWeServe') }}">
                         <div class="text-center">
-                            <img class="w-25 pt-3" src="{{ asset('assets/img/PCGImages/home/automobiles.png') }}" alt="Automobiles" title="Automobiles" />
+                            <img class="pt-2" src="{{ asset('assets/img/PCGImages/home/automobiles.png') }}" alt="Automobiles" title="Automobiles" />
                         </div>
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">Automobiles</span></p>
                     </a>
@@ -170,7 +170,7 @@
                 <div class="card m-4 shadow bg-white rounded we_serve">
                     <a href="{{ route('industriesWeServe') }}">
                         <div class="text-center">
-                            <img class="w-25 pt-3" src="{{ asset('assets/img/PCGImages/home/manufacturing.png') }}" alt="Manufacturing" title="Manufacturing" />
+                            <img class="pt-2" src="{{ asset('assets/img/PCGImages/home/manufacturing.png') }}" alt="Manufacturing" title="Manufacturing" />
                         </div>
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">Manufacturing</span></p>
                     </a>
@@ -185,7 +185,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <p class=""><span class="subheading">What Sets Us Apart?</span></p>
+                <p class="py-2"><span class="subheading"> What Sets Us Apart?</span></p>
                 <p class="whatwedotitile">At PCG, we go beyond traditional recruitment with:</p>
                 <ul>
                     <li class="text-justify"><span class="whatwedotitile">Tailored HR Solutions:</span> Customised strategies for businesses of all sizes.</li>
@@ -242,7 +242,7 @@
             <div class="col-md-3">
                 <div class="card business-choose shadow">
                     <div class="text-center">
-                        <img class="w-25" src="{{ asset('assets/img/PCGImages/home/Employer-Candidate-Alignment.png') }}" title="Employer-Candidate Alignment" alt="Employer-Candidate Alignment">
+                        <img class="m-2" src="{{ asset('assets/img/PCGImages/home/Employer-Candidate-Alignment.png') }}" title="Employer-Candidate Alignment" alt="Employer-Candidate Alignment">
                     </div>
                     <div class="mt-2 px-2">
                         <p class="text-center"><span class="whatwedotitile">Employer-Candidate Alignment</span></p>
@@ -254,7 +254,7 @@
             <div class="col-md-3">
                 <div class="card business-choose shadow">
                     <div class="text-center">
-                        <img class="w-25" src="{{ asset('assets/img/PCGImages/home/Strategic-Talent-Acquisition.png') }}" title="Strategic Talent Acquisition" alt="Strategic Talent Acquisition">
+                        <img class="m-2" src="{{ asset('assets/img/PCGImages/home/Strategic-Talent-Acquisition.png') }}" title="Strategic Talent Acquisition" alt="Strategic Talent Acquisition">
                     </div>
                     <div class="mt-2 px-2">
                         <p class="text-center"><span class="whatwedotitile">Strategic Talent Acquisition</span></p>
@@ -266,7 +266,7 @@
             <div class="col-md-3">
                 <div class="card business-choose shadow">
                     <div class="text-center">
-                        <img class="w-25" src="{{ asset('assets/img/PCGImages/home/In-Depth-Assessments.png') }}" title="In-Depth Assessments" alt="In-Depth Assessments">
+                        <img class="m-2" src="{{ asset('assets/img/PCGImages/home/In-Depth-Assessments.png') }}" title="In-Depth Assessments" alt="In-Depth Assessments">
                     </div>
                     <div class="mt-2 px-2">
                         <p class="text-center"><span class="whatwedotitile">In-Depth Assessments</span></p>
@@ -278,7 +278,7 @@
             <div class="col-md-3">
                 <div class="card business-choose shadow">
                     <div class="text-center">
-                        <img class="w-25" src="{{ asset('assets/img/PCGImages/home/Campus-Partnership.png') }}" title="Campus Partnerships" alt="Campus Partnerships">
+                        <img class="m-2" src="{{ asset('assets/img/PCGImages/home/Campus-Partnership.png') }}" title="Campus Partnerships" alt="Campus Partnerships">
                     </div>
                     <div class="mt-2 px-2">
                         <p class="text-center"><span class="whatwedotitile">Campus Partnerships</span></p>
@@ -378,7 +378,7 @@
             <div class="col-md-3">
                 <div class="card business-choose shadow">
                     <div class="text-center heading_background1">
-                        <img class="w-25 py-3" src="{{ asset('assets/img/PCGImages/home/Customized-Workforce-Solutions.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                        <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Customized-Workforce-Solutions.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
                     </div>
                     <div class="mt-2 px-2">
                         <p class="text-center "><span class="whatwedotitile">Customized Workforce Solutions</span></p>
@@ -390,7 +390,7 @@
             <div class="col-md-3">
                 <div class="card business-choose shadow">
                     <div class="text-center heading_background2">
-                        <img class="w-25 py-3" src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
+                        <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
                     </div>
                     <div class="mt-2 px-2">
                         <p class="text-center"><span class="whatwedotitile">Comprehensive Talent Pool</span></p>
@@ -402,7 +402,7 @@
             <div class="col-md-3">
                 <div class="card business-choose shadow">
                     <div class="text-center heading_background1">
-                        <img class="w-25 py-3" src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
+                        <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
                     </div>
                     <div class="mt-2 px-2">
                         <p class="text-center"><span class="whatwedotitile">Efficient Recruitment Process</span></p>
@@ -414,7 +414,7 @@
             <div class="col-md-3">
                 <div class="card business-choose shadow">
                     <div class="text-center heading_background2">
-                        <img class="w-25 py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                        <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
                     </div>
                     <div class="mt-2 px-2">
                         <p class="text-center mt-2"><span class="whatwedotitile">Enhanced Productivity</span></p>
@@ -472,7 +472,7 @@
                     <div class="text-center">
                         <img class="" src="{{ asset('assets/img/PCGImages/home/End-to-End-Recruitment.png') }}" title="Customised Approach" alt="Customised Approach">
                     </div>
-                    <div class="pl-2 pt-3">
+                    <div class="pl-2 What_Makes_PCG">
                         <p><span class="whatwedotitile">End-to-End Recruitment Solutions:</span> From talent sourcing and screening to onboarding.</p>
                     </div>
                 </div>
@@ -484,7 +484,7 @@
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/home/Customised-Approach.png') }}" title="Customised Approach" alt="Customised Approach">
                     </div>
-                    <div class="pl-2 pt-2">
+                    <div class="pl-2 What_Makes_PCG">
                         <p><span class="whatwedotitile">Customised Approach:</span> Recruitment strategies aligned with your unique organisational needs.</p>
                     </div>
                 </div>
@@ -494,7 +494,7 @@
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/home/Industry-Specific-Expertise.png') }}" title="Industry-Specific Expertise" alt="Industry-Specific Expertise">
                     </div>
-                    <div class="pl-2 pt-3">
+                    <div class="pl-2 What_Makes_PCG">
                         <p><span class="whatwedotitile">Industry-Specific Expertise:</span> Proven success in diverse sectors, ensuring a perfect fit for your team.</p>
                     </div>
                 </div>
@@ -504,7 +504,7 @@
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/home/Resource-Efficiency.png') }}" title="Resource Efficiency" alt="Resource Efficiency">
                     </div>
-                    <div class="pl-2 pt-3">
+                    <div class="pl-2 What_Makes_PCG">
                         <p><span class="whatwedotitile">Resource Efficiency:</span> Save time and costs by accessing our vast network and streamlined processes.</p>
                     </div>
                 </div>
@@ -514,7 +514,7 @@
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/home/Collaborative-Partnership.png') }}" title="Collaborative Partnership" alt="Collaborative Partnership">
                     </div>
-                    <div class="pl-2 pt-3">
+                    <div class="pl-2 What_Makes_PCG">
                         <p><span class="whatwedotitile">Collaborative Partnership:</span> We work closely with you to exceed expectations and deliver measurable results.</p>
                     </div>
                 </div>
@@ -545,7 +545,7 @@
                             <p class="whatwedotitile text-center mx-4">Permanent Staffing </p>
                         </div>
                         <div class="flip-card-back p-4">
-                            <p class="whatwedotitile mt-4 text-center">Permanent Staffing</p>
+                            <p class="whatwedotitile text-center">Permanent Staffing</p>
                             <p class="whatwedodecs text-justify">PCG offers tailored permanent staffing solutions, helping you build a loyal, skilled workforce that aligns with your company’s goals.</p>
                             <a href="{{ route('permanentStaffing') }}" class="btn btn-success mt-4  text-center"><span class="text-white">Read More</span></a>
                         </div>
@@ -558,7 +558,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/Training_development.jpg') }}" alt="Training and Development" title="Training and Development" />
-                            <p class="whatwedotitile text-center mx-4">Executive Search </p>
+                            <p class="whatwedotitile text-center">Executive Search </p>
                         </div>
                         <div class="flip-card-back p-4">
                             <h5 class="whatwedotitile ">Executive Search </h5>
@@ -574,8 +574,8 @@
                 <div class="flip-card  mt-4">
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
-                            <img src="{{ asset('assets/img/PCGImages/leadership_hiring.jpg') }}" alt="Consulting Services" title="Consulting Services" />
-                            <p class="whatwedotitile text-center mx-4">Leadership Hiring </p>
+                            <img src="{{ asset('assets/img/PCGImages/leadership_hiring.jpg') }}" alt="Consulting Services" title="Consulting Services"  />
+                            <p class="whatwedotitile text-center">Leadership Hiring </p>
                         </div>
                         <div class="flip-card-back p-4">
                             <h5 class="whatwedotitile">Leadership Hiring </h5>
@@ -592,7 +592,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/home/head-hunting.png') }}" alt="Head Hunting" title="Head Hunting" />
-                            <p class="whatwedotitile text-center mx-4">Head Hunting</p>
+                            <p class="whatwedotitile text-center">Head Hunting</p>
                         </div>
                         <div class="flip-card-back p-4">
                             <h5 class="whatwedotitile">Head Hunting</h5>
@@ -609,7 +609,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/it_nonit.jpg') }}" alt="IT/Non-IT Hiring" title="IT/Non-IT Hiring" />
-                            <p class="whatwedotitile text-center mx-4">IT/Non-IT Hiring</p>
+                            <p class="whatwedotitile text-center">IT/Non-IT Hiring</p>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">IT/Non-IT Hiring</h5>
@@ -624,7 +624,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/campus_recruitment.jpg') }}" alt="Temporary Staffing" title="Temporary Staffing" />
-                            <p class="whatwedotitile text-center mx-4">Temporary Staffing</p>
+                            <p class="whatwedotitile text-center ">Temporary Staffing</p>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">Temporary Staffing</h5>
@@ -640,7 +640,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/home/contract-staffing.png') }}" alt="Contract Staffing" title="Contract Staffing" />
-                            <p class="whatwedotitile text-center mx-4">Contract Staffing</p>
+                            <p class="whatwedotitile text-center">Contract Staffing</p>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">Contract Staffing</h5>
@@ -657,7 +657,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/home/connect-to-hire.png') }}" alt="Contract-to-Hire (C2H) Hiring" title="Contract-to-Hire (C2H) Hiring" />
-                            <p class="whatwedotitile text-center mx-4">Contract-to-Hire (C2H) Hiring</p>
+                            <p class="whatwedotitile text-center ">Contract-to-Hire (C2H) Hiring</p>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">Contract-to-Hire (C2H) Hiring</h5>
@@ -674,7 +674,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/home/payroll.png') }}" alt="Payroll Processing" title="Payroll Processing" />
-                            <p class="whatwedotitile text-center mx-4">Payroll Processing</p>
+                            <p class="whatwedotitile text-center">Payroll Processing</p>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile">Payroll Processing</h5>
@@ -691,7 +691,7 @@
                     <div class="flip-card-inner">
                         <div class="flip-card-front">
                             <img src="{{ asset('assets/img/PCGImages/home/universities.png') }}" alt="Universities" title="Universities" />
-                            <p class="whatwedotitile text-center mx-4">Universities</p>
+                            <p class="whatwedotitile text-center ">Universities</p>
                         </div>
                         <div class="flip-card-back  p-4">
                             <h5 class="whatwedotitile mt-4">Universities</h5>
@@ -868,8 +868,8 @@
             <div class="col-md-12 col-lg-3 pt-3">
             </div>
             <div class="col-md-12 col-lg-3 pt-3">
-                <div class="shadow p-2 blog_height">
-                    <div class="blog_heading">
+                <div class="shadow p-4 ">
+                    <div class="">
                         <a href="{{ route('hrChallenges') }}">
                             <img src="{{ asset('assets/img/PCGImages/blog/10-HR-Challenges.jpg') }}" alt="Training and Development" title="Training and Development" />
                             <h5 class="whatwedotitile text-left">10 HR Challenges in Scaling Management Consulting Companies in India</h5>
@@ -882,8 +882,8 @@
             </div>
 
             <div class="col-md-12 col-lg-3  pt-3">
-                <div class="shadow p-2 blog_height">
-                    <div class="blog_heading">
+                <div class="shadow p-4">
+                    <div class="">
                         <a href="{{ route('permanentStaffingCompaniesBlog') }}">
                             <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
                             <h5 class="whatwedotitile text-left">Permanent Staffing Companies: Key to Building a Stable Workforce </h5>
