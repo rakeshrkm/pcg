@@ -28,8 +28,7 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-center">
-                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">India’s Best HR Consulting – Tailored to Propel Your Business</b></span>
-                                    </p>
+                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">India’s Best HR Consulting – Tailored to Propel Your Business</b></span></p>
                                 </div>
                             </div>
                         </div>
@@ -43,8 +42,7 @@
                         <div class="container">
                             <div class="row align-items-center">
                                 <div class="col-md-12 text-center">
-                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">Transforming Your Workforce with Top HR Consulting Services in India</b></span>
-                                    </p>
+                                    <p class="bannertext" data-animate="animate__fadeInDown" data-animate-delay="650"><span class="text-white">Transforming Your Workforce with Top HR Consulting Services in India</b></span></p>
                                 </div>
                             </div>
                         </div>
@@ -474,7 +472,7 @@
                     <div class="text-center">
                         <img class="" src="{{ asset('assets/img/PCGImages/home/End-to-End-Recruitment.png') }}" title="Customised Approach" alt="Customised Approach">
                     </div>
-                    <div>
+                    <div class="pl-2 pt-3">
                         <p><span class="whatwedotitile">End-to-End Recruitment Solutions:</span> From talent sourcing and screening to onboarding.</p>
                     </div>
                 </div>
@@ -482,41 +480,41 @@
 
 
             <div class="col-md-6">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex">
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/home/Customised-Approach.png') }}" title="Customised Approach" alt="Customised Approach">
                     </div>
-                    <div>
+                    <div class="pl-2 pt-2">
                         <p><span class="whatwedotitile">Customised Approach:</span> Recruitment strategies aligned with your unique organisational needs.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex">
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/home/Industry-Specific-Expertise.png') }}" title="Industry-Specific Expertise" alt="Industry-Specific Expertise">
                     </div>
-                    <div>
+                    <div class="pl-2 pt-3">
                         <p><span class="whatwedotitile">Industry-Specific Expertise:</span> Proven success in diverse sectors, ensuring a perfect fit for your team.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex">
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/home/Resource-Efficiency.png') }}" title="Resource Efficiency" alt="Resource Efficiency">
                     </div>
-                    <div>
+                    <div class="pl-2 pt-3">
                         <p><span class="whatwedotitile">Resource Efficiency:</span> Save time and costs by accessing our vast network and streamlined processes.</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6">
-                <div class="d-flex justify-content-center">
+                <div class="d-flex">
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/home/Collaborative-Partnership.png') }}" title="Collaborative Partnership" alt="Collaborative Partnership">
                     </div>
-                    <div>
+                    <div class="pl-2 pt-3">
                         <p><span class="whatwedotitile">Collaborative Partnership:</span> We work closely with you to exceed expectations and deliver measurable results.</p>
                     </div>
                 </div>
@@ -871,10 +869,12 @@
             </div>
             <div class="col-md-12 col-lg-3 pt-3">
                 <div class="shadow p-2 blog_height">
-                    <a href="{{ route('hrChallenges') }}">
-                        <img src="{{ asset('assets/img/PCGImages/blog/10-HR-Challenges.jpg') }}" alt="Training and Development" title="Training and Development" />
-                        <h5 class="whatwedotitile text-left">10 HR Challenges in Scaling Management Consulting Companies in India</h5>
-                    </a>
+                    <div class="blog_heading">
+                        <a href="{{ route('hrChallenges') }}">
+                            <img src="{{ asset('assets/img/PCGImages/blog/10-HR-Challenges.jpg') }}" alt="Training and Development" title="Training and Development" />
+                            <h5 class="whatwedotitile text-left">10 HR Challenges in Scaling Management Consulting Companies in India</h5>
+                        </a>
+                    </div>
                   
                     <p><span class="whatwedotitile">Author:</span> <a href="https://www.linkedin.com/in/gauravbhatnagar08/" target="_blank" class="text-primary font-weight-bold">Gaurav Bhatnagar</a></p>
                     <a href="{{ route('hrChallenges') }}" class="btn btn-success mt-2 text-center"><span class="text-white">Read More</span></a>
@@ -883,11 +883,13 @@
 
             <div class="col-md-12 col-lg-3  pt-3">
                 <div class="shadow p-2 blog_height">
-                    <a href="{{ route('permanentStaffingCompaniesBlog') }}">
-                        <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
-                        <h5 class="whatwedotitile text-left">Permanent Staffing Companies: Key to Building a Stable Workforce </h5>
-                    </a>
-                  
+                    <div class="blog_heading">
+                        <a href="{{ route('permanentStaffingCompaniesBlog') }}">
+                            <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
+                            <h5 class="whatwedotitile text-left">Permanent Staffing Companies: Key to Building a Stable Workforce </h5>
+                        </a>
+                    </div>
+                   
                     <p><span class="whatwedotitile">Author:</span> <a href="https://www.linkedin.com/in/mayank-puri-contentwriter/" target="_blank" class="text-primary font-weight-bold">Mayank Puri</a></p>
     
                     <a href="{{ route('permanentStaffingCompaniesBlog') }}" class="btn btn-success mt-2 text-center"> <span class="text-white">Read More</span></a>

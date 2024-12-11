@@ -418,11 +418,10 @@
 .bannertext {
     font-size: 30px !important;
     color: #fff;
-    margin-bottom: 10px;
-    margin-top: -275 !important;
     text-shadow: 2px 1px #2b2b2b;
     font-weight: 500;
     line-height: 35px;
+    margin: auto;
 
 }
 
@@ -489,11 +488,10 @@
 .bannertext {
     font-size: 22px !important;
     color: #fff;
-    margin-bottom: 10px;
-    margin-top: -453px !important;
     text-shadow: 2px 1px #2b2b2b;
     font-weight: 500;
     line-height: 35px;
+    margin: auto;
 }
 
 }
@@ -537,10 +535,9 @@
 .bannertext {
     font-size: 20px;
     color: #fff;
-    margin-bottom: 10px;
-    margin-top: -330px;
     text-shadow: 2px 1px #2b2b2b;
     font-weight: 500;
+    margin: auto;
 }
 .bannertextbold {
     margin-top:-409px;
@@ -781,11 +778,10 @@
     .bannertext {
         font-size: 22px !important;
         color: #fff;
-        margin-bottom: 10px;
-        margin-top: -453px !important;
         text-shadow: 2px 1px #2b2b2b;
         font-weight: 500;
         line-height: 35px;
+        margin: auto;
     }
 }
 
@@ -793,13 +789,13 @@
     .bannertext {
         font-size: 30px !important;
         color: #fff;
-        margin-bottom: 10px;
-        margin-top: -302px !important;
         text-shadow: 2px 1px #2b2b2b;
         font-weight: 500;
         line-height: 35px;
         padding-left: 50px;
         padding-right: 50px;
+        margin: auto;
+
 
     }
 }
