@@ -17,18 +17,16 @@
 </div>
 <!-- Main Wrapper-->
 <main class="wrapper">
-    <section style="background: url(../404.html), ; background-position: right; background-repeat: no-repeat;" id="recruitment-Services">
+    <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
         <div class="container">
-            <div class="row align-items-center mt-4">
-                <div class="col-md-2">
-                </div>
+            <div class="text-center heading-title">
+                <h1>10 HR Challenges in Scaling Management Consulting Companies in India</h1>
+             </div>
+            <div class="row  mt-4">
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="blog_div">
-                                <div class="text-center heading-title">
-                                    <h1>10 HR Challenges in Scaling Management Consulting Companies in India</h1>
-                                 </div>
                                  <p><span class="whatwedotitile">Author:</span> <a href="https://www.linkedin.com/in/gauravbhatnagar08/" target="_blank" class="text-primary font-weight-bold">Gaurav Bhatnagar</a></p>
 
                                 <img src="{{ asset('assets/img/PCGImages/blog/10-HR-Challenges.jpg') }}" alt="Training and Development" title="Training and Development" />
@@ -75,48 +73,24 @@
                     </div>
                   
                 </div>
-
-                {{-- <div class="col-md-4">
-                    <div class="blog_div shadow p-3 mb-5 bg-body rounded blog_heigh">
-                        <img src="{{ asset('assets/img/corporate-training-service.webp') }}" alt="Training and Development" title="Training and Development" />
-                        <p class="mt-2 text-justify"><span class="whatwedotitile">Permanent Staffing Companies: Key to Building a Stable Workforce</span></p>
-                        <p class="text-justify">A company’s workforce is its heartbeat, driving every milestone and achievement forward ...</p>
-                        <div class="text-center">
-                            <a href="https://naukriyan.com/job_details/1011" target="_blank" class="text-center">
-                                <button type="button" class="btn btn-dark">
-                                    <span class="text-white">Read More</span>
-                                </button>
-                            </a>
+                <div class="col-md-4 align-items-top">
+                    <div class="mt-4 fixed_related_blog">
+                        <div class="text-left">
+                            <h2>Related Posts</h2>
+                        </div>
+                        <div class="blog_div">
+                            <img src="{{ asset('assets/img/corporate-training-service.webp') }}" alt="Training and Development" title="Training and Development" />
+                            <p class="mt-2 text-justify"><span class="whatwedotitile">Permanent Staffing Companies: Key to Building a Stable Workforce</span></p>
+                            <div class="text-center">
+                                <a href="https://naukriyan.com/job_details/1011" target="_blank" class="text-center">
+                                    <button type="button" class="btn btn-dark">
+                                        <span class="text-white">Read More</span>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
-                </div> --}}
-                <div class="col-md-2"></div>
-
-
-
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="text-left">
-                <h2>Related Posts</h2>
-            </div>
-
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="blog_div">
-                        <img src="{{ asset('assets/img/corporate-training-service.webp') }}" alt="Training and Development" title="Training and Development" />
-                        <p class="mt-2 text-justify"><span class="whatwedotitile">Permanent Staffing Companies: Key to Building a Stable Workforce</span></p>
-                        <div class="text-center">
-                            <a href="https://naukriyan.com/job_details/1011" target="_blank" class="text-center">
-                                <button type="button" class="btn btn-dark">
-                                    <span class="text-white">Read More</span>
-                                </button>
-                            </a>
-                        </div>
-                    </div>
+                   
                 </div>
             </div>
         </div>

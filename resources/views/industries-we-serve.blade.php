@@ -27,17 +27,20 @@
            </div>
         </div>
      </section>
-     <section class="container">
-         <div class="text-center heading-title">
-            <h2>IT & Telecom</h2>
+     <section class="section">
+        <div class="container">
+            <div class="text-center heading-title">
+                <h2>IT & Telecom</h2>
+            </div>
+             <div class="row align-items-center">
+              <div class="col-md-6">
+                <p>Rapid advancements in Artificial Intelligence (AI), Cloud Computing, and 5G moving towards 6G require adaptable, tech-savvy talent. We connect businesses with specialists skilled in digital transformation, ensuring competitiveness in this fast-paced sector.</p>
+              </div>
+              <div class="col-md-6">
+                Visual (Right): A stylized tech lab with professionals working on 5G infrastructure, cloud servers, and AI systems. Icons for connectivity (Wi-Fi, networks) complement the theme.
+              </div>
         </div>
-         <div class="row align-items-center">
-          <div class="col-md-6">
-            <p>Rapid advancements in Artificial Intelligence (AI), Cloud Computing, and 5G moving towards 6G require adaptable, tech-savvy talent. We connect businesses with specialists skilled in digital transformation, ensuring competitiveness in this fast-paced sector.</p>
-          </div>
-          <div class="col-md-6">
-            Visual (Right): A stylized tech lab with professionals working on 5G infrastructure, cloud servers, and AI systems. Icons for connectivity (Wi-Fi, networks) complement the theme.
-          </div>
+       
      </section>
 
      <section class="container">

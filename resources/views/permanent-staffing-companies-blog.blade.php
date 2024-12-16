@@ -17,18 +17,17 @@
 </div>
 <!-- Main Wrapper-->
 <main class="wrapper">
-    <section style="background: url(../404.html), ; background-position: right; background-repeat: no-repeat;" id="recruitment-Services">
+    <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
         <div class="container">
-            <div class="row  mt-4">
-                <div class="col-md-2">
-                </div>
+            <div class="text-center heading-title">
+                <h1 class="mt-2 text-center">Permanent Staffing Companies: Key to Building a Stable Workforce</h1>
+            </div>
+            <div class="row">
                 <div class="col-md-8">
                     <div class="row">
                         <div class="col-md-12">
                             <div class="blog_div bg-body rounded">
-                                <div class="text-center heading-title">
-                                    <h1 class="mt-2 text-justify">Permanent Staffing Companies: Key to Building a Stable Workforce</h1>
-                                </div>
+                               
                                 <p><span class="whatwedotitile ">Author:</span> <a href="https://www.linkedin.com/in/mayank-puri-contentwriter/" target="_blank" class="text-primary font-weight-bold">Mayank Puri</a></p>
 
                                 <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
@@ -125,45 +124,27 @@
                                 <div class="text-center heading-title">
                                     <h3>Conclusion</h3>
                                 </div>
-
                                 <p class="text-justify">Permanent staffing is more than a recruitment strategy—it is an investment in an organization’s future. <span class="whatwedotitile">Top-rated Permanent Staffing Firms</span> play a crucial role in helping businesses implement best practices, address challenges effectively, and foster a culture of growth and inclusivity. By leveraging their expertise, businesses can build a stable and high-performing workforce. Organizations that focus on permanent staffing are not just preparing for today’s needs but are also laying the groundwork for a resilient and thriving future.</p>
-
-
-
-
-
-
                             </div>
                         </div>
                     </div>
                     
                 </div>
-                <div class="col-md-2">
-
-                </div>
-
-                
-            </div>
-        </div>
-    </section>
-
-    <section>
-        <div class="container">
-            <div class="text-left">
-                <h2>Related Posts</h2>
-            </div>
-
-            <div class="row">
-              <div class="col-md-4">
-                    <div class="blog_div">
-                        <img src="{{ asset('assets/img/corporate-training-service.webp') }}" alt="Training and Development" title="Training and Development" />
-                        <p class="mt-2 text-justify"><span class="whatwedotitile">10 HR Challenges in Scaling Management Consulting Companies in India</span></p>
-                        <div class="text-center">
-                            <a href="{{ route('hrChallenges') }}" class="text-center">
-                                <button type="button" class="btn btn-dark">
-                                    <span class="text-white">Read More</span>
-                                </button>
-                            </a>
+                <div class="col-md-4 align-items-top">
+                    <div class="mt-4 fixed_related_blog">
+                        <div class="text-left">
+                         <h2>Related Posts</h2>
+                        </div>
+                        <div class="blog_div">
+                            <img src="{{ asset('assets/img/corporate-training-service.webp') }}" alt="Training and Development" title="Training and Development" />
+                            <p class="mt-2 text-justify"><span class="whatwedotitile">10 HR Challenges in Scaling Management Consulting Companies in India</span></p>
+                            <div class="text-center">
+                                <a href="{{ route('hrChallenges') }}" class="text-center">
+                                    <button type="button" class="btn btn-dark">
+                                        <span class="text-white">Read More</span>
+                                    </button>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>

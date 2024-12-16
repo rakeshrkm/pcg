@@ -11,11 +11,11 @@
                 var self = $(this);
 
                 self.smartmenus({
-                    mainMenuSubOffsetX: 0,
-                    mainMenuSubOffsetY: 0,
-                    subMenusSubOffsetX: 0,
+                    mainMenuSubOffsetX: "-20rem",
+                    mainMenuSubOffsetY: "",
+                    subMenusSubOffsetX: "",
                     subMenusSubOffsetY: -43,
-                    subMenusMinWidth: "12.5em",
+                    subMenusMinWidth: "50rem",
                     subIndicatorsText: "",
                 })
                     .find("li.active")

@@ -1,6 +1,17 @@
 @extends('layouts.master', ['title' => 'Career'])
 @section('contents')
-<section class="project-area pd-top-50 pd-bottom-90">
+
+<div id="page-header" class="content-contrast">
+    <div class="page-title-container">
+        <div class="background-overlay"></div>
+        <div class="container centered-container">
+            <div class="centered-inner-container">
+                <p class="page-title text-white banner_text text-center">Career</p>
+            </div>
+        </div>
+    </div>
+</div>
+<section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
     <div class="container">
         <div class="row justify-content-left">
             <div class="col-lg-12 col-md-12 col-sm-12">

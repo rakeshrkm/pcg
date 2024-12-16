@@ -18,9 +18,15 @@
 </div>
 <!-- Main Wrapper-->
 <main class="wrapper">
-    <section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                {{ Breadcrumbs::render('ItNonIthiring') }}
+            </div>
+        </div>
+    </div>
+    <section class="section">
         <div class="container">
-            {{ Breadcrumbs::render('ItNonIthiring') }}
             <div class="row align-items-center">
                 <div class="col-md-12">
                     <div class="heading-title text-center">
@@ -32,22 +38,21 @@
                         At PCG Global Consulting, we are proud to be recognized as the <span class="whatwedotitile">Best IT Recruitment Agency in India</span>, connecting organisations with top IT talent to fuel innovation and success.
                     </p>
                 </div>
-                <div class="col-md-12">
-                    <p class="text-justify">
-                        <span class="whatwedotitile">Why Choose Us for IT Recruitment?</span>
-                    </p>
-                </div>
+              
 
                 <div class="col-md-6">
+                    <p class="text-justify py-2">
+                        <span class="subheading">Why Choose Us for IT Recruitment?</span>
+                    </p>
                     <ul>
                         <li class="text-justify"><span class="whatwedotitile">Expertise in IT Talent Acquisition:</span> We specialize in sourcing skilled IT professionals who align with your organisational goals and culture.
-                        <p></p>
+                      
                         </li>
-                        <li class="text-justify"><span class="whatwedotitile">Strategic Hiring Approach:</span> Our efficient recruitment process reduces time-to-hire while maintaining the highest standards of quality.
-                            <p></p>
+                        <li class="text-justify mt-3"><span class="whatwedotitile">Strategic Hiring Approach:</span> Our efficient recruitment process reduces time-to-hire while maintaining the highest standards of quality.
+                          
                         </li>
-                        <li class="text-justify"><span class="whatwedotitile">Comprehensive Solutions:</span> From permanent staffing to contract hiring, we offer tailored IT Hiring Solutions in India for startups, mid-sized enterprises, and large corporations.
-                            <p></p>
+                        <li class="text-justify mt-3"><span class="whatwedotitile">Comprehensive Solutions:</span> From permanent staffing to contract hiring, we offer tailored IT Hiring Solutions in India for startups, mid-sized enterprises, and large corporations.
+                          
                         </li>
                     </ul>
                 </div>
@@ -59,7 +64,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-justify"><span class="whatwedotitile">Driving Business Success Through IT Talent</span></p>
+                    <p class="text-justify py-2"><span class="subheading">Driving Business Success Through IT Talent</span></p>
                 </div>
             </div>
 
@@ -72,7 +77,9 @@
     </section>
 
 
-    <section class="container">
+    <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
+
+        <div class="container">
         <div class="heading-title text-center">
             <h2>Top IT Recruitment Services in India for Quality Talent</h2>
         </div>
@@ -83,11 +90,9 @@
         </div>
 
         <div class="row">
-            
-
             <div class="col-md-6">
-                <div class="mt-4">
-                    <p><span class="whatwedotitile">Comprehensive IT Staffing Solutions</span></p>
+                <div >
+                    <p class="py-2"><span class="subheading">Comprehensive IT Staffing Solutions</span></p>
               
                     <p>Our <span class="whatwedotitile">IT Staffing Solutions in India</span> cover:</p>
              
@@ -100,16 +105,17 @@
             </div>
 
             <div class="col-md-6 text-center">
-                <img class="w-75" src="{{ asset('assets/img/PCGImages/it-nonit/Top-IT-Recruitment-Services-in-India.jpg') }}" title="Drive Innovation and Strategic Change" alt="Drive Innovation and Strategic Change" >
+                <img src="{{ asset('assets/img/PCGImages/it-nonit/Top-IT-Recruitment-Services-in-India.jpg') }}" title="Drive Innovation and Strategic Change" alt="Drive Innovation and Strategic Change" >
             </div>
+        </div>
 
+        <div class="row">
             <div class="col-md-12 mt-4">
                 <p class="text-justify">We leverage industry expertise and advanced techniques to connect you with talent that aligns with your goals and culture.</p>
             </div>
-
             <div class="col-md-6">
                 <div class="mt-2">
-                    <p><span class="whatwedotitile">Our Strategic Approach</span></p>
+                    <p class="py-2"><span class="subheading">Our Strategic Approach</span></p>
                     <p>At PCG, we combine</p>
                     <ul>
                         <li class="text-justify">Traditional hiring methods with innovative recruitment techniques.</li>
@@ -125,51 +131,55 @@
             </div>
 
         </div>
-
+    </div>
        
     </section>
 
 
-    <section class="container">
-        <div class=" text-center heading-title">
-            <h2>Best Non-IT Staffing Agency in India: A Partner You Can Trust</h2>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <p class="text-justify">The <span class="whatwedotitile">Best Non-IT staffing Agency in India</span> plays an important role in connecting businesses with skilled professionals across various industries outside the IT sector. The reasons why you should choose us:</p>
+    <section class="section">
+        <div class="container">
+            <div class=" text-center heading-title">
+                <h2>Best Non-IT Staffing Agency in India: A Partner You Can Trust</h2>
             </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="text-justify">The <span class="whatwedotitile">Best Non-IT staffing Agency in India</span> plays an important role in connecting businesses with skilled professionals across various industries outside the IT sector. The reasons why you should choose us:</p>
+                </div>
 
-            <div class="col-md-6">
-                <ul>
-                    <li class="text-justify"><span class="whatwedotitile">Excellent Recruitment Solutions:</span> Customised staffing strategies to meet the unique demands of various sectors.</li>
-                    <li class="text-justify mt-3"><span class="whatwedotitile">Flexible Hiring Options:</span> Contract staffing solutions for short-term goals and seasonal demands.</li>
-                    <li class="text-justify mt-3"><span class="whatwedotitile">Cultural Fit Assessments:</span> Rigorous screening processes to ensure candidates align with organisational values and culture.</p></li>
-                </ul>
-            </div>
-            <div class="col-md-6">
-                <div class="text-center">
-                    <img class="" src="{{ asset('assets/img/PCGImages/it-nonit/Best-Non-IT-Staffing-Agency-in-India.jpg') }}" title="Best Non-IT Staffing Agency in India" alt="Best Non-IT Staffing Agency in India">
+                <div class="col-md-6">
+                    <ul>
+                        <li class="text-justify"><span class="whatwedotitile">Excellent Recruitment Solutions:</span> Customised staffing strategies to meet the unique demands of various sectors.</li>
+                        <li class="text-justify mt-3"><span class="whatwedotitile">Flexible Hiring Options:</span> Contract staffing solutions for short-term goals and seasonal demands.</li>
+                        <li class="text-justify mt-3"><span class="whatwedotitile">Cultural Fit Assessments:</span> Rigorous screening processes to ensure candidates align with organisational values and culture.</p></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <img class="" src="{{ asset('assets/img/PCGImages/it-nonit/Best-Non-IT-Staffing-Agency-in-India.jpg') }}" title="Best Non-IT Staffing Agency in India" alt="Best Non-IT Staffing Agency in India">
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="container">
-        <div class="heading-title text-center">
-            <h3>Our Expertise Across Industries</h3>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <p class="text-justify">From operations and sales to finance and logistics, our <span class="whatwedotitile">Non-IT Recruitment Services in India</span> cater to diverse roles, ensuring businesses gain access to:</p>
-                <ul class="mt-2 mb-2">
-                    <li><span class="whatwedotitile">Skilled Talent:</span> Professionals with specialized industry knowledge.</li>
-                    <li><span class="whatwedotitile">Seamless Integration:</span> Candidates who adapt quickly and contribute effectively.</li>
-                </ul>
-                <p class="text-justify">By leveraging our vast network and industry insights, we deliver candidates who align with your company’s vision and values. There is also no need to search for any consultant for <a href="{{ route('permanentStaffing') }}" class="text-primary font-weight-bold">Permanent Staffing</a> service as we have the ultimate strategies for your organisation.</p>
+    <section class="section" style="background-image: linear-gradient(to right, rgb(9, 129, 120), rgb(31, 58, 87));">
+        <div class="container">
+            <div class="heading-title1 text-center">
+                <h3 class="text-white">Our Expertise Across Industries</h3>
             </div>
-            <div class="col-md-6">
-                <div class="text-center">
-                    <img class="w-75" src="{{ asset('assets/img/PCGImages/it-nonit/Our-Expertise-Across-Industries.jpg') }}" title="Best Non-IT Staffing Agency in India" alt="Best Non-IT Staffing Agency in India">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="text-justify text-white">From operations and sales to finance and logistics, our <span class="yellow">Non-IT Recruitment Services in India</span> cater to diverse roles, ensuring businesses gain access to:</p>
+                    <ul class="mt-2 mb-2">
+                        <li class="text-white"><span class="yellow">Skilled Talent:</span> Professionals with specialized industry knowledge.</li>
+                        <li class="text-white mt-3"><span class="yellow mt-3">Seamless Integration:</span> Candidates who adapt quickly and contribute effectively.</li>
+                    </ul>
+                    <p class="text-justify text-white">By leveraging our vast network and industry insights, we deliver candidates who align with your company’s vision and values. There is also no need to search for any consultant for <a href="{{ route('permanentStaffing') }}" class="text-primary font-weight-bold">Permanent Staffing</a> service as we have the ultimate strategies for your organisation.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center">
+                        <img src="{{ asset('assets/img/PCGImages/it-nonit/Our-Expertise-Across-Industries.jpg') }}" title="Best Non-IT Staffing Agency in India" alt="Best Non-IT Staffing Agency in India">
+                    </div>
                 </div>
             </div>
         </div>

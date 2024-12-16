@@ -77,6 +77,7 @@
         </div>
     </div>
 </section>
+
 <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
     <div class="container">
         <div class="heading-title text-center">
@@ -175,10 +176,8 @@
                         <p class="mt-2 mb-3 text-center"><span class="whatwedotitile">Manufacturing</span></p>
                     </a>
                 </div>
-
             </div>
         </div>
-
     </div>
 </section>
 <section class="section mt-4">
@@ -328,9 +327,9 @@
             <div class="col-md-6">
                 <ul>
                     <li><span class="whatwedotitile">End-to-End Recruitment Process:</span> We handle everything from candidate training to placement.</li>
-                    <li><span class="whatwedotitile">Strong Industry-Academia Network:</span> Collaborations with top institutions and corporate leaders.</li>
-                    <li><span class="whatwedotitile">Job-Ready Talent:</span> Focused on reducing onboarding time and boosting productivity.</li>
-                    <li><span class="whatwedotitile">Future-Ready Hiring:</span> Helping you secure the leaders of tomorrow.</li>
+                    <li><span class="whatwedotitile mt-3">Strong Industry-Academia Network:</span> Collaborations with top institutions and corporate leaders.</li>
+                    <li><span class="whatwedotitile mt-3">Job-Ready Talent:</span> Focused on reducing onboarding time and boosting productivity.</li>
+                    <li><span class="whatwedotitile mt-3">Future-Ready Hiring:</span> Helping you secure the leaders of tomorrow.</li>
                 </ul>
 
             </div>
@@ -364,7 +363,7 @@
     </div>
 </section>
 {{-- <section class="section" style="background-image: linear-gradient(to right, rgb(9, 129, 120), rgb(31, 58, 87));"> --}}
-    <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
+<section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
     <div class="container">
         <div class="row py-2">
             <div class="col-md-12">

@@ -46,7 +46,7 @@
       .payment-hero-img .h-shape {
         display: none;
       }
-      h1{
+      h1,h2,h3,h4,h5,h6{
         font-size: 20px !important;
       }
 
@@ -657,7 +657,9 @@
     
 @media screen and (max-width:768px){
   .mission_vission{
-    height: 400px !important;
+    height: auto !important;
+    padding-left: 10px;
+    padding-right: 10px;
   }
   .blog_height{
     height: auto;
@@ -673,10 +675,78 @@
   .blog_heading{
     height: auto !important;
   }
-  .What_Makes_PCG{
-    margin-top:auto !important;
+  .What_Makes_PCG p{
+    margin-top: auto !important;
+    position: relative;
   }
+
+  .transform_your_team p{
+    margin-top: auto !important;
+    position: relative;
+    /* vertical-align: middle; */
+  }
+
+  .submenuheader_1{
+    /* margin-left: 0px;  */
+    /* position: relative; */
+  }
+
+  .desktopview{
+    display: none !important;
+  }
+
+  .mobileview1{
+    display: block !important;
+  }
+  .permanent_menu a:hover{
+    color: #525252;
+    border-bottom: 0 solid #08847A;
+    transition: all 0.15s ease-in-out;
+    -moz-transition: all 0.15s ease-in-out;
+    -webkit-transition: all 0.15s ease-in-out;
+    font-weight: 700;
+    font-size: 16px;
+    }
+
+     .contact_us{
+      height: auto !important;
+      /* position: relative !important;
+      width: 100% !important;
+      left: 0px !important; */
+      /* bottom: 21.5%; */
+      /* background-color: #f6f5f5;
+      opacity: 0.9; */
+   
+      /* margin-bottom: 20px;
+      padding: 20px; */
+    
+    } 
+
+    .leadership-text-font{
+      height: auto !important;
+      margin-top: 16px !important;
+    }
   
+    .subheading{
+    /* color: #382857;  */
+    font-size: 20px !important;
+    margin-top: 14px;
+    font-weight: 600;
+    margin-bottom: 9px;
+    }
+
+    .c2h_staffing{
+      height: auto !important;
+      margin-top: 16px !important;
+    }
+
+    .c2h_staffing_heading{
+      margin-top: 16px !important;
+    }
+    .dropdown_services{
+      display: none !important;
+
+    }
 }
 
     /* show 3 items */
@@ -1330,7 +1400,7 @@
   }
 
   .business-choose{
-    padding:20px; 
+    /* padding:20px;  */
     height: auto;
 
   }
@@ -1346,12 +1416,18 @@
 }
 .mission_vission{
   height: 230px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .business-choose{
-  /* padding: 16px; */
+  margin-top: 16px; 
   height: 260px;
 }
+.connect_framework{
+  height: 300px;
+}
+
 .we_serve{
   margin-top:15px;
   height: 180px;
@@ -1385,7 +1461,7 @@ background-color: transparent;
   text-align: center;
   transition: transform 0.6s;
   transform-style: preserve-3d;
-  box-shadow: 2px 2px 4px 0 rgba(0,0,0,0.2); 
+  box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2);  */
 }
 
 .flip-card:hover .flip-card-inner {
@@ -1412,7 +1488,7 @@ object-fit: contain;
 
 
 .subheading{
-  color: #08847A;
+  /* color: #382857; */
   font-size: 22px;
   margin-top: 14px;
   font-weight: 600;
@@ -1504,8 +1580,103 @@ background: linear-gradient(to right, #AC4F2A 0%, #382857 100%)
 } */
 
 .What_Makes_PCG p {
+  margin-top: 5%;
+  position: relative;
+  vertical-align: middle;
+}
+.transform_your_team p {
   margin-top: 3%;
   position: relative;
   vertical-align: middle;
+}
+.vl{
+  border-right: 1px solid #382857;
+  height: 100%;
+}
+
+
+.permanent_menu:hover{
+color:#AC4F2A;
+}
+#permanent a{
+  color: #525252;
+  border-bottom: 0 solid #08847A;
+  transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#permanent .text-indent{
+  text-indent: 5px;
+}
+#temporary a{
+  color: #525252;
+  border-bottom: 0 solid #08847A;
+  transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+#universities a{
+  color: #525252;
+  border-bottom: 0 solid #08847A;
+  transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.univ_title{
+  color: #525252;
+  border-bottom: 0 solid #08847A;
+  transition: all 0.15s ease-in-out;
+  -moz-transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.15s ease-in-out;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+
+
+
+.desktopview{
+  display: block;
+}
+
+.mobileview1{
+  display: none;
+} 
+
+.fixed_related_blog {
+  position: sticky;
+  top: 0;
+}
+
+.contact_us{
+  height: 500px;
+  /* position: absolute;
+  width: 40%; */
+
+  /* left: 59%; */
+  /* bottom: 21.5%; */
+  background-color: #f6f5f5;
+  /* opacity: 0.9; */
+
+}
+
+.contact_details{
+  text-align: center !important;
+  border: 1px solid #dfdfdf;
+  border-radius: 10px;
+  box-shadow: 1px 4px 20px -9px #49358196;
+}
+
+.c2h_staffing{
+  height: 150px;
 }
 

@@ -16,8 +16,8 @@
     </div> 
 </div>
 
-<main class="wrapper container">
-    <section id="recruitment-Services">
+<main class="wrapper">
+    <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
         <div class="container">
             <div class="heading-title text-center">
                 <h1>Terms and Conditions of PCG Global Consulting Pvt Ltd</h1>
@@ -44,21 +44,19 @@
 
             </div>
            </div>
-        </div>
+           <div class="text-center">
+            <p class="subheading py-2">Disclaimer</p>
+      
+            <div class="row align-items-center">
+            
+            <div class="col-md-12">
+                <p class="text-justify">
+                    PCG Global Consulting makes all information and materials available on the website <span class="whatwedotitile">Insert our website’s link</span>, which are subject to the Terms & Conditions and this Disclaimer. This Disclaimer governs the use of our website. By accessing this website, you (the user) agree to the Terms & Conditions and this Disclaimer. If you do not agree to these terms, please do not access this website. PCG Global Consulting reserves the right to update the Terms & Conditions and this Disclaimer from time to time, as deemed necessary, without prior notice. By continuing to use this website after such changes have been made, you agree to accept the updated Terms & Conditions and Disclaimer, whether or not you have reviewed them.
+                </p>
+            </div>
+            </div>
+    </div>
      </section>
-     <section class="container">
-         <div class="text-center">
-            <p class="whatwedotitile">Disclaimer</p>
-        </div>
-         <div class="row align-items-center">
-        
-          <div class="col-md-12">
-            <p class="text-justify">
-                PCG Global Consulting makes all information and materials available on the website <span class="whatwedotitile">Insert our website’s link</span>, which are subject to the Terms & Conditions and this Disclaimer. This Disclaimer governs the use of our website. By accessing this website, you (the user) agree to the Terms & Conditions and this Disclaimer. If you do not agree to these terms, please do not access this website. PCG Global Consulting reserves the right to update the Terms & Conditions and this Disclaimer from time to time, as deemed necessary, without prior notice. By continuing to use this website after such changes have been made, you agree to accept the updated Terms & Conditions and Disclaimer, whether or not you have reviewed them.
-            </p>
-          </div>
-     </section>
-     
 
 </main>
 @endsection

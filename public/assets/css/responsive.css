@@ -130,7 +130,14 @@
 
     .me-menu ul > li > a,
     .me-menu .mega-menu-container {
-        color: #717173;
+        color: #525252;
+        padding: 39px 8px 39px;
+        border-bottom: 0 solid #08847A;
+        transition: all 0.15s ease-in-out;
+        -moz-transition: all 0.15s ease-in-out;
+        -webkit-transition: all 0.15s ease-in-out;
+        font-weight: 700;
+        font-size: 14px;
     }
 
     .me-menu {

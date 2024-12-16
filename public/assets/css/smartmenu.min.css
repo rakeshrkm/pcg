@@ -272,7 +272,7 @@
 	}
 
 	.me-menu a.has-submenu {
-		padding-right: 14px
+		padding-right: 14px;
 	}
 
 	.me-menu a.highlighted span.sub-arrow:before {
@@ -308,8 +308,8 @@
 	.me-menu ul a:focus,
 	.me-menu ul a:active,
 	.me-menu ul a.highlighted {
-	    background: #eee;
-    color: #000 !important;
+	/* background-image: linear-gradient(to right, #dc3545, rgb(31, 58, 87)); */
+    color: #AC4F2A !important;
 	}
 
 	.me-menu ul a.current {
@@ -322,7 +322,7 @@
 	}
 
 	.me-menu ul a.has-submenu {
-		padding-right: 20px
+		padding-right: 20px;
 	}
 
 	.me-menu ul a span.sub-arrow {
