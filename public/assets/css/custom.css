@@ -747,6 +747,9 @@
       display: none !important;
 
     }
+    .major_values{
+      height: auto !important;
+    }
 }
 
     /* show 3 items */
@@ -1422,7 +1425,7 @@
 
 .business-choose{
   margin-top: 16px; 
-  height: 260px;
+  height: 275px;
 }
 .connect_framework{
   height: 300px;
@@ -1680,3 +1683,7 @@ color:#AC4F2A;
   height: 150px;
 }
 
+.major_values{
+  height: 100%;
+  padding: 10px;
+}

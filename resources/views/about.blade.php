@@ -90,7 +90,7 @@
         </div>
         <div class="row">
             <div class="col-md-6">
-                <div class="d-flex">
+                <div class="d-flex ">
                     <div class="text-center">
                         <img src="{{ asset('assets/img/PCGImages/about/Strategic-Talent-Alignment.png') }}" alt="Strategic Talent Alignment" title="Strategic Talent Alignment" />
                     </div>
@@ -208,6 +208,46 @@
             </div>
 
            
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <div class="heading-title text-center">
+            <h3>3 Major Values for PCG</h3>
+        </div>
+        <div class="row">
+            <div class="col-md-4 p-4">
+                <div class="major_values card shadow">
+                    <p class="whatwedotitile text-center">Excellence Through Collaboration</p>
+                    <ul>
+                        <li><span class="whatwedotitile">Clients:</span> Tailored solutions for unique needs.</li>
+                        <li><span class="whatwedotitile">Teams:</span> Fostering teamwork and excellence.</li>
+                        <li><span class="whatwedotitile">Stakeholders:</span> Building trust through transparency.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <div class="major_values card shadow">
+                    <p class="whatwedotitile text-center">Innovation with Integrity</p>
+                    <ul>
+                        <li><span class="whatwedotitile">Innovation:</span> Adapting to trends with tech-driven solutions.</li>
+                        <li><span class="whatwedotitile">Integrity:</span> Honesty, transparency, and accountability.</li>
+                        <li><span class="whatwedotitile">Manifestation:</span> AI tools, data-driven decisions, and ethical leadership.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4 p-4">
+                <div class="major_values card shadow">
+                    <p class="whatwedotitile text-center">Empowering Growth</p>
+                    <ul>
+                        <li><span class="whatwedotitile">Clients:</span> Providing the right talent to drive success.</li>
+                        <li><span class="whatwedotitile">Candidates:</span> Connecting skills with opportunities.</li>
+                        <li><span class="whatwedotitile">Employees:</span> Enabling learning and growth.</li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </section>
