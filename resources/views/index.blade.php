@@ -61,7 +61,7 @@
                     <h1>PCG: The Right Choice for HR Consulting Services in India</h1>
                 </div>
                 <div class="text-center">
-                    <img src="{{ asset('assets/img/fcb.jpg') }}" width="600" height="200" alt="FCBO" title="FCBO">
+                    <img src="{{ asset('assets/img/FCB.JPG') }}" width="600" height="200" alt="FCBO" title="FCBO">
 
                 </div>
 
