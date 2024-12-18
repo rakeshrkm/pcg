@@ -173,7 +173,7 @@
             </div>
         </div>
 
-        <div class="row mt-4">
+        <div class="row section">
             <div class="col-md-6">
                 <p class="mt-3"><span class="subheading">Naukriyan Guftgu</span></p>
                 <p>Naukriyan Guftgu is an engaging <span class="whatwedotitile">corporate talk show</span> featuring discussions with industry leaders and visionaries.</p>
@@ -225,7 +225,7 @@
                         <img class="w-50" src="{{ asset('assets/img/PCGImages/about/Excellence-Through-Collaboration.png') }}" alt="Excellence Through Collaboration" title="Excellence Through Collaboration" />
                     </div>
                     <p class="whatwedotitile text-center">Excellence Through Collaboration</p>
-                    <ul>
+                    <ul class="me-list text-center">
                         <li><span class="whatwedotitile">Clients:</span> Tailored solutions for unique needs.</li>
                         <li><span class="whatwedotitile">Teams:</span> Fostering teamwork and excellence.</li>
                         <li><span class="whatwedotitile">Stakeholders:</span> Building trust through transparency.</li>
@@ -238,7 +238,7 @@
                         <img class="w-50" src="{{ asset('assets/img/PCGImages/about/Innovation-with-Integrity.png') }}" alt="Innovation with Integrity" title="Innovation with Integrity" />
                     </div>
                     <p class="whatwedotitile text-center">Innovation with Integrity</p>
-                    <ul>
+                    <ul class="me-list text-center">
                         <li><span class="whatwedotitile">Innovation:</span> Adapting to trends with tech-driven solutions.</li>
                         <li><span class="whatwedotitile">Integrity:</span> Honesty, transparency, and accountability.</li>
                         <li><span class="whatwedotitile">Manifestation:</span> AI tools, data-driven decisions, and ethical leadership.</li>
@@ -251,7 +251,7 @@
                         <img class="w-50" src="{{ asset('assets/img/PCGImages/about/Empowering-Growth.png') }}" alt="Empowering Growth" title="Empowering Growth" />
                     </div>
                     <p class="whatwedotitile text-center">Empowering Growth</p>
-                    <ul>
+                    <ul class="me-list text-center">
                         <li><span class="whatwedotitile">Clients:</span> Providing the right talent to drive success.</li>
                         <li><span class="whatwedotitile">Candidates:</span> Connecting skills with opportunities.</li>
                         <li><span class="whatwedotitile">Employees:</span> Enabling learning and growth.</li>
