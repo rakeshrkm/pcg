@@ -226,9 +226,9 @@
                     </div>
                     <p class="whatwedotitile text-center">Excellence Through Collaboration</p>
                     <ul class="me-list text-center">
-                        <li><span class="whatwedotitile">Clients:</span> Tailored solutions for unique needs.</li>
-                        <li><span class="whatwedotitile">Teams:</span> Fostering teamwork and excellence.</li>
                         <li><span class="whatwedotitile">Stakeholders:</span> Building trust through transparency.</li>
+                        <li><span class="whatwedotitile">Teams:</span> Fostering teamwork and excellence.</li>
+                        <li><span class="whatwedotitile">Clients:</span> Tailored solutions for unique needs.</li>
                     </ul>
                 </div>
             </div>
@@ -239,9 +239,9 @@
                     </div>
                     <p class="whatwedotitile text-center">Innovation with Integrity</p>
                     <ul class="me-list text-center">
+                        <li><span class="whatwedotitile">Manifestation:</span> AI tools, data-driven decisions, and ethical leadership.</li>
                         <li><span class="whatwedotitile">Innovation:</span> Adapting to trends with tech-driven solutions.</li>
                         <li><span class="whatwedotitile">Integrity:</span> Honesty, transparency, and accountability.</li>
-                        <li><span class="whatwedotitile">Manifestation:</span> AI tools, data-driven decisions, and ethical leadership.</li>
                     </ul>
                 </div>
             </div>
