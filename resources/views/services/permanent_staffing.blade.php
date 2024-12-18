@@ -35,10 +35,10 @@
                     </div>
                 </div>
                 <div class="col-md-12">
-                    <p class="text-justify">
+                    <p class="text-center">
                         PCG is the <span class="whatwedotitile">Top Permanent Staffing Company in India</span>, providing tailored recruitment solutions that align skilled professionals with your organisational vision.
                     </p>
-                    <p class="text-justify">Focusing on building cohesive teams, we ensure long-term success for businesses across industries. </p>
+                    <p class="text-center">Focusing on building cohesive teams, we ensure long-term success for businesses across industries. </p>
                 </div>
             </div>
         </div>
@@ -100,13 +100,15 @@
                     <p class="text-justify">At PCG, we are adept at tailoring Permanent Hiring Solutions in India that help businesses build stable, skilled workforces that are aligned with their long-term goals.</p>
                     <p class="text-justify">Our expertise spans multiple industries, ensuring seamless recruitment processes that allow companies to focus on growth while we handle the complexities of hiring. If you also need <a href="{{ route('temporaryStaffing') }}" class="text-primary font-weight-bold">Temporary Staffing</a> services, PCG is the right choice to support you.</p>
                 </div>
-                <div class="col-md-12">
+                <div class="col-md-12 mt-4">
                     <p class="py-2">
                         <span class="subheading">Our Methodology</span>
                     </p>
 
                 </div>
                 <div class="col-md-12 text-left">
+
+                    
                     <div class="accordion" id="accordionExample">
 
                         <div class="card">

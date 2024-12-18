@@ -21414,7 +21414,7 @@ input[type="submit"]:hover,
 .btn:hover {
     /* background: #08847A; */
     background-image: linear-gradient(to right, #dc3545, rgb(31, 58, 87));
-    box-shadow: 4px 4px 10px -2px #252b3a !important;
+    /* box-shadow: 4px 4px 10px -2px #252b3a !important; */
     color: #fff !important;
     opacity: 3;
 }

@@ -212,14 +212,18 @@
     </div>
 </section>
 
-<section class="section">
+<section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
+
     <div class="container">
         <div class="heading-title text-center">
             <h3>3 Major Values for PCG</h3>
         </div>
         <div class="row">
             <div class="col-md-4 p-4">
-                <div class="major_values card shadow">
+                <div class="major_values shadow card " style="background-color:#fff">
+                    <div class="image py-4 text-center">
+                        <img class="w-50" src="{{ asset('assets/img/PCGImages/about/Excellence-Through-Collaboration.png') }}" alt="Excellence Through Collaboration" title="Excellence Through Collaboration" />
+                    </div>
                     <p class="whatwedotitile text-center">Excellence Through Collaboration</p>
                     <ul>
                         <li><span class="whatwedotitile">Clients:</span> Tailored solutions for unique needs.</li>
@@ -229,7 +233,10 @@
                 </div>
             </div>
             <div class="col-md-4 p-4">
-                <div class="major_values card shadow">
+                <div class="major_values shadow card " style="background-color:#fff">
+                    <div class="image py-4 text-center">
+                        <img class="w-50" src="{{ asset('assets/img/PCGImages/about/Innovation-with-Integrity.png') }}" alt="Innovation with Integrity" title="Innovation with Integrity" />
+                    </div>
                     <p class="whatwedotitile text-center">Innovation with Integrity</p>
                     <ul>
                         <li><span class="whatwedotitile">Innovation:</span> Adapting to trends with tech-driven solutions.</li>
@@ -239,7 +246,10 @@
                 </div>
             </div>
             <div class="col-md-4 p-4">
-                <div class="major_values card shadow">
+                <div class="major_values shadow card " style="background-color:#fff">
+                    <div class="image py-4 text-center">
+                        <img class="w-50" src="{{ asset('assets/img/PCGImages/about/Empowering-Growth.png') }}" alt="Empowering Growth" title="Empowering Growth" />
+                    </div>
                     <p class="whatwedotitile text-center">Empowering Growth</p>
                     <ul>
                         <li><span class="whatwedotitile">Clients:</span> Providing the right talent to drive success.</li>
