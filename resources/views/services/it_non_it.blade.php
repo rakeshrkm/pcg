@@ -58,7 +58,7 @@
                 </div>
 
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('assets/img/PCGImages/it-nonit/Choose-Us-for-IT-Recruitment.jpg') }}" title="Drive Innovation and Strategic Change" alt="Drive Innovation and Strategic Change">
+                    <img class="w-75" src="{{ asset('assets/img/PCGImages/it-nonit/Choose-Us-for-IT-Recruitment.png') }}" title="Drive Innovation and Strategic Change" alt="Drive Innovation and Strategic Change">
                 </div>
 
             </div>
@@ -105,7 +105,7 @@
             </div>
 
             <div class="col-md-6 text-center">
-                <img src="{{ asset('assets/img/PCGImages/it-nonit/Top-IT-Recruitment-Services-in-India.jpg') }}" title="Drive Innovation and Strategic Change" alt="Drive Innovation and Strategic Change" >
+                <img class="w-50" src="{{ asset('assets/img/PCGImages/it-nonit/Top-IT-Recruitment-Services-in-India.png') }}" title="Drive Innovation and Strategic Change" alt="Drive Innovation and Strategic Change" >
             </div>
         </div>
 
@@ -126,7 +126,7 @@
             </div>
             <div class="col-md-6 text-center">
                 <div class="text-center">
-                    <img src="{{ asset('assets/img/PCGImages/it-nonit/Our-Strategic-Approach.jpg') }}" title="Drive Innovation and Strategic Change" alt="Drive Innovation and Strategic Change">
+                    <img class="w-75" src="{{ asset('assets/img/PCGImages/it-nonit/Our-Strategic-Approach.png') }}" title="Drive Innovation and Strategic Change" alt="Drive Innovation and Strategic Change">
                 </div>
             </div>
 
@@ -155,7 +155,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-center">
-                        <img class="" src="{{ asset('assets/img/PCGImages/it-nonit/Best-Non-IT-Staffing-Agency-in-India.jpg') }}" title="Best Non-IT Staffing Agency in India" alt="Best Non-IT Staffing Agency in India">
+                        <img class="" src="{{ asset('assets/img/PCGImages/it-nonit/Best-Non-IT-Staffing-Agency-in-India.png') }}" title="Best Non-IT Staffing Agency in India" alt="Best Non-IT Staffing Agency in India">
                     </div>
                 </div>
             </div>
@@ -178,7 +178,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-center">
-                        <img src="{{ asset('assets/img/PCGImages/it-nonit/Our-Expertise-Across-Industries.jpg') }}" title="Best Non-IT Staffing Agency in India" alt="Best Non-IT Staffing Agency in India">
+                        <img class="w-50" src="{{ asset('assets/img/PCGImages/it-nonit/Our-Expertise-Across-Industries.png') }}" title="Best Non-IT Staffing Agency in India" alt="Best Non-IT Staffing Agency in India">
                     </div>
                 </div>
             </div>
