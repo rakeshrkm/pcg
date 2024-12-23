@@ -54,7 +54,7 @@
                 </div>
                 <div class="col-md-6 text-center">
                     <div>
-                        <img src="{{ asset('assets/img/PCGImages/leadership-hiring/Leadership-Recruitment.jpg') }}" title="business consulting"  alt="business consulting">
+                        <img src="{{ asset('assets/img/PCGImages/leadership-hiring/Leadership-Recruitment.png') }}" title="business consulting"  alt="business consulting">
                     </div>
                 </div>
              </div>
@@ -95,7 +95,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background1">
-                            <img src="{{ asset('assets/img/PCGImages/leadership-hiring/In-Depth-Interviews.jpg') }}" title="In-Depth Interviews"  alt="In-Depth Interviews">
+                            <img src="{{ asset('assets/img/PCGImages/leadership-hiring/In-Depth-Interviews.png') }}" title="In-Depth Interviews"  alt="In-Depth Interviews">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">In-Depth Interviews</span></p>
@@ -107,7 +107,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background2">
-                            <img src="{{ asset('assets/img/PCGImages/leadership-hiring/Behavioral-Assessments.jpg') }}" title="Behavioral Assessments"  alt="Behavioral Assessments">
+                            <img src="{{ asset('assets/img/PCGImages/leadership-hiring/Behavioral-Assessments.png') }}" title="Behavioral Assessments"  alt="Behavioral Assessments">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">Behavioral Assessments</span></p>
@@ -119,7 +119,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background1 ">
-                            <img src="{{ asset('assets/img/PCGImages/leadership-hiring/Reference-Checks.jpg') }}" title="Reference Checks"  alt="Reference Checks">
+                            <img src="{{ asset('assets/img/PCGImages/leadership-hiring/Reference-Checks.png') }}" title="Reference Checks"  alt="Reference Checks">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">Reference Checks</span></p>

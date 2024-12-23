@@ -53,7 +53,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background1">
-                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Extensive-Talent-Network.jpg') }}" title="Extensive Talent Network" alt="Extensive Talent Network">
+                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Extensive-Talent-Network.png') }}" title="Extensive Talent Network" alt="Extensive Talent Network">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">Extensive Talent Network</span></p>
@@ -65,7 +65,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background2">
-                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Targeted-Search.jpg') }}" title="Targeted Search" alt="Targeted Search">
+                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Targeted-Search.png') }}" title="Targeted Search" alt="Targeted Search">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">Targeted Search</span></p>
@@ -77,7 +77,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background1">
-                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Rigorous-Evaluation.jpg') }}" title="Rigorous Evaluation" alt="Rigorous Evaluation">
+                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Rigorous-Evaluation.png') }}" title="Rigorous Evaluation" alt="Rigorous Evaluation">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">Rigorous Evaluation</span></p>
@@ -214,7 +214,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background1">
-                            <img  src="{{ asset('assets/img/PCGImages/head-hunting/Targeted-Talent-Acquisition.jpg') }}" title="Targeted Talent Acquisition" alt="Targeted Talent Acquisition">
+                            <img  src="{{ asset('assets/img/PCGImages/head-hunting/Targeted-Talent-Acquisition.png') }}" title="Targeted Talent Acquisition" alt="Targeted Talent Acquisition">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">Targeted Talent Acquisition</span></p>
@@ -226,7 +226,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background2">
-                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Strategic-Leadership-Focus.jpg') }}" title="Strategic Leadership Focus" alt="Strategic Leadership Focus">
+                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Strategic-Leadership-Focus.png') }}" title="Strategic Leadership Focus" alt="Strategic Leadership Focus">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">Strategic Leadership Focus</span></p>
@@ -238,7 +238,7 @@
                 <div class="col-md-4">
                     <div class="card business-choose shadow">
                         <div class="text-center heading_background1">
-                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Comprehensive-Evaluation.jpg') }}" title="Comprehensive Evaluation" alt="Comprehensive Evaluation">
+                            <img src="{{ asset('assets/img/PCGImages/head-hunting/Comprehensive-Evaluation.png') }}" title="Comprehensive Evaluation" alt="Comprehensive Evaluation">
                         </div>
                         <div class="p-4">
                             <p class="text-center mt-2"><span class="whatwedotitile">Comprehensive Evaluation</span></p>
@@ -283,25 +283,25 @@
         </div>
     </section>
 
-    <section class="section" style="background-image: linear-gradient(to right, rgb(9, 129, 120), rgb(31, 58, 87));">
+    <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
         <div class="container">
-            <div class="text-center heading-title1">
-                <h3 class="text-white">Why Partner with PCG?</h3>
+            <div class="text-center heading-title">
+                <h3>Why Partner with PCG?</h3>
             </div>
             <div class="row">
 
                 <div class="col-md-6">
                     <div class="mt-4">
-                        <p class="text-justify text-white">As a leading <span class="yellow">Headhunter Job Agency</span>, we are committed to:</p>
+                        <p class="text-justify">As a leading <span class="whatwedotitile">Headhunter Job Agency</span>, we are committed to:</p>
                         <ul class="mt-4">
-                            <li class="text-justify text-white">Delivering visionary leaders who make meaningful impacts.</li>
-                            <li class="text-justify text-white mt-3">Exceeding expectations with tailored solutions.</li>
-                            <li class="text-justify text-white mt-3">Supporting businesses in building strong leadership foundations.</li>
+                            <li class="text-justify">Delivering visionary leaders who make meaningful impacts.</li>
+                            <li class="text-justify mt-3">Exceeding expectations with tailored solutions.</li>
+                            <li class="text-justify mt-3">Supporting businesses in building strong leadership foundations.</li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('assets/img/PCGImages/head-hunting/Why-Partner-with-PCG.jpg') }}" title="Why Partner with PCG" alt="Why Partner with PCG">
+                    <img class="w-50" src="{{ asset('assets/img/PCGImages/head-hunting/Why-Partner-with-PCG.png') }}" title="Why Partner with PCG" alt="Why Partner with PCG">
                 </div>
             </div>
         </div>

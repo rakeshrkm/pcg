@@ -144,8 +144,8 @@
                     </ul>
                 </div>
 
-                <div class="col-md-6  align-items-center text-center">
-                    <img src="{{ asset('assets/img/PCGImages/executive-search/Executive-Search-Services.jpg') }}" title="business consulting" alt="business consulting" width="300">
+                <div class="col-md-6 align-items-center text-center">
+                    <img src="{{ asset('assets/img/PCGImages/executive-search/Executive-Search-Services.png') }}" title="business consulting" alt="business consulting" width="300">
                 </div>
             </div>
             <div class="row">
@@ -183,9 +183,9 @@
                         <li class="text-justify mt-3"><span class="whatwedotitile">Operational Efficiency:</span> Streamlining processes for sustainable performance and growth.</li>
                     </ul>
                 </div>
-                <div class="col-md-6 align-items-center text-center">
-                    <div>
-                        <img src="{{ asset('assets/img/PCGImages/executive-search/Shaping-Tomorrow-Strategy.jpg') }}" title="business consulting"  alt="business consulting">
+                <div class="col-md-6 text-center">
+                    <div class="py-4">
+                        <img src="{{ asset('assets/img/PCGImages/executive-search/Shaping-Tomorrow-Strategy.jpeg') }}" title="business consulting"  alt="business consulting">
                     </div>
 
                 </div>

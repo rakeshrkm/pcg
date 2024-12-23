@@ -1,11 +1,13 @@
 :focus { outline: none; }
 ::-moz-selection { /* Code for Firefox */
-  color: #1b55e2;
-  background: transparent;
+  /* color: #1b55e2; */
+  background: yellowgreen;
+  padding: 5px;
 }
 ::selection {
-  color: #1b55e2;
-  background: transparent;
+  /* color: #1b55e2; */
+  background: yellowgreen;
+  padding: 5px;
 }
 
 select.form-custom::-ms-expand {

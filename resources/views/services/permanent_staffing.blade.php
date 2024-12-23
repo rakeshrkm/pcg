@@ -34,12 +34,17 @@
                         <h1 class="text-center">Renowned as the Top Permanent Staffing Company in India</h1>
                     </div>
                 </div>
+            </div>
+
+            <div class="row">
                 <div class="col-md-12">
                     <p class="text-center">
                         PCG is the <span class="whatwedotitile">Top Permanent Staffing Company in India</span>, providing tailored recruitment solutions that align skilled professionals with your organisational vision.
                     </p>
                     <p class="text-center">Focusing on building cohesive teams, we ensure long-term success for businesses across industries. </p>
                 </div>
+
+               
             </div>
         </div>
     </section>
@@ -198,13 +203,15 @@
 
                 </div>
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('assets/img/PCGImages/permanent-staffing/our-Permanent-Staffing-Services.jpg') }}" title="Tailored Recruitment Solutions" alt="Tailored Recruitment Solutions" height="400" width="450" class="img-zoom">
+                    <img src="{{ asset('assets/img/PCGImages/permanent-staffing/Our-Permanent-Staffing-Services.png') }}" title="Tailored Recruitment Solutions" alt="Tailored Recruitment Solutions" height="400" width="450" class="img-zoom">
                 </div>
             </div>
 
             <div class="row mt-4">
                 <div class="col-md-6 text-center">
-                    <img src="{{ asset('assets/img/PCGImages/permanent-staffing/PCG-can-also-help-your-business.jpg') }}" title="Market Insights" alt="Market Insights" height="400" width="450" class="img-zoom">
+                    {{-- <div class="text-center py-2"> --}}
+                        <img src="{{ asset('assets/img/PCGImages/permanent-staffing/PCG-can-also-help-your-business.png') }}" title="Market Insights" alt="Market Insights" height="400" width="450" class="img-zoom">
+                    {{-- </div> --}}
                 </div>
                 <div class="col-md-6 mt-2">
                     <div class="col-md-12">
