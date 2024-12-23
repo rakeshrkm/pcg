@@ -172,11 +172,13 @@
             </div>
            
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-12">
                     <div class="text-center">
                         <p class="text-justify py-2"><span class="subheading">The Role of Leadership in Business Strategy</span></p>
                     </div>    
                     <p class="text-justify whatwedotitile">Leaders are architects of change. They leverage industry insights and expertise to address critical areas such as:</p>
+                </div>
+                <div class="col-md-6">
                     <ul class="">
                         <li class="text-justify"><span class="whatwedotitile">Market Expansion:</span> Capturing new opportunities in emerging and established markets.</li>
                         <li class="text-justify mt-3"><span class="whatwedotitile">Product Innovation:</span> Driving creativity and differentiation to meet evolving customer needs.</li>
@@ -184,8 +186,8 @@
                     </ul>
                 </div>
                 <div class="col-md-6 text-center">
-                    <div class="py-4">
-                        <img src="{{ asset('assets/img/PCGImages/executive-search/Shaping-Tomorrow-Strategy.jpeg') }}" title="business consulting"  alt="business consulting">
+                    <div class="p-4">
+                        <img class="w-75" src="{{ asset('assets/img/PCGImages/executive-search/Shaping-Tomorrow-Strategy.png') }}" title="business consulting"  alt="business consulting">
                     </div>
 
                 </div>
