@@ -18,14 +18,116 @@
 </div>
 
 <main class="wrapper">
-    <section class="section">
+    <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
         <div class="container">
-            <div class="heading-title text-center">
-                <h1 class="text-center mt-4 p-4">Connecting Talent to Industry Needs for Maximum Impact</h1>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="heading-title text-center">
+                        <h1 class="text-center">Connecting Talent to Industry Needs for Maximum Impact</h1>
+                    </div>
+                </div>
             </div>
+    
+            <div class="row">
+                <div class="col-md-4 mt-4">
+                    <div class="card industries-we-serve shadow">
+                        <div class="text-center heading_background1">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Customized-Workforce-Solutions.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                        </div>
+                        <div class="mt-2 px-2">
+                            <p class="text-center "><span class="whatwedotitile">IT & Telecom</span></p>
+                            <p class="text-center">Rapid advancements in Artificial Intelligence (AI), Cloud Computing, and 5G moving towards 6G require adaptable, tech-savvy talent. We connect businesses with specialists skilled in digital transformation, ensuring competitiveness in this fast-paced sector.</p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card industries-we-serve shadow">
+                        <div class="text-center heading_background2">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
+                        </div>
+                        <div class="mt-2 px-2">
+                            <p class="text-center"><span class="whatwedotitile">Media & Entertainment</span></p>
+                            <p class="text-center">The shift to digital platforms demands versatile professionals skilled in content creation, digital marketing, and data analytics. We help businesses secure creative talent to lead in a dynamic and competitive market.</p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card industries-we-serve shadow">
+                        <div class="text-center heading_background1">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
+                        </div>
+                        <div class="mt-2 px-2">
+                            <p class="text-center"><span class="whatwedotitile">Education & EdTech</span></p>
+                            <p class="text-center">As digital learning grows, so does the demand for professionals skilled in curriculum design, e-learning platforms, and AI-based learning tools. We help organisations build teams that enhance education for a digital age.</p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card industries-we-serve shadow">
+                        <div class="text-center heading_background2">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                        </div>
+                        <div class="mt-2 px-2">
+                            <p class="text-center mt-2"><span class="whatwedotitile">Retail & E-Commerce</span></p>
+                            <p class="text-center">From inventory management to AI-driven customer insights, we connect businesses with talent skilled in optimising digital platforms and driving customer engagement, ensuring seamless retail experiences.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card industries-we-serve shadow">
+                        <div class="text-center heading_background1">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                        </div>
+                        <div class="mt-2 px-2">
+                            <p class="text-center mt-2"><span class="whatwedotitile">E-Governance</span></p>
+                            <p class="text-center">E-Governance recruitment requires the best talent to drive digital transformation, public service efficiency, and innovation. We source skilled professionals in IT, public policy, and project management, ensuring seamless execution of e-governance projects for impactful community development.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card industries-we-serve shadow">
+                        <div class="text-center heading_background2">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                        </div>
+                        <div class="mt-2 px-2">
+                            <p class="text-center mt-2"><span class="whatwedotitile">FMCG</span></p>
+                            <p class="text-center">FMCG companies rely on innovation, marketing, and logistics experts to manage product turnover and respond to consumer trends. We connect businesses with talent that ensures operational efficiency and customer satisfaction.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card industries-we-serve shadow">
+                        <div class="text-center heading_background1">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                        </div>
+                        <div class="mt-2 px-2">
+                            <p class="text-center mt-2"><span class="whatwedotitile">Manufacturing</span></p>
+                            <p class="text-center">From addressing workforce shortages to managing automation, we connect businesses with skilled professionals who ensure operational efficiency and adapt to advancements in manufacturing technology.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mt-4">
+                    <div class="card industries-we-serve shadow">
+                        <div class="text-center heading_background2">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                        </div>
+                        <div class="mt-2 px-2">
+                            <p class="text-center mt-2"><span class="whatwedotitile">Automobiles</span></p>
+                            <p class="text-center">As the industry shifts from traditional transmissions toward Hybrids & EVs and other sustainable technology types, we have geared up to specialise in sourcing talent skilled in engineering, software integration, and sustainable innovation to drive progress.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+    
         </div>
-     </section>
-     <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
+    </section>
+
+     {{-- <section class="section" style="background-image: url({{ asset('assets/img/PCGImages/background.png') }});background-size:cover;">
 
         <div class="container">
             <div class="text-center heading-title">
@@ -141,7 +243,7 @@
              <p class="text-white">From addressing workforce shortages to managing automation, we connect businesses with skilled professionals who ensure operational efficiency and adapt to advancements in manufacturing technology.</p>
          </div>
     </div>
- </section>
+</section>
 
  <section class="section">
     <div class="container">
@@ -156,6 +258,6 @@
              Visual (Right): A modern EV assembly line with engineers working on battery systems and autonomous tech integration. Include design blueprints for a futuristic feel.
          </div>
     </div>
- </section>
+</section> --}}
 </main>
 @endsection
