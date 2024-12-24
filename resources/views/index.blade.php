@@ -863,13 +863,15 @@
     </div>
     <div class="container text-center">
         <div class="row">
-            <div class="col-md-12 col-lg-3 pt-3">
+            <div class="col-md-12 col-lg-2 pt-3">
             </div>
-            <div class="col-md-12 col-lg-3 pt-3">
+            <div class="col-md-12 col-lg-4 pt-3">
+                <a href="{{ route('hrChallenges') }}">
+                    <img src="{{ asset('assets/img/PCGImages/blog/10-HR-Challenges.jpg') }}" alt="Training and Development" title="Training and Development" />
+                </a>
                 <div class="shadow p-4 ">
                     <div class="">
                         <a href="{{ route('hrChallenges') }}">
-                            <img src="{{ asset('assets/img/PCGImages/blog/10-HR-Challenges.jpg') }}" alt="Training and Development" title="Training and Development" />
                             <h5 class="whatwedotitile text-left">10 HR Challenges in Scaling Management Consulting Companies in India</h5>
                         </a>
                     </div>
@@ -879,11 +881,13 @@
                 </div>
             </div>
 
-            <div class="col-md-12 col-lg-3  pt-3">
+            <div class="col-md-12 col-lg-4  pt-3">
+                <a href="{{ route('permanentStaffingCompaniesBlog') }}">
+                    <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
+                </a>
                 <div class="shadow p-4">
                     <div class="">
                         <a href="{{ route('permanentStaffingCompaniesBlog') }}">
-                            <img src="{{ asset('assets/img/PCGImages/blog/Permanent-Staffing.jpg') }}" alt="Training and Development" title="Training and Development" />
                             <h5 class="whatwedotitile text-left">Permanent Staffing Companies: Key to Building a Stable Workforce </h5>
                         </a>
                     </div>

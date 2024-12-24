@@ -313,7 +313,7 @@
 /* [small screen] */
 @media screen and (max-width: 576px) {
     .section {
-        /*  padding: 40px 0; */
+         padding: 15px 0; 
     }
 
     .header-top {
