@@ -65,14 +65,56 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-justify">Our <span class="whatwedotitile">Contractual Hiring Solutions in India</span> cater to diverse sectors, including:</p>
-                    <ul>
-                        <li>IT</li>
-                        <li>Manufacturing</li>
-                        <li>Healthcare</li>
-                        <li>Retail</li>
-                    </ul>
+                    <p class="text-justify mb-4">Our <span class="whatwedotitile">Contractual Hiring Solutions in India</span> cater to diverse sectors, including:</p>
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow">
+                        <div class="text-center heading_background1">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Customized-Workforce-Solutions.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                        </div>
+                        <div class="mt-2 py-2">
+                            <p class="text-center "><span class="whatwedotitile">Information Technology (IT)</span></p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow">
+                        <div class="text-center heading_background2">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
+                        </div>
+                        <div class="mt-2 py-2">
+                            <p class="text-center"><span class="whatwedotitile">Manufacturing</span></p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow">
+                        <div class="text-center heading_background1">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
+                        </div>
+                        <div class="mt-2 py-2">
+                            <p class="text-center"><span class="whatwedotitile">Healthcare</span></p>
+                        </div>
+                    </div>
+    
+                </div>
+                <div class="col-md-3">
+                    <div class="card shadow">
+                        <div class="text-center heading_background2">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                        </div>
+                        <div class="mt-2 py-2">
+                            <p class="text-center"><span class="whatwedotitile">Retail</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+
+            <div class="row mt-4">
+                <div class="col-md-12">
                     <p>We customise our services to match the unique needs of each client, ensuring a seamless staffing experience.</p>
                     <p>Do you also need a <a href="{{ route('headHunting') }}">Headhunting</a> service? If yes, we have a team of professionals who can help you with that as well.</p>
                 </div>
