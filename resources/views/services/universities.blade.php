@@ -27,7 +27,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background1">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Customized-Workforce-Solutions.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Staff-Hiring-Solutions.png') }}" title="Staff Hiring Solutions" alt="Staff Hiring Solutions">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center"><span class="whatwedotitile">Staff Hiring Solutions</span></p>
@@ -39,7 +39,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background2">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Campus-to-Corporate-Program.png') }}" title="Campus-to-Corporate Program" alt="Comprehensive Talent Pool">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center"><span class="whatwedotitile">Campus-to-Corporate Program</span></p>
@@ -50,7 +50,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background1">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Job-Placement-Support.png') }}" title="Job Placement Support" alt="Job Placement Support">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center"><span class="whatwedotitile">Job Placement Support</span></p>
@@ -62,7 +62,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background2">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Student-Training-Development.png') }}" title="Student Training & Development" alt="Student Training & Development">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center mt-2"><span class="whatwedotitile">Student Training & Development</span></p>
@@ -73,7 +73,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background1">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Internship-Opportunities.png') }}" title="Internship Opportunities" alt="Internship Opportunities">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center mt-2"><span class="whatwedotitile">Internship Opportunities</span></p>
@@ -84,7 +84,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background2">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Industrial-Visit-Programs.png') }}" title="Industrial Visit Programs" alt="Industrial Visit Programs">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center mt-2"><span class="whatwedotitile">Industrial Visit Programs</span></p>
@@ -95,7 +95,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background1">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Technology-Integration.png') }}" title="Technology Integration" alt="Technology Integration">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center mt-2"><span class="whatwedotitile">Technology Integration</span></p>
@@ -106,7 +106,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background2">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Industry-Partnerships.png') }}" title="Industry Partnerships" alt="Industry Partnerships">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center mt-2"><span class="whatwedotitile">Industry Partnerships</span></p>
@@ -118,7 +118,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background1">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/Value-Added-Services.png') }}" title="Value-Added Services" alt="Value-Added Services">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center mt-2"><span class="whatwedotitile">Value-Added Services</span></p>
@@ -129,7 +129,7 @@
         <div class="col-md-4 mt-4">
             <div class="card industries-we-serve shadow">
                 <div class="text-center heading_background1">
-                    <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                    <img class="py-3" src="{{ asset('assets/img/PCGImages/university/On-Campus-Drive-Management.png') }}" title="On-Campus Drive Management" alt="On-Campus Drive Management">
                 </div>
                 <div class="mt-2 px-2">
                     <p class="text-center mt-2"><span class="whatwedotitile">On-Campus Drive Management</span></p>

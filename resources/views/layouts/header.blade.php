@@ -86,7 +86,7 @@
                                             <div class="col-md-4 col-sm-12">
                                                 <p class="py-2  text-center univ_title">Universities</p>
                                                 <div id="universities">
-                                                    <a href="{{ route('industriesWeServe') }}" class="text-indent"><i class="fa fa-angle-right"></i> &nbsp; Industries we serve</a>
+                                                    <a href="{{ route('universities') }}" class="text-indent"><i class="fa fa-angle-right"></i> &nbsp; Universities</a>
                                                 </div>
                                             </div>
                                         </div>

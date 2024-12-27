@@ -32,7 +32,7 @@
                 <div class="col-md-4 mt-4">
                     <div class="card industries-we-serve shadow">
                         <div class="text-center heading_background1">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Customized-Workforce-Solutions.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/industry-we-serve/IT-telecome.png') }}" title="IT Telecom" alt="IT Telecom">
                         </div>
                         <div class="mt-2 px-2">
                             <p class="text-center "><span class="whatwedotitile">IT & Telecom</span></p>
@@ -44,7 +44,7 @@
                 <div class="col-md-4 mt-4">
                     <div class="card industries-we-serve shadow">
                         <div class="text-center heading_background2">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/industry-we-serve/Media-Entertainment.png') }}" title="Media Entertainment" alt="Media Entertainment">
                         </div>
                         <div class="mt-2 px-2">
                             <p class="text-center"><span class="whatwedotitile">Media & Entertainment</span></p>
@@ -56,7 +56,7 @@
                 <div class="col-md-4 mt-4">
                     <div class="card industries-we-serve shadow">
                         <div class="text-center heading_background1">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/industry-we-serve/Education-EdTech.png') }}" title="Education EdTech" alt="Education EdTech">
                         </div>
                         <div class="mt-2 px-2">
                             <p class="text-center"><span class="whatwedotitile">Education & EdTech</span></p>
@@ -68,7 +68,7 @@
                 <div class="col-md-4 mt-4">
                     <div class="card industries-we-serve shadow">
                         <div class="text-center heading_background2">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/industry-we-serve/Retail-E-Commerce.png') }}" title="Retail E Commerce" alt="Retail E Commerce">
                         </div>
                         <div class="mt-2 px-2">
                             <p class="text-center mt-2"><span class="whatwedotitile">Retail & E-Commerce</span></p>
@@ -80,7 +80,7 @@
                 <div class="col-md-4 mt-4">
                     <div class="card industries-we-serve shadow">
                         <div class="text-center heading_background1">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/industry-we-serve/E-Governance.png') }}" title="E Governance" alt="E Governance">
                         </div>
                         <div class="mt-2 px-2">
                             <p class="text-center mt-2"><span class="whatwedotitile">E-Governance</span></p>
@@ -91,7 +91,7 @@
                 <div class="col-md-4 mt-4">
                     <div class="card industries-we-serve shadow">
                         <div class="text-center heading_background2">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/industry-we-serve/fmcg.png') }}" title="FMCG" alt="FMCG">
                         </div>
                         <div class="mt-2 px-2">
                             <p class="text-center mt-2"><span class="whatwedotitile">FMCG</span></p>
@@ -102,7 +102,7 @@
                 <div class="col-md-4 mt-4">
                     <div class="card industries-we-serve shadow">
                         <div class="text-center heading_background1">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/industry-we-serve/Manufacturing.png') }}" title="Manufacturing" alt="Manufacturing">
                         </div>
                         <div class="mt-2 px-2">
                             <p class="text-center mt-2"><span class="whatwedotitile">Manufacturing</span></p>
@@ -113,7 +113,7 @@
                 <div class="col-md-4 mt-4">
                     <div class="card industries-we-serve shadow">
                         <div class="text-center heading_background2">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                            <img class="py-3" src="{{ asset('assets/img/PCGImages/industry-we-serve/automobile.png') }}" title="Automobile" alt="Automobile">
                         </div>
                         <div class="mt-2 px-2">
                             <p class="text-center mt-2"><span class="whatwedotitile">Automobiles</span></p>
