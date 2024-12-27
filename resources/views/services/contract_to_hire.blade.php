@@ -53,8 +53,10 @@
                         <li class="text-justify mt-3"><span class="whatwedotitile">Team Alignment:</span> Ensure candidates seamlessly integrate with your organisational culture and goals.</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    Visual: Interactive comparison chart showing "Before C2H" vs. "After C2H" with icons for reduced risks, cost savings, and alignment.
+                <div class="col-md-6 text-center">
+                    <div class="image">
+                            <img class="w-50" src="{{ asset('assets/img/PCGImages/contract-to-hire/Why-Choose-C2H-for-Your-Staffing-Needs.png') }}" title="Benefits of Our Short Term Hiring Solutions" alt="Benefits of Our Short Term Hiring Solutions">
+                    </div>
                 </div>
             </div>
         </div>
@@ -78,8 +80,10 @@
                         <li class="text-justify mt-3"><span class="whatwedotitile">Seamless Onboarding:</span> Facilitating a smooth transition for candidates into temporary roles with potential for permanence.</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    Visual: A step-by-step vertical timeline with icons representing each stage of the C2H process (e.g., magnifying glass, checklist, onboarding icon).
+                <div class="col-md-6 text-center">
+                    <div class="image">
+                        <img  src="{{ asset('assets/img/PCGImages/contract-to-hire/Top-C2H-Talent-Acquisition-Services-from-PCG.png') }}" title="Top C2H Talent Acquisition Services from PCG" alt="Benefits of Our Short Term Hiring Solutions">
+                    </div>                
                 </div>
             </div>
         </div>
@@ -106,8 +110,10 @@
                         <li class="text-justify text-white mt-3"><span class="yellow">Transition to Permanent Role:</span> Assist in converting candidates to full-time employees with all necessary documentation.</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    Image
+                <div class="col-md-6 vertical-align-middle">
+                    <div class="image">
+                        <img src="{{ asset('assets/img/PCGImages/contract-to-hire/Our-Contract-to-Hire-Process.png') }}" title="Our Contract to Hire Process" alt="Our Contract to Hire Process">
+                    </div>  
                 </div>
             </div>
         </div>
@@ -143,12 +149,14 @@
                 </ul>
 
             </div>
-            <div class="col-md-6">
-                Visual: A split-screen layout with a graphic of a flexible team on one side and bullet points on the other.
+            <div class="col-md-6 text-center">
+                <div class="image">
+                    <img class="w-50" src="{{ asset('assets/img/PCGImages/contract-to-hire/Why-is-C2H-Ideal-for-Businesses.png') }}" title="Why is C2H Ideal for Businesses" alt="Why is C2H Ideal for Businesses">
+                </div>              
             </div>
         </div>
 
-        <div class="row">
+        <div class="row mt-4">
             <div class="col-md-12">
                 <p class="text-justify">PCG provides <span class="whatwedotitile">C2H Staffing Services in India</span>, catering to diverse industries like IT, engineering, and consulting. Our approach ensures clients find professionals who align with both technical requirements and organisational values.</p>
             </div>
@@ -167,7 +175,7 @@
                         <p class="text-center text-white mt-2"><span class="text-white">Flexibility in Workforce Management</span></p>
                     </div>
                     <div class="c2h_staffing">
-                        <p class="text-justify p-4">Scale teams quickly without long-term hiring commitments.</p>
+                        <p class="text-center p-4">Scale teams quickly without long-term hiring commitments.</p>
                     </div>
                 </div>
 
@@ -178,7 +186,7 @@
                         <p class="text-center text-white mt-2"><span class="text-white">Streamlined Recruitment Process</span></p>
                     </div>
                     <div class="c2h_staffing">
-                        <p class="text-justify p-4">From sourcing to onboarding, every step is handled seamlessly.</p>
+                        <p class="text-center p-4">From sourcing to onboarding, every step is handled seamlessly.</p>
                     </div>
                 </div>
 
@@ -189,7 +197,7 @@
                         <p class="text-center text-white mt-2"><span class="text-white">High-Quality Talent</span></p>
                     </div>
                     <div class="c2h_staffing">
-                        <p class="text-justify p-4">Access pre-screened, qualified professionals ready to contribute immediately.</p>
+                        <p class="text-center p-4">Access pre-screened, qualified professionals ready to contribute immediately.</p>
                     </div>
                 </div>
 
@@ -200,7 +208,7 @@
                         <p class="text-center text-white mt-2"><span class="text-white">Improved Workforce Adaptability</span></p>
                     </div>
                     <div class="c2h_staffing">
-                        <p class="text-justify p-4">Build a dynamic team capable of transitioning into permanent roles.</p>
+                        <p class="text-center p-4">Build a dynamic team capable of transitioning into permanent roles.</p>
                     </div>
                 </div>
             </div>
@@ -229,30 +237,42 @@
 
             <div class="row">
                 <div class="col-md-3">
-                    <div class="p-2 card business-choose shadow">
-                        <p class="text-center mt-2"><span class="whatwedotitile">Software Development</span></p>
-                        <p class="text-justify">Contribute to innovative application builds and system solutions.</p>
+                    <div class="card business-choose shadow">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/PCGImages/contract-to-hire/Software-Development.png') }}" title="Why is C2H Ideal for Businesses" alt="Why is C2H Ideal for Businesses">
+                        </div>    
+                        <p class="text-center pt-2"><span class="whatwedotitile">Software Development</span></p>
+                        <p class="text-center px-2">Contribute to innovative application builds and system solutions.</p>
                     </div>
 
                 </div>
                 <div class="col-md-3">
-                    <div class="p-2 card business-choose shadow">
-                        <p class="text-center mt-2"><span class="whatwedotitile">Data Analysis</span></p>
-                        <p class="text-justify">Deliver insights-driven results on critical projects.</p>
+                    <div class="card business-choose shadow">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/PCGImages/contract-to-hire/data-analytics.png') }}" title="data analytics" alt="data analytics">
+                        </div>    
+                        <p class="text-center pt-2"><span class="whatwedotitile">Data Analysis</span></p>
+                        <p class="text-center px-2">Deliver insights-driven results on critical projects.</p>
                     </div>
 
                 </div>
                 <div class="col-md-3">
-                    <div class="p-2 card business-choose shadow">
-                        <p class="text-center mt-2"><span class="whatwedotitile">Cybersecurity</span></p>
-                        <p class="text-justify">Enhance organisational resilience with advanced security protocols.</p>
+                    <div class="card business-choose shadow">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/PCGImages/contract-to-hire/cybersecurity.png') }}" title="Cybersecurity" alt="Cybersecurity">
+                        </div>  
+                        <p class="text-center pt-2"><span class="whatwedotitile">Cybersecurity</span></p>
+                        <p class="text-center px-2">Enhance organisational resilience with advanced security protocols.</p>
                     </div>
 
                 </div>
                 <div class="col-md-3">
-                    <div class="p-2 card business-choose shadow">
-                        <p class="text-center mt-2"><span class="whatwedotitile">Cloud Engineering</span></p>
-                        <p class="text-justify">Drive scalable solutions and operational efficiency.</p>
+                    <div class="card business-choose shadow">
+                        <div class="image">
+                            <img src="{{ asset('assets/img/PCGImages/contract-to-hire/Cloud-Engineering.png') }}" title="Cloud Engineering" alt="Cloud Engineering">
+                        </div> 
+                        <p class="text-center pt-2"><span class="whatwedotitile">Cloud Engineering</span></p>
+                        <p class="text-center px-2">Drive scalable solutions and operational efficiency.</p>
                     </div>
                 </div>
             </div>
@@ -271,26 +291,25 @@
                 </div>
             </div>
     
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="py-2 text-white"><span class="subheading">We prioritize</span></p>
-                </div>
-            </div>
+           
     
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6 py-4">
+                    <p class="py-2 text-white"><span class="subheading">We prioritize</span></p>
                     <ul>
                         <li class="text-white">Excellence in recruitment strategy.</li>
-                        <li class="text-white">Building versatile, talented teams.</li>
-                        <li class="text-white">Aligning workforce needs with evolving market trends.</li>
+                        <li class="text-white mt-3">Building versatile, talented teams.</li>
+                        <li class="text-white mt-3">Aligning workforce needs with evolving market trends.</li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                    Visual: A circular infographic
+                <div class="col-md-6 text-center">
+                    <div class="image">
+                        <img src="{{ asset('assets/img/PCGImages/contract-to-hire/Best-Contract-to-Hire-Agency.png') }}" title="Best Contract to Hire Agency" alt="Best Contract to Hire Agency" width="40%">
+                    </div>  
                 </div>
             </div>
     
-            <div class="row">
+            <div class="row mt-4">
                 <p class="text-white">Through our commitment to excellence and understanding of Contract-to-Hire (C2H) service, PCG is a great choice for job seekers and businesses. For <a href="{{ route('payrollProcessing') }}" class="yellow">Payroll Processing</a>, we can also support you with our unmatched strategies and great process.</p>
             </div>
         </div>

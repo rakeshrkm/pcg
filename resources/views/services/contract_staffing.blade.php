@@ -37,14 +37,13 @@
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-justify py-2"><span class="subheading">Why Choose Contract Staffing?</span></p>
-                </div>
-            </div>
+          
 
             <div class="row">
+               
                 <div class="col-md-6">
+                    <p class="text-justify py-2"><span class="subheading">Why Choose Contract Staffing?</span></p>
+
                     <ul>
                         <li class="text-justify"><span class="whatwedotitile">Flexible Workforce:</span> Scale your team based on project needs or seasonal demands.</li>
                         <li class="text-justify"><span class="whatwedotitile">Cost Optimization:</span> Reduce long-term hiring expenses and focus on strategic priorities.</li>
@@ -52,8 +51,10 @@
                     </ul>
                 </div>
 
-                <div class="col-md-6">
-                    Visual: Vertical infographic with icons: Arrows (Flexibility), Wallet (Cost Optimization), Network (Talent Access).
+                <div class="col-md-6 text-center">
+                    <div class="image">
+                        <img class="w-75" src="{{ asset('assets/img/PCGImages/contract-staffing/Why-Choose-Contract-Staffing.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                    </div>
                 </div>
             </div>
 
@@ -70,7 +71,9 @@
                 <div class="col-md-3">
                     <div class="card shadow">
                         <div class="text-center heading_background1">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Customized-Workforce-Solutions.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                            <div class="image">
+                                <img class="py-3" src="{{ asset('assets/img/PCGImages/contract-staffing/it.png') }}" title="Information Technology" alt="Information Technology">
+                            </div>                        
                         </div>
                         <div class="mt-2 py-2">
                             <p class="text-center "><span class="whatwedotitile">Information Technology (IT)</span></p>
@@ -81,7 +84,9 @@
                 <div class="col-md-3">
                     <div class="card shadow">
                         <div class="text-center heading_background2">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
+                            <div class="image">
+                                <img class="py-3" src="{{ asset('assets/img/PCGImages/contract-staffing/manufacturing.png') }}" title="Manufacturing" alt="Manufacturing">
+                            </div> 
                         </div>
                         <div class="mt-2 py-2">
                             <p class="text-center"><span class="whatwedotitile">Manufacturing</span></p>
@@ -92,7 +97,9 @@
                 <div class="col-md-3">
                     <div class="card shadow">
                         <div class="text-center heading_background1">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
+                            <div class="image">
+                                <img class="py-3" src="{{ asset('assets/img/PCGImages/contract-staffing/healthcare.png') }}" title="Healthcare" alt="Healthcare">
+                            </div> 
                         </div>
                         <div class="mt-2 py-2">
                             <p class="text-center"><span class="whatwedotitile">Healthcare</span></p>
@@ -103,7 +110,9 @@
                 <div class="col-md-3">
                     <div class="card shadow">
                         <div class="text-center heading_background2">
-                            <img class="py-3" src="{{ asset('assets/img/PCGImages/home/Enhanced-Productivity.png') }}" title="Enhanced Productivity" alt="Enhanced Productivity">
+                            <div class="image">
+                                <img class="py-3" src="{{ asset('assets/img/PCGImages/contract-staffing/Retail.png') }}" title="Retail" alt="Retail">
+                            </div> 
                         </div>
                         <div class="mt-2 py-2">
                             <p class="text-center"><span class="whatwedotitile">Retail</span></p>
@@ -133,21 +142,21 @@
                     <p class="text-justify">Businesses today require flexible staffing solutions to adapt to fluctuating demands and dynamic project requirements. Our <span class="whatwedotitile">Short-term Employment Services in India</span> ensure companies can swiftly address temporary workforce needs without committing to long-term hiring.</p>                  
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-justify py-2"><span class="subheading">Benefits of Our Short-Term Hiring Solutions</span></p>
-                </div>
-            </div>
-            <div class="row">
+        
+            <div class="row mt-4">
                 <div class="col-md-6">
+                    <p class="text-justify py-2"><span class="subheading">Benefits of Our Short-Term Hiring Solutions</span></p>
+
                     <ul>
                         <li class="text-justify"><span class="whatwedotitile">Flexibility:</span> Hire skilled professionals for fixed periods to address immediate needs.</li>
                         <li class="text-justify mt-3"><span class="whatwedotitile">Seamless Integration:</span> Onboard job-ready candidates for smooth transitions.</li>
                         <li class="text-justify mt-3"><span class="whatwedotitile">Risk Mitigation:</span> Reduce overhead and minimize long-term hiring risks. </li>
                     </ul>              
                 </div>
-                <div class="col-md-6">
-                    Visual: Circular flowchart showing benefits with icons for flexibility, onboarding, and risk reduction.
+                <div class="col-md-6 text-center">
+                    <div class="image">
+                        <img class="w-75" src="{{ asset('assets/img/PCGImages/contract-staffing/Benefits-of-Our-Short-Term-Hiring-Solutions.png') }}" title="Benefits of Our Short Term Hiring Solutions" alt="Benefits of Our Short Term Hiring Solutions">
+                    </div> 
                 </div>
             </div>
         </div>
@@ -197,7 +206,9 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    Visual: A flowchart diagram showing stages of the recruitment process, with icons at each step.
+                    <div class="image">
+                        <img class="py-3" src="{{ asset('assets/img/PCGImages/contract-staffing/Retail.png') }}" title="Retail" alt="Retail">
+                    </div>                 
                 </div>
             </div>
         </div>

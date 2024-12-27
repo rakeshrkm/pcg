@@ -47,12 +47,13 @@
             <div class="row">
                 <div class="col-md-12">
                     <p>We handle every aspect of payroll processing, from calculating salaries and tax deductions to ensuring compliance with labor laws and regulatory updates. Our robust systems ensure data security, accuracy, and accessibility at all times.</p>
-                    <p>By choosing us for <span class="whatwedotitile">Payroll Outsourcing Services</span>, organisations will get the benefits of:</p>
                 </div>
             </div>
 
             <div class="row mt-4">
                 <div class="col-md-6">
+                    <p>By choosing us for <span class="whatwedotitile">Payroll Outsourcing Services</span>, organisations will get the benefits of:</p>
+
                     <ul>
                         <li>Reduced operational costs.</li>
                         <li class="mt-3">Compliance with evolving payroll regulations.</li>
@@ -61,7 +62,9 @@
                 </div>
 
                 <div class="col-md-6">
-                    Visual: Create a Horizontal Flow Chart with arrows connecting each point, showing the flow of benefits businesses achieve from outsourcing payrol
+                    <div class="image">
+                        <img src="{{ asset('assets/img/PCGImages/payroll-processing/Efficient-and-Reliable-Payroll-Outsourcing.png') }}" title="Efficient and Reliable Payroll Outsourcing" alt="Efficient and Reliable Payroll Outsourcing">
+                    </div>                
                 </div>
             </div>
         </div>
@@ -81,18 +84,20 @@
 
             <div class="row">
                 <div class="col-md-6">
-                        <ul>
+                        <ul class="py-4">
                             <li>Enhance operational efficiency.</li>
                             <li class="mt-3">Maintain employee satisfaction with timely and accurate payroll.</li>
                             <li class="mt-3">Achieve hassle-free payroll management.</li>
                         </ul>
                 </div>
-                <div class="col-md-6">
-                    Visual: Create an arrow image like this and put the content in between that. Like this:
+                <div class="col-md-6 text-center">
+                    <div class="image">
+                        <img class="w-50" src="{{ asset('assets/img/PCGImages/payroll-processing/Why-Choose-PCG-for-Payroll-Processing.png') }}" title="Why Choose PCG for Payroll Processing" alt="Why Choose PCG for Payroll Processing">
+                    </div>                     
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-md-12">
                     <p>Let us help you achieve seamless payroll operations that support your strategic goals. Need <a href="{{ route('contractStaffing') }}" class="text-primary font-weight-bold">Contract Staffing</a> service? If you are looking for a professional consultant agency to get this service, PCG is there to assist you.</p>
                 </div>
@@ -150,8 +155,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-md-6">
-                        img
+                <div class="col-md-6  text-center">
+                    <div class="image py-4">
+                        <img  src="{{ asset('assets/img/PCGImages/payroll-processing/Our-Five-Stage-Payroll-Process.png') }}" title="Our Five Stage Payroll Process" alt="Our Five Stage Payroll Process">
+                    </div>    
                 </div>
             </div>
         </div>
@@ -189,15 +196,9 @@
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center gap-8">
                         <div>
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
+                            <i class="fa fa-check"></i>
                         </div>
-                        <div class="ml-3">
+                        <div class="ml-2">
                             <p><span class="whatwedotitile">Enhanced Efficiency:</span> Streamline payroll systems and processes, enabling faster and more accurate payroll cycles.</p>
                         </div>
                     </div>
@@ -205,15 +206,9 @@
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center gap-8">
                         <div>
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
+                            <i class="fa fa-check"></i>
                         </div>
-                        <div class="ml-3">
+                        <div class="ml-2">
                             <p><span class="whatwedotitile">Resource Optimization:</span> Free up internal teams for strategic tasks by delegating payroll responsibilities to professionals.</p>
                         </div>
                     </div>
@@ -221,15 +216,9 @@
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center gap-8">
                         <div>
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
+                            <i class="fa fa-check"></i>
                         </div>
-                        <div class="ml-3">
+                        <div class="ml-2">
                             <p><span class="whatwedotitile">Improved Payroll Accuracy:</span> Eliminate errors in calculations, ensuring employees are paid correctly and on time.</p>
                         </div>
                     </div>
@@ -237,15 +226,9 @@
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center gap-8">
                         <div>
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
+                            <i class="fa fa-check"></i>
                         </div>
-                        <div class="ml-3">
+                        <div class="ml-2">
                             <p><span class="whatwedotitile">Boost Employee Morale:</span> Reliable payroll management enhances trust and satisfaction within the organisation.</p>
                         </div>
                     </div>
@@ -253,15 +236,9 @@
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center gap-8">
                         <div>
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
+                            <i class="fa fa-check"></i>
                         </div>
-                        <div class="ml-3">
+                        <div class="ml-2">
                             <p><span class="whatwedotitile">Tailored Solutions:</span> Customised payroll processes align with unique operational requirements for businesses.</p>
                         </div>
                     </div>
@@ -269,15 +246,9 @@
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center gap-8">
                         <div>
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
+                            <i class="fa fa-check"></i>
                         </div>
-                        <div class="ml-3">
+                        <div class="ml-2">
                             <p><span class="whatwedotitile">Regulatory Compliance:</span> Ensure payroll functions comply with evolving labor laws and local regulations.</p>
                         </div>
                     </div>
@@ -286,15 +257,9 @@
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center gap-8">
                         <div>
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
+                            <i class="fa fa-check"></i>
                         </div>
-                        <div class="ml-3">
+                        <div class="ml-2">
                             <p><span class="whatwedotitile">Data Security:</span> Protect sensitive information with robust measures, safeguarding company and employee trust.</p>
                         </div>
                     </div>
@@ -303,15 +268,9 @@
                 <div class="col-md-6">
                     <div class="d-flex justify-content-center gap-8">
                         <div>
-                            <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit mui-1sos593" focusable="false" aria-hidden="true" viewBox="0 0 64 64" data-testid="Language.svgIcon" name="Language" width="64" height="64" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M32.5 59.5C47.4117 59.5 59.5 47.4117 59.5 32.5C59.5 17.5883 47.4117 5.5 32.5 5.5C17.5883 5.5 5.5 17.5883 5.5 32.5C5.5 47.4117 17.5883 59.5 32.5 59.5Z" stroke="#4A65EE" stroke-width="3" stroke-miterlimit="10"></path>
-                                <path d="M7.5 40.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M7.5 24.5H57.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M36.5 6.5C36.5 6.5 42.5 14.5 42.5 32.5C42.5 50.5 36.5 58.5 36.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                                <path d="M28.5 6.5C28.5 6.5 22.5 14.5 22.5 32.5C22.5 50.5 28.5 58.5 28.5 58.5" stroke="#4A65EE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"></path>
-                            </svg>
+                            <i class="fa fa-check"></i>
                         </div>
-                        <div class="ml-3">
+                        <div class="ml-2">
                             <p><span class="whatwedotitile">Expertise You Can Rely On:</span> Over a decade of experience in payroll management ensures quality and consistency.</p>
                         </div>
                     </div>

@@ -35,10 +35,10 @@
                     <p class="text-justify">Businesses today face ever-changing workforce demands, requiring a flexible and dynamic approach to staffing. At PCG, we understand the importance of agility in maintaining operational continuity. Our <span class="whatwedotitile">Temporary Staffing Services</span> are designed to address short-term vacancies, project-based roles, or seasonal workforce needs, ensuring your business stays productive and competitive.</p>
                 </div>
 
-                <div class="col-md-12">
-                    <p class="py-2"><span class="subheading">Why Choose Temporary Staffing From Us?</span></p>
-                </div>
+               
                 <div class="col-md-6">
+                    <p class="py-2"><span class="subheading">Why Choose Temporary Staffing From Us?</span></p>
+
                     <div class="mt-2 mb-2">
                         <ul>
                             <li class="text-justify"><span class="whatwedotitile">Flexibility:</span> Adjust your workforce based on project or seasonal needs.</li>
@@ -48,15 +48,16 @@
                     </div>
                 </div>
 
-                <div class="col-md-6 align-items-middle">
-                    Visual: Infographic with icons: Clock (Efficiency), Arrows (Flexibility), Wallet (Cost-Effectiveness).
+                <div class="col-md-6">
+                    <div class="image">
+                        <img src="{{asset('assets/img/PCGImages/temporary-staffing/Why-Choose-Temporary-Staffing-From-Us.png')}}" alt="Why Choose Temporary Staffing From Us" title="Why Choose Temporary Staffing From Us">
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="py-2"><span class="subheading">Why Partner with PCG?</span></p>
-                </div>
+            <div class="row mt-4">
                 <div class="col-md-6 ">
+                    <p class="py-2"><span class="subheading">Why Partner with PCG?</span></p>
+
                     <div class="mt-2 mb-2">
                         <ul>
                             <li class="text-justify"><span class="whatwedotitile">Industry Expertise:</span> Leveraging cutting-edge technology and deep market insights.</li>
@@ -65,12 +66,14 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-md-6 align-items-center">
-                    Visual: Circular diagram with three sections, each labeled with the key benefits and relevant icons.
+                <div class="col-md-6 text-center">
+                    <div class="image">
+                        <img class="w-50" src="{{asset('assets/img/PCGImages/temporary-staffing/Why-Partner-with-PCG.png')}}" alt="Why Partner with PCG" title="Why Partner with PCG">
+                    </div>                
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-md-12">
                     <p class="text-justify">Choose PCG for reliable <span class="whatwedotitile">HR Temporary Staffing</span> solutions that deliver results on demand. Partner with us to build a flexible workforce tailored to your business goals. We are also ready to provide services like <a href="{{ route('contractToHire') }}" class="text-primary font-weight-bold">Contract-to-hire (C2H) Hiring</a>.</p>
                 </div>
@@ -110,7 +113,9 @@
                         <div class="col-md-4">
                             <div class="card shadow">
                                 <div class="text-center heading_background1">
-                                    <img class="py-2" src="{{ asset('assets/img/PCGImages/home/Customized-Workforce-Solutions.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                                    <div class="image">
+                                        <img class="py-2" src="{{ asset('assets/img/PCGImages/temporary-staffing/healthcare.png') }}" title="Customized Workforce Solutions" alt="Customized Workforce Solutions">
+                                    </div>
                                 </div>
                                 <div class="mt-2 px-2">
                                     <p class="text-center "><span class="whatwedotitile">Healthcare</span></p>
@@ -121,7 +126,9 @@
                         <div class="col-md-4">
                             <div class="card  shadow">
                                 <div class="text-center heading_background2">
-                                    <img class="py-2" src="{{ asset('assets/img/PCGImages/home/Comprehensive-Talent-Pool.png') }}" title="Comprehensive Talent Pool" alt="Comprehensive Talent Pool">
+                                    <div class="image">
+                                        <img class="py-2" src="{{ asset('assets/img/PCGImages/temporary-staffing/finance.png') }}" title="Finance" alt="Finance">
+                                    </div>
                                 </div>
                                 <div class="mt-2 px-2">
                                     <p class="text-center"><span class="whatwedotitile">Finance</span></p>
@@ -132,7 +139,9 @@
                         <div class="col-md-4">
                             <div class="card shadow">
                                 <div class="text-center heading_background1">
-                                    <img class="py-2" src="{{ asset('assets/img/PCGImages/home/Efficient-Recruitment-Process.png') }}" title="Efficient Recruitment Process" alt="Efficient Recruitment Process">
+                                    <div class="image">
+                                        <img class="py-2" src="{{ asset('assets/img/PCGImages/temporary-staffing/Information-technology.png') }}" title="Information Technology" alt="Information Technology">
+                                    </div>                                
                                 </div>
                                 <div class="mt-2 px-2">
                                     <p class="text-center"><span class="whatwedotitile">Information Technology</span></p>
@@ -150,13 +159,11 @@
             <div class="heading-title1 text-center">
                 <h2 class="text-center text-white">Supporting Employers with Temporary Staffing</h2>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="text-justify text-white">Our <span class="yellow">Manpower Temporary Staffing Services</span> empower businesses to:</p>
-                </div>
-            </div>
+           
             <div class="row">
                 <div class="col-md-6">
+                    <p class="text-justify text-white">Our <span class="yellow">Manpower Temporary Staffing Services</span> empower businesses to:</p>
+
                     <ul>
                         <li class="text-white">Scale their workforce efficiently.</li>
                         <li class="text-white mt-3">Meet project-specific demands without long-term commitments.</li>
@@ -164,7 +171,9 @@
                     </ul>
                 </div>
                 <div class="col-md-6">
-                    Visual: Flowchart showing the temporary staffing process with icons (e.g., magnifying glass, calendar, team).
+                    <div class="image py-2">
+                        <img src="{{ asset('assets/img/PCGImages/temporary-staffing/Supporting-Employers-with-Temporary-Staffing.png') }}" title="Supporting Employers with Temporary Staffing" alt="Supporting Employers with Temporary Staffing">
+                    </div>                      
                 </div>
             </div>
         </div>
@@ -178,10 +187,10 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-justify">Collaborating with a <span class="whatwedotitile">Temporary Job Staffing Agency</span> like PCG helps businesses stay agile, efficient, and productive in a dynamic marketplace.</p>
+                    <p class="text-center">Collaborating with a <span class="whatwedotitile">Temporary Job Staffing Agency</span> like PCG helps businesses stay agile, efficient, and productive in a dynamic marketplace.</p>
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-4">
                 <div class="col-md-6">
                     <ul>
                         <li class="text-justify"><span class="whatwedotitile">Enhanced Workforce Flexibility:</span> Scale your team up or down based on project demands and seasonal needs.</li>
@@ -191,8 +200,10 @@
                         <li class="text-justify mt-3"><span class="whatwedotitile">Reduced Administrative Load:</span> The agency manages payroll, compliance, and employee benefits. </li>
                     </ul>
                 </div>
-                <div class="col md-6">
-                    Visual: Create an Infographic for these points
+                <div class="col md-6 text-center">
+                    <div class="image">
+                        <img class="w-50" src="{{ asset('assets/img/PCGImages/temporary-staffing/Temporary-Job-Staffing-Agency.png') }}" title="Temporary Job Staffing Agency" alt="Temporary Job Staffing Agency">
+                    </div> 
                 </div>
             </div>
         </div>
@@ -212,8 +223,10 @@
                         <li class="text-justify mt-3"><span class="whatwedotitile">Flexibility & Productivity:</span> Maintain operational continuity without long-term commitments.</li>
                     </ul>
                 </div>
-                <div class="col-md-6 align-items-middle">
-                    Visual: Flowchart or checklist design showing the steps in providing customised staffing solutions.
+                <div class="col-md-6 text-center">
+                    <div class="image">
+                        <img  src="{{ asset('assets/img/PCGImages/temporary-staffing/Growth-Minded-Business.png') }}" title="Growth Minded Business" alt="Growth Minded Business">
+                    </div>                 
                 </div>
             </div>
         </div>
