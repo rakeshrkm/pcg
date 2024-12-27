@@ -237,7 +237,7 @@
 
             <div class="row">
                 <div class="col-md-3">
-                    <div class="card business-choose shadow">
+                    <div class="card industries-we-serve shadow">
                         <div class="image">
                             <img src="{{ asset('assets/img/PCGImages/contract-to-hire/Software-Development.png') }}" title="Why is C2H Ideal for Businesses" alt="Why is C2H Ideal for Businesses">
                         </div>    
@@ -247,7 +247,7 @@
 
                 </div>
                 <div class="col-md-3">
-                    <div class="card business-choose shadow">
+                    <div class="card industries-we-serve shadow">
                         <div class="image">
                             <img src="{{ asset('assets/img/PCGImages/contract-to-hire/data-analytics.png') }}" title="data analytics" alt="data analytics">
                         </div>    
@@ -257,7 +257,7 @@
 
                 </div>
                 <div class="col-md-3">
-                    <div class="card business-choose shadow">
+                    <div class="card industries-we-serve shadow">
                         <div class="image">
                             <img src="{{ asset('assets/img/PCGImages/contract-to-hire/cybersecurity.png') }}" title="Cybersecurity" alt="Cybersecurity">
                         </div>  
@@ -267,7 +267,7 @@
 
                 </div>
                 <div class="col-md-3">
-                    <div class="card business-choose shadow">
+                    <div class="card industries-we-serve shadow">
                         <div class="image">
                             <img src="{{ asset('assets/img/PCGImages/contract-to-hire/Cloud-Engineering.png') }}" title="Cloud Engineering" alt="Cloud Engineering">
                         </div> 
