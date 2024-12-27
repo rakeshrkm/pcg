@@ -1404,7 +1404,7 @@
 
   .business-choose{
     /* padding:20px;  */
-    height: auto;
+    height: auto !important;
 
   }
 

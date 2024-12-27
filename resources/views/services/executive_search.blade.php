@@ -148,7 +148,7 @@
                     <img src="{{ asset('assets/img/PCGImages/executive-search/Executive-Search-Services.png') }}" title="business consulting" alt="business consulting" width="300">
                 </div>
             </div>
-            <div class="row">
+            <div class="row mt-2">
                 <div class="col-md-12">
                     <p><span class="yellow">Empowering Leadership for Success</span></p>
                     <p class="text-justify text-white">Recognized as one of the Top Executive Search Firms in India, we deliver results that go beyond expectations. Our process is grounded in confidentiality, integrity, and excellence, ensuring that every candidate we present is an ideal fit for your organisation.</p>

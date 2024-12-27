@@ -62,7 +62,7 @@
                 </div>
 
             </div>
-            <div class="row">
+            <div class="row mt-2">
                 <div class="col-md-12">
                     <p class="text-justify py-2"><span class="subheading">Driving Business Success Through IT Talent</span></p>
                 </div>
