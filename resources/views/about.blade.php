@@ -59,10 +59,9 @@
             </div>
             <div class="col-md-12 mt-4">
                 <div class="d-flex align-items-center justify-content-center">
-                    <a hef="{{ route('contactUs') }}"><button type="submit" name="submit_contact" class="btn btn-default text-white" value="Submit" id="submit_contact">
-                            Get in Touch
-                        </button></a>
-
+                    <button type="button" class="btn btn-default" data-toggle="modal" data-target="#exampleModalCenter">
+                        <span class="text-white">Get in Touch</span>
+                    </button>
                 </div>
             </div>
         </div>

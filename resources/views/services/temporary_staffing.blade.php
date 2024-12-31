@@ -92,7 +92,7 @@
             </div>
             <div class="row">
                 <div class="col-md-12">
-                    <p class="text-justify font-weight-bold">Professionals can gain valuable experience, expand their skill set, and work across diverse industries with <span class="whatwedotitile">Temporary Staffing</span> Jobs, all without committing to a permanent position. </p>
+                    <p class="text-justify">Professionals can gain valuable experience, expand their skill set, and work across diverse industries with <span class="whatwedotitile">Temporary Staffing</span> Jobs, all without committing to a permanent position. </p>
                 </div>
             </div>
         </div>

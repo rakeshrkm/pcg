@@ -52,6 +52,8 @@ Route::get('/consulting-services', [HomeController::class, 'consultingServices']
 Route::get('/other-services', [HomeController::class, 'otherServices'])->name('otherServices');
 Route::get('/privacy-policy', [HomeController::class, 'privacyPolicy'])->name('privacyPolicy');
 Route::get('/terms-and-condition', [HomeController::class, 'termsAndCondition'])->name('termsAndCondition');
+Route::get('/appointment-csv', [HomeController::class, 'downloadAppointment'])->name('downloadAppointment');
+
 
 // If route not found.
 Route::fallback(function () {

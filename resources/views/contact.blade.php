@@ -80,7 +80,8 @@
                             </div>
                             <h5 class="text-color address16">Phone</h5>
                             <p class="address14 text-left" style="padding-top:10px">
-                                <span class="whatwedotitile"> +91 88266 65843</span>
+                                <a href="tel:+918826665842" class="whatwedotitile">+918826660308</a> | <a href="tel:+918826665842" class="whatwedotitile">+918826665842</a>
+                               
                             </p>
                         </div>
                         <hr class="separator">

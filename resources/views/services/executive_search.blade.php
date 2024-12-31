@@ -137,7 +137,7 @@
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <ul >
+                    <ul>
                         <li class="text-justify text-white"><span class="yellow">Tailored Approach:</span> We delve deep into your culture, values, and objectives to find leaders who truly fit.</li>
                         <li class="text-justify text-white mt-3"><span class="yellow">Comprehensive Network:</span> Leveraging industry insights and an extensive professional network to identify proven leaders.</li>
                         <li class="text-justify text-white mt-3"><span class="yellow">Rigorous Screening:</span> Ensuring each candidate aligns with your corporate values, leadership requirements, and strategic vision.</li>
@@ -145,7 +145,7 @@
                 </div>
 
                 <div class="col-md-6 align-items-center text-center">
-                    <img src="{{ asset('assets/img/PCGImages/executive-search/Executive-Search-Services.png') }}" title="business consulting" alt="business consulting" width="300">
+                    <img class="w-50" src="{{ asset('assets/img/PCGImages/executive-search/Executive-Search-Services.png') }}" title="business consulting" alt="business consulting">
                 </div>
             </div>
             <div class="row mt-2">
@@ -176,7 +176,7 @@
                     <div class="text-center">
                         <p class="text-justify py-2"><span class="subheading">The Role of Leadership in Business Strategy</span></p>
                     </div>    
-                    <p class="text-justify whatwedotitile">Leaders are architects of change. They leverage industry insights and expertise to address critical areas such as:</p>
+                    <p class="text-justify">Leaders are architects of change. They leverage industry insights and expertise to address critical areas such as:</p>
                 </div>
                 <div class="col-md-6">
                     <ul class="">

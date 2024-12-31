@@ -352,7 +352,7 @@
             <div class="col-lg-12 text-left">
 
                 <p class="text-justify">
-                    At PCG, we excel in delivering temporary <span class="whatwedotitile">Staffing Services in India</span> that empower businesses to address their short-term workforce requirements seamlessly. Our expertise lies in providing Contract Staffing Solutions designed for flexibility, quality, and efficiency.
+                    At PCG, we excel in delivering temporary <span class="whatwedotitile">Staffing Services in India</span> that empower businesses to address their short-term workforce requirements seamlessly. Our expertise lies in providing <span class="whatwedotitile">Contract Staffing Solutions</span> designed for flexibility, quality, and efficiency.
                 </p>
                 <p class="text-justify">
                     Whether you’re navigating seasonal demands, tackling special projects, or managing sudden workload spikes, our tailored staffing services ensure you access job-ready professionals who integrate effortlessly into your team.
@@ -1060,93 +1060,6 @@
 
 
 
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalCenterTitle">Book your FREE APPOINTMENT, Now!</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true" class="text-white">&times;</span>
-          </button>
-        </div>
-        <div class="modal-body">
-            <form id="myForm" method="POST">
-                    <div class="row">
-                @csrf
-                <div class="col-md-12">
-                    <div class="alert alert-danger print-error-msg" style="display:none">
-                        <ul></ul>
-                    </div>
-                </div>
-                           
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Name<span class="required">*</span></label>
-                                    <input type="text" placeholder="Your Name*" name="name" id="name" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Phone Number<span class="required">*</span></label>
-                                    <input type="text" name="mobile" id="mobile" minlength="10" maxlength="10" onkeypress="return isNumberKey(event)" pattern=".{10,10}" placeholder="Your Number*" class="form-control" onpaste="return false;">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Email address<span class="required">*</span></label>
-                                    <input type="text" placeholder="Your Mail*" name="email" id="emails" class="form-control">
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <label>Our Services <span class="required">*</span></label>
-                                <select id="our-services" name="services">
-                                    <option value=""> -- Select Option -- </option>
-                                    <option value="Permanent Staffing">Permanent Staffing</option>
-                                    <option value="Executive Search">Executive Search</option>
-                                    <option value="Leadership Hiring">Leadership Hiring</option>
-                                    <option value="Head Hunting">Head Hunting</option>
-                                    <option value="IT/Non-IT Hiring">IT/Non-IT Hiring</option>
-                                    <option value="Temporary Staffing">Temporary Staffing </option>
-                                    <option value="Contract Staffing">Contract Staffing </option>
-                                    <option value="Contract-to-Hire(C2H) Hiring">Contract-to-Hire(C2H) Hiring</option>
-                                    <option value="Payroll Process">Payroll Process</option>
-                                    <option value="Campus Recruitment">Campus Recruitment</option>
-                                    <option value="Other Services">Other Services</option>
-                                </select>
-                                @error('services')
-                                <small class="text-danger">{{ $message }}</small>
-                                @enderror
-                            </div>
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Message<span class="required">*</span></label><br />
-                                    <textarea class="form-control" placeholder="Comments" name="comment" id="comment" rows="2" onpaste="return false;" maxlength="300"></textarea>
-                                </div>
-                                @error('comment')
-                                <small class="text-danger">{{ $message }}</small>
-                                @enderror
-                            </div>
-                            {{-- <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Google Recaptcha</label><br />
-                                    <div class="g-recaptcha mt-2" data-sitekey="6Lcz3pEqAAAAAFGfZqdrib6sQJzjaJiWc056nU0_">
-                                        @if ($errors->has('g-recaptcha-response'))
-                                        <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
-                                        @endif
-                                    </div>
-                                </div>
-                            </div> --}}
-            </div>
-            </div>
-        <div class="modal-footer">
-            <div class="col-md-12 text-center" id="submit">
-                <button type="submit" class="btn btn-secondary btn-submit text-center">Submit</button>
-            </div>
-        </form>
-        </div>
-      </div>
-    </div>
-  </div>
 
 {{--   
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -1178,7 +1091,7 @@
 
 
 @endsection
-@section('scripts')
+{{-- @section('scripts')
 <script>
     $.ajaxSetup({
         headers: {
@@ -1236,4 +1149,4 @@
     }
 
 </script>
-@endsection
+@endsection --}}

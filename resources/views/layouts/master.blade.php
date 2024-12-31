@@ -1943,74 +1943,94 @@ $(".section-faq .questions .single-question > div").on("click", function() {
  
     </script>
     <!--bottom popup-->
-    <!-- <div class="modal fade cookie-box" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Reach Us - Only for Enterprises </h5>
-                    <button type="button" id="close-button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <form method="post" action="#" id="form_popup" enctype="multipart/form-data">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Name<span class="required">*</span></label>
-                                    <input type="text" placeholder="Your Name*" name="name" required="" class="form-control">
-                                </div>
-                            </div>
-                           
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Phone Number<span class="required">*</span></label>
-                                    <input type="text" minlength="10" maxlength="10" onkeypress="return isNumberKey(event)" name="phone_no" id="phone_no" pattern=".{10,10}" placeholder="Your Number*" class="form-control" required="">
-                                </div>
-                            </div>
-                           
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Email address<span class="required">*</span></label>
-                                    <input type="email" placeholder="Your Mail*" name="mail" required="" class="form-control">
-                                </div>
-                            </div>
-                           
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <label>Our services <span class="required">*</span></label>
-                                    <select class="form-control select-services" name="" required="Type of Requirement">
-                                        <option value="Corporate Training">Corporate Training</option>
-                                        <option value="Train &amp; Hire">Train &amp; Hire</option>
-                                        <option value="Staffing as a Service"> Staffing as a Service</option>
-                                        <option value="Lab as a Service">Lab as a Service</option>
-                                        <option value="Mazenet LMS">Mazenet LMS</option>
-                                        <option value="Others">Others </option>
-                                    </select>
-                                </div>
-                            </div>
-                           
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <label>Message<span class="required">*</span></label><br>
-                                    <textarea style="height:45px;" class="form-control" placeholder="Comments" name="comment" rows="2" required="" onpaste="return false;" maxlength="300"></textarea>
-                                </div>
-                            </div>
-                           
-                            <div class="col-md-12">
-                                <div class="form-group">
-                                    <div class="g-recaptcha" data-sitekey="6LeQ9MYaAAAAAFdlplefv5LaRD8DT_f5ZHvWVLqs" data-callback="verifyRecaptchaCallback" data-expired-callback="expiredRecaptchaCallback"></div>
-                                   
-                                </div>
-                            </div>
-                           
-                        </div>
-                        <div align="center"><input type="submit" name="submit" class="btn btn-defaul text-white" id="form_popup_submit" value="Submit"></div>
-                    </form>
-                </div>
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Book your FREE APPOINTMENT, Now!</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true" class="text-white">&times;</span>
+              </button>
             </div>
+            <div class="modal-body">
+                <form id="myForm" method="POST">
+                        <div class="row">
+                    @csrf
+                    <div class="col-md-12">
+                        <div class="alert alert-danger print-error-msg" style="display:none">
+                            <ul></ul>
+                        </div>
+                    </div>
+                               
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Name<span class="required">*</span></label>
+                                        <input type="text" placeholder="Your Name*" name="name" id="name" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Phone Number<span class="required">*</span></label>
+                                        <input type="text" name="mobile" id="mobile" minlength="10" maxlength="10" onkeypress="return isNumberKey(event)" pattern=".{10,10}" placeholder="Your Number*" class="form-control" onpaste="return false;">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Email address<span class="required">*</span></label>
+                                        <input type="text" placeholder="Your Mail*" name="email" id="emails" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label>Our Services <span class="required">*</span></label>
+                                    <select id="our-services" name="services">
+                                        <option value=""> -- Select Option -- </option>
+                                        <option value="Permanent Staffing">Permanent Staffing</option>
+                                        <option value="Executive Search">Executive Search</option>
+                                        <option value="Leadership Hiring">Leadership Hiring</option>
+                                        <option value="Head Hunting">Head Hunting</option>
+                                        <option value="IT/Non-IT Hiring">IT/Non-IT Hiring</option>
+                                        <option value="Temporary Staffing">Temporary Staffing </option>
+                                        <option value="Contract Staffing">Contract Staffing </option>
+                                        <option value="Contract-to-Hire(C2H) Hiring">Contract-to-Hire(C2H) Hiring</option>
+                                        <option value="Payroll Process">Payroll Process</option>
+                                        <option value="Campus Recruitment">Campus Recruitment</option>
+                                        <option value="Other Services">Other Services</option>
+                                    </select>
+                                    @error('services')
+                                    <small class="text-danger">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Message<span class="required">*</span></label><br />
+                                        <textarea class="form-control" placeholder="Comments" name="comment" id="comment" rows="2" onpaste="return false;" maxlength="300"></textarea>
+                                    </div>
+                                    @error('comment')
+                                    <small class="text-danger">{{ $message }}</small>
+                                    @enderror
+                                </div>
+                                {{-- <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label>Google Recaptcha</label><br />
+                                        <div class="g-recaptcha mt-2" data-sitekey="6Lcz3pEqAAAAAFGfZqdrib6sQJzjaJiWc056nU0_">
+                                            @if ($errors->has('g-recaptcha-response'))
+                                            <span class="text-danger">{{ $errors->first('g-recaptcha-response') }}</span>
+                                            @endif
+                                        </div>
+                                    </div>
+                                </div> --}}
+                </div>
+                </div>
+            <div class="modal-footer">
+                <div class="col-md-12 text-center" id="submit">
+                    <button type="submit" class="btn btn-secondary btn-submit text-center">Submit</button>
+                </div>
+            </form>
+            </div>
+          </div>
         </div>
-    </div> -->
+      </div>
+    
     <!--bottom popup-->
     
     
@@ -2035,5 +2055,69 @@ $(".section-faq .questions .single-question > div").on("click", function() {
     </noscript>
 
 {{-- script 05-12-2024 end --}}
+
+
+
+
+{{-- modal submit form  --}}
+<script>
+    $.ajaxSetup({
+        headers: {
+            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+        }
+    });
+
+    $(".btn-submit").click(function(e) {
+        e.preventDefault();
+        var name = $("#name").val();
+        var email = $("#emails").val();
+        var mobile = $("#mobile").val();
+        var services = $("#our-services").val();
+        var comment = $("#comment").val();
+        $.ajax({
+            type: 'POST'
+            , url: "{{route('enquiry')}}"
+            , data: {
+                name: name
+                , email: email
+                , mobile: mobile
+                , services: services
+                , comment: comment
+            }
+            , success: function(data) {
+
+                console.log(data);
+
+                if ($.isEmptyObject(data.error)) {
+
+                    alert(data.success);
+                    $('#myForm')[0].reset();
+                    location.reload();
+                } else {
+                    printErrorMsg(data.error);
+                }
+
+            }
+
+        });
+    });
+
+    function printErrorMsg(msg) {
+
+        $(".print-error-msg").find("ul").html('');
+
+        $(".print-error-msg").css('display', 'block');
+
+        $.each(msg, function(key, value) {
+
+            $(".print-error-msg").find("ul").append('<li>' + value + '</li>');
+
+        });
+
+    }
+
+</script>
+
+
 </body>
 </html>

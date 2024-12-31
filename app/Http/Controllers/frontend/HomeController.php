@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Contact;
 use Mail;
 use Illuminate\Support\Facades\Validator;
+use Response;
 
 class HomeController extends Controller
 {
@@ -157,10 +158,31 @@ class HomeController extends Controller
 
         if($contact){
             return response()->json(['success' => 'Thanks for connecting with us team will contact you soon']);
-
         }else{
             return response()->json(['error' => 'Something went wrong']);
         }
+    }
+
+    public function downloadAppointment(){
+        $data = Contact::select('id','name','mobile','email','services','comment','created_at')->get()->toArray();
+        $csvFileName = public_path('appointment.csv');
+        $csvFile = fopen($csvFileName, 'w');
+        $headers = array_keys((array) $data[0]);
+        fputcsv($csvFile, $headers,",");
+        foreach($data as $row){
+            $row_data = [
+                $row['id'],
+                $row['name'],
+                $row['mobile'],
+                $row['email'],
+                $row['services'],
+                $row['comment'],
+                $row['created_at'],
+                ]; 
+            fputcsv($csvFile, $row_data,",");
+        }
+        fclose($csvFile);
+        return Response::download($csvFileName)->deleteFileAfterSend(true);
     }
 
     public function blog(){
